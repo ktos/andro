@@ -1,0 +1,58 @@
+\documentclass[openany, 12pt, twoside, b5paper]{book}
+\usepackage[b5paper]{geometry}
+\usepackage{polski}
+
+%\usepackage{palatino}
+\usepackage{microtype} % Improves spacing
+
+\usepackage{fancyhdr}
+\fancyhead{}
+\fancyhead[L]{\textsf{\rightmark}} % Top left header
+\fancyhead[R]{\textsf{\leftmark}} % Top right header
+\renewcommand{\headrulewidth}{1.4pt} % Rule under the header
+\fancyfoot{}
+\fancyfoot[LO,RE]{\textbf{\textsf{\thepage}}} % Bottom center footer
+\renewcommand{\footrulewidth}{1.4pt} % Rule under the footer
+\pagestyle{fancy} % Use the custom headers and footers throughout the document
+
+\usepackage{libertine}
+
+\usepackage{titlesec}
+\newcommand{\sectionbreak}{\clearpage}
+
+\usepackage{multicol}
+\usepackage{dictionary}
+\usepackage{enumitem}
+
+%\setcounter{secnumdepth}{2}
+%\setcounter{tocdepth}{2}
+
+\begin{document}
+\author{Koolder mal Erlehirni}
+\title{Mały słownik androyasańsko-polski}
+
+\frontmatter
+
+\maketitle
+
+\clearpage
+\input{colophon.tex}
+
+\tableofcontents
+
+\mainmatter
+\chapter{Wprowadzenie}
+\input{introduction.tex}
+\input{history.tex}
+\input{description.tex}
+
+\chapter{Słownik androyasańsko-polski}
+\input{ap.tex}
+
+%\chapter{Słownik polski-androyasański}
+%\input{zaimki2.tex}
+
+\backmatter
+% bibliography, glossary and index would go here.
+
+\end{document}
