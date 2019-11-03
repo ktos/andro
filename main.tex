@@ -8,8 +8,9 @@
 \clubpenalty=1000
 \widowpenalty=1000
 
-%\usepackage{palatino}
 \usepackage{microtype} % Improves spacing
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
 
 \usepackage{fancyhdr}
 \fancyhead{}
@@ -40,7 +41,30 @@
 
 \frontmatter
 
-\maketitle
+\begin{titlepage} % Suppresses displaying the page number on the title page and the subsequent page counts as page 1
+    \newcommand*{\plogo}{\fbox{$\mathcal{AND}$}} % Generic dummy publisher logo
+    
+	\raggedleft % Right align the title page
+	
+	\rule{1pt}{\textheight} % Vertical line
+	\hspace{0.05\textwidth} % Whitespace between the vertical line and title page text
+	\parbox[b]{0.75\textwidth}{ % Paragraph box for holding the title page text, adjust the width to move the title page left or right on the page
+		
+        {\Huge\bfseries Mały słownik\\ androyasańsko-polski}
+        {\large\textit{Oraz polsko-androyasański}}\\[4\baselineskip]
+		{\Large\textsc{koolder mal erlehirni}} % Author name, lower case for consistent small caps
+        
+        \bigskip
+
+        \includegraphics[width=2cm]{androyas-flag}
+        \includegraphics[width=2cm]{pl-flag}
+
+        \vspace{0.5\textheight} % Whitespace between the title block and the publisher        
+		
+		{\noindent Royal Androyas Publishing~~\plogo}\\[\baselineskip] % Publisher and logo
+	}
+
+\end{titlepage}
 
 \clearpage
 \input{colophon.tex}
