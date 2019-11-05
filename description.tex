@@ -11,14 +11,14 @@ Występują następujące samogłoski: a, ɛ, i, ɔ, u, ʏ, oraz 18 spółgłose
 \begin{table}[h]
 \centering
 \caption{Spółgłoski w~języku androyasańskim}
-\begin{tabular}{lcccc}
-                  & Wargowe & Przedniojęzykowe & Podniebienne & Tylnojęzykowe \\
-Nosowe            & m       & n                &              & ŋ             \\
-Zwarte            & p b     & t d              &              & k g           \\
-Szczelinowe       & f v     & s z~ʐ            &              & x             \\
-Półotwarte        &         &                  & j            &               \\
-Drżące            &         & r                &              &               \\
-Boczne półotwarte &         & l                &              &              
+\begin{tabular}{lcccc}\toprule
+                  & Wargowe & Przedniojęzykowe & Podniebienne & Tylnojęzykowe \\\midrule
+Nosowe            & m       & n                &              & ŋ             \\\midrule
+Zwarte            & p b     & t d              &              & k g           \\\midrule
+Szczelinowe       & f v     & s z~ʐ            &              & x             \\\midrule
+Półotwarte        &         &                  & j            &               \\\midrule
+Drżące            &         & r                &              &               \\\midrule
+Boczne półotwarte &         & l                &              &               \\\bottomrule
 \end{tabular}
 \label{tab:consonants}
 \end{table}
@@ -38,21 +38,21 @@ Zapis z~wykorzystaniem transkrypcji Ziri odbywa się w~sposób zaprezentowany w~
 tabelach poniżej:
 
 \begin{table}[h]
-\centering
-\caption{Fonemy}
-\begin{tabular}{ll}
-	Samogłoski & a, ɛ, i, ɔ, u, ʏ \\
-	Spółgłoski & m, n, ŋ, p, b, t, d, k, g, s, z, ʐ, x, j, r, l, w, v, f, t͡ʂ, \\
-\end{tabular}
-\label{tab:phonemes}
+	\centering
+	\caption{Fonemy}
+	\begin{tabular}{ll} \toprule
+		Samogłoski & a, ɛ, i, ɔ, u, ʏ \\
+		Spółgłoski & m, n, ŋ, p, b, t, d, k, g, s, z, ʐ, x, j, r, l, w, v, f, t͡ʂ, \\\bottomrule
+	\end{tabular}
+	\label{tab:phonemes}
 \end{table}
 
 \begin{table}[h]
 \centering
 \caption{Znaki odpowiadające fonemom}
-\begin{tabular}{ll}
+\begin{tabular}{ll} \toprule
 	Samogłoski & a~e i~o u yi \\
-	Spółgłoski & m, n, n, p, b, t, d, k, g, s, z, j, h, y, r, l, w, v, f, ch \\
+	Spółgłoski & m, n, n, p, b, t, d, k, g, s, z, j, h, y, r, l, w, v, f, ch \\\bottomrule
 \end{tabular}
 \label{tab:chars}
 \end{table}
@@ -368,7 +368,9 @@ Czysty tryb przypuszczający realizowany jest za pomocą operatora \emph{vimi}.
 zrobił.}
 
 Przeczenia, negacja czynności realizowana jest z~wykorzystaniem partykuły 
-\emph{no}, która znajduje się po czasowniku. 
+\emph{no}, która znajduje się \textbf{po} czasowniku. Możesz spotkać teksty
+w~których partykuła \emph{no} znajduje się przed czasownikiem, ale są one
+zawsze oznaką niedouczenia autora.
 
 \note{W niektórych dialektach partykuła \emph{no} może pojawiać się zawsze na 
 końcu zdania.}
@@ -527,6 +529,25 @@ który się martwił, śpiewał dzisiaj obok ogrodu w~Rzeszowie.}
 Liczebniki od 0 do 9 to, po kolei: \emph{wa}, \emph{a}, \emph{ka}, \emph{sa}, 
 \emph{ta}, \emph{na}, \emph{cha}, \emph{ma}, \emph{ya}, \emph{ra}.
 
+\begin{table}[h]
+	\centering
+	\caption{Podstawowe liczebniki}
+	\begin{tabular}{ccc} \toprule
+		zero & 0 & wa \\
+		jeden & 1 & a \\
+		dwa & 2 & ka \\
+		trzy & 3 & sa \\
+		cztery & 4 & ta \\
+		pięć & 5 & na \\
+		sześć & 6 & cha \\
+		siedem & 7 & ma \\
+		osiem & 8 & ya \\
+		dziewięć & 9 & ra \\
+		dziesięć & 10 & awa \\\bottomrule
+	\end{tabular}
+	\label{tab:chars}
+\end{table}
+
 Najprostszym sposobem tworzenia liczebnika dla liczb większych od 9 jest 
 ustawienie w~kolejności zapisu dziesiętnego kolejnych słów określających cyfry,
 tj. 17 to \emph{ama}, 123 to \emph{akasa}, a~241 to \emph{kataa}. Dla większych
@@ -540,11 +561,83 @@ zawsze na sylabę, która zawiera przyrostek <-y>.
 W sytuacji, kiedy jest kilka sylab z wrostkiem <-y>, akcent kładziony jest na
 ostatnią taką sylabę.
 
+\begin{table}[h]
+	\centering
+	\caption{Liczebniki wyższe}
+	\begin{tabular}{ccc} \toprule
+		jedenaście & 11 & aa \\
+		dwanaście & 12 & aka \\
+		dwadzieścia & 20 & kawa \\
+		trzydzieści & 30 & sawa \\
+		czterdzieści & 40 & tawa \\
+		sto & 100 & aḱaywa  \\
+		tysiąc & 1000 & aśaywa \\
+		milion & 1000000 & aćhaywa \\\bottomrule
+	\end{tabular}
+	\label{tab:chars}
+\end{table}
+
+\subsubsection{Partykuła \emph{jo}}
+
+Niektórzy użytkownicy języka nie lubią formy pozycyjnej, w której wyrazy potrafią
+być problematyczne, np. \emph{aaa} jako sto jedenaście. Stąd używana jest również
+partykuła \emph{jo}, która oznacza ,,oraz'', i jest stosowana do dodawania
+wartości wypowiedzianych liczebników.
+
+Przykładowo:
+
+\examples{aśaywa jo kata}{tysiąc oraz dwadzieścia cztery = 1024}
+
+\example{aḱaywa jo a}{sto oraz jeden = 101}
+
+\example{aḱaywa jo awa jo a}{sto oraz dziesięć oraz jeden = 111}
+
+\subsubsection{Liczebniki porządkowe}
+
 Przyrostek <-ti> określa liczebnik porządkowy, tj. \emph{kati} to drugi, 
 a \emph{sasati} -- trzydziesty trzeci.
 
+\begin{table}[h]
+\centering
+\caption{Podstawowe liczebniki porządkowe}
+\begin{tabular}{cc} \toprule
+	pierwszy & ati \\
+	drugi & kati \\
+	trzeci & sati \\
+	czwarty & tati \\
+	piąty & nati \\
+	szósty & chati \\
+	siódmy & mati \\
+	ósmy & yati \\
+	dziewiąty & rati \\
+	dziesiąty & awati \\\bottomrule
+\end{tabular}
+\label{tab:chars}
+\end{table}
+
+\subsubsection{Liczebniki ułamkowe}
+
 Liczebnik ułamkowy tworzy się przez infiks <-je->, na przykład \emph{ajeka} to 
 jedna druga, \emph{najera} -- pięć dziewiątych, a~\emph{awajerana} to 10/95.
+
+\begin{table}[h]
+	\centering
+	\caption{Ułamki}
+	\begin{tabular}{cc} \toprule
+		połowa & ajeka \\
+		jedna trzecia & ajesa \\
+		dwie trzecie & kajesa \\
+		jedna czwarta & ajeta \\
+		trzy czwarte & sajeta \\
+		jedna siódma & ajema  \\\bottomrule
+	\end{tabular}
+	\label{tab:chars}
+\end{table}
+
+Możliwe jest również użycia słowa \emph{jerya} oznaczającego ,,przecinek'', w~taki
+sposób, że:
+
+\example{a jerya rasa}{jeden przecinek osiem trzy = 1,83}
 
 \subsection{Honoryfikacja i~grzeczność}
 
