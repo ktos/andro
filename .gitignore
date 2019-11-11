@@ -308,3 +308,10 @@ $RECYCLE.BIN/
 
 # End of https://www.gitignore.io/api/latex,windows,visualstudiocode
 *.pdf
+
+# all files scripts are working on
+*.txt
+
+# and Jupyter notebooks
+/**/.ipynb*
+*.ipynb
