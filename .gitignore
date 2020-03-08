@@ -315,3 +315,6 @@ $RECYCLE.BIN/
 # and Jupyter notebooks
 /**/.ipynb*
 *.ipynb
+
+ap.tex
+pa.tex
