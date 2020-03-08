@@ -173,14 +173,14 @@ def generate_tex_dictionary_section_end(section):
 
 
 # reads dictionary descfile
-with open('../dictionary.tsv', 'r', encoding='utf-8') as f:
+with open('../dictionary.csv', 'r', encoding='utf-8') as f:
     data = f.readlines()
 
 words = []
 
 # parse words in descfile
 for i in data:
-    words.append(parse_descfile(i.strip().split("\t")))
+    words.append(parse_descfile(i.strip().split("|")))
 
 # sort words without accents
 sorted_words = sorted(words, key=lambda x: x['noaccent_word'].lower())
