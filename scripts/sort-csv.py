@@ -7,7 +7,7 @@ import unidecode
 with open('../dictionary.csv', 'r', encoding='utf-8') as f:
     data = f.readlines()
 
-sorted_lines = sorted(data, key=lambda x: unidecode.unidecode(x))
+sorted_lines = sorted(data, key=lambda x: unidecode.unidecode(x.split('|')[0]))
 
 with open('../dictionary.csv', 'w', encoding='utf-8') as f:
     f.writelines(sorted_lines)
