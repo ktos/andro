@@ -18,3 +18,18 @@ def check_syllabes(speech):
 # check all words except empty speech and names for proper syllabes
 for i in filter(lambda x: x['speech'] != '' and x['type'] != 'name', words):
     check_syllabes(i['speech'])
+
+for i in filter(lambda x: 'pst_speech' in x, words):
+    check_syllabes(i['pst_speech'])
+
+for i in filter(lambda x: 'pl_speech' in x, words):
+    check_syllabes(i['pl_speech'])
+
+for i in filter(lambda x: 'fem_speech' in x, words):
+    check_syllabes(i['fem_speech'])
+
+for i in filter(lambda x: 'comp_speech' in x, words):
+    check_syllabes(i['comp_speech'])
+
+for i in filter(lambda x: 'supl_speech' in x, words):
+    check_syllabes(i['supl_speech'])
