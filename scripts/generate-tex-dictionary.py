@@ -8,20 +8,9 @@ import sys
 # output
 output = []
 
-# all syllabes
-alls = [line.rstrip() for line in open('./syllabes.txt', encoding='utf-8')]
-
-
 def print_output(str=""):
     """Prints to output"""
     output.append(str)
-
-
-def check_syllabes(speech):
-    l = speech.strip().replace("ˈ", "")
-    for i in l.split('.'):
-        if i not in alls:
-            print(f"SYLLABLE WARN: {l} (because of {i})")
 
 def generate_tex_dictionary_entry(w):
     """Generates TeX dictionary entry based on an parsed descfile object"""
