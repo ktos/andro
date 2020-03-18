@@ -154,7 +154,7 @@ with open('./words-basic.txt', 'w', encoding='utf-8') as f:
 # save list of all words forms to file
 with open('./words-all.txt', 'w', encoding='utf-8') as f:
 
-    basic = (x['word'] for x in words)
+    basic = (x['word'] for x in filter(lambda x: x['type'] not in ['name', 'phraseology', 'proper'], words))
     pl = (x['pl'] for x in filter(lambda x: 'pl' in x, words))
     pst = (x['pst'] for x in filter(lambda x: 'pst' in x, words))
     fem = (x['fem'] for x in filter(lambda x: 'fem' in x and x['fem'] != 'FEM', words))
