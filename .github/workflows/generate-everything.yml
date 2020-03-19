@@ -30,8 +30,8 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Install XeLaTeX tooling
       run: |
-        apt update
-        apt install texlive-xetex texlive-lang-polish texlive-fonts-extra -y
+        sudo apt-get update
+        sudo apt-get install texlive-xetex texlive-lang-polish texlive-fonts-extra -y
         
     - name: Install Python dependencies
       run: |
