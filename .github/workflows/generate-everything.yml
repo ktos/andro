@@ -47,9 +47,16 @@ jobs:
         
         mkdir final
         cp main.pdf final/small-andro-polish-dictionary.pdf
+
+    - name: Generate MD tables
+      run: | 
+        cd $GITHUB_WORKSPACE/scripts
+        python generate-md.py
+                
+        cp tables.md final/
         
     - name: Upload artifact
       uses: actions/upload-artifact@v1.0.0
       with:        
-        name: small-andro-polish-dictionary.pdf        
+        name: artifact
         path: final/
