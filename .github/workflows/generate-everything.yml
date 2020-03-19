@@ -41,10 +41,10 @@ jobs:
     - name: Generate dictionary files
       run: |
         cd $GITHUB_WORKSPACE/scripts
-        python generate-tex-dictionary.py
-        cd ..
-        xelatex main.tex
-        
+        python generate-tex-dictionary.py        
+
+    - name: Generate final PDF
+      run: | 
         # second time to resolve some reference problems
         xelatex main.tex
         
