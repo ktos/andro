@@ -53,7 +53,7 @@ jobs:
         cd $GITHUB_WORKSPACE/scripts
         python generate-md.py
                 
-        cp tables.md final/
+        cp tables.md ../final/
         
     - name: Upload artifact
       uses: actions/upload-artifact@v1.0.0
