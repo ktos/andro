@@ -29,33 +29,27 @@ jobs:
         pip install unidecode
     
     - name: Check words for proper syllabary
-      run: |
-        cd $GITHUB_WORKSPACE/scripts
+      run: |        
         python check-words.py strict
 
     - name: Generate dictionary files
-      run: |
-        cd $GITHUB_WORKSPACE/scripts
+      run: |        
         python generate-tex-dictionary.py
 
     - name: Generate final PDF
       run: | 
+        cd $GITHUB_WORKSPACE/small-andro-polish-dictionary/
         xelatex main.tex
         
         # second time to resolve some reference problems
         xelatex main.tex
-        
-        mkdir final
-        cp main.pdf final/small-andro-polish-dictionary.pdf
+                
+        cp main.pdf ../final/small-andro-polish-dictionary.pdf
 
     - name: Generate MD tables and wordlists
       run: | 
-        cd $GITHUB_WORKSPACE/scripts
+        cd $GITHUB_WORKSPACE/
         python generate-md.py
-                
-        cp tables.md ../final/
-        cp words-all.txt ../final/
-        cp words-basic.txt ../final/
         
     - name: Upload artifact
       uses: actions/upload-artifact@v1.0.0
