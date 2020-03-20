@@ -8,6 +8,24 @@ import sys
 # output
 output = []
 
+def format_description(desc):
+    desc = desc.replace("<see>", "\\emph{")
+    desc = desc.replace("</see>", "}")
+
+    desc = desc.replace("<phrase>", "\\emph{")
+    desc = desc.replace("</phrase>", "}")
+
+    desc = desc.replace("<em>", "\\emph{")
+    desc = desc.replace("</em>", "}")
+
+    desc = desc.replace("<alt>", "\\emph{")
+    desc = desc.replace("</alt>", "}")
+
+    desc = desc.replace("<sc>", "\\textsc{")
+    desc = desc.replace("</sc>", "}")
+
+    return desc
+
 def print_output(str=""):
     """Prints to output"""
     output.append(str)
@@ -21,7 +39,7 @@ def generate_tex_dictionary_entry(w):
         return
 
     if not 'redirect' in w:
-        description = w['description'].replace("{", "\\emph{")
+        description = format_description(w['description'])
 
     if w['type'] == 'n':
         if 'fem' in w:
@@ -56,7 +74,7 @@ def generate_tex_dictionary_entry(w):
 
     for i in w['notes']:
         note = i
-        note = note.replace("{", "\\emph{")
+        note = format_description(note)
 
         print_output(f"\\note{{{note}}}")
 
