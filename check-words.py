@@ -5,7 +5,7 @@ import dictionaryparser
 import sys
 
 # read and parse dictionary file
-words = dictionaryparser.read_dictionary('../dictionary.csv')
+words = dictionaryparser.read_dictionary('./dictionary.csv')
 
 # all syllabes
 alls = [line.rstrip() for line in open('./syllabes.txt', encoding='utf-8')]

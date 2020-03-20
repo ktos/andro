@@ -76,7 +76,7 @@ def generate_md_dictionary_entry(w, lang='pl'):
     print_output(s)
 
 # read and parse dictionary file
-words = dictionaryparser.read_dictionary('../dictionary.csv')
+words = dictionaryparser.read_dictionary('dictionary.csv')
 
 lang = 'en' if len(sys.argv) > 1 and sys.argv[1] == 'en' else 'pl'
 
@@ -148,7 +148,7 @@ elif lang == 'pl':
     print_output("Idiom|Tłum")
 print_output("--- | ---")
 
-words = dictionaryparser.read_dictionary('../phraseology.csv', type='phraseology')
+words = dictionaryparser.read_dictionary('phraseology.csv', type='phraseology')
 for i in filter(lambda x: x['type'] == 'phraseology', words):
     generate_md_dictionary_entry(i, lang)
 
@@ -161,10 +161,10 @@ elif lang == 'pl':
 
 print_output("--- | --- | ---")
 
-words = dictionaryparser.read_dictionary('../names.csv', type='names')
+words = dictionaryparser.read_dictionary('names.csv', type='names')
 for i in filter(lambda x: x['type'] == 'name', words):
     generate_md_dictionary_entry(i, lang)
 
 # save all tables to Markdown file
-with open('./tables.md', 'w', encoding='utf-8') as f:
+with open('./final/tables.md', 'w', encoding='utf-8') as f:
     f.writelines((x + '\n' for x in output))
