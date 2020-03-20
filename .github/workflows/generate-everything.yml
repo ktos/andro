@@ -50,6 +50,7 @@ jobs:
       run: | 
         cd $GITHUB_WORKSPACE/
         python generate-md.py
+        python generate-wordlist.py
         
     - name: Upload artifact
       uses: actions/upload-artifact@v1.0.0
