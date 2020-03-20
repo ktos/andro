@@ -14,6 +14,10 @@ def parse_descfile_word(worddesc):
 
     x['type'] = worddesc[2]  # część mowy
     x['notes'] = []
+    x['examples'] = []
+
+    x['english_notes'] = []
+    x['english_examples'] = []
 
     for i in worddesc[3:]:
         if i.startswith("note:"):
@@ -53,6 +57,18 @@ def parse_descfile_word(worddesc):
         elif i.startswith("red:"):
             pst = i[4:]
             x['redirect'] = pst
+        elif i.startswith("example:"):
+            ennote = i[8:]
+            x['examples'].append(ennote)
+        elif i.startswith("en:"):
+            en = i[3:]
+            x['english_description'] = en
+        elif i.startswith("ennote:"):
+            ennote = i[7:]
+            x['english_notes'].append(ennote)
+        elif i.startswith("enexample:"):
+            ennote = i[10:]
+            x['english_examples'].append(ennote)
         else:
             x['description'] = i
 
