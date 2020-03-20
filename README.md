@@ -154,6 +154,59 @@ Book"), a fictional dictionary created by a scientist *Koolder mal Erlehirni*.
 When `ap.tex` and `pa.tex` are ready, you may compile `main.tex` using XeLaTeX
 to get final version of The Book in PDF.
 
+### Structure of dictionary.csv
+
+`dictionary.csv` is CSV-like, pipe (`|`) separated file with variable column
+length. It's structure is always:
+
+* word,
+* IPA of the word,
+* word type (noun, adjective, etc.) as a shortcut: n, adj, v, part,
+* undefined number of other columns.
+
+In other columns if the columns starts with:
+
+* `pl:`, it is treated as plural version of the noun, it should has a form of
+  `pl:word IPA` (space separated),
+* `pst:`, it is treated as past version of the vern, it should has a form of
+  `pst:word IPA` (space separated),
+* `fem:`, it is treated as female grammatical gender version of the noun, it
+  should has a form of `fem:word IPA` (space separated),
+* `comp:`, it is treated as comparative version of the adjective, it should has
+  a form of `comp:word IPA` (space separated),
+* `supl:`, it is treated as superlative version of the adjective, it should has
+  a form of `comp:word IPA` (space separated),
+* `red:`, it is marking redirection to another word, e.g. `red:anotherword`,
+  every else field is ignored in case of redirect,
+* `en:`, it is description in English,
+* `ennote:`, it is note in English,
+* `example:`, is is an example usage in Polish,
+* `enexample:`, it is an example usage in English,
+* `note:`, it is a note in Polish,
+* if the column is only `fem`, it marks noun as having only female grammatical
+  gender,
+* in other cases, it is treated as description in Polish.
+
+Apart from `note:`, `ennote:`, `example:` and `enexample:`, fields (columns)
+should occur only once and if they are duplicated, later overrides earlier.
+
+In descriptions and notes, pseudo-HTML may be used:
+
+* `<see>word</see>` marks there should be a link to another word in the
+  dictionary,
+* `<phrase>some phrase</phrase>` marks some phrase, should be marked
+  appropiately in dictionary or can be used to generate some idioms list,
+* `<alt>alternativeword</alt>` marks alternative version of the defined word, for example older or dialect-specific,
+* `<em>emphasis</em>` marks emphasis,
+* `<sc>sc</sc>` marks glossing shortcut, e.g. `1SG`.
+
+Set of additional TeX-like characters may be used:
+
+* `--` is used for creating a dash (`—`),
+* `,,` and `''` are used for quote signs,
+* `\-` is used for line break,
+* `~` is used for non-breaking space.
+
 ## Cooperation
 
 Feel free to contact me if you have some ideas, new words, loanwords, fixes to
