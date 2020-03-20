@@ -7,6 +7,29 @@ import dictionaryparser
 # output
 output = []
 
+def format_description(desc):
+    desc = desc.replace("<see>", "*")
+    desc = desc.replace("</see>", "*")
+
+    desc = desc.replace("<phrase>", "*")
+    desc = desc.replace("</phrase>", "*")
+
+    desc = desc.replace("<em>", "*")
+    desc = desc.replace("</em>", "*")
+
+    desc = desc.replace("<alt>", "*")
+    desc = desc.replace("</alt>", "*")
+
+    desc = desc.replace("<sc>", "*")
+    desc = desc.replace("</sc>", "*")
+
+    desc = desc.replace("--", "—")
+    desc = desc.replace(",,", "„")
+    desc = desc.replace(",,", "“")
+    desc = desc.replace("~", " ")
+    desc = desc.replace("\-", "")
+
+    return desc
 
 def print_output(str=""):
     """Prints to output"""
@@ -32,23 +55,23 @@ def generate_md_dictionary_entry(w, lang='pl'):
         if fem == "FEM":
             fem = '!!'
 
-        s = f"{w['word']}|{pl}|{fem}|{w[desckey]}"    
+        s = f"{w['word']}|{pl}|{fem}|{format_description(w[desckey])}"    
 
     elif w['type'] == 'v':
         pst = w['pst'] if 'pst' in w else ''
-        s = f"{i['word']}|{pst}|{i[desckey]}"
+        s = f"{i['word']}|{pst}|{format_description(i[desckey])}"
 
     elif w['type'] == 'adj':
         comp = w['comp'] if 'comp' in w else '-'
         supl = w['supl'] if 'supl' in w else '-'
 
-        s = f"{i['word']}|{comp}|{supl}|{i[desckey]}"
+        s = f"{i['word']}|{comp}|{supl}|{format_description(i[desckey])}"
 
     elif w['type'] == 'name':
-        s = f"{i['word']}|{i['speech']}|{i[desckey]}"
+        s = f"{i['word']}|{i['speech']}|{format_description(i[desckey])}"
 
     else:
-        s = f"{i['word']}|{i[desckey]}"
+        s = f"{i['word']}|{format_description(i[desckey])}"
 
     print_output(s)
 
