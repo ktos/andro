@@ -101,7 +101,6 @@ wɔ.t͡ʂu zi.mɛ.bi il gɛ.tu.mi.rɔs zi.mɛ.bi il gɛ.tu.mi.rɔs ɛ rɛt.tɔi 
 ʐa.ra.na ɛpi/
 ```
 
-
 ```
 Vek vek baán in lonte, lonte zihoseja...
 old old time in far    far   galaxy
@@ -135,22 +134,22 @@ steal-ADJ plan-PL PTCL.which save-PRS 3SG-POSS subject-PL and return-PRS galaxy-
 
 The repository is based on the file `dictionary.csv`, which is **not a real CSV
 file** - it is actually variable-column-number, pipe-separated text file
-covering all words currently existing in Andro. From that file you can generate
+covering all words currently existing in Andro. Using that file you can generate
 everything, most importantly - the book "Small Andro-Polish Dictionary" ("The
 Book"), a fictional dictionary created by a scientist *Koolder mal Erlehirni*.
 
-In `scripts` folder, there are a few scripts for generation a final version of
-the dictionary TeX files - `ap.tex` and `pa.tex`. Because of using relative
-paths, your working directory must be `scripts`.
-
-* `scripts/generate-tex-dictionary.py` will parse `dictionary.csv` and create
-  `ap.tex` and `pa.tex`, which are being combined inside `main.tex` into the
-  main book (currently only in Polish), as well as `words-all.txt` covering all
-  possible words, and `words-basic.txt`, with all basic forms of words,
-* `scripts/generate-md.py` parses dictionary file and creates `tables.md` file
+* `generate-tex-dictionary.py` will parse `dictionary.csv` and create `ap.tex`
+  and `pa.tex` and the `small-andro-polish-dictionary` folder, which are being
+  combined inside `main.tex` into The Book in Polish,
+* `generate-wordlist.py` will parse `dictionary.csv` and generate list of all
+  possible words `words-all.txt`, nad `words-basic.txt`, with all basic forms of
+  words, in the `final/` subdirectory,
+* `generate-md.py` parses dictionary file and creates `final/tables.md` file
   with tables for nouns, verbs, adjectives and so on,
-* `scripts/random-words.py` will generate some words according to the language
-  phonotactic rules.
+* `random-words.py` will generate some words according to the language
+  phonotactic rules,
+* `check-words.py` will check if all words in `dictionary.csv` are correctly
+  built against phonotactic rules.
 
 When `ap.tex` and `pa.tex` are ready, you may compile `main.tex` using XeLaTeX
 to get final version of The Book in PDF.
