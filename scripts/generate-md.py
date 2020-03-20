@@ -125,6 +125,7 @@ elif lang == 'pl':
     print_output("Idiom|Tłum")
 print_output("--- | ---")
 
+words = dictionaryparser.read_dictionary('../phraseology.csv', type='phraseology')
 for i in filter(lambda x: x['type'] == 'phraseology', words):
     generate_md_dictionary_entry(i, lang)
 
@@ -137,6 +138,7 @@ elif lang == 'pl':
 
 print_output("--- | --- | ---")
 
+words = dictionaryparser.read_dictionary('../names.csv', type='names')
 for i in filter(lambda x: x['type'] == 'name', words):
     generate_md_dictionary_entry(i, lang)
 

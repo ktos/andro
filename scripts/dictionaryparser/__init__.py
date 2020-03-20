@@ -2,7 +2,7 @@ import unidecode
 
 def parse_descfile_word(worddesc):
     """Parses dictionary description file into objects"""
-    x = { 'description': '' }
+    x = { 'description': '', 'english_description': '' }
 
     # try:
     x['word'] = worddesc[0]  # słowo
@@ -75,9 +75,23 @@ def parse_descfile_word(worddesc):
     if len(x['description']) == 0 and 'redirect' not in x and x['type'] != 'name':
         print("WARNING: EMPTY DESCRIPTION in " + str(worddesc))
 
+    if len(x['english_description']) == 0 and 'redirect' not in x and x['type'] != 'name':
+        print("WARNING: EMPTY ENGLISH DESCRIPTION in " + str(worddesc))
+
     return x
 
-def read_dictionary(path):
+def parse_descfile_phraseology(worddesc):
+    """Parses dictionary description file into objects, for phraseology"""
+    x = {
+        'word': worddesc[0],
+        'type': worddesc[1],
+        'description': worddesc[2],
+        'english_description': worddesc[3][3:]
+    }
+
+    return x
+
+def read_dictionary(path, type = 'dictionary'):
     # reads dictionary descfile
     with open(path, 'r', encoding='utf-8') as f:
         data = f.readlines()    
@@ -86,6 +100,13 @@ def read_dictionary(path):
 
     # parse words in descfile
     for i in data:
-        words.append(parse_descfile_word(i.strip().split("|")))
+        definition = i.strip().split("|")
+
+        if type == 'dictionary':
+            words.append(parse_descfile_word(definition))
+        elif type == 'phraseology':
+            words.append(parse_descfile_phraseology(definition))
+        elif type == 'names':
+            words.append(parse_descfile_word(definition))
 
     return words
