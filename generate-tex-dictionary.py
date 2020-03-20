@@ -8,6 +8,16 @@ import sys
 # output
 output = []
 
+# setting language
+langs = {'pl': 'polish', 'en': 'english'}
+
+lang = 'pl'
+
+if len(sys.argv) > 1:
+    if sys.argv[1] in langs:
+        lang = sys.argv[1]
+
+
 def format_description(desc):
     desc = desc.replace("<see>", "\\emph{")
     desc = desc.replace("</see>", "}")
@@ -26,9 +36,11 @@ def format_description(desc):
 
     return desc
 
+
 def print_output(str=""):
     """Prints to output"""
     output.append(str)
+
 
 def generate_tex_dictionary_entry(w):
     """Generates TeX dictionary entry based on an parsed descfile object"""
@@ -39,7 +51,10 @@ def generate_tex_dictionary_entry(w):
         return
 
     if not 'redirect' in w:
-        description = format_description(w['description'])
+        if lang == 'pl':
+            description = format_description(w['description'])
+        elif lang == 'en':
+            description = format_description(w['english_description'])
 
     if w['type'] == 'n':
         if 'fem' in w:
@@ -54,7 +69,7 @@ def generate_tex_dictionary_entry(w):
     if w['type'] == 'adj':
         if 'supl' in w and 'comp' in w:
             description = f"(\\textsc{{comp}} {w['comp']} [{w['comp_speech']}], \\textsc{{supl}} {w['supl']} [{w['supl_speech']}]) " + description
-        
+
         elif 'supl' in w:
             description = f"(\\textsc{{supl}} {w['supl']} [{w['supl_speech']}]) " + description
 
@@ -72,11 +87,18 @@ def generate_tex_dictionary_entry(w):
         print_output(
             f"\\dictword{{{w['word']}}}[{w['speech']}]\n\\dictterm{{{w['type']}}}{{{description.strip()}}}")
 
-    for i in w['notes']:
-        note = i
-        note = format_description(note)
+    if lang == 'pl':
+        for i in w['notes']:
+            note = i
+            note = format_description(note)
 
-        print_output(f"\\note{{{note}}}")
+            print_output(f"\\note{{{note}}}")
+    elif lang == 'en':
+        for i in w['english_notes']:
+            note = i
+            note = format_description(note)
+
+            print_output(f"\\note{{{note}}}")
 
     print_output()
 
@@ -91,14 +113,18 @@ def generate_reverse_items(words):
     """Generate all possible items which will go into reversed dictionary"""
     reverse_words = []
 
+    desckey = 'description'
+    if lang == 'en':
+        desckey = 'english_description'
+
     for i in words:
-        if 'description' in i and 'redirect' not in i:
-            for j in i['description'].split(','):
+        if desckey in i and 'redirect' not in i:
+            for j in format_description(i[desckey]).split(','):
                 if not '"' in j and not ',,' in j and not "''" in j and not '(' in j and not ')' in j and len(j.strip().split(' ')) < 3:
-                    rev = j.strip().replace("\\-", "").replace("~", " ")
+                    rev = j.strip()
                     if rev != '':
 
-                    # longer than 3 words and containing " or ,, are not real terms
+                        # longer than 3 words and containing " or ,, are not real terms
                         reverse_words.append({'rev': rev, 'and': i['word']})
 
     return reverse_words
@@ -116,6 +142,7 @@ def generate_tex_dictionary_section_end(section):
     """Generates TeX dictionary section ending markings"""
     print_output("\\end{multicols}")
 
+
 # read and parse dictionary file
 words = dictionaryparser.read_dictionary('dictionary.csv')
 
@@ -128,7 +155,8 @@ sections = ['A', 'B', 'CH', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L',
 
 # generate all sections and all definitions for dictionary
 for i in sections:
-    thissection = list(filter(lambda x: x['word'].lower().startswith(i.lower()), sorted_words))
+    thissection = list(
+        filter(lambda x: x['word'].lower().startswith(i.lower()), sorted_words))
 
     if len(thissection) > 0:
         generate_tex_dictionary_section_start(i)
@@ -138,7 +166,7 @@ for i in sections:
         generate_tex_dictionary_section_end(i)
 
 # save forward dictionary to file
-with open('./small-andro-polish-dictionary/ap.tex', 'w', encoding='utf-8') as f:
+with open(f'./small-andro-{langs[lang]}-dictionary/ap.tex', 'w', encoding='utf-8') as f:
     f.writelines((x + '\n' for x in output))
 
 # clear output
@@ -148,8 +176,12 @@ reverse_words = generate_reverse_items(words)
 reverse_words_sorted = sorted(
     reverse_words, key=lambda x: unidecode.unidecode(x['rev']).lower())
 
-sections = ['A', 'B', 'C', 'Ć', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L',
-            'Ł', 'M', 'N', 'O', 'Ó', 'P', 'R', 'S', 'Ś', 'T', 'U', 'W', 'Y', 'Z', 'Ż', 'Ź']
+if lang == 'pl':
+    sections = ['A', 'B', 'C', 'Ć', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L',
+                'Ł', 'M', 'N', 'O', 'Ó', 'P', 'R', 'S', 'Ś', 'T', 'U', 'W', 'Y', 'Z', 'Ż', 'Ź']
+elif lang == 'en':
+    sections = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L',
+                'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 
 for i in sections:
     thissection = list(filter(lambda x: i.lower() == x['rev'][0], reverse_words_sorted))
@@ -162,5 +194,5 @@ for i in sections:
         generate_tex_dictionary_section_end(i)
 
 # save reverse dictionary to file
-with open('./small-andro-polish-dictionary/pa.tex', 'w', encoding='utf-8') as f:
+with open(f'./small-andro-{langs[lang]}-dictionary/pa.tex', 'w', encoding='utf-8') as f:
     f.writelines((x + '\n' for x in output))

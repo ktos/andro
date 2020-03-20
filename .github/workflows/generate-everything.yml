@@ -35,8 +35,9 @@ jobs:
     - name: Generate dictionary files
       run: |        
         python generate-tex-dictionary.py
+        python generate-tex-dictionary.py en
 
-    - name: Generate final PDF
+    - name: Generate final PDFs
       run: | 
         cd $GITHUB_WORKSPACE/small-andro-polish-dictionary/
         xelatex main.tex
@@ -46,10 +47,19 @@ jobs:
                 
         cp main.pdf ../final/small-andro-polish-dictionary.pdf
 
+        cd $GITHUB_WORKSPACE/small-andro-english-dictionary/
+        xelatex main.tex
+        
+        # second time to resolve some reference problems
+        xelatex main.tex
+                
+        cp main.pdf ../final/small-andro-english-dictionary.pdf
+
     - name: Generate MD tables and wordlists
       run: | 
         cd $GITHUB_WORKSPACE/
         python generate-md.py
+        python generate-md.py en
         python generate-wordlist.py
         
     - name: Upload artifact

@@ -166,5 +166,5 @@ for i in filter(lambda x: x['type'] == 'name', words):
     generate_md_dictionary_entry(i, lang)
 
 # save all tables to Markdown file
-with open('./final/tables.md', 'w', encoding='utf-8') as f:
+with open(f'./final/tables-{lang}.md', 'w', encoding='utf-8') as f:
     f.writelines((x + '\n' for x in output))
