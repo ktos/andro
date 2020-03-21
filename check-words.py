@@ -15,6 +15,7 @@ alls = [line.rstrip() for line in open('./syllabes.txt', encoding='utf-8')]
 strict = True if len(sys.argv) > 1 and sys.argv[1] == "strict" else False
 
 def check_syllabes(speech):
+    if speech == "FEM": return # ignore "FEM" syllabes, as it is only placeholder
     l = speech.strip().replace("ˈ", "")
     for i in l.split('.'):
         if i not in alls:

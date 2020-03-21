@@ -2,68 +2,73 @@ name: Generate Everything
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ master ]
+    branches: [master]
 
-jobs:  
+jobs:
   build-pdf:
     runs-on: ubuntu-latest
-    
-    steps:    
-    - uses: actions/checkout@v2
-      
-    - name: Setup Python
-      uses: actions/setup-python@v1
-      with:
-        python-version: 3.8
-    
-    - name: Install XeLaTeX tooling
-      run: |
-        sudo apt-get update
-        sudo apt-get install texlive-xetex texlive-lang-polish texlive-fonts-extra -y
-        
-    - name: Install Python dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install unidecode
-    
-    - name: Check words for proper syllabary
-      run: |        
-        python check-words.py strict
 
-    - name: Generate dictionary files
-      run: |        
-        python generate-tex-dictionary.py
-        python generate-tex-dictionary.py en
+    steps:
+      - uses: actions/checkout@v2
 
-    - name: Generate final PDFs
-      run: | 
-        cd $GITHUB_WORKSPACE/small-andro-polish-dictionary/
-        xelatex main.tex
-        
-        # second time to resolve some reference problems
-        xelatex main.tex
-                
-        cp main.pdf ../final/small-andro-polish-dictionary.pdf
+      - name: Setup Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
 
-        cd $GITHUB_WORKSPACE/small-andro-english-dictionary/
-        xelatex main.tex
-        
-        # second time to resolve some reference problems
-        xelatex main.tex
-                
-        cp main.pdf ../final/small-andro-english-dictionary.pdf
+      - name: Install XeLaTeX tooling
+        run: |
+          sudo apt-get update
+          sudo apt-get install texlive-xetex texlive-lang-polish texlive-fonts-extra -y
 
-    - name: Generate MD tables and wordlists
-      run: | 
-        cd $GITHUB_WORKSPACE/
-        python generate-md.py
-        python generate-md.py en
-        python generate-wordlist.py
-        
-    - name: Upload artifact
-      uses: actions/upload-artifact@v1.0.0
-      with:        
-        name: artifact
-        path: final/
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install unidecode
+
+      - name: Check words for proper syllabary
+        run: |
+          python check-words.py strict
+
+      - name: Generate dictionary files
+        run: |
+          python generate-tex-dictionary.py
+          python generate-tex-dictionary.py en
+
+      - name: Generate final PDFs
+        run: |
+          cd $GITHUB_WORKSPACE/small-andro-polish-dictionary/
+          xelatex main.tex
+
+          # second time to resolve some reference problems
+          xelatex main.tex
+                  
+          cp main.pdf ../final/small-andro-polish-dictionary.pdf
+
+          cd $GITHUB_WORKSPACE/small-andro-english-dictionary/
+          xelatex main.tex
+
+          # second time to resolve some reference problems
+          xelatex main.tex
+                  
+          cp main.pdf ../final/small-andro-english-dictionary.pdf
+
+      - name: Generate MD tables and wordlists
+        run: |
+          cd $GITHUB_WORKSPACE/
+          python generate-md.py
+          python generate-md.py en
+          python generate-wordlist.py
+
+      - name: Generate HTML page
+        run: |
+          cd $GITHUB_WORKSPACE/
+          python generate-html-dictionary.py
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v1.0.0
+        with:
+          name: artifact
+          path: final/

@@ -24,6 +24,7 @@ def parse_descfile_word(worddesc):
             x['notes'].append(i[5:])
         elif i == "fem":
             x['fem'] = "FEM"
+            x['fem_speech'] = "FEM"
         elif i.startswith("fem:") and x['type'] == "n":
             fem = i[4:].split(" ")
             x['fem'] = fem[0]
