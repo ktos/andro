@@ -197,8 +197,7 @@ input[type=text] {
 }
 
 .pagination {
-  display: inline;
-  margin-top: 0;
+  display: inline;  
   padding: 10px;
   box-sizing: border-box;
 }
