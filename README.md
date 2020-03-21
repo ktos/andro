@@ -217,4 +217,7 @@ dictionary! Issues and Pull Requests are welcome.
 
 * Some parts of the style of the TeX files (cover, colophon) are based on
   phenomenal [A Grammar of Ayeri](https://github.com/carbeck/ayerigrammar),
-  another conlang (and amazing work of art!) (CC-BY-SA 4.0).
+  another conlang (and amazing work of art!) (CC-BY-SA 4.0),
+* Online HTML dictionary generation is based on the template by PaddiM8 in
+  [Sheet2Dictionary](https://github.com/PaddiM8/Sheet2Dictionary) (MIT), but
+  was modified to suit this project better.
