@@ -30,9 +30,9 @@ def format_description(desc):
 
     return desc
 
-def copy_template(lang):
-    name = f"final/html-{lang}/"
-    template = f"html-{lang}-template"
+def copy_template():
+    name = f"final/html/"
+    template = f"html-template"
 
     if not os.path.exists(name):
         os.makedirs(name)
@@ -49,22 +49,36 @@ def copy_template(lang):
             shutil.copy(templateFile, target)  # copy template
 
 
-def generate_words(rows):
+def generate_words(rows, lang):
     words = []
 
     for i, row in enumerate(rows):
-        word = {
-            "id": i,
-            "word": row['word'],
-            "translation": format_description(row['description']),
-            "type": row['type'],
-            "ipa": row['speech'],
-            "notes": [],
-            "examples": row['examples']
-        }
+        if lang == 'pl':
+            word = {
+                "id": i,
+                "word": row['word'],
+                "translation": format_description(row['description']),
+                "type": row['type'],
+                "ipa": row['speech'],
+                "notes": [],
+                "examples": row['examples']
+            }
 
-        for j in row['notes']:
-            word['notes'].append(format_description(j))
+            for j in row['notes']:
+                word['notes'].append(format_description(j))
+        elif lang == 'en':
+            word = {
+                "id": i,
+                "word": row['word'],
+                "translation": format_description(row['english_description']),
+                "type": row['type'],
+                "ipa": row['speech'],
+                "notes": [],
+                "examples": row['english_examples']
+            }
+
+            for j in row['english_notes']:
+                word['notes'].append(format_description(j))
 
         for j in ['pl', 'fem', 'pst', 'comp', 'supl']:
             if j in row:
@@ -81,21 +95,19 @@ def getRowsFromFile(fileLocation):
 
 
 def main():
-    if len(sys.argv) > 1:
-        lang = sys.argv[1]
-    else:
-        lang = 'pl'
+    langs = ['pl', 'en']
+    words = {}
 
-    dictionary = dictionaryparser.read_dictionary('dictionary.csv')
-    words = generate_words(filter(lambda x: x['type'] not in [
-                           'name', 'phraseology'], dictionary))
-    copy_template(lang)
+    dictionary = dictionaryparser.read_dictionary('dictionary.csv')    
+    copy_template()
 
-    with open(f'final/html-{lang}/scripts/words.js', 'w') as file:
-        file.write("const words = " + json.dumps(words,
-                                                 separators=(',', ':')) + ";")
+    for i in langs:
+        words[i] = generate_words(dictionary, i)
 
-    print(f"Done! Open final/html-{lang}/index.html")
+        with open(f'final/html/scripts/words-{i}.js', 'w') as file:
+            file.write(f"const words_{i} = " + json.dumps(words[i], separators=(',', ':')) + ";")
+
+    print(f"Done! Open final/html/index.html")
 
 
 if __name__ == '__main__':
