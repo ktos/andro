@@ -61,6 +61,11 @@ jobs:
         python generate-md.py
         python generate-md.py en
         python generate-wordlist.py
+
+    - name: Generate HTML page
+      run: | 
+        cd $GITHUB_WORKSPACE/
+        python generate-html-dictionary.py
         
     - name: Upload artifact
       uses: actions/upload-artifact@v1.0.0
