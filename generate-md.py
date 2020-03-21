@@ -25,7 +25,7 @@ def format_description(desc):
 
     desc = desc.replace("--", "—")
     desc = desc.replace(",,", "„")
-    desc = desc.replace(",,", "“")
+    desc = desc.replace("''", "”")
     desc = desc.replace("~", " ")
     desc = desc.replace("\-", "")
 
