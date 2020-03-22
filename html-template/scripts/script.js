@@ -1,3 +1,4 @@
+// consts
 const main = document.querySelector("main");
 const listElement = document.getElementById("word-list");
 const options = {
@@ -6,14 +7,12 @@ const options = {
    item: listElement.children[0].outerHTML
 };
 
+// language constants
 const searchPlaceholder = { pl: 'Szukaj...', en: 'Search...' };
 const header = {
-   pl: 'Słownik Andro-Polski <a href="#en">[EN]</a>',
-   en: 'Andro-English Dictionary <a href="#pl">[PL]</a>'
+   pl: 'Słownik Andro-Polski <a href="#en" title="Change language to English">[EN]</a>',
+   en: 'Andro-English Dictionary <a href="#pl" title="Zmień język na polski">[PL]</a>'
 }
-
-let currentLang = 'pl';
-let wordList = new List("wrapper", options, words_pl);
 
 const pageTitle = { pl: 'Andro — Słownik', en: 'Andro — Dictionary' }
 const notesTitle = { pl: 'Uwagi:', en: 'Notes:' }
@@ -26,10 +25,30 @@ const scTitlesPST = { pl: 'W formie czasu przeszłego', en: 'Past tense form' }
 const scTitlesCOMP = { pl: 'W stopniu wyższym', en: 'Comparative form' }
 const scTitlesSUPL = { pl: 'W stopniu najwyższym', en: 'Superlative form' }
 
+// current language and current wordList
+let currentLang = 'pl';
+let wordList;
+
+// load language if there is # in URL
+if (window.location.hash != '') {
+   currentLang = window.location.hash.substring(1);   
+   updateDescriptions();
+
+   if (currentLang == 'pl')
+      wordList = new List("wrapper", options, words_pl);
+   else if (currentLang == 'en')
+      wordList = new List("wrapper", options, words_en);
+
+   selectWord(0);
+} else {
+   wordList = new List("wrapper", options, words_pl);
+}
+
+// select first word
 listElement.children[0].remove();
 selectWord(0);
 
-document.querySelector("h1 a").addEventListener("click", e => selectLang(e));
+document.querySelector("h1 a").addEventListener("click", e => changeLang(e));
 
 listElement.addEventListener("click", e => {
    if (e.target.tagName == "UL") return;
@@ -41,29 +60,30 @@ listElement.addEventListener("click", e => {
    selectWord(id);
 });
 
-function selectLang(e) {
-   let lang = e.target.hash.substring(1);
+function updateDescriptions() {
+   document.querySelector("input.search").placeholder = searchPlaceholder[currentLang];
+   document.querySelector("header h1").innerHTML = header[currentLang];
+   document.querySelector("main h3.notes-title").innerHTML = notesTitle[currentLang];
+   document.querySelector("main h3.examples-title").innerHTML = examplesTitle[currentLang];
+   document.querySelector("h1 a").addEventListener("click", e => changeLang(e));
+   document.title = pageTitle[currentLang];
+}
 
-   currentLang = lang;
-
-   document.querySelector("input.search").placeholder = searchPlaceholder[lang];
-   document.querySelector("header h1").innerHTML = header[lang];
-   document.querySelector("main h3.notes-title").innerHTML = notesTitle[lang];
-   document.querySelector("main h3.examples-title").innerHTML = examplesTitle[lang];
-   document.querySelector("h1 a").addEventListener("click", e => selectLang(e));
-
-   document.title = pageTitle[lang];
+function changeLang(e) {
+   currentLang = e.target.hash.substring(1);
+   
+   updateDescriptions();
 
    listElement.innerHTML = '';
-
-   if (lang == 'pl')
+   if (currentLang == 'pl')
       wordList = new List("wrapper", options, words_pl);
-   else if (lang == 'en')
+   else if (currentLang == 'en')
       wordList = new List("wrapper", options, words_en);
-   
+
    selectWord(0);
 }
 
+// go to another word's linked reference
 function goToReference() {
    let result;
 
@@ -79,6 +99,7 @@ function goToReference() {
    return false;
 }
 
+// load word definition by id
 function selectWord(id) {
    let word;
 
