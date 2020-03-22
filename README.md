@@ -7,6 +7,8 @@ writing since forever and probably will write for a bit even longer.
 This repository is a documentation of a language, its concepts, dictionary and
 more.
 
+Interactive HTML dictionary is available at <https://andro.ktos.dev>.
+
 ## Disclaimer
 
 Everything in here is work of pure fiction. Andro is not related to any
@@ -146,6 +148,9 @@ Book"), a fictional dictionary created by a scientist *Koolder mal Erlehirni*.
   words, in the `final/` subdirectory,
 * `generate-md.py` parses dictionary file and creates `final/tables.md` file
   with tables for nouns, verbs, adjectives and so on,
+* `generate-html-dictionary.py` parses dictionary file and creates `final/html/`
+  folder with interactive Andro-Polish and Andro-English dictionaries as a HTML
+  page with search and more -- see <https://andro.ktos.dev>,
 * `random-words.py` will generate some words according to the language
   phonotactic rules,
 * `check-words.py` will check if all words in `dictionary.csv` are correctly
