@@ -19,7 +19,7 @@ agun|ˈa.gun|n|pl:agunos ˈa.gu.nɔs|wybrzeże|en:coast
 aguna|ˈa.gu.na|n|pl:agunaji ˈa.gu.na.ʐi|fem|plaża|en:beach
 ah́emi|a.ˈxɛ.mi|v|pst:ah́em ˈa.xɛm|przepraszać|note:Stosowany również jako dosłowne ,,przepraszam''.|en:to apologise|ennote:Used as "I am sorry.".
 aḱajami|a.ˈka.ʐa.mi|v|pst:aḱajamat a.ˈka.ʐa.mat|przebaczać|en:to forgive
-akaro|ˈa.ka.rɔ|adj|czerwony|note:W niektórych dialektach akcent jest kładziony na drugą sylabę (aḱaro [a.ˈka.rɔ]) w przymiotniku i na pierwszą w rzeczowniku.|en:red|ennote:In some dialects the accent is put onto second syllable.
+akaro|ˈa.ka.rɔ|adj|czerwony|note:W niektórych dialektach akcent jest kładziony na drugą sylabę (aḱaro [a.ˈka.rɔ]) w przymiotniku i na pierwszą w rzeczowniku.|en:red|ennote:In some dialects the accent is put onto second syllable.|note:Prawdopodobnie pochodzi od <see>kari</see>, umierać.|ennote:Probably from <see>kari</see>, to kill or <see>karl</see>, death.
 akaro|ˈa.ka.rɔ|n|czerwień|en:red
 aḱu͞a|a.ˈkua|n|pl:aḱu͞aji a.ˈkua.ʐi|fem|woda|en:water
 aḱu͞ame|a.ˈkua.mɛ|n|pl:aḱu͞ameji a.ˈkua.mɛ.ʐi|fem|deszcz|en:rain
@@ -64,8 +64,8 @@ arḱamo|ar.ˈka.mɔ|adj|rozkazujący|en:making orders
 armed|ˈar.mɛd|n|pl:armedos ˈar.mɛ.dɔs|kamień|en:stone
 arśit|ar.ˈsit|n|pl:arśiji ar.ˈsi.ʐi|fem:arśita ar.ˈsi.ta|ojciec, rodzic, matka|note:Jako ,,matka'' i~,,ojciec'' używane najczęściej w~odniesieniu nie do biologicznego rodzica, gdzie używa się określeń <see>vapal</see> oraz <see>natali͞a</see>. Używane między innymi w~odniesieniu do rodziców adoptowanych lub postaci religijnych, np. bogów.|en:mother, father, parent|ennote:Used not for biological parents, but legal guardians. Also used methaphorically for gods and goddesses.
 arśiti|ar.ˈsi.ti|v|pst:arśitit ar.ˈsi.tit|opiekować się|en:to take care of someone
-arso|ˈar.sɔ|adj|błękitny, jasnoniebieski|en:azure
-arso|ˈar.sɔ|n|błękit, kolor słonecznego nieba|en:azure, blue, color of the sunny sky
+arso|ˈar.sɔ|adj|błękitny, jasnoniebieski|en:azure, skyblue, blue|note:Andro rozróżnia <see>arso</see> oraz <see>vejo</see>.|ennote:In Andro there is no single blue, there is <see>arso</see> and <see>vejo</see>.
+arso|ˈar.sɔ|n|błękit, kolor słonecznego nieba|en:skyblue, azure, blue, color of the sunny sky
 aruj́ar|a.ru.ˈʐar|n|pl:aruj́aros a.ru.ˈja.rɔs|fem:aruj́ara a.ru.ˈja.ra|szlachcic|en:nobleman
 arýer|ar.ˈjɛr|n|piach, piasek|en:sand
 aśeysi|a.ˈsɛj.si|v|pst:aśet a.ˈsɛt|przesiadać|en:to change trains, to change seats
@@ -75,7 +75,8 @@ ati|ˈa.ti|adj|pierwszy, pierwsze|en:first
 avek|ˈa.vɛk|adj|przestarzały|en:obsolete, outdated
 av́eyrali|a.ˈvɛj.ra.li|v|pst:av́eyralit a.ˈvɛj.ra.lit|przegapić|note:Używane w~kontekście, że podmiot tak skupiał się na czymś, że umknął mu pewien ważny fakt.|en:to miss something|ennote:Used usually in a context: someone was so concentrated on something that he missed somethings else.
 avi|ˈa.vi|v|pst:afit ˈa.fit|mieć|en:to have
-ayro|ˈaj.rɔ|adj|zielony|en:green
+ayer|ˈa.jɛr|n|pl:ayeri ˈa.jɛ.ri|liść|en:leaf
+ayro|ˈaj.rɔ|adj|zielony|en:green|note:Od <see>ayer</see>, liść.|ennote:From <see>ayer</see>, leaf.
 ayro|ˈaj.rɔ|n|zieleń|en:green
 aysi|ˈaj.si|n|pl:aysiji ˈaj.si.ʐi|znamię, znak|en:sign, mark, especially birthmark
 aysi|ˈaj.si|v|pst:aysit ˈaj.sit|oznaczyć, naznaczyć|en:to mark, to sign
@@ -266,8 +267,9 @@ farapak|ˈfa.ra.pak|n|pl:farapakos fa.ra.pa.kɔs|kapusta|en:cabbage
 fari|ˈfa.ri|v|pst:faret ˈfa.rɛt|robić, pracować|en:to work, to do something
 faro|ˈfa.rɔ|adj|działający, pracujący, operacyjny|en:working, operating
 farta|ˈfar.ta|n|pl:farteji ˈfar.tɛ.ʐi|fem|praca (pejoratywnie), robota|en:work (pejorative)
-fasso|ˈfas.sɔ|adj|brązowy|en:brown
-fasso|ˈfas.sɔ|n|kolor brązowy|en:brown
+fassa|ˈfas.sa|n|pl:fassaji ˈfas.sa.ʐi|fem|gleba|en:soil
+fasso|ˈfas.sɔ|adj|brązowy, rudobrązowy|en:brown, red-brown|note:W zasadzie nie do końca oznacza kolor brązowy, a czerwono-brązowy. To słowo zostało zaimportowane bezpośrednio z języka Rilla, razem z <see>fassa</see>, gleba, a w Rilla kolor gleby jest właśnie bardziej rudobrązowy niż ciemnobrązowy. Niektóre dialekty rozróżniają te kolory używając określenia <see>maŕido</see> jako koloru ciemnobrązowego, jednak w <em>ardo andro</em> oznacza wszystkie odcienie brązu.|ennote:It's used for every brown variant in <em>ardo andro</em>, but it primarily means red-brown. This word, along with <see>fassa</see> has been introduced from Rilla language, and Rilla soil has a unique red-brown color. Some dialects are using also <see>maŕido</see> as dark brown.
+fasso|ˈfas.sɔ|n|kolor brązowy, rudobrązowy|en:brown, red-brown
 fatabey|ˈfa.ta.bɛj|n|pl:fatabeyos ˈfa.ta.bɛ.jɔs|serce|en:heart
 fays|ˈfaj.sɔ|adj|pijany|en:drunk
 faysi|ˈfaj.si|v|pst:faysit ˈfaj.sit|pić|en:to drink
@@ -451,7 +453,9 @@ ji͞ari͞o|ˈʐia.riɔ|n|pl:ji͞ari͞os ˈʐia.riɔs|ogród|en:garden
 jiki|ˈʐi.ki|v|pst:jikit ˈʐi.kit|biegać, biec|en:to run
 jisufi|ˈʐi.su.fi|v|pst:jisufit ˈʐi.su.fit|przekazywać; przekazywać wiadomość, pozdrowienia albo podarunki, pobierać plik|en:to forward (message), to forward greetings, to download a file
 jo|ˈʐɔ|part|Partykuła używana przy liczebnikach. Oznacza ,,oraz'' i jest używana czasami zamiast systemu pozycyjnego.|en:particle used in counting, means ,,and'', used in place of positional system
-jubo|ˈʐu.bɔ|adj|fioletowy|en:violet
+jubado|ˈʐu.ba.dɔ|n|pl:jubadi ˈʐu.ba.di|ametyst, ale w ogólności również kamień szlachetny, klejnot|en:amethyst, but also in general gem, jewel|note:W starożytności ametysty były uważane za bardzo drogocenne.|ennote:In the past, amethysts were thought to be very valuable.
+jubeler|ˈʐu.bɛ.lɛr|n|pl:jubeleros ˈʐu.bɛ.lɛ.rɔs|jubiler|en:jeweler
+jubo|ˈʐu.bɔ|adj|fioletowy, ametystowy|en:violet|note:Pochodzi od <see>jubado</see>, ametyst.|ennote:Directly from <see>jubado</see>, amethyst.
 jubo|ˈʐu.bɔ|n|fiolet|en:violet
 ka|ˈka|n|dwa, dwójka|note:Dla każdego liczebnika można wykorzystać określenie <see>razi</see>, na przykład <phrase>ka razi</phrase> oznacza dwukrotnie, dwa razy.|en:two|ennote:For every number, <see>razi</see> may be used, e.g. <phrase>ka razi</phrase> -- two times.
 ka͞ufi|ˈkau.fi|v|pst:ka͞ufit ˈkau.fit|skakać|en:to jump
@@ -531,7 +535,7 @@ kiiway|ki:.ˈwaj|n|pl:kiiwaji ˈki:.wa.ʐi|powitanie|note:Również forma typowe
 kilito|ˈki.li.tɔ|adj|nudny (człowiek)|note:Stosowany wyłącznie do osób. Nudny przedmiot w szkole to <see>nontriso</see>.|en:boring (person)|ennote:Used only for people. Boring thing is <see>nontriso</see>.
 kipen|ˈki.pɛn|n|pl:kipenos ˈki.pɛ.nɔs|wzór|en:pattern, model
 kipeni|ˈki.pɛ.ni|v|pst:kipenit ˈki.pɛ.nit|wzorować; <phrase>kipeni a</phrase> -- wzorować się na kimś, na czymś|en:to model
-kiro|ˈki.rɔ|adj|żółty|en:yellow
+kiri|ˈki.ri|v|pst:kirit ˈki.rit|mienić się, błyszczeć|en:to sparkle, to glimmer|note:Patrz też <see>wesi</see>.|ennote:See also <see>wesi</see>.kiro|ˈki.rɔ|adj|żółty|en:yellow|note:Prawdopodobnie od <see>kiri</see>, błyszczeć.
 kiro|ˈki.rɔ|n|kolor żółty|en:yellow
 kiruki|ˈki.ru.ki|v|pst:kiruket ˈki.ru.kɛt|umieć|en:to can
 klik|ˈklik|n|pl:kliki ˈkli.ki|odpowiednik minuty, ok. 45 sekund|en:Equivalent of a minute, about 45 seconds.
@@ -635,6 +639,7 @@ mantreja|ˈman.trɛ.ʐa|n|pl:mantreji ˈman.trɛ.ʐi|fem|lista|en:list
 mapar|ˈma.par|part|żaden|en:neither
 mar|ˈmar|n|mąż (nieformalnie)|en:husband (informal)
 maŕida|ma.ˈri.da|n|pl:maŕidi ma.ˈri.di|fem|ziemia (jako obszar posiadany), miejsce, ląd|en:land, place, owned terrain
+maŕido|ma.ˈri.dɔ|adj|brązowy, ciemnobrązowy|en:brown, dark brown|note:Patrz również <see>fasso</see>.|ennote:See also <see>fasso</see>.
 maŕie͞o|ma.ˈri.ɛɔ|n|pl:marié͞os ma.ri.ˈɛɔs|fem:marié͞a ma.ri.ˈɛa|małżonek, małżonka|en:husband, wife
 maŕiello|ma.ˈri.ɛl.lɔ|n|pl:mariéllos ma.ri.ˈɛl.lɔs|małżeństwo|en:marriage
 maritari|ˈma.ri.ta.ri|v|pst:maritat ˈma.ri.tat|żenić|en:to marry, to wed
@@ -760,7 +765,7 @@ opeka|ˈɔ.pɛ.ka|n|pl:opekaji ˈɔ.pɛ.ka.ʐi|fem|wyspa|en:island
 oraićhar|ˈɔ.ra.i.t͡ʂar|n|dar bogów, błogosławieństwo|en:gods' gift, blessing
 orati|ˈɔ.ra.ti|v|pst:oratit ˈɔ.ra.tit|orać|en:to plow
 ore|ˈɔ.rɛ|part|teraz|en:now
-oreno|ˈɔ.rɛ.nɔ|adj|pomarańczowy|en:orange
+oreno|ˈɔ.rɛ.nɔ|adj|pomarańczowy|en:orange|note:Prawdopodobnie ze staronenneckiego <em>orpin</em>, złoto, patrz też <see>forn</see> -- można zauważyć podobieństwa do ziemskiego <em>aurum</em>.|ennote:Probably from Old-Nennekan <em>orpin</em>, gold.
 oreno|ˈɔ.rɛ.nɔ|n|kolor pomarańczowy|en:orange
 ori|ˈɔ.ri|n|pl:ora͞i ˈɔ.rai|fem:oriá ɔ.ri.ˈa|bóg, bogini|en:god, goddess
 osake|ˈɔ.sa.kɛ|part|wiele, wielu, dużo|note:Stosowane zamiennie z <see>vyele</see>.|en:many|ennote:Used interchangibly with <see>vyele</see>.
@@ -802,7 +807,9 @@ pelir|ˈpɛ.lir|n|pl:peliros ˈpɛ.li.rɔs|fem:pelira ˈpɛ.li.ra|pies|en:dog
 per|ˈpɛr|part|aby, żeby|en:so, to do something
 perma|ˈpɛr.ma|n|pl:permos ˈpɛr.mɔs|fem|pozwolenie, przepustka, licencja|en:permission, license
 permi|ˈpɛr.mi|v|pst:permet ˈpɛr.mɛt|pozwalać|en:to allow
-pesulo|ˈpɛ.su.lɔ|adj|różowy|en:ping
+pesula|ˈpɛ.su.la|n|pl:pesulaji ˈpɛ.su.la.ʐi|fem|rumieniec|en:blush
+pesuli|ˈpɛ.su.li|v|pl:pesulit ˈpɛ.su.lit|rumienić się|en:to blush
+pesulo|ˈpɛ.su.lɔ|adj|różowy|en:pink|note:Prawdopodobnie od <see>pesuli</see>, rumienić się.|ennote:Probably from <see>pesuli</see>, to blush.
 pesulo|ˈpɛ.su.lɔ|n|kolor różowy, róż (kosmetyk)|en:pink
 petode|ˈpɛ.tɔ.dɛ|n|pl:petodes ˈpɛ.tɔ.dɛs|pojemnik|en:container
 pevi|ˈpɛ.vi|v|pst:pevit ˈpɛ.vit|karmić|en:to feed
@@ -866,7 +873,7 @@ rosoi|ˈrɔ.sɔ.i|v|pst:rosoit ˈrɔ.sɔ.it|znikać, zniknąć|en:to disappear
 rufaler|ˈru.fa.lɛr|n|pl:rufaleros ˈru.fa.lɛ.rɔs|fem:rufalera ˈru.fa.lɛ.ra|rolnik|en:farmer
 rujalar|ˈru.ʐa.lar|n|pl:rujalaros ˈru.ʐa.la.rɔs|fem:rujalara ˈru.ʐa.la.ra|mężczyzna, kobieta, człowiek, ludzie|en:man, woman, men, women, people, person
 rukila|ˈru.ki.la|n|pl:rukilaji ˈru.ki.la.ʐi|fem|kosmetyk|en:cosmetics
-ruko|ˈru.kɔ|adj|czarny|en:black
+ruko|ˈru.kɔ|adj|czarny|en:black|note:Prawdopodobnie pochodzi od słowa <see>rukila</see>, kosmetyk.|ennote:Probably from <see>rukila</see>, cosmetics.
 ruko|ˈru.kɔ|n|czerń|en:black
 rukolaner|ˈru.kɔ.la.nɛr|n|czarnoksieżnik, zły czarodziej, czarownik|note:Patrz również: <see>nimu͞er</see>.|en:evil magician, evil wizard
 rumar|ˈru.mar|n|pl:rumaros ˈru.ma.rɔs|fem:rumara ˈru.ma.ra|demon|en:demon
@@ -946,8 +953,9 @@ sormo|ˈsɔr.mɔ|n|pl:sormiji ˈsɔr.mi.ʐi|wschód (kierunek), wschód słońca
 sosbet|ˈsɔs.bɛt|n|pl:sosbetos ˈsɔs.bɛ.tɔs|fem:sosbeta ˈsɔs.bɛ.ta|podejrzany|en:suspect
 sotak|ˈsɔ.tak|part|ktoś|en:someone
 soter|ˈsɔ.tɛr|part|kto|en:who
+sto.be|ˈstɔ.bɛ|n|pl:stobes ˈstɔ.bɛs|popiół|en:ash
 stoamjor|ˈstɔ.am.ʐɔr|n|pl:stoamji ˈstɔ.am.ʐi|program (komputerowy), algorytm, przepis|en:computer programme, algorithm, recipe
-stobo|ˈstɔ.bɔ|adj|szary|en:gray
+stobo|ˈstɔ.bɔ|adj|szary|en:gray|note:Od <see>stobo</see>, popiół.|ennote:From <see>stobo</see>, ash.
 stobo|ˈstɔ.bɔ|n|szarość|en:gray
 stopi|ˈstɔ.pi|v|pst:stopet ˈstɔ.pɛt|zatrzymywać|en:to stop
 suasi|ˈsu.a.si|v|pst:suat ˈsu.at|ssać|en:to suck
@@ -1066,8 +1074,9 @@ vechiredo|ˈvɛ.t͡ʂi.rɛ.dɔ|n|głupota|en:stupideness
 vechiret|ˈvɛ.t͡ʂi.rɛt|adj|supl:vechiredem ˈvɛ.t͡ʂi.rɛ.dɛm|comp:vechirede ˈvɛ.t͡ʂi.rɛ.dɛ|głupi, głupszy, najgłupszy|en:stupid
 veder|ˈvɛ.dɛr|n|pl:vederos ˈvɛ.dɛ.rɔs|fem:vedera ˈvɛ.dɛ.ra|rzemieślnik (dosł. zginacz)|en:craftsman, artisan
 vedi|ˈvɛ.di|v|giąć, zginać|en:to bend
-vejo|ˈvɛ.ʐɔ|adj|niebieski, granatowy|en:blue
-vejo|ˈvɛ.ʐɔ|n|kolor niebieski, granatowy|en:blue
+veja|ˈvɛ.ʐi|n|fem|głęboka woda, toń morska|en:deep water
+vejo|ˈvɛ.ʐɔ|adj|niebieski, granatowy, kolor głębokiej wody|en:blue, dark blue, deep blue|note:Patrz też <see>arso</see>.|ennote:See also <see>arso</see>.
+vejo|ˈvɛ.ʐɔ|n|kolor niebieski, granatowy, kolor głębokiej wody|en:blue, dark blue, deep blue
 vek|ˈvɛk|adj|supl:vyekka ˈvjɛk.ka|comp:vekka ˈvɛk.ka|stary|en:old
 vek|ˈvɛk|n|starość|en:old age
 verayo|ˈvɛ.ra.jɔ|adj|zaszczytny, zaszczycony|en:honorable, honored
@@ -1118,6 +1127,7 @@ walevi|ˈwa.lɛ.vi|v|pst:walevet ˈwa.lɛ.vɛt|obiecywać|en:to promise
 waril|ˈwa.ril|adj|supl:warile͞am ˈwa.ri.lɛam|comp:warile͞a ˈwa.ri.lɛa|długi|en:long
 warila|ˈwa.ri.la|n|fem|długość|en:length
 warilo|ˈwa.ri.lɔ|adj|wzdłuż|en:along
+wes|ˈwɛs|n|pl:wese ˈwɛ.sɛ|błysk|en:flash, flare
 wesazi|ˈwɛ.sa.zi|v|pst:wesazit ˈwɛ.sa.zit|stawać się, zmieniać się|en:to became, to change
 wesi|ˈwɛ.si|v|pst:weset ˈwɛ.sɛt|błyszczeć|en:to shine
 wiéni|wi.ˈɛ.ni|v|pst:wiént wi.ˈɛŋt|podchodzić|en:to come to something
