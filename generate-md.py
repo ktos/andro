@@ -141,15 +141,27 @@ for i in filter(lambda x: x['type'] == 'part', words):
     generate_md_dictionary_entry(i, lang)
 
 if lang == 'en':
-    print_output("# Idioms and phraseology")
+    print_output("# Phraseology")
     print_output("Phrase|Translation")
 elif lang == 'pl':
-    print_output("# Idiomy i związki frazeologiczne")
+    print_output("# Związki frazeologiczne")
     print_output("Fraza|Tłum")
 print_output("--- | ---")
 
 words = dictionaryparser.read_dictionary('phraseology.csv', type='phraseology')
 for i in filter(lambda x: x['type'] == 'phraseology', words):
+    generate_md_dictionary_entry(i, lang)
+
+if lang == 'en':
+    print_output("# Idioms")
+    print_output("Idiom|Translation")
+elif lang == 'pl':
+    print_output("# Idiomy")
+    print_output("Idiom|Tłum")
+print_output("--- | ---")
+
+words = dictionaryparser.read_dictionary('phraseology.csv', type='phraseology')
+for i in filter(lambda x: x['type'] == 'idiom', words):
     generate_md_dictionary_entry(i, lang)
 
 if lang == 'en':
