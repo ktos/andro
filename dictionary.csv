@@ -29,6 +29,7 @@ alha|ˈal.xa|n|pl:alhaji ˈal.xa.ʐi|fem|wartość|en:value
 ali|ˈa.li|part|ile|en:how much, how many
 alima|ˈa.li.ma|n|pl:alimji ˈa.lim.ʐi|fem|pierś|en:breast
 aliona|ˈa.li.ɔ.na|n|pl:alionji ˈa.li.ɔn.ʐi|fem|rada|en:advice
+alive|ˈa.li.vɛ|part|zanim, najpierw, przedtem|en:before
 aloser|ˈa.lɔ.sɛr|n|pl:aloseros ˈa.lɔ.sɛ.rɔs|źródło|en:source
 alt́arevi|al.ˈta.rɛ.vi|n|pl:alt́arevis al.ˈta.rɛ.vis|alternatywa, opcja|en:alternative, option
 altur|ˈal.tur|n|pl:alturos ˈal.tu.rɔs|hałas|en:noise
@@ -173,6 +174,7 @@ chutojer|ˈt͡ʂu.tɔ.ʐɛr|n|pl:chutojerji ˈt͡ʂu.tɔ.ʐɛr.ʐi|system, ukła
 chuwure|ˈt͡ʂu.wu.rɛ|n|pl:chuwuros ˈt͡ʂu.wu.rɔs|autobus|en:bus
 chyi|ˈt͡ʂʏ|part|czyj, kogo, czego|note:Również używany jako zaimek zwrotny ,,się''.|en:whose|ennote:Used also as reflexive pronoun.
 chyi|ˈt͡ʂʏ|pro|należący do tej rzeczy <sc>3sg.poss</sc>|en:belonging to that thing <sc>3sg.poss</sc>
+da|ˈda|part|partykuła wyznaczająca narzędnik <sc>ins</sc>|en:particle for a instrumental case <sc>ins</sc>
 dabeyo|ˈda.bɛ.jɔ|part|więcej|en:more
 dachu|ˈda.t͡ʂu|part|mniej|en:less
 dant|ˈdaŋt|n|pl:dantos ˈdaŋt.ɔs|penis|en:penis
@@ -180,7 +182,7 @@ dari|ˈda.ri|v|pst:daret ˈda.rɛt|dawać|en:to give
 daze|ˈda.zɛ|n|pl:dazos ˈda.zɔs|usta|en:lips
 dazer|ˈda.zɛr|n|pl:dazeros ˈda.zɛ.rɔs|pocałunek|en:kiss
 dazi|ˈda.zi|v|pst:dazit ˈda.zit|całować|en:to kiss
-de|ˈdɛ|part|nieformalna partykuła wzmiacniająca wyrażenie|en:informal particle for emphasis of a sentence
+de|ˈdɛ|part|nieformalna partykuła wzmiacniająca wyrażenie, stosowana na końcu zdania|en:informal particle for emphasis of a sentence, used at the end of the sentence
 dechu|ˈdɛ.t͡ʂu|part|tylko|en:only
 deha|ˈdɛ.xa|n|fem|nauka|en:science
 dehuzer|ˈdɛ.xu.zɛr|n|pl:dehuzerji ˈdɛ.xu.zɛr.ʐi|fem:dehuzera ˈdɛ.xu.zɛ.ra|badacz, naukowiec|en:scientist
@@ -240,6 +242,11 @@ elĺa|ɛl.ˈla|part|serio, doprawdy|note:Również używane z~niedowierzaniem i
 eḿarudo|ɛ.ˈma.ru.dɔ|adj|szmaragdowy|en:emerald
 eḿarudo|ɛ.ˈma.ru.dɔ|n|pl:emarudojis ˈɛ.ma.ru.dɔ.ʐis|szmaragd, kolor szmaragdowy|en:emerald
 eni|ˈɛ.ni|v|pst:ent ˈɛŋt|iść, chodzić|en:to go, to walk
+enid|ˈɛ.nid|n|pl:enidos ˈɛ.ni.dɔs|spacer|en:walk, stroll
+enidi|ˈɛ.ni.di|v|pst:enidit ˈɛ.ni.dit|spacerować, przechadzać się|en:to walk, to stroll
+enit|ˈɛ.nit|n|pl:enitos ˈɛ.ni.tɔs|krok|en:step
+eniti|ˈɛ.ni.ti|v|pst:enitit ˈɛ.ni.tit|kroczyć|en:to step
+enitya|ˈɛ.ni.tja|n|fem|pl:enitye ˈɛ.ni.tjɛ|przepis, instrukcja, zasada|en:recipe, instruction
 entepi|ˈɛn.tɛ.pi|v|pst:entepit ˈɛŋt.ɛ.pit|ruszać, poruszać, przesuwać|en:to move
 entepo|ˈɛn.tɛ.pɔ|adj|ruchomy, ruszający się|en:moving
 epadot|ˈɛ.pa.dɔt|n|pl:epadotos ˈɛ.pa.dɔ.tɔs|karabin|en:carbine
@@ -409,7 +416,7 @@ imṕigetira|im.ˈpi.gɛ.ti.ra|n|pl:imṕigetiros im.ˈpi.gɛ.ti.rɔs|fem|służ
 imṕigi|im.ˈpi.gi|v|pst:imṕigit im.ˈpi.git|służyć|en:to serve
 imvi|ˈim.vi|v|pst:imvit ˈim.vit|bać (się)|en:to be afraid
 imzitin|ˈim.zi.tin|n|pl:imzitiji ˈim.zi.ti.ʐi|prom (zarówno łódź, jak i~prom kosmiczny)|en:shuttle, ferry
-in|ˈin|part|w (czymś)|en:inside of something
+in|ˈin|part|w (czymś), ale także działa jako ogólny miejscownik <sc>loc</sc>|en:inside of something, but also works as a general particle for locative case <sc>loc</sc>
 iner|ˈi.nɛr|n|pl:inerji ˈi.nɛr.ʐi|głos|en:voice
 ineri|ˈi.nɛ.ri|v|pst:inerit ˈi.nɛ.rit|głosić, ogłosić|en:to voice, to proclaim
 ingeki|ˈin.gɛ.ki|v|pst:ingek ˈin.gɛk|czekać|en:to wait
@@ -454,9 +461,12 @@ jawiri|ˈʐa.wi.ri|v|pst:jawirit ˈʐa.wi.rit|kraść|en:to steal
 jawiro|ˈʐa.wi.rɔ|adj|kradziony, ukradziony, skradziony|en:stolen
 jawiror|ˈʐa.wi.rɔr|n|pl:jawiroros ˈʐa.wi.rɔ.rɔs|złodziej|en:thief
 je|ˈʐɛ|pro|przyimek określony, wskazanie na konrketny obiekt|en:definite article
+je͞ozi|ˈʐɛɔ.zi|v|pst:je͞ozit ˈʐɛɔ.zit|słodzić, nadmiernie komplementować kogoś|en:to sweeten, to overcompliment someone|example:Je͞ozi no! -- Oh, już przestań mnie komplementować!|enexample:Je͞ozi no! -- Oh, stop complimenting me!
 jeji|ˈʐɛ.ʐi|v|pst:jejit ˈʐɛ.ʐit|klęczeć, klękać, uklęknąć|en:to kneel
 jeluche|ˈʐɛ.lu.t͡ʂɛ|n|pl:jeluches ˈʐɛ.lu.t͡ʂɛs|zamiar, cel, intencja|en:motive, goal, intention
 jenosa|ˈʐɛ.nɔ.sa|n|pl:jenosaji ˈʐɛ.nɔ.sa.ʐi|fem|drużyna, w~szczególności drużyna jako oddział wojskowy, grupa około 5 żołnierzy|en:type of military unit
+jeo|ˈʐɛ.ɔ|adj|comp:jea͞e ˈʐɛ.aɛ|supl:jea͞em ˈʐɛ.aɛm|słodki, uroczy|en:sweet, cute
+jeoza|ˈʐɛ.ɔ.za|n|fem|pl:jeozas ˈʐɛ.ɔ.zas|słodkość, słodycze, cukierki|en:sweeteness, cuteness, candy
 jerya|ˈʐɛr.ja|n|pl:jeryeniji ˈʐɛr.jɛ.ni.ʐi|fem|przecinek|note:Używane w liczebnikach, w postaci <phrase>a jerya rasa</phrase> -- 1,83.|en:comma, decimal point|ennote:Used in counting, e.g. <phrase>a jerya rasa</phrase> -- 1.83.
 jetuhan|ˈʐɛ.tu.xan|n|pl:jetuhanos ˈʐɛ.tu.xa.nɔs|fem:jetuhana ˈʐɛ.tu.xa.na|rebeliant, rebeliantka|en:rebel
 jetuhano|ˈʐɛ.tu.xa.nɔ|adj|rebelianckie|en:rebel
@@ -945,6 +955,7 @@ sićheri|si.ˈt͡ʂɛ.ri|v|pst:sićherit si.ˈt͡ʂɛ.rit|wyjeżdżać, odjeżdz
 sideti|ˈsi.dɛ.ti|v|pst:sidet ˈsi.dɛt|boleć|en:to feel pain
 sidowi|ˈsi.dɔ.wi|v|pst:sidowet ˈsi.dɔ.wɛt|napełniać, wypełniać|en:to fill
 sidstano|ˈsid.sta.nɔ|adj|posiadający czas wolny, być wolnym (nie zajętym)|en:having free time, to be free|example:Sidstano? Vimi yoye͞a edihi? -- Jesteś wolna? Spotkamy się później?|enexample:Sidstano? Vimi yoye͞a edihi? -- Are you free? Want to meet later?
+siéni|si.ˈɛ.ni|v|pst:siénit si.ˈɛ.nit|wykroczyć, przekroczyć (granicę, rzekę, drogę)|en:to step over (a line), to cross (a river, a river, a road)
 sifriti|ˈsi.fri.ti|v|gasić (światło), gasić (ogień), gasić (pożar)|en:to turn off the light, to extuinguish a fire
 sii|ˈsi:|part|jeśli, skoro, jeżeli|en:if
 siki|ˈsi.ki|v|pst:sik ˈsik|myć|en:to wash
@@ -1080,7 +1091,7 @@ vacheta|ˈva.t͡ʂɛ.ta|n|pl:vachetji ˈva.t͡ʂɛt.ʐi|fem|rana, zadrapanie|en:
 vachi|ˈva.t͡ʂi|v|pst:vachit ˈva.t͡ʂit|drapać|en:to scratch
 vacho|ˈva.t͡ʂɔ|adj|ranny|en:wounded
 vagafra|ˈva.ga.fra|n|pl:vagafraji ˈva.ga.fra.ʐi|fem|narzędzie|en:tool
-vage|ˈva.gɛ|part|partykuła wyrażajaca operator trybu ekshortatywnego, zachęcającego do wykonania czynności|en:particle -- operator for exhortative mood
+vage|ˈva.gɛ|part|partykuła wyrażajaca operator trybu ekshortatywnego, zachęcającego odbiorcę do wykonania czynności|en:particle -- operator for exhortative mood
 vahur|ˈva.xur|n|skóra|en:skin
 vahuryiáysi|va.xu.rʏ.ˈaj.si|n|pl:vahuryiaysiji ˈva.xur.ji.aj.si.ʐi|tatuaż|note:Dosłownie: skórne znamię.|en:tatoo|ennote:Literally: ,,skin's mark''.
 vaja|ˈva.ʐa|part|czy|en:particle used in questions like ,,Is it true that?''
@@ -1125,9 +1136,9 @@ vibi|ˈvi.bi|v|pst:vibit ˈvi.bit|jeść|en:to eat
 vibo|ˈvi.bɔ|n|jedzenie|en:food
 vibomuder|ˈvi.bɔ.mu.dɛr|n|fem:vibomudera ˈvi.bɔ.mu.dɛ.ra|kelner, kelnerka|en:waiter, waitress
 vicho|ˈvi.t͡ʂɔ|adj|częsty|en:common
-vige|ˈvi.gɛ|part|partykuła -- formalny operator ekshortatywny ,,niech się stanie''|note:Istnieje szereg idiomów używanych wraz z~operatorem <em>vige</em>: <phrase>vige choke tay</phrase> -- miłego dnia, <phrase>vige menede</phrase> -- na zdrowie, <phrase>vige sekupa vayara</phrase> -- bezpiecznej podróży (dosłownie tłumaczy się na: ,,niech twoja podróż będzie bezpieczna''), <phrase>vige veydi</phrase> -- do widzenia (,,niech się stanie tak, abym ciebie jeszcze zobaczył'') -- często skracane do <see>vive</see>.|en:particle -- formal operator of exhortative mood, to wish something to happen|ennote:Many phrases are used in connection with vige, e.g. <phrase>vige choke tay</phrase> -- I wish you a good day, <phrase>vige menede</phrase> -- I wish you good health, <phrase>vige sekupa vayara</phrase> -- good trip, <phrase>vige veydi</phrase> -- see you (,,I wish we will see again'') -- often shortened to <see>vive</see>.
+vige|ˈvi.gɛ|part|partykuła -- formalny operator optatywny ,,niech się stanie''|note:Istnieje szereg idiomów używanych wraz z~operatorem <em>vige</em>: <phrase>vige choke tay</phrase> -- miłego dnia, <phrase>vige menede</phrase> -- na zdrowie, <phrase>vige sekupa vayara</phrase> -- bezpiecznej podróży (dosłownie tłumaczy się na: ,,niech twoja podróż będzie bezpieczna''), <phrase>vige veydi</phrase> -- do widzenia (,,niech się stanie tak, abym ciebie jeszcze zobaczył'') -- często skracane do <see>vive</see>.|en:particle -- formal operator of optative mood, to wish something to happen|ennote:Many phrases are used in connection with vige, e.g. <phrase>vige choke tay</phrase> -- I wish you a good day, <phrase>vige menede</phrase> -- I wish you good health, <phrase>vige sekupa vayara</phrase> -- good trip, <phrase>vige veydi</phrase> -- see you (,,I wish we will see again'') -- often shortened to <see>vive</see>.
 viki|ˈvi.ki|v|pst:vik ˈvik|ciąć|en:to cut
-vimi|ˈvi.mi|part|partykuła -- operator trybu przypuszczającego|en:particle -- operator of conditional mood
+vimi|ˈvi.mi|part|partykuła -- operator trybu przypuszczającego <sc>cond</sc>, w szczególności wraz z partykułą <see>miam</see>, samodzielnie wykorzystywany w konstrukcji ,,czy nie powinieneś czegoś zrobić?''|en:particle -- operator of conditional <sc>cond</sc> mood in conjuction with <see>miam</see>, used also in <sc>cond</sc> mood ,,shouldn't you do something?''
 vinal|ˈvi.nal|n|chleb|en:bread
 vipetode|ˈvi.pɛ.tɔ.dɛ|n|pl:vipetodes ˈvi.pɛ.tɔ.dɛs|miska|note:Dosłownie: pojemnik na jedzenie.|en:bowl|ennote:Literally: ,,container for food''.
 vipini|ˈvi.pi.ni|v|musieć, zmuszać, zmusić, przymusić|en:to have to, to must, to make someone to do something
@@ -1223,6 +1234,7 @@ zeuna|ˈzɛ.u.na|n|pl:zeunji ˈzɛ.un.ʐi|fem|kosmos|en:space, cosmos
 zeuye|ˈzɛ.u.jɛ|adj|supl:zeuye͞am ˈzɛ.u.jɛam|comp:zeuye͞a ˈzɛ.u.jɛa|gruby|en:fat
 zeuyeno|ˈzɛ.u.jɛ.nɔ|adj|kosmiczny|en:space
 zeuyerot|ˈzɛ.u.jɛ.rɔt|n|pl:zeuyerotes ˈzɛ.u.jɛ.rɔ.tɛs|statek kosmiczny, pojazd kosmiczny|en:spaceship
+zeva|ˈzɛ.va|part|partykuła łącząca czas przyszły i aspekt dokonany, spotykana w dialekcie południowo-wschodnim oraz zachodnim|en:particle linking perfective aspect and future tense, popular in southeastern and western dialects
 zevoyim|ˈzɛ.vɔ.ʏm|n|pl:zevoyimos ˈzɛ.vɔ.ji.mɔs|poranek, ranek|en:morning
 zezana|ˈzɛ.za.na|n|pl:zezanji ˈzɛ.zan.ʐi|fem|pistolet|en:pistol
 zigen|ˈzi.gɛn|n|pl:zigenji ˈzi.gɛn.ʐi|zbiór|en:set
