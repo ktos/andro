@@ -163,8 +163,8 @@ function selectWord(id) {
    exampleElement.innerHTML = "";
 
    for (let i = 0; i < examples.length; i++) {
-      const ex = examples[i].split('. ')
-      exampleElement.innerHTML += `<h4>„${ex[0]}“. — ${ex[1]}</h4>`;
+      const ex = examples[i].split(' -- ')
+      exampleElement.innerHTML += `<h4>„${ex[0]}“ — ${ex[1]}</h4>`;
    }
 
    // hide if empty
