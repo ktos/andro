@@ -7,6 +7,26 @@ const options = {
    item: listElement.children[0].outerHTML
 };
 
+let speechAvailable;
+let voice = null;
+if (typeof speechSynthesis !== 'undefined') {
+   speechAvailable = true;
+   let voices = speechSynthesis.getVoices();
+
+   // find the voice for pl-PL
+   for (let i = 0; i < voices.length; i++) {
+      if (voices[i].lang == 'pl-PL') {
+         voice = voices[i];
+         break;
+      }
+   }
+
+   if (voice === null)
+      speechAvailable = false;
+} else {
+   speechAvailable = false;
+}
+
 // language constants
 const searchPlaceholder = { pl: 'Szukaj...', en: 'Search...' };
 const header = {
@@ -31,7 +51,7 @@ let wordList;
 
 // load language if there is # in URL
 if (window.location.hash != '') {
-   currentLang = window.location.hash.substring(1);   
+   currentLang = window.location.hash.substring(1);
    updateDescriptions();
 
    if (currentLang == 'pl')
@@ -71,7 +91,7 @@ function updateDescriptions() {
 
 function changeLang(e) {
    currentLang = e.target.hash.substring(1);
-   
+
    updateDescriptions();
 
    listElement.innerHTML = '';
@@ -99,6 +119,23 @@ function goToReference() {
    return false;
 }
 
+function speak() {
+   let ipa = this.dataset.ipa;
+   ipa = ipa.replaceAll(".", "");
+   ipa = ipa.replace("ˈ", "");
+   ipa = ipa.replace("ɔ", "o");
+   ipa = ipa.replace("ɛ", "e");
+   ipa = ipa.replace("ʐ", "ż");
+   ipa = ipa.replace("t͡ʂ", "cz");
+   ipa = ipa.replace("x", "h");
+   ipa = ipa.replace("w", "ł");
+   ipa = ipa.replace("ʏ", "y");
+
+   var utter = new SpeechSynthesisUtterance(ipa);
+   utter.lang = "pl-PL";
+   window.speechSynthesis.speak(utter);
+}
+
 // load word definition by id
 function selectWord(id) {
    let word;
@@ -112,6 +149,7 @@ function selectWord(id) {
    main.querySelector(".word").innerHTML = word.word;
    main.querySelector(".type").innerHTML = word.type;
    main.querySelector(".ipa").innerHTML = `[${word.ipa}]`;
+
    main.querySelector(".translation").innerHTML = word.translation;
 
    if ('pl' in word) {
@@ -191,5 +229,18 @@ function selectWord(id) {
       for (let i = 0; i < links.length; i++) {
          links[i].addEventListener("click", goToReference);
       }
+   }
+
+   // attach speech
+   if (speechAvailable) {
+      const ipas = main.querySelectorAll(".ipa");
+      if (ipas != null)
+         for (let i = 0; i < ipas.length; i++)
+            ipas[i].innerHTML += `<i class="ti ti-volume" data-ipa="${ipas[i].innerText.replace("[", "").replace("]", "")}"></i>`;
+
+      const speech = main.querySelectorAll("i.ti-volume");
+      if (speech != null)
+         for (let i = 0; i < speech.length; i++)
+            speech[i].addEventListener("click", speak);
    }
 };
