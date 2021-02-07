@@ -27,7 +27,7 @@ I have no formal education in linguistics and doing this mostly for fun.
 Everything in here is licensed under CC-BY-SA 4.0. If you would like to use
 Andro in any of your own creations, feel free to do that, but please attribute
 myself and possibly this repository. Game, book, movie? Absolutely no problem,
-it would be amazing to see Andro anywhere, but remeber that many of it make
+it would be amazing to see Andro anywhere, but remember that many of it make
 sense only including the culture of its speakers.
 
 ## The Language
@@ -188,6 +188,7 @@ In other columns if the columns starts with:
 * `example:`, is is an example usage in Polish,
 * `enexample:`, it is an example usage in English,
 * `note:`, it is a note in Polish,
+* `src:`, it is a "source" of a word, e.g. Pra-Indo-European (PIE),
 * if the column is only `fem`, it marks noun as having only female grammatical
   gender,
 * in other cases, it is treated as description in Polish.
