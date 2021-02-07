@@ -39,8 +39,8 @@ const notesTitle = { pl: 'Uwagi:', en: 'Notes:' }
 const examplesTitle = { pl: 'Przykłady użycia:', en: 'Examples:' }
 
 const scTitlesPL = { pl: 'W formie liczby mnogiej', en: 'Plural form' }
-const scTitlesFEM = { pl: 'W formie rodzaju żeńskiego', en: 'Female grammatical gender form' }
-const scTitlesFEMOnly = { pl: 'To słowo występuje tylko w rodzaju żeńskim', en: 'This word is only in the female grammatical gender' }
+const scTitlesFEM = { pl: 'W formie rodzaju żeńskiego', en: 'Feminine grammatical gender form' }
+const scTitlesFEMOnly = { pl: 'To słowo występuje tylko w rodzaju żeńskim', en: 'This word is only in the feminine grammatical gender' }
 const scTitlesPST = { pl: 'W formie czasu przeszłego', en: 'Past tense form' }
 const scTitlesCOMP = { pl: 'W stopniu wyższym', en: 'Comparative form' }
 const scTitlesSUPL = { pl: 'W stopniu najwyższym', en: 'Superlative form' }

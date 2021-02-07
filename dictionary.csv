@@ -21,12 +21,12 @@ agerer|ˈa.gɛ.rɛr|n|pl:agereros ˈa.gɛ.rɛ.rɔs|fem:agerera ˈa.gɛ.rɛ.ra|ob
 agun|ˈa.gun|n|pl:agunos ˈa.gu.nɔs|wybrzeże|en:coast
 aguna|ˈa.gu.na|n|pl:agunaji ˈa.gu.na.ʐi|fem|plaża|en:beach
 ah́emi|a.ˈxɛ.mi|v|pst:ah́em ˈa.xɛm|przepraszać|note:Stosowany również jako dosłowne ,,przepraszam''.|en:to apologise|ennote:Used as "I am sorry.".
-aje|ˈa.ʐɛ|part|zaimek demonstratywny <sc>dem<sc>, tamto, tamta rzecz|en:<sc>dem</sc> demonstrative pronoun, that thing|note:Używane w odniesieniu do rzeczy bliżej słuchacza niż nadawcy. Patrz także <see>che</see> oraz <see>je</see>.|ennote:Used for things closer to the listener than speaker. See also <see>che</see> and <see>je</see>.
+aje|ˈa.ʐɛ|part|zaimek demonstratywny <sc>dem</sc>, tamto, tamta rzecz|en:<sc>dem</sc> demonstrative pronoun, that thing|note:Używane w odniesieniu do rzeczy bliżej słuchacza niż nadawcy. Patrz także <see>che</see> oraz <see>je</see>.|ennote:Used for things closer to the listener than speaker. See also <see>che</see> and <see>je</see>.
+aḱa|a.ˈka|n|pl:aḱaji a.ˈka.ʐi|fem|woda|en:water|src:pie aqā
 aḱajami|a.ˈka.ʐa.mi|v|pst:aḱajamat a.ˈka.ʐa.mat|przebaczać|en:to forgive
+aḱame|a.ˈka.mɛ|n|pl:aḱameji a.ˈkua.mɛ.ʐi|fem|deszcz|en:rain
 akaro|ˈa.ka.rɔ|adj|czerwony|note:W niektórych dialektach akcent jest kładziony na drugą sylabę (aḱaro [a.ˈka.rɔ]) w przymiotniku i na pierwszą w rzeczowniku.|en:red|ennote:In some dialects the accent is put onto second syllable.|note:Prawdopodobnie pochodzi od <see>kari</see>, umierać.|ennote:Probably from <see>kari</see>, to kill or <see>karl</see>, death.
 akaro|ˈa.ka.rɔ|n|czerwień|en:red
-aḱu͞a|a.ˈkua|n|pl:aḱu͞aji a.ˈkua.ʐi|fem|woda|en:water
-aḱu͞ame|a.ˈkua.mɛ|n|pl:aḱu͞ameji a.ˈkua.mɛ.ʐi|fem|deszcz|en:rain
 aḱumar|a.ˈku.mar|n|pl:aḱumaros a.ˈku.ma.rɔs|rzeka|en:river
 alha|ˈal.xa|n|pl:alhaji ˈal.xa.ʐi|fem|wartość|en:value
 ali|ˈa.li|part|ile|en:how much, how many
@@ -186,7 +186,7 @@ choesti|ˈt͡ʂɔ.ɛs.ti|v|pst:choeset ˈt͡ʂɔ.ɛs.ɛt|czołgać (się)|en:to 
 choini|ˈt͡ʂɔ.i.ni|v|pst:choint ˈt͡ʂɔ.iŋt|stwierdzać autorytatywnie, uważać (że), potwierdzać|en:to confirm, to state
 choinji|ˈt͡ʂɔ.in.ʐi|n|pl:choinjis ˈt͡ʂɔ.in.ʐis|potwierdzenie|en:confirmation
 choke|ˈt͡ʂɔ.kɛ|adj|supl:choke­­͞am ˈt͡ʂɔ.kɛam|comp:choke͞a ˈt͡ʂɔ.kɛa|miły|en:nice
-chu|ˈt͡ʂu|part|przez, który (<sc>relative</sc>), ten który, który, z~powodu, dla|note:Używany również jako operator dopełniacza, czasami biernika. Bardzo często stosowany jako przyimek lub zaimek względny <sc>rel</sc>.|en:through, which, for|ennote:Operator of genitivus, sometimes also accusativus. Very commonly used as a relative pronoun <sc>rel</sc>.
+chu|ˈt͡ʂu|part|przez, który (<sc>rel</sc>), ten który, który, z~powodu, dla|note:Używany również jako operator dopełniacza, czasami biernika. Bardzo często stosowany jako przyimek lub zaimek względny <sc>rel</sc>.|en:through, which, for|ennote:Operator of genitivus, sometimes also accusativus. Very commonly used as a relative pronoun <sc>rel</sc>.
 chu͞a|ˈt͡ʂua|part|która|note:Przestarzały. Operator dopełnienia dla rodzaju żeńskiego.|en:(obsolete) for
 chu͞i|ˈt͡ʂui|part|który (liczebnikowo)|en:which one
 churche|ˈt͡ʂur.t͡ʂɛ|part|przez, via|note:Używany w~toastach, np. <phrase>churche ti</phrase> oznacza <em>za ciebie</em>, a~<phrase>churche Eygeride</phrase> to <em>za Cesarstwo</em>.|en:through, via|ennote:Used in toasts: <phrase>churche ti</phrase> -- ,,to you''!
@@ -350,8 +350,6 @@ fozeni|ˈfɔ.zɛ.ni|v|pst:fozenit ˈfɔ.zɛ.nit|pożyczać, pożyczyć|note:Uży
 fozenya|ˈfɔ.zɛn.ja|n|pl:fozeniji ˈfɔ.zɛ.ni.ʐi|fem|pożyczka (np. pieniężna), kredyt|en:credit
 friti|ˈfri.ti|v|pst:frit ˈfrit|świecić, płonąć|en:to make light, shine, glow, burn
 furet|ˈfu.rɛt|n|pl:furetos ˈfu.rɛ.tɔs|wicher|en:strong wind
-futomamerey|ˈfu.tɔ.ma.mɛ.rɛj|n|pl:futomamereyos ˈfu.tɔ.ma.mɛ.rɛ.jɔs|poduszkowiec|en:hovercraft
-futon|ˈfu.tɔn|n|pl:futonji ˈfu.tɔn.ʐi|wiatr|en:wind
 fyuche|ˈfju.t͡ʂɛ|n|chaos, nieporządek, bałagan|en:chaos, inorder, mess
 gam|ˈgam|pro|przyimek używany jako suffiks określający kogoś wyżej w hierarchii|en:formal suffix marking someone higher in hierarchy
 garani|ˈga.ra.ni|v|pst:garanit ˈga.ra.nit|wiązać|en:to bind, to tie
@@ -591,7 +589,9 @@ kelay|ˈkɛl.aj|n|pl:kelayos ˈkɛ.la.jɔs|język|note:<phrase>kelayidazer</phra
 keli|ˈkɛ.li|v|pst:kelet ˈkɛ.lɛt|lizać|note:Dosłownie: pracować językiem.|en:to lick|ennote:To work with one's tongue.
 kelsan|ˈkɛl.san|n|pl:kelsanos ˈkɛl.sa.nɔs|porządek|en:order, tidyness
 kelsani|ˈkɛl.sa.ni|v|pst:kelsant ˈkɛl.saŋt|porządkować|en:to arrange, to tidy up
+kerkon|ˈkɛr.lɔn|n|pl:kerkonji ˈkɛr.kɔn.ʐi|wiatr|en:wind
 kerle|ˈkɛr.lɛ|n|pl:kerles ˈkɛr.lɛs|warownia, zamek|en:castle, keep
+keromamerey|ˈkɛ.rɔ.ma.mɛ.rɛj|n|pl:kɛromamereyos ˈkɛ.rɔ.ma.mɛ.rɛ.jɔs|poduszkowiec|en:hovercraft
 kervo|ˈkɛr.vɔ|n|pl:kervos ˈkɛr.vɔs|mózg|en:brain
 kesohi|ˈkɛ.sɔ.xi|v|pst:kesohit ˈkɛ.sɔ.xit|mówić poza kolejnością, przerywać starszym, kłócić się ze starszą osobą, pyskować|en:to talk out of turn, to interrupt older, to argue with older, to shoot one's mouth off|example:Kesohi aśtopi do, hima! -- Przestań mi pyskować, młoda damo!
 kest|ˈkɛ.stɛ|n|pl:kestos ˈkɛs.tɔs|pytanie|en:question
@@ -746,11 +746,12 @@ menede|ˈmɛ.nɛ.dɛ|n|zdrowie|en:health
 meneder|ˈmɛ.nɛ.dɛr|n|pl:menederos ˈmɛ.nɛ.dɛ.rɔs|fem:menedera ˈmɛ.nɛ.dɛ.ra|lekarz|en:medical doctor
 menedi|ˈmɛ.nɛ.di|v|pst:menet ˈmɛ.nɛt|leczyć, zdrowieć|en:to heal, to recover from illness
 menoje|ˈmɛ.nɔ.ʐɛ|adj|supl:menoje͞am ˈmɛ.nɔ.ʐɛam|comp:menoje͞a ˈmɛ.nɔ.ʐɛa|tani|en:cheap
+merek|ˈmɛ.rɛk|n|pl:merege ˈmɛ.rɛ.gɛ|widelec|en:fork|src:pie merga
 meter|ˈmɛ.tɛr|n|pl:meterdi ˈmɛ.tɛr.di|metr (ziemska jednostka miary)|en:meter (Earth's unit of measurement)
 mi|ˈmi|pro|ja|en:I, me
 miam|ˈmi.am|part|gdyby|en:if only
 mibali|ˈmi.ba.li|v|pst:mibat ˈmi.bat|używać|en:to use
-mibozor|ˈmi.bɔ.zɔr|n|pl:mibozoris ˈmi.bɔ.zɔ.ris|fem:mibozora ˈmi.bɔ.zɔ.ra|szkoła|note:W rodzaju żeńskim jest używana dla szkół żeńskich.|en:school|ennote:Female form is used for female-only schools.
+mibozor|ˈmi.bɔ.zɔr|n|pl:mibozoris ˈmi.bɔ.zɔ.ris|fem:mibozora ˈmi.bɔ.zɔ.ra|szkoła|note:W rodzaju żeńskim jest używana dla szkół żeńskich.|en:school|ennote:Feminine form is used for female-only schools.
 mife͞a|ˈmi.fɛa|n|pl:mife͞aji ˈmi.fɛa.ʐi|fem|fraza, zwrot|en:phrase
 mika|ˈmi.ka|n|pl:mikji ˈmik.ʐi|fem|lód|en:ice
 miker|ˈmi.kɛr|n|śnieg|en:snow
@@ -785,7 +786,7 @@ na͞epi|ˈnaɛ.pi|v|pst:na͞et ˈnaɛt|gładzić, wygładzać|en:to smoothen, to
 na͞epo|ˈnaɛ.pɔ|adj|supl:na͞epo͞am ˈnaɛ.pɔam|comp:na͞epo͞a ˈnaɛ.pɔa|gładki, wygładzony|en:smooth, polished
 naári|na.ˈa.ri|part|wkrótce, niedługo|en:soon, shortly
 nafit|ˈna.fit|n|pl:nafito ˈna.fi.tɔ|piwnica|en:cellar, basement
-nafiye|ˈna.fi.ja|n|pl:nafiyes ˈna.fi.jɛs|fem:nafiya ˈna.fi.ja|piwo|note:W niektórych dialektach nie występuje w~rodzaju męskim.|en:beer|ennote:In some dialects only female form is used.
+nafiye|ˈna.fi.ja|n|pl:nafiyes ˈna.fi.jɛs|fem:nafiya ˈna.fi.ja|piwo|note:W niektórych dialektach nie występuje w~rodzaju męskim.|en:beer|ennote:In some dialects only feminine form is used.
 naja|ˈna.ʐa|n|pl:naji ˈna.ʐi|fem|odpowiednik godziny, ok. 75 minut|en:Equivalent to an hour, about 75 minutes
 nanal|ˈna.nal|n|pl:nanalos ˈna.na.lɔs|śmigło|en:propeller
 naraver|ˈna.ra.vɛr|n|pl:naravere ˈna.ra.vɛ.rɛ|fem:narava ˈna.ra.va|bohater|en:hero
@@ -942,7 +943,7 @@ raṕo|ra.ˈpɔ|n|fem:raṕa ra.ˈpa|pl:raṕos ra.ˈpɔs|tygrys|en:tiger
 raratako|ˈra.ra.ta.kɔ|adj|wystarczający|en:sufficient, adequate
 raratako|ˈra.ra.ta.kɔ|part|wystarczy, dość|en:enough
 rati|ˈra.ti|adj|dziewiąty|en:ninth
-ray|ˈraj|n|pl:raji ˈra.ʐi|fem|piorun, błyskawica|en:lighting
+ray|ˈraj|n|pl:raji ˈra.ʐi|fem|piorun, błyskawica|en:lightning
 razi|ˈra.zi|part|określa wielokrotność, używane w~połączeniu z~liczebnikiem, na przykład <phrase>ka razi</phrase> -- dwukrotnie|en:particle marking multipleness, used in connection to a number, e.g. <phrase>ka razi</phrase> -- two times.
 recha|ˈrɛ.t͡ʂa|part|wszyscy, wszystko, wszystkie|en:everything, everyone
 rechakwa|ˈrɛ.t͡ʂak.wa|n|pl:rechakwaji ˈrɛ.t͡ʂak.wa.ʐi|fem|ocean|en:ocean
@@ -1006,6 +1007,7 @@ sainsi|ˈsa.in.si|v|znać|en:to know
 saiperi|ˈsa.i.pɛ.ri|v|pst:saiperit ˈsa.i.pɛ.rit|pamiętać|en:to remember
 samicha|ˈsa.mi.t͡ʂa|n|pl:samichoji ˈsa.mi.t͡ʂɔ.ʐi|fem|ocena|en:grade
 samichi|ˈsa.mi.t͡ʂi|v|pst:samichit ˈsa.mi.t͡ʂit|oceniać|en:to grade
+samos|ˈsa.mɔs|n|lato|en:summer|src:pie samos
 sanho|ˈsan.xɔ|adj|takiego rodzaju, taki, taki typ, takiego typu|en:that kind, this kind, such kind, such
 saperi|ˈsa.pɛ.ri|v|pst:saperit ˈsa.pɛ.rit|wiedzieć|en:to know
 saperya|ˈsa.pɛr.ja|n|fem|wiedza|note:W szczególności: wiedza tajemna.|note:Również: <alt>sagerya</alt>.|en:knowledge|ennote:Also ,,secret knowledge''.
@@ -1343,6 +1345,7 @@ zari|ˈza.ri|v|pst:zarit ˈza.rit|śledzić, podążać|en:to follow
 zay|ˈzaj|part|żegnaj, pa, papa|note:Patrz również <see>zaimi</see>.|en:goodbye
 ze|ˈzɛ|part|partykuła -- operator czasu przyszłego|en:particle -- operator of future tense
 ze͞ijaki|ˈzɛi.ʐa.ki|adj|wrażliwy, podatny na zranienie|en:sensitive, vulnerable
+zeima|ˈzɛi.ma|n|pl:zeimaji ˈzɛi.ma.ʐi|fem|zespół (muzyczny), zespół (drużyna)|en:band, team|src:pie seima
 zeku͞a|ˈzɛ.kua|n|pl:zekuji ˈzɛ.ku.ʐi|fem|jezioro|en:lake
 zetay|ˈzɛ.taj|part|jutro|en:tomorrow
 zeuna|ˈzɛ.u.na|n|pl:zeunji ˈzɛ.un.ʐi|fem|kosmos|en:space, cosmos
@@ -1364,8 +1367,11 @@ zodichi|ˈzɔ.di.t͡ʂi|v|pst:zodichit ˈzɔ.di.t͡ʂit|gwizdać|en:to whistle
 zohi|ˈzɔ.xi|v|pst:zohit ˈzɔ.xit|porzucać, zostawiać, zostawić|en:to abandon, to leave (something or someone)
 zokem|ˈzɔ.kɛm|n|pl:zokemos ˈzɔ.kɛ.mɔs|metal|en:metal
 zokemo|ˈzɔ.kɛ.mɔ|adj|metalowy|en:metal
+zolepe|ˈzɔ.lɛ.pɛ|n|pl:zolepes ˈzɔ.lɛ.pɛs|olej|en:oil|src:pie solpos
+zolepo|ˈzɔ.lɛ.pɔ|adj|oleisty|en:oily
 zor|ˈzɔr|part|albo|en:exclusive or
 zoreche|ˈzɔ.rɛ.t͡ʂɛ|adj|supl:zoreche͞am ˈzɔ.rɛ.t͡ʂɛam|comp:zoreche͞a ˈzɔ.rɛ.t͡ʂɛa|głodny|en:hungry
 zosu|ˈzɔ.su|part|bardzo|en:very
 zosuvi|ˈzɔ.su.vi|part|bardziej|en:even more
 zoyer|ˈzɔ.jɛr|n|wróg, przeciwnik, nieprzyjaciel|en:enemy
+zupa|ˈzu.pa|n|fem|pl:zupaji ˈzu.pa.ʐi|zupa|en:soup|src:pie supa
