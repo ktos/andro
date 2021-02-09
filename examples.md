@@ -138,3 +138,14 @@ larger enemy armies. He was a hero of Faynira's War (aka Nennek Civil War, -37 �
 His legacy: good knowledge of enemy, reconnaissance, cooperation between
 different types of units and elasticity is still in the doctrine of And́royas
 Army, 800 years later.
+
+## I see you are a man of culture as well.
+
+*Veydi ti azo saúmu rujaler esi.*
+
+`/vɛjdi ti azɔ saˈumuʏ ruʐalɛr ɛsi/`
+
+```
+veydi ti  azo     saúmuyi      rujaler esi
+see   2sg as.well culture-POSS man     be
+```

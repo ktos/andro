@@ -67,6 +67,7 @@ areda͞o|ˈa.rɛ.daɔ|adj|pionowy|en:vertical
 arey|ˈa.rɛj|pro|przyimek używany samodzielnie lub jako suffiks, wyrażający sympatię do drugiej osoby lub pewnej rzeczy, słabszy niż <see>koól</see> oraz bez wyrażania posiadania jak <see>myi</see>|en:pronoun used on its own or as a suffix, expressing level of familiarity less than <see>koól</see> and without expressing possession like <see>myi</see>
 ari|ˈa.ri|n|niebo|en:sky
 aribant|ˈa.ri.baŋt|n|pl:aribanji ˈa.ri.ban.ʐi|tęcza|en:rainbow
+ariśako|a.ri.ˈsa.kɔ|adj|neutralny, obojętny|en:neutral, indifferent|src:btg
 ariunhika|ˈa.ri.un.xi.ka|n|pl:ariunhikiji ˈa.ri.un.xi.ki.ʐi|asteroida|en:asteroid
 arḱami|ar.ˈka.mi|v|pst:arḱam ar.ˈkam|rozkazywać|en:to order someone to do something
 arḱamo|ar.ˈka.mɔ|adj|rozkazujący|en:making orders
@@ -165,6 +166,7 @@ cheliki|ˈt͡ʂɛ.li.ki|v|pst:chelikit ˈt͡ʂɛ.li.kit|litować się|en:to have
 cheliko|ˈt͡ʂɛ.li.kɔ|adj|litościwy|en:mercifull
 chelikokone|ˈt͡ʂɛ.li.kɔ.kɔ.nɛ|adj|bezlitosny|note:Jedno ze słów, które można stworzyć poprzez dodanie suffiksu -kone do przymiotnika.|en:merciless
 cheri|ˈt͡ʂɛ.ri|v|pst:cherit ˈt͡ʂɛ.rit|jeździć, jechać|en:to drive, to ride
+cherteri|ˈt͡ʂɛr.tɛ.ri|v|pst:cherterit ˈt͡ʂɛr.tɛ.rit|zbierać plony, robić żniwa, również: harować|en:to harvest, to gather in crops, to work hardly, to toil, to drudge|note:W dialekcie północnym słowo to ma znaczenie także ,,ciężko pracować''.|ennote:In northern dialect this word also means ,,to work hard''.
 cheryot|ˈt͡ʂɛr.jɔt|n|pl:cheryotos ˈt͡ʂɛr.jɔ.tɔs|pojazd|en:vehicle
 chet|ˈt͡ʂɛt|part|tutaj|en:here
 chetna|ˈt͡ʂɛt.na|n|pl:chetiji ˈt͡ʂɛ.ti.ʐi|fem|czoło|en:forehead
@@ -232,7 +234,7 @@ diter|ˈdi.tɛr|part|tam|en:there
 divai|ˈdi.va.i|v|pst:divat ˈdi.vat|operować, używać czegoś, kierować czymś|en:to operate something, to use something
 divayer|ˈdi.va.jɛr|n|pl:divayeros ˈdi.va.jɛ.rɔs|fem:divayera ˈdi.va.jɛ.ra|operator, użytkownik, kierowca|en:operator, driver, user
 diyu|ˈdi.ju|part|coś|en:something
-do|ˈdɔ|part|partykuła -- operator trybu rozkazującego, patrz też <see>hemi</see>|en:particle -- operator of imperative
+do|ˈdɔ|part|partykuła -- operator trybu rozkazującego <sc>imp</sc>, patrz też <see>hemi</see>|en:particle -- operator of imperative mood <sc>imp</sc>
 doevi|ˈdɔ.ɛ.vi|v|pst:do͞evit ˈdɔɛ.vit|skrzypieć|en:to creak, to squeak
 doevo|ˈdɔ.ɛ.vɔ|adj|skrzypiący|en:creaky, squeaky
 doki|ˈdɔ.ki|n|pl:dokiji ˈdɔ.ki.ʐi|miecz|note:Dawniej: broń w~ogólności.|en:sword|ennote:Formerly: weapons.
@@ -348,6 +350,7 @@ fok|ˈfɔk|n|pl:fokos ˈfɔ.kɔs|nazwa drobnej waluty używanej w Cesarstwie, ,,
 for|ˈfɔr|n|pl:foros ˈfɔ.rɔs|nazwa waluty używanej w Cesarstwie, ,,złoty''|note:Etymologia tego słowa jest jasna -- pochodzi od <see>forn</see>, czyli faktycznie oznacza ,,złoty''. Symbolem waluty Cesarstwa używanym w transkrypcji jest <em>Ƒ</em>.|en:proper noun for a Empire's currency, <em>Ƒ</em>
 fori|ˈfɔ.ri|v|pst:forit ˈfɔ.rit|płacić, <phrase>fori fo</phrase> -- płacić za kogoś lub za coś, <phrase>fori o</phrase> -- płacić komuś|en:to pay
 forn|ˈfɔrn|n|złoto|en:gold
+foto|ˈfɔ.tɔ|adj|ciągły, wciąż, nadal|en:continous, still
 fozeni|ˈfɔ.zɛ.ni|v|pst:fozenit ˈfɔ.zɛ.nit|pożyczać, pożyczyć|note:Używa się kolejności osoba-przedmiot, więc <phrase>mi va fozenit ti myi loesa</phrase> to ,,ja pożyczyłem ci moją lalkę'', ale <phrase>mi va fozenit mi loesa</phrase> ,,pożyczyłem lalkę od kogoś'', <phrase>mi va fozenit myi loesa</phrase> ,,pożyczyłem komuś lalkę''.|en:to lend, to borrow
 fozenya|ˈfɔ.zɛn.ja|n|pl:fozeniji ˈfɔ.zɛ.ni.ʐi|fem|pożyczka (np. pieniężna), kredyt|en:credit
 friti|ˈfri.ti|v|pst:frit ˈfrit|świecić, płonąć|en:to make light, shine, glow, burn
@@ -763,7 +766,7 @@ miki|ˈmi.ki|adj|supl:mikiam ˈmi.ki.am|comp:mikia ˈmi.ki.a|zimny|en:cold
 miki|ˈmi.ki|v|pst:mik ˈmik|zamarzać, mrozić, zamrażać, chłodzić|en:to freeze, to cool
 mikyimarida|ˈmi.kʏ.ma.ri.da|n|fem|zima|note:Dosłownie: kraina lodu.|en:winter|ennote:Literally: ,,the land of ice''.
 mireisro|ˈmi.rɛ.is.rɔ|adj|supl:miroisre͞am ˈmi.rɔ.is.rɛam|comp:miroisre͞a ˈmi.rɔ.is.rɛa|prawdopodobny|note:Może być stosowany na końcu zdania jako partykuła ,,prawdopodobnie''.|en:possible, maybe|ennote:Maybe used at the end of the sentence to say ,,maybe''.
-miruja|ˈmi.ru.ʐa|n|pl:miruji ˈmi.ru.ʐi|fem|żona|note:Etymologia tego słowa to prawdopodobnie <phrase>myi rujalara</phrase>, dosłownie ,,moja kobieta''.|en:wife|ennote:Probably from <phrase>myi rujalara</phrase>, ,,my woman''.
+miruja|ˈmi.ru.ʐa|n|pl:miruji ˈmi.ru.ʐi|fem|żona|note:Etymologia tego słowa to prawdopodobnie <phrase>myi rujalera</phrase>, dosłownie ,,moja kobieta''.|en:wife|ennote:Probably from <phrase>myi rujalera</phrase>, ,,my woman''.
 missani|ˈmis.sa.ni|n|pl:missanis ˈmis.sa.nis|wiadomość|en:message
 missi|ˈmis.si|v|kontaktować się|en:to contact, to send message
 mite|ˈmi.tɛ|n|pl:mites ˈmi.tɛs|fem:mita ˈmi.ta|tyłek|en:butt
@@ -989,7 +992,8 @@ rora|ˈrɔ.ra|n|fem|pl:rori ˈrɔ.ri|myśl|en:thought
 rori|ˈrɔ.ri|v|pst:rorit ˈrɔ.rit|myśleć; <phrase>epi rori</phrase> -- wydawać się|en:to think, <phrase>epi rori</phrase> -- to seem to be
 rosoi|ˈrɔ.sɔ.i|v|pst:rosoit ˈrɔ.sɔ.it|znikać, zniknąć|en:to disappear
 rufaler|ˈru.fa.lɛr|n|pl:rufaleros ˈru.fa.lɛ.rɔs|fem:rufalera ˈru.fa.lɛ.ra|rolnik|en:farmer
-rujalar|ˈru.ʐa.lar|n|pl:rujalaros ˈru.ʐa.la.rɔs|fem:rujalara ˈru.ʐa.la.ra|mężczyzna, kobieta, człowiek, ludzie|en:man, woman, men, women, people, person
+rujalar|ˈru.ʐa.lar|n|red:rujaler
+rujaler|ˈru.ʐa.lar|n|pl:rujalaros ˈru.ʐa.la.rɔs|fem:rujalara ˈru.ʐa.la.ra|mężczyzna, kobieta, człowiek, ludzie|en:man, woman, men, women, people, person|note:Czasami spotykana jest forma ,,rujalar''.|ennote:Sometimes the form ,,rujalar'' is used.
 rukila|ˈru.ki.la|n|pl:rukilaji ˈru.ki.la.ʐi|fem|kosmetyk|en:cosmetics
 ruko|ˈru.kɔ|adj|czarny|en:black|note:Prawdopodobnie pochodzi od słowa <see>rukila</see>, kosmetyk.|ennote:Probably from <see>rukila</see>, cosmetics.
 ruko|ˈru.kɔ|n|czerń|en:black
@@ -1020,6 +1024,8 @@ saperi|ˈsa.pɛ.ri|v|pst:saperit ˈsa.pɛ.rit|wiedzieć|en:to know
 saperya|ˈsa.pɛr.ja|n|fem|wiedza|note:W szczególności: wiedza tajemna.|note:Również: <alt>sagerya</alt>.|en:knowledge|ennote:Also ,,secret knowledge''.
 saperyer|ˈsa.pɛr.jɛr|n|pl:saperji ˈsa.pɛr.ʐi|fem:saperyera ˈsa.pɛr.jɛ.ra|mędrzec, wiedzący|note:Również spotykane są formy <alt>sage</alt> lub <alt>zage</alt>, zwłaszcza w~starszych tekstach.|en:wise man, mentor, sage|ennote:Forms <alt>sage</alt> or <alt>zage</alt> are often used in older texts.
 sati|ˈsa.ti|adj|trzeci|en:third
+saúmo|sa.ˈu.mɔ|adj|kulturalny, posiadający dobre maniery|en:cultured, not rude, well-mannered
+saúmu|sa.ˈu.mu|n|pl:saúmus sa.ˈu.mus|kultura, zwyczaje, dobre wychowanie|en:culture, customs, good manners|src:btg
 sawei|ˈsa.wɛ.i|v|pst:saweit ˈsa.wɛ.it|pocić się|en:to sweat
 saweid|ˈsa.wɛ.id|n|pot|en:sweat
 say|ˈsaj|n|pl:sajis ˈsa.ʐis|fem|grzmot|en:thunder
@@ -1171,6 +1177,7 @@ uḱacher|u.ˈka.t͡ʂɛr|n|fem:uḱachera u.ˈka.t͡ʂɛ.ra|uczeń, uczennica|e
 uḱachisi|u.ˈka.t͡ʂi.si|v|uczyć się|en:to learn
 uĺoto|u.ˈlɔ.tɔ|adj|nieożywiony|en:inanimate
 ultik|ˈul.tik|adj|ostatni, ostateczny|en:last, ultimate
+uḿami|u.ˈma.mi|v|pst:uḿamet u.ˈma.mɛt|podnosić|en:to pick up
 un|ˈun|part|pod|en:under
 uńakaro|u.ˈna.ka.rɔ|adj|podczerwony|en:infrared
 uńakaro|u.ˈna.ka.rɔ|n|podczerwień|en:infrared
