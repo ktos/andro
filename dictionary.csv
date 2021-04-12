@@ -116,9 +116,9 @@ baskiti|ˈbas.ki.ti|v|pst:basitit ˈba.si.tit|wykorzystywać (w szczególności 
 bayor|ˈba.jɔr|n|pl:bayoros ˈba.jɔ.rɔs|robak|en:worm
 beísta|bɛ.ˈi.sta|n|pl:beístos bɛ.ˈi.stɔs|fem|bestia|en:beast
 bejet́i|bɛ.ʐɛ.ˈti|v|pst:bejet ˈbɛ.ʐɛt|trwać|en:to last
-bekorpa|ˈbɛ.kɔr.pa|n|pl:bekorpaji ˈbɛ.kɔr.pa.ʐi|fem|strategia|en:strategy
-bekorper|ˈbɛ.kɔr.pɛr|n|pl:bekorperos ˈbɛ.kɔr.pɛ.rɔs|fem:bekorpera ˈbɛ.kɔr.pɛ.ra|generał, dawniej: strateg|en:general, formerly: strategist
-bekorpi|ˈbɛ.kɔr.pi|v|pst:bekorpit ˈbɛ.kɔr.pit|przygotowywać strategię, dowodzić armią|en:to prepare a strategy, to command the army
+bekorper|ˈbɛ.kɔr.pɛr|n|pl:bekorperos ˈbɛ.kɔr.pɛ.rɔs|fem:bekorpera ˈbɛ.kɔr.pɛ.ra|generał, dowodzący armią|en:general, person commanding the army|note:W starożytności także określenie na stratega, planującego operacje wojskowe.|ennote:In the ancient times, also used for a stragegist, person planning military operations.
+bekorpi|ˈbɛ.kɔr.pi|v|pst:bekorpit ˈbɛ.kɔr.pit|przygotowywać taktykę, przygotowywać strategię, dowodzić armią|en:to prepare a tactic, to prepare a strategy, to command the army
+bekorpa|ˈbɛ.kɔr.pa|n|pst:bekorpiji ˈbɛ.kɔr.pi.ʐi|taktyka, sposób kierowania armią|en:tactic
 beleti|ˈbɛ.lɛ.ti|v|pst:blet ˈblɛt|gadać, plotkować|en:to talk, to gossip
 beúsma|bɛ.ˈus.ma|n|fem|pl:beúsmiji bɛ.ˈus.mi.ʐi|legenda|en:legend
 beúsmo|bɛ.ˈus.mɔ|adj|legendarny|en:legendary
@@ -419,8 +419,8 @@ hawi|ˈxa.wi|v|pst:hawet ˈxa.wɛt|szczekać|en:to bark
 haye͞o|ˈxa.jɛɔ|n|pl:hayois ˈxa.jɔ.is|światło|en:light
 he|ˈxɛ|part|tutaj|note:Przestarzałe. Patrz <see>chet</see>.|en:here|ennote:Obsolete. See <see>chet</see>.
 hede͞a|ˈxɛ.dɛa|n|pl:hedeji ˈxɛ.dɛ.ʐi|fem|armata|en:cannon
-hedera|ˈxɛ.dɛ.ra|n|pl:hederji ˈxɛ.dɛr.ʐi|fem|armia, siły zbrojne, wojsko|note:And́royasyi Hedera -- Armia And́royas|en:army, armed forces|ennote:And́royasyi Hedera -- Army of the Empire
-hederyibekorper|ˈxɛ.dɛ.rʏ.bɛ.kɔr.pɛr|n|pl:hederyibekorperos ˈxɛ.dɛ.rʏ.bɛ.kɔr.pɛ.rɔs|fem:hederyibekorpera ˈxɛ.dɛ.rʏ.bɛ.kɔr.pɛ.ra|generał armii|en:General of the Army|note:Najwyższy stopień wojskowy w Armii Androyas.|ennote:The highest military rank in the Androyas' Army.
+hedera|ˈxɛ.dɛ.ra|n|pl:hederji ˈxɛ.dɛr.ʐi|fem|armia, siły zbrojne, wojsko|note:Eygepo And́royasyi Hedera -- Armia And́royas|en:army, armed forces|ennote:Eygepo And́royasyi Hedera -- Royal Army of the And́royas
+hederyibekorper|ˈxɛ.dɛ.rʏ.bɛ.kɔr.pɛr|n|pl:hederyibekorperos ˈxɛ.dɛ.rʏ.bɛ.kɔr.pɛ.rɔs|fem:hederyibekorpera ˈxɛ.dɛ.rʏ.bɛ.kɔr.pɛ.ra|generał armii|en:general of the army
 heje|ˈxɛ.ʐɛ|part|to, zaimek względny <sc>rel</sc> lub demonstratywny <sc>dem</sc>|en:this, relative <sc>rel</sc> or <sc>dem</sc> demonstrative pronoun|note:Wskazuje na rzecz bliską obu rozmówcom.|ennote:Marks things close to both of speakers.
 hemi|ˈxɛ.mi|part|partykuła -- operator trybu przypuszczająco-proszącego (ekshortatywnego) w zdaniu, patrz również <see>do</see>|en:particle -- operator of exhortative, see also <see>do</see>
 hemi|ˈxɛ.mi|v|pst:hemet ˈxɛ.mɛt|prosić|en:to ask someone to do something
@@ -506,6 +506,7 @@ issu͞et|ˈis.suɛ.tɛ|n|pl:issu͞ete ˈis.suɛ.tɛ|pieniądz|en:money
 issu͞i|ˈis.sui|v|pst:issut ˈis.sut|planować|en:to plan
 issude|ˈis.su.dɛ|n|pl:issudos ˈis.su.dɔs|plan|en:plan
 issudera|ˈis.su.dɛ.ra|n|pl:issuderji ˈis.su.dɛr.ʐi|fem|strategia|en:strategy
+issuderer|ˈis.su.dɛ.rɛr|n|pl:issuderos ˈis.su.dɛ.rɔs|fem:issuderera ˈis.su.dɛ.rɛ.ra|strateg|en:strategist
 issudero|ˈis.su.dɛ.rɔ|adj|strategiczny|en:strategic
 istay|ˈis.taj|n|południe (określenie czasu)|en:noon
 isturea|ˈis.tu.rɛ.a|n|pl:istureji ˈis.tu.rɛ.ʐi|fem|podatek|note:<phrase>isdat-alhyi isturea</phrase> -- podatek dodany do wartości, VAT|en:tax|ennote:<phrase>isdat-alhui isturea</phrase> -- Value Added Tax
