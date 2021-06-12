@@ -149,3 +149,31 @@ Army, 800 years later.
 veydi ti  azo     saúmuyi      rujaler esi
 see   2sg as.well culture-POSS man     be
 ```
+
+## Summer Star Lullaby
+
+```
+samo vireja osor akaro
+asweo kay sa͞uk va yatet
+dyet tirji dolat
+akaro ojios
+
+samo vireja osor va lukat
+vipini mano chido finti
+sokisito sa͞uk
+yateji afit
+```
+
+```
+summer star, why are you red?
+last night I had a sad dream
+because of tears swelled
+red eyes
+
+summer star, why are you lost?
+I will search for a lost child
+this is why
+sad dreams I had
+```
+
+Traditional lullaby sang on the Greater Rem island.
