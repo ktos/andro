@@ -141,7 +141,7 @@ Army, 800 years later.
 
 ## I see you are a man of culture as well.
 
-*Veydi ti azo saúmu rujaler esi.*
+*Veydi ti azo saúmuyi rujaler esi.*
 
 `/vɛjdi ti azɔ saˈumuʏ ruʐalɛr ɛsi/`
 
@@ -177,3 +177,14 @@ sad dreams I had
 ```
 
 Traditional lullaby sang on the Greater Rem island.
+
+## As for rules... they are the only thing standing against the chaos.
+
+*Enitye ya... a dechu pimer chetni fyuche*
+
+`ɛnitjɛ ya a dɛt͡ʂu pimɛr t͡ʂɛtni fjut͡ʂɛ`
+
+```
+enity-e  ya  a   dechu pimer chetni        fyuche
+rule -PL TOP one only  thing stand.against chaos
+```
