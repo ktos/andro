@@ -26,6 +26,7 @@ ajor|ˈa.ʐɔr|n|pl:ajori ˈa.ʐɔ.ri|fem:ajora ˈa.ʐɔ.ra|funkcja zarządcy re
 aḱa|a.ˈka|n|pl:aḱaji a.ˈka.ʐi|fem|woda|en:water|src:pie aqā
 aḱajami|a.ˈka.ʐa.mi|v|pst:aḱajamat a.ˈka.ʐa.mat|przebaczać|en:to forgive
 aḱame|a.ˈka.mɛ|n|pl:aḱameji a.ˈkua.mɛ.ʐi|fem|deszcz|en:rain
+aḱana|a.ˈka.na|n|pl:aḱanaji a.ˈka.na.ʐi|fem|zbiornik wodny, akwen, jezioro, staw|en:water body
 akaro|ˈa.ka.rɔ|adj|czerwony|note:W niektórych dialektach akcent jest kładziony na drugą sylabę (aḱaro [a.ˈka.rɔ]) w przymiotniku i na pierwszą w rzeczowniku.|en:red|ennote:In some dialects the accent is put onto second syllable.|note:Prawdopodobnie pochodzi od <see>kari</see>, umierać.|ennote:Probably from <see>kari</see>, to kill or <see>karl</see>, death.
 akaro|ˈa.ka.rɔ|n|czerwień|en:red
 aḱumar|a.ˈku.mar|n|pl:aḱumaros a.ˈku.ma.rɔs|rzeka|en:river
@@ -339,8 +340,8 @@ fassa|ˈfas.sa|n|pl:fassaji ˈfas.sa.ʐi|fem|gleba, ziemia|en:soil
 fasso|ˈfas.sɔ|adj|brązowy, rudobrązowy|en:brown, red-brown|note:W zasadzie nie do końca oznacza kolor brązowy, a czerwono-brązowy. To słowo zostało zaimportowane bezpośrednio z języka Rilla, razem z <see>fassa</see>, gleba, a w Rilla kolor gleby jest właśnie bardziej rudobrązowy niż ciemnobrązowy. Niektóre dialekty rozróżniają te kolory używając określenia <see>maŕido</see> jako koloru ciemnobrązowego, jednak w <em>ardo andro</em> oznacza wszystkie odcienie brązu.|ennote:It's used for every brown variant in <em>ardo andro</em>, but it primarily means red-brown. This word, along with <see>fassa</see> has been introduced from Rilla language, and Rilla soil has a unique red-brown color. Some dialects are using also <see>maŕido</see> as dark brown.
 fasso|ˈfas.sɔ|n|kolor brązowy, rudobrązowy|en:brown, red-brown
 fatabey|ˈfa.ta.bɛj|n|pl:fatabeyos ˈfa.ta.bɛ.jɔs|serce|en:heart
-fayso|ˈfaj.sɔ|adj|pijany|en:drunk
 faysi|ˈfaj.si|v|pst:faysit ˈfaj.sit|pić|en:to drink
+fayso|ˈfaj.sɔ|adj|pijany|en:drunk
 feban|ˈfɛ.ban|part|podczas|en:during
 fehaset|ˈfɛ.xa.sɛt|n|pl:fehaseji ˈfɛ.xa.sɛ.ʐi|pościg|en:pursuit
 fehaseto|ˈfɛ.xa.sɛ.tɔ|adj|ścigany|en:pursuead
@@ -865,8 +866,8 @@ nodi|ˈnɔ.di|pro|my ekskluzywne|note:Oznacza ``my, ale nie włącznie z~tobą''
 nodowa|ˈnɔ.dɔ.wa|n|pl:nodowaji ˈnɔ.dɔ.wa.ʐi|fem|pustynia|en:desert
 nodowo|ˈnɔ.dɔ.wɔ|adj|pusty|en:empty
 nodyi|ˈnɔ.dʏ|pro|nasze (ekskluzywne)|en:exclusive our
-noḱarler|nɔ.kar.ˈlɛr|n|pl:noḱarji nɔ.ˈkar.ʐi|fem:noḱarla nɔ.ˈkar.la|nieśmiertelny człowiek|en:immortal person
 noḱarlay|nɔ.ˈkar.laj|adj|taki, którzy nie może umrzeć, nieśmiertelny|en:immortal
+noḱarler|nɔ.kar.ˈlɛr|n|pl:noḱarji nɔ.ˈkar.ʐi|fem:noḱarla nɔ.ˈkar.la|nieśmiertelny człowiek|en:immortal person
 nokihilo|ˈnɔ.ki.xi.lɔ|adj|niemożliwy|en:impossible
 nolipe|ˈnɔ.li.pɛ|adj|zły, niedobry|en:bad, not good
 nome|ˈnɔ.mɛ|n|pl:nomis ˈnɔ.mis|imię|en:name
@@ -1072,7 +1073,7 @@ saweid|ˈsa.wɛ.id|n|pot|en:sweat
 say|ˈsaj|n|pl:sajis ˈsa.ʐis|fem|grzmot|en:thunder
 saykar|ˈsaj.kar|n|przekleństwo nie skierowane na określoną postać, w~stylu: a~niech to wszystko szlag trafi|en:a general curseword, not used to curse a specific person
 seiti|ˈsɛ.i.ti|v|czuć|en:to feel
-sejitramo|ˈsɛ.ʐi.tra.mɔ|n|zachód słońca|en:dawn
+sejitramo|ˈsɛ.ʐi.tra.mɔ|n|zachód słońca, zmierzch|en:dawn
 sekaya|ˈsɛ.ka.ja|n|fem|planeta, świat|pl:sekaye ˈsɛ.ka.jɛ|en:planet, world
 seḱier|sɛ.ˈki.ɛr|n|kwarc|en:quartz
 sekot|ˈsɛ.kɔt|n|pl:sekotos ˈsɛ.kɔ.tɔs|fem:sekota ˈsɛ.kɔ.ta|cień|en:shadow
@@ -1083,10 +1084,12 @@ sepo|ˈsɛ.pɔ|adj|supl:sepo͞em ˈsɛ.pɔɛm|comp:sepo͞e ˈsɛ.pɔɛ|wcześnie
 seti|ˈsɛ.ti|v|pl:setit ˈsɛ.tit|siać|en:to sow
 seysei|ˈsɛj.sɛ.i|v|pst:seyset ˈsɛj.sɛt|poczuć, odczuwać|note:Istnieje wyrażenie <phrase>seysei choke dyet ti</phrase>, oznaczające dosłownie ,,dzięki tobie poczułem się miło'', używane jako odpowiednik ,,miło mi było ciebie poznać''.|en:to feel|ennote: There is a phrase <phrase>seysei choke dyet ti</phrase>, meaning literally ,,I felt great because of you'', meaning ,,It was nice to meet you''.
 seysi|ˈsɛj.si|v|pst:set ˈsɛt|siadać, siedzieć|en:to sit
+si|ˈsi|n|zewnątrz|en:outside, exterior|note:Często występuje w słowotwórstwie jako oznaczenie, że się coś robi z czegoś "na zewnątrz", np. <see>eni</see> - chodzić, <see>sini<see> - wychodzić|ennote:Commonly encountered in words creation, marking doing something "to the exterior", e.g. <see>eni</see> - to go, <see>sini<see> - to go out.
+si|ˈsi|part|partykuła kierunku - na zewnątrz|en:particle marking direction -- "out"
 siboti|ˈsi.bɔ.ti|v|pst:sibot ˈsi.bɔt|tłumaczyć, wyjaśniać|en:to explain, to clarify
 sichemi|ˈsi.t͡ʂɛ.mi|v|pst:sichent ˈsi.t͡ʂɛŋt|wybaczać, przebaczać|en:to forgive
 sićheri|si.ˈt͡ʂɛ.ri|v|pst:sićherit si.ˈt͡ʂɛ.rit|wyjeżdżać, odjeżdzać|en:to depart
-sideti|ˈsi.dɛ.ti|v|pst:sidet ˈsi.dɛt|boleć|en:to feel pain
+sideti|ˈsi.dɛ.ti|v|pst:sidet ˈsi.dɛt|boleć, odczuwać ból|en:to feel pain|note:Najczęściej oznacza "odczuwać ból i to pokazywać na zewnątrz"|ennote:Commonly used as "to feel pain and show it to the outside".
 sidowi|ˈsi.dɔ.wi|v|pst:sidowet ˈsi.dɔ.wɛt|napełniać, wypełniać|en:to fill
 sidstano|ˈsid.sta.nɔ|adj|posiadający czas wolny, być wolnym (nie zajętym)|en:having free time, to be free|example:Sidstano? Vimi yoye͞a edihi? -- Jesteś wolna? Spotkamy się później?|enexample:Sidstano? Vimi yoye͞a edihi? -- Are you free? Want to meet later?
 siéni|si.ˈɛ.ni|v|pst:siénit si.ˈɛ.nit|wykroczyć, przekroczyć (granicę, rzekę, drogę)|en:to step over (a line), to cross (a river, a river, a road)
@@ -1094,10 +1097,12 @@ sifriti|ˈsi.fri.ti|v|gasić (światło), gasić (ogień), gasić (pożar)|en:to
 sii|ˈsi:|part|jeśli, skoro, jeżeli|en:if
 siki|ˈsi.ki|v|pst:sik ˈsik|myć|en:to wash
 sikima|ˈsi.ki.ma|n|pl:sikimiji ˈsi.ki.mi.ʐi|fem|łazienka|en:bathroom
+simahi|ˈsi.ma.xi|v|pst:simahet ˈsi.ma.xɛt|wyciągać|en:to pull out
 simosti|ˈsi.mɔs.ti|v|pst:simoset ˈsi.mɔ.sɛt|wytwarzać, utwarzać, wytworzyć, utworzyć, stwarzać, stworzyć|en:to create, to build
 sindo|ˈsin.dɔ|adj|supl:sindem ˈsin.dɛm|comp:sinde ˈsin.dɛ|powolny, niemrawy, niezdarny|en:slow, sluggish
 sini|ˈsi.ni|v|wychodzić|en:to leave, to go out
 siniko|ˈsi.ni.kɔ|adj|supl:siniko͞em ˈsi.ni.kɔɛm|comp:siniko͞e ˈsi.ni.kɔɛ|wspaniały|en:amazing, wonderful
+sio|ˈsi.ɔ|adj|zewnętrzny|en:external
 sipalima|ˈsi.pa.li.ma|n|pl:sipalimji ˈsi.pa.lim.ʐi|fem|opowieść, opowiadanie|en:story
 sipalimi|ˈsi.pa.li.mi|v|opowiadać|en:to tell about, to narrate
 siro|ˈsi.rɔ|adj|bezproblemowy, jasny|en:hassle-free, bright
