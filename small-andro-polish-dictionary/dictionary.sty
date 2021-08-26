@@ -29,6 +29,16 @@
 	\skipline
 }
 
+\providecommand{\glossex}[4]{
+	\begin{exe}
+		\ex
+		\textbf{#1}
+		\gll #2 \\
+			#3 \\
+		\glt #4
+	\end{exe}
+}
+
 \ProvideDocumentCommand{\dictword}{m o}{
   \skipline
 	\IfNoValueTF{#2}{

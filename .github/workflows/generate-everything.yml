@@ -34,8 +34,7 @@ jobs:
 
       - uses: xu-cheng/latex-action@v2
         with:
-          root_file: main.tex
-          compiler: xelatex
+          root_file: main.tex          
           working_directory: small-andro-polish-dictionary
 
       - name: Generate final PDFs
