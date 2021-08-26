@@ -342,7 +342,8 @@ fasso|ˈfas.sɔ|adj|brązowy, rudobrązowy|en:brown, red-brown|note:W zasadzie n
 fasso|ˈfas.sɔ|n|kolor brązowy, rudobrązowy|en:brown, red-brown
 fatabey|ˈfa.ta.bɛj|n|pl:fatabeyos ˈfa.ta.bɛ.jɔs|serce|en:heart
 faysi|ˈfaj.si|v|pst:faysit ˈfaj.sit|pić|en:to drink
-fayso|ˈfaj.sɔ|adj|pijany|en:drunk
+fayse|ˈfaj.sɛ|n|pl:fayseji ˈfaj.sɛ.ʐi|picie, napój, napitek|en:drink, something to drink
+fayso|ˈfaj.sɔ|adj|pijany, napity, przepity|en:drunk, overdrunk, full with drinking
 feban|ˈfɛ.ban|part|podczas|en:during
 fehaset|ˈfɛ.xa.sɛt|n|pl:fehaseji ˈfɛ.xa.sɛ.ʐi|pościg|en:pursuit
 fehaseto|ˈfɛ.xa.sɛ.tɔ|adj|ścigany|en:pursuead
@@ -390,7 +391,7 @@ gepo|ˈgɛ.pɔ|adj|supl:gepem ˈgɛ.pɛm|comp:gepe ˈgɛ.pɛ|wolny, powolny|en:s
 gesber|ˈgɛs.bɛr|n|fem:gesbera ˈgɛs.bɛ.ra|pacjent|en:patient
 gesbita|ˈgɛs.bi.ta|n|pl:gesbitaji ˈgɛs.bi.ta.ʐi|fem|choroba|en:illness
 gesbiti|ˈgɛs.bi.ti|v|pst:gesbit ˈgɛs.bit|chorować|en:to be ill
-get|ˈgɛt|part|od|en:from
+get|ˈgɛt|part|od, <sc>abl</sc>|en:from, <sc>abl</sc>
 getumi|ˈgɛ.tu.mi|v|pst:getum ˈgɛ.tum|poddać|en:to surrender
 getumiro|ˈgɛ.tu.mi.rɔ|n|pl:getumiros ˈgɛ.tu.mi.rɔs|fem:getumira ˈgɛ.tu.mi.ra|poddany, np. poddany króla|en:subject, serf
 getumiro|ˈgɛ.tu.mi.rɔ|adj|poddany, np. poddany zamek wrogom|en:surrendered
@@ -435,7 +436,7 @@ heneta|ˈxɛ.nɛ.ta|n|pl:heneti ˈxɛ.nɛ.ti|fem|kaczka|en:duck
 henita|ˈxɛ.ni.ta|n|pl:henitas ˈxɛ.ni.tas|fem|stopa|en:foot
 hetay|ˈxɛ.taj|part|dzisiaj, dziś|en:today
 hifara|ˈxi.fa.ra|n|pl:hifaras ˈxi.fa.ras|fem|plecy|en:back (human)
-hima|ˈxi.ma|n|pl:himji ˈxim.ʐi|fem|dziewczyna, panna, panienka|note:Dawniej także: księżniczka.|en:girl, young girl, maiden|ennote:Formerly: princess.
+hima|ˈxi.ma|n|pl:himji ˈxim.ʐi|fem|dziewczyna, panna, panienka, dziewczyna (romantycznie)|note:Dawniej także: księżniczka.|en:girl, young girl, maiden, girlfriend|ennote:Formerly: princess.
 hinaja|ˈxi.na.ʐa|n|pl:hinaji ˈxi.na.ʐi|fem|kobieta, pani|note:Spotykana jest również forma <alt>hinata</alt>.|en:woman, lady
 hirni|ˈxir.ni|v|pst:hirnet ˈxir.nɛt|produkować|en:to produce
 hitache|ˈxi.ta.t͡ʂɛ|n|pl:hitachis ˈxi.ta.t͡ʂis|fotografia, zdjęcie|en:photo
@@ -799,7 +800,7 @@ menoje|ˈmɛ.nɔ.ʐɛ|adj|supl:menoje͞am ˈmɛ.nɔ.ʐɛam|comp:menoje͞a ˈmɛ.
 merek|ˈmɛ.rɛk|n|pl:merege ˈmɛ.rɛ.gɛ|widelec|en:fork|src:pie merga
 meter|ˈmɛ.tɛr|n|pl:meterdi ˈmɛ.tɛr.di|metr (ziemska jednostka miary)|en:meter (Earth's unit of measurement)
 mi|ˈmi|pro|ja|en:I, me
-miam|ˈmi.am|part|gdyby|en:if only
+miam|ˈmi.am|part|gdyby, jeśli, jeżeli, skoro|en:if only, if, because of
 mibali|ˈmi.ba.li|v|pst:mibat ˈmi.bat|używać|en:to use
 mibozor|ˈmi.bɔ.zɔr|n|pl:mibozoris ˈmi.bɔ.zɔ.ris|fem:mibozora ˈmi.bɔ.zɔ.ra|szkoła|note:W rodzaju żeńskim jest używana dla szkół żeńskich.|en:school|ennote:Feminine form is used for female-only schools.
 mife͞a|ˈmi.fɛa|n|pl:mife͞aji ˈmi.fɛa.ʐi|fem|fraza, zwrot|en:phrase
@@ -1014,7 +1015,7 @@ refi|ˈrɛ.fi|adj|być przeznaczonym|en:to be destined
 regu|ˈrɛ.gu|adj|supl:regu͞em ˈrɛ.guɛm|comp:regu͞e ˈrɛ.guɛ|ciemny|en:dark
 regu͞o|ˈrɛ.guɔ|n|pl:reguos ˈrɛ.gu.ɔs|ciemność|en:darkness
 reki|ˈrɛ.ki|v|pst:rek ˈrɛk|uderzyć, uderzać, atakować|en:to hit, to attack
-relita|ˈrɛ.li.ta|part|zawsze|en:always
+relita|ˈrɛ.li.ta|adj|ciągły, nieprzerwany, zawsze|en:continous, non-interrupting, always|note:Często wykorzystywany jako przysłówek ,,zawsze''.|ennote:Used commonly in a form of adverb ,,always''.
 rer|ˈrɛr|n|fem:rera rɛ.ra|osoba|en:person|note:Używane dość rzadko w formie żeńskiej.|ennote:Used very rarely in feminine form.
 reso|ˈrɛ.sɔ|part|wszędzie|en:everywhere
 ret|ˈrɛt|n|pl:retos ˈrɛ.tɔs|sieć|en:net
@@ -1106,7 +1107,6 @@ sidowi|ˈsi.dɔ.wi|v|pst:sidowet ˈsi.dɔ.wɛt|napełniać, wypełniać|en:to fi
 sidstano|ˈsid.sta.nɔ|adj|posiadający czas wolny, być wolnym (nie zajętym)|en:having free time, to be free|example:Sidstano? Vimi yoye͞a edihi? -- Jesteś wolna? Spotkamy się później?|enexample:Sidstano? Vimi yoye͞a edihi? -- Are you free? Want to meet later?
 siéni|si.ˈɛ.ni|v|pst:siénit si.ˈɛ.nit|wykroczyć, przekroczyć (granicę, rzekę, drogę)|en:to step over (a line), to cross (a river, a river, a road)
 sifriti|ˈsi.fri.ti|v|gasić (światło), gasić (ogień), gasić (pożar)|en:to turn off the light, to extuinguish a fire
-sii|ˈsi:|part|jeśli, skoro, jeżeli|en:if
 siki|ˈsi.ki|v|pst:sik ˈsik|myć|en:to wash
 sikima|ˈsi.ki.ma|n|pl:sikimiji ˈsi.ki.mi.ʐi|fem|łazienka|en:bathroom
 simahi|ˈsi.ma.xi|v|pst:simahet ˈsi.ma.xɛt|wyciągać|en:to pull out
@@ -1317,7 +1317,7 @@ vibomuder|ˈvi.bɔ.mu.dɛr|n|fem:vibomudera ˈvi.bɔ.mu.dɛ.ra|kelner, kelnerka|
 vicho|ˈvi.t͡ʂɔ|adj|częsty|en:common
 vige|ˈvi.gɛ|part|partykuła -- formalny operator optatywny ,,niech się stanie''|note:Istnieje szereg idiomów używanych wraz z~operatorem <em>vige</em>: <phrase>vige choke tay</phrase> -- miłego dnia, <phrase>vige menede</phrase> -- na zdrowie, <phrase>vige sekupa vayara</phrase> -- bezpiecznej podróży (dosłownie tłumaczy się na: ,,niech twoja podróż będzie bezpieczna''), <phrase>vige veydi</phrase> -- do widzenia (,,niech się stanie tak, abym ciebie jeszcze zobaczył'') -- często skracane do <see>vive</see>.|en:particle -- formal operator of optative mood, to wish something to happen|ennote:Many phrases are used in connection with vige, e.g. <phrase>vige choke tay</phrase> -- I wish you a good day, <phrase>vige menede</phrase> -- I wish you good health, <phrase>vige sekupa vayara</phrase> -- good trip, <phrase>vige veydi</phrase> -- see you (,,I wish we will see again'') -- often shortened to <see>vive</see>.
 viki|ˈvi.ki|v|pst:vik ˈvik|ciąć|en:to cut
-vimi|ˈvi.mi|part|partykuła -- operator trybu przypuszczającego <sc>cond</sc>, w szczególności wraz z partykułą <see>miam</see>, samodzielnie wykorzystywany w konstrukcji ,,czy nie powinieneś czegoś zrobić?''|en:particle -- operator of conditional <sc>cond</sc> mood in conjuction with <see>miam</see>, used also in <sc>cond</sc> mood ,,shouldn't you do something?''
+vimi|ˈvi.mi|part|to wtedy, partykuła -- operator trybu przypuszczającego <sc>cond</sc>, wraz z partykułą <see>miam</see>, samodzielnie wykorzystywany w konstrukcji ,,czy nie powinieneś czegoś zrobić?''|en:then, particle -- operator of conditional <sc>cond</sc> mood in conjuction with <see>miam</see>, used also in <sc>cond</sc> mood ,,shouldn't you do something?''
 vinal|ˈvi.nal|n|chleb|en:bread
 vipetode|ˈvi.pɛ.tɔ.dɛ|n|pl:vipetodes ˈvi.pɛ.tɔ.dɛs|miska|note:Dosłownie: pojemnik na jedzenie.|en:bowl|ennote:Literally: ,,container for food''.
 vipini|ˈvi.pi.ni|v|musieć, zmuszać, zmusić, przymusić|en:to have to, to must, to make someone to do something
@@ -1370,6 +1370,7 @@ wiéni|wi.ˈɛ.ni|v|pst:wiént wi.ˈɛŋt|podchodzić|en:to come to something
 wifori|ˈwi.fɔ.ri|v|pst:wiforit ˈwi.fɔ.rit|kosztować|en:to cost
 wiforo|ˈwi.fɔ.rɔ|adj|supl:wiforo͞em ˈwi.fɔ.rɔɛm|comp:wiforo͞e ˈwi.fɔ.rɔɛ|drogi, kosztowny|en:expensive
 wiḱelsani|wi.ˈkɛl.sa.ni|v|pst:wiḱelsant wi.ˈkɛl.saŋt|podporządkować się|en:to subordinate
+wirkla|ˈwir.kla|n|fem|ważność, istotność|en:importance
 wirklo|ˈwir.klɔ|adj|ważny|en:important
 wo͞an|ˈwɔ.an|n|pl:woaji ˈwɔ.a.ʐi|pióro|en:feather
 wochu|ˈwɔ.t͡ʂu|part|który? która?|en:which one?

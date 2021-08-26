@@ -61,24 +61,24 @@ def generate_tex_dictionary_entry(w):
             if w['fem'] == "FEM":
                 description = f"(\\textsc{{fem}}) " + description
             else:
-                description = f"(\\textsc{{fem}} {w['fem']} [{w['fem_speech']}]) " + description
+                description = f"(\\textsc{{fem}} {w['fem']} \\xm{{{w['fem_speech']}}}) " + description
 
         if 'pl' in w:
-            description = f"(\\textsc{{pl}} {w['pl']} [{w['pl_speech']}]) " + description
+            description = f"(\\textsc{{pl}} {w['pl']} \\xm{{{w['pl_speech']}}}) " + description
 
     if w['type'] == 'adj':
         if 'supl' in w and 'comp' in w:
-            description = f"(\\textsc{{comp}} {w['comp']} [{w['comp_speech']}], \\textsc{{supl}} {w['supl']} [{w['supl_speech']}]) " + description
+            description = f"(\\textsc{{comp}} {w['comp']} \\xm{{{w['comp_speech']}}}, \\textsc{{supl}} {w['supl']} \\xm{{{w['supl_speech']}}}) " + description
 
         elif 'supl' in w:
-            description = f"(\\textsc{{supl}} {w['supl']} [{w['supl_speech']}]) " + description
+            description = f"(\\textsc{{supl}} {w['supl']} \\xm{{{w['supl_speech']}}}) " + description
 
         elif 'comp' in w:
-            description = f"(\\textsc{{comp}} {w['comp']} [{w['comp_speech']}]) " + description
+            description = f"(\\textsc{{comp}} {w['comp']} \\xm{{{w['comp_speech']}}}) " + description
 
     if w['type'] == 'v':
         if 'pst' in w:
-            description = f"(\\textsc{{pst}} {w['pst']} [{w['pst_speech']}]) " + description
+            description = f"(\\textsc{{pst}} {w['pst']} \\xm{{{w['pst_speech']}}}) " + description
 
     if 'redirect' in w:
         print_output(

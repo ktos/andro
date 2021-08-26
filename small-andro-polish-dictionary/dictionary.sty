@@ -2,6 +2,7 @@
 \ProvidesPackage{dictionary}
 
 \RequirePackage{xparse}
+\RequirePackage{textglos}
 \providecommand{\skipline}{\par\bigskip}
 
 \providecommand{\fullindent}{
@@ -33,7 +34,7 @@
 	\IfNoValueTF{#2}{
 		\noindent\textbf{{#1}}
 	}{
-  	\noindent\textbf{{#1}}\markboth{#1}{#1} [{#2}]
+  	\noindent\textbf{{#1}}\markboth{#1}{#1} \xm{#2}
 	}
 }
 
@@ -42,7 +43,7 @@
 	\IfNoValueTF{#2}{
 		\noindent\textbf{{#1}}
 	}{
-  	\noindent\textbf{{#1}} [{#2}]
+  	\noindent\textbf{{#1}} \xm{#2}
 	}
 }
 

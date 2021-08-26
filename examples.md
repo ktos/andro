@@ -63,11 +63,11 @@ interrupt.older.PRS stop.PRS IMP girl
 
 ## She always acts recklessly when in trouble.
 
-*Egla relita kecho fari voli okupao avi.*
+*Egla fari relita kecho voli okupao avi.*
 
 ```
-Egl-a relita kecho    fari    voli okupao  avi
-3SG-F always reckless act.PRS when trouble have.PRS
+Egl-a fari    relita kecho    voli okupao  avi
+3SG-F act.PRS always reckless when trouble have.PRS
 ```
 
 ## He didnt't answer, only stared at her dead body.
