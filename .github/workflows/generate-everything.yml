@@ -34,7 +34,7 @@ jobs:
 
       - uses: xu-cheng/latex-action@v2
         with:
-          root_file: $GITHUB_WORKSPACE/small-andro-polish-dictionary/main.tex
+          root_file: small-andro-polish-dictionary/main.tex
           compiler: xelatex
 
       - name: Generate final PDFs
