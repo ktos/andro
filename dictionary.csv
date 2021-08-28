@@ -88,6 +88,7 @@ aśeysi|a.ˈsɛj.si|v|pst:aśet a.ˈsɛt|przesiadać|en:to change trains, to cha
 aspen|ˈas.pɛn|n|pl:aspenji as.pɛn.ʐi|moździerz|en:mortar
 aśtopi|a.ˈstɔ.pi|v|pst:aśtot a.ˈstɔt|przestawać, zatrzymywać się|en:to stop (oneself), to stop doing something
 aśulger|a.ˈsul.gɛr|n|fem:aśulgera a.ˈsul.gɛ.ra|asystent, asystentka|en:assistant
+aśulgi|a.ˈsul.gi|v|pst:aśulgit a.ˈsul.git|asystować, wspomagać, pomagać (w czymś)|en:to assist, to help (with something)
 asweo|ˈas.wɛ.ɔ|adj|poprzedni|en:previous
 ati|ˈa.ti|adj|pierwszy, pierwsze|en:first
 atibaheno|ˈa.ti.ba.xɛ.nɔ|adj|najlepszy, pierwszorzędny, najwyższej klasy|en:the best, the best of class, first class, first row
@@ -152,6 +153,7 @@ brasi|ˈbra.si|v|pst:brasit ˈbra.sit|kupić, kupować|en:to buy
 brat|ˈbrat|n|pl:bratos ˈbra.tɔs|brat|en:brother
 brateva|ˈbra.tɛ.va|n|pl:bratevaji ˈbra.tɛ.va.ʐi|fem|kompania wojskowa, (obecnie: zgrupowanie wojskowe około 500 ludzi)|en:type of military unit, about 500 soldiers
 bratever|ˈbra.tɛ.vɛr|n|pl:brateveros ˈbra.tɛ.vɛ.rɔs|fem:bratevera ˈbra.tɛ.vɛ.ra|kapral|en:corporal
+brei|ˈbrɛ.i|v|pst:bret ˈbrɛt|puszczać, odłączać|en:to release, to detach|src:btg tlattlaii
 bucho|ˈbu.t͡ʂɔ|n|wola|en:will
 budar|ˈbu.dar|n|okrucieństwo|en:cruelty
 budaro|ˈbu.da.rɔ|adj|supl:budare͞am ˈbu.da.rɛam|comp:budare͞a ˈbu.da.rɛa|okrutny|en:cruel
@@ -341,8 +343,8 @@ fassa|ˈfas.sa|n|pl:fassaji ˈfas.sa.ʐi|fem|gleba, ziemia|en:soil
 fasso|ˈfas.sɔ|adj|brązowy, rudobrązowy|en:brown, red-brown|note:W zasadzie nie do końca oznacza kolor brązowy, a czerwono-brązowy. To słowo zostało zaimportowane bezpośrednio z języka Rilla, razem z <see>fassa</see>, gleba, a w Rilla kolor gleby jest właśnie bardziej rudobrązowy niż ciemnobrązowy. Niektóre dialekty rozróżniają te kolory używając określenia <see>maŕido</see> jako koloru ciemnobrązowego, jednak w <em>ardo andro</em> oznacza wszystkie odcienie brązu.|ennote:It's used for every brown variant in <em>ardo andro</em>, but it primarily means red-brown. This word, along with <see>fassa</see> has been introduced from Rilla language, and Rilla soil has a unique red-brown color. Some dialects are using also <see>maŕido</see> as dark brown.
 fasso|ˈfas.sɔ|n|kolor brązowy, rudobrązowy|en:brown, red-brown
 fatabey|ˈfa.ta.bɛj|n|pl:fatabeyos ˈfa.ta.bɛ.jɔs|serce|en:heart
-faysi|ˈfaj.si|v|pst:faysit ˈfaj.sit|pić|en:to drink
 fayse|ˈfaj.sɛ|n|pl:fayseji ˈfaj.sɛ.ʐi|picie, napój, napitek|en:drink, something to drink
+faysi|ˈfaj.si|v|pst:faysit ˈfaj.sit|pić|en:to drink
 fayso|ˈfaj.sɔ|adj|pijany, napity, przepity|en:drunk, overdrunk, full with drinking
 feban|ˈfɛ.ban|part|podczas|en:during
 fehaset|ˈfɛ.xa.sɛt|n|pl:fehaseji ˈfɛ.xa.sɛ.ʐi|pościg|en:pursuit
@@ -1143,6 +1145,8 @@ sormo|ˈsɔr.mɔ|n|pl:sormiji ˈsɔr.mi.ʐi|wschód (kierunek), wschód słońca
 sosbet|ˈsɔs.bɛt|n|pl:sosbetos ˈsɔs.bɛ.tɔs|fem:sosbeta ˈsɔs.bɛ.ta|podejrzany|en:suspect
 sotak|ˈsɔ.tak|part|ktoś|en:someone
 soter|ˈsɔ.tɛr|part|kto|en:who
+stirener|ˈsti.rɛ.nɛr|n|fem:stirenera ˈsti.rɛ.nɛ.ra|pl:stireneros ˈsti.rɛ.nɛ.rɔs|biznesmen, przedsiębiorca|en:businessman, entrepreneur|src:btg eyve
+stirera|ˈsti.rɛ.ra|n|fem|przedsiębiorstwo, firma, biznes|en:entrepreneurship, company, business
 sto.be|ˈstɔ.bɛ|n|pl:stobes ˈstɔ.bɛs|popiół|en:ash
 stoamjor|ˈstɔ.am.ʐɔr|n|pl:stoamji ˈstɔ.am.ʐi|program (komputerowy), algorytm, przepis|en:computer programme, algorithm, recipe
 stobo|ˈstɔ.bɔ|adj|szary|en:gray|note:Od <see>stobo</see>, popiół.|ennote:From <see>stobo</see>, ash.
@@ -1235,6 +1239,7 @@ tuteger|ˈtu.tɛ.gɛr|n|pl:tutegeros ˈtu.tɛ.gɛ.rɔs|fem:tutegera ˈtu.tɛ.gɛ
 tuvi|ˈtu.vi|v|pst:tuvit ˈtu.vit|brać|en:to take
 tyi|ˈtʏ|pro|twój, ciebie, tobie <sc>2sg.acc</sc> lub <sc>2sg.poss</sc>|en:your, yourself, you <sc>2sg.acc</sc>, <sc>2sg.poss</sc>
 tyoi|ˈtjɔ.i|pro|wasze, wam, was <sc>2pl.acc</sc>, <sc>2pl.poss</sc>|en:your (plural), <sc>2pl.acc</sc>, <sc>2pl.poss</sc>
+ub́rei|u.ˈbrɛ.i|v|pst:ub́ret u.ˈbrɛt|wypuszczać, wypuszczać na zewnątrz|en:to let out, to release out
 ufer|ˈu.fɛr|n|fem:ufera ˈu.fɛ.ra|pl:uferos ˈu.fɛ.rɔs|handlarz, kupiec, sprzedawca|en:merchant, seller
 ufi|ˈu.fi|v|pst:ufit ˈu.fit|handlować, sprzedawać|en:to trade, to sell
 uf́riti|u.ˈfri.ti|v|pst:uf́rit u.ˈfrit|palić, spalić, wypalić|en:to burn
