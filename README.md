@@ -24,7 +24,7 @@ I have no formal education in linguistics and doing this mostly for fun.
 
 ## License
 
-Everything in here is licensed under CC-BY-SA 4.0. If you would like to use
+Everything in here is licensed under CC-BY 4.0. If you would like to use
 Andro in any of your own creations, feel free to do that, but please attribute
 myself and possibly this repository. Game, book, movie? Absolutely no problem,
 it would be amazing to see Andro anywhere, but remember that many of it make
@@ -175,7 +175,7 @@ In other columns if the columns starts with:
   `pl:word IPA` (space separated),
 * `pst:`, it is treated as past version of the vern, it should has a form of
   `pst:word IPA` (space separated),
-* `fem:`, it is treated as female grammatical gender version of the noun, it
+* `fem:`, it is treated as feminine grammatical gender version of the noun, it
   should has a form of `fem:word IPA` (space separated),
 * `comp:`, it is treated as comparative version of the adjective, it should has
   a form of `comp:word IPA` (space separated),
@@ -189,7 +189,7 @@ In other columns if the columns starts with:
 * `enexample:`, it is an example usage in English,
 * `note:`, it is a note in Polish,
 * `src:`, it is a "source" of a word, e.g. Pra-Indo-European (PIE),
-* if the column is only `fem`, it marks noun as having only female grammatical
+* if the column is only `fem`, it marks noun as having only feminine grammatical
   gender,
 * in other cases, it is treated as description in Polish.
 
