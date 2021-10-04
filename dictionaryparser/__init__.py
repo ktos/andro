@@ -72,6 +72,8 @@ def parse_descfile_word(worddesc):
             x['english_examples'].append(ennote)
         elif i.startswith("src:"):
             x['src'] = i[4:]
+        elif i.startswith("morph:"):
+            x['morph'] = i[6:]
         else:
             x['description'] = i
 

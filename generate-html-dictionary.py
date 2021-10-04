@@ -85,6 +85,9 @@ def generate_words(rows, lang):
                 word[j] = row[j]
                 word[j + "_speech"] = row[j + "_speech"]
 
+        if 'morph' in row:
+            word['notes'].append(row['morph'])
+
         words.append(word)
     return words
 

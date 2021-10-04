@@ -1,7 +1,7 @@
 And́royas|an.ˈdrɔ.jas|n|nazwa własna określająca kraj: Cesarstwo And́royas, <phrase>Eygeride yi And́royas</phrase>|en:proper noun for a <phrase>Eygeride yi And́royas</phrase>, a country
 And́royasyi|an.ˈdrɔ.ja.sʏ|adj|And́royasański|en:adjective, androyas'
 Aríos|ar.ˈi.ɔs|n|nazwa własna określająca księżyc planety Maŕid, Księżyc|en:proper noun for Maŕid's moon, the Moon
-NEBS|ˈnɛ.bɛ.si|name|policja, patrz <see>nebesi</see>|en:police, see <see>nebesi</see>
+NEBS|ˈnɛ.bɛs|name|policja, patrz <see>nebesi</see>|en:police, see <see>nebesi</see>
 Nowaja|nɔ.wa.ʐa|n|nazwa własna określająca stolicę And́royas|en:the capital city of And́royas
 Seja|ˈsɛ.ʐa|n|fem|gwiazda układu Maŕid|en:the central star of the Maŕid system
 a|ˈa|n|jeden, jedynka|en:one
@@ -224,8 +224,8 @@ churche|ˈʈ͡ʂur.ʈ͡ʂɛ|part|przez, via, przez czas, przez odległość, prz
 chutojer|ˈʈ͡ʂu.tɔ.ʐɛr|n|pl:chutojerji ˈʈ͡ʂu.tɔ.ʐɛr.ʐi|system, układ|note:Na przykład <phrase>Solyi chutojer</phrase> -- Układ Słoneczny.|en:system, layout|ennote:<phrase>Solyi chutojer</phrase> -- The Solar System.
 chuwure|ˈʈ͡ʂu.wu.rɛ|n|pl:chuwuros ˈʈ͡ʂu.wu.rɔs|autobus|en:bus
 chyi|ˈʈ͡ʂʏ|part|czyj, kogo, czego|note:Również używany jako zaimek zwrotny ,,się'' <sc>refl</sc>.|en:whose|ennote:Used also as reflexive pronoun <sc>refl</sc>.
-chyi|ˈʈ͡ʂʏ|pro|należący do tej rzeczy <sc>3sg.poss</sc>|en:belonging to that thing <sc>3sg.poss</sc>
-da|ˈda|part|partykuła wyznaczająca narzędnik <sc>ins</sc>|en:particle for a instrumental case <sc>ins</sc>
+chyi|ˈʈ͡ʂʏ|pro|należący do tej rzeczy <sc>3.nan.poss</sc>|en:belonging to that thing <sc>3.nan.poss</sc>|note:Używane tylko w odniesieniu do rzeczy nieożywionych (<sc>nan</sc>), bardzo rzadkie.|ennote:Used only in relation to inanimated things (<sc>nan</sc>), very rare.
+da|ˈda|part|partykuła wyznaczająca narzędnik <sc>ins</sc>, może być stosowane także jako pytanie ,,czym'', ,,jakim narzędziem''|en:particle for a instrumental case <sc>ins</sc>, may be used in questions ,,with what'', ,,using what tool''
 dabeyo|ˈda.bɛ.jɔ|part|więcej|en:more
 dachu|ˈda.ʈ͡ʂu|part|mniej|en:less
 dak|ˈdak|n|pl:dakos ˈda.kɔs|okno|en:window
@@ -369,7 +369,7 @@ fehaseto|ˈfɛ.xa.sɛ.tɔ|adj|ścigany|en:pursuead
 fehasi|ˈfɛ.xa.si|v|pst:fehasit ˈfɛ.xa.sit|ścigać|en:to pursue
 felivya|ˈfɛ.li.vja|n|fem|pl:felivyas ˈfɛ.li.vjas|zwycięstwo|en:victory
 feliwi|ˈfɛ.li.wi|v|pst:feliwit ˈfɛ.li.wit|zwyciężać, zwyciężyć, <phrase>feliwi a</phrase> -- zwyciężać kogoś|en:to win
-fema|ˈfɛ.ma|n|fem|pl:femji ˈfɛm.ʐi|gałąź, gałęzie|en:branch
+fema|ˈfɛ.ma|n|fem|pl:femji ˈfɛm.ʐi|gałąź, gałęzie, w szerszym znaczeniu także dowolna część rośliny|en:branch, in broader sense any part of the plant
 femai|ˈfɛ.ma.i|v|pst:femat ˈfɛ.mat|rozgałęziać, odchodzić od pnia|en:to fork, to branch
 femi|ˈfɛ.mi|v|pst:femit ˈfɛ.mit|wisieć|en:to hang
 femo|ˈfɛ.mɔ|adj|wiszący|en:hanging
@@ -932,6 +932,7 @@ nirudo|ˈni.ru.dɔ|n|pl:nirudos ˈni.ru.dɔs|punkt (w sporcie), gol, cel|en:poin
 nisi|ˈni.si|v|pst:nisit ˈni.sit|lepić z gliny, formować, kształtować|en:to create from clay, to mold, to mould
 niyi|ˈni.ʏ|pro|nasze, nas, nam <sc>1pl.acc</sc> lub <sc>1pl.poss</sc>|en:our or ours
 no|ˈnɔ|part|nie|en:no, not
+no|ˈnɔ|part|zamiast|en:instead of
 no͞epos|ˈnɔɛ.pɔs|n|niemożność|en:inability
 nochiso|ˈnɔ.ʈ͡ʂi.sɔ|adj|comp:nochiso͞e ˈnɔ.ʈ͡ʂi.sɔɛ|supl:nochiso͞em ˈnɔ.ʈ͡ʂi.sɔɛm|głęboki|en:deep
 nodi|ˈnɔ.di|pro|my ekskluzywne|note:Oznacza ``my, ale nie włącznie z~tobą''. Spotykany najczęściej tylko w dialekcie pustynnym.|en:exclusive we|ennote:Means ,,we, but not including you''. Used only in Desert Dialect.
@@ -1267,7 +1268,7 @@ tamoki|ˈta.mɔ.ki|v|pst:tamok ˈta.mɔk|odwiedzać, wizytować|en:to visit
 tamoko|ˈta.mɔ.kɔ|n|odwiedziny, wizyta|en:visit
 tanoni|ˈta.nɔ.ni|v|pst:tanot ˈta.nɔt|zarabiać|en:to earn money
 tar|ˈtar|part|zbyt|en:too (too much, too many)
-taris|ˈta.ris|n|pl:taris ˈta.ris|ostrze|en:blade
+taris|ˈta.ris|n|pl:taris ˈta.ris|ostrze, krawędź|en:blade, edge
 tasek|ˈta.sɛk|n|pl:taskos ˈtas.kɔs|stół|en:table
 tati|ˈta.ti|adj|czwarty|en:fourth
 taúnin|ta.ˈu.nin|n|pl:taúninos ta.ˈu.ni.nɔs|plaster (mięsa), kromka (chleba), kawałek ciasta, część, fragment|en:a slice of meat, slice of bread, part, fragment
@@ -1422,6 +1423,7 @@ vibi|ˈvi.bi|v|pst:vibit ˈvi.bit|jeść|en:to eat
 vibo|ˈvi.bɔ|n|jedzenie|en:food
 vibomuder|ˈvi.bɔ.mu.dɛr|n|fem:vibomudera ˈvi.bɔ.mu.dɛ.ra|kelner, kelnerka|en:waiter, waitress
 vicho|ˈvi.ʈ͡ʂɔ|adj|częsty|en:common
+vidi|ˈvi.di|v|pst:vit ˈvit|skręcać, kręcić, zmieniać bieg, zmieniać kurs|en:to turn, to change course
 vige|ˈvi.gɛ|part|partykuła -- formalny operator optatywny ,,niech się stanie''|note:Istnieje szereg idiomów używanych wraz z~operatorem <em>vige</em>: <phrase>vige choke tay</phrase> -- miłego dnia, <phrase>vige menede</phrase> -- na zdrowie, <phrase>vige sekupa vayara</phrase> -- bezpiecznej podróży (dosłownie tłumaczy się na: ,,niech twoja podróż będzie bezpieczna''), <phrase>vige veydi</phrase> -- do widzenia (,,niech się stanie tak, abym ciebie jeszcze zobaczył'') -- często skracane do <see>vive</see>.|en:particle -- formal operator of optative mood, to wish something to happen|ennote:Many phrases are used in connection with vige, e.g. <phrase>vige choke tay</phrase> -- I wish you a good day, <phrase>vige menede</phrase> -- I wish you good health, <phrase>vige sekupa vayara</phrase> -- good trip, <phrase>vige veydi</phrase> -- see you (,,I wish we will see again'') -- often shortened to <see>vive</see>.
 viki|ˈvi.ki|v|pst:vik ˈvik|ciąć|en:to cut
 vimi|ˈvi.mi|part|to wtedy, partykuła -- operator trybu przypuszczającego <sc>cond</sc>, wraz z partykułą <see>miam</see>, samodzielnie wykorzystywany w konstrukcji ,,czy nie powinieneś czegoś zrobić?''|en:then, particle -- operator of conditional <sc>cond</sc> mood in conjuction with <see>miam</see>, used also in <sc>cond</sc> mood ,,shouldn't you do something?''
@@ -1582,3 +1584,5 @@ zoyer|ˈzɔ.jɛr|n|wróg, przeciwnik, nieprzyjaciel|en:enemy
 zujo|ˈzu.ʐɔ|n|pst:zujos ˈzu.ʐɔs|sztorm, burza, tajfun|en:storm, typhoon
 zupa|ˈzu.pa|n|fem|pl:zupaji ˈzu.pa.ʐi|zupa|en:soup|src:pie supa
 zuyo|ˈzu.jɔ|n|pl:zuyos ˈzu.jɔs|szturm, atak, natarcie|en:storm, assault, offensive|src:btg sulkal
+tari|ˈta.ri|v|pst:tarit ˈta.rit|ostrzyć, naostrzyć|en:to sharpen
+taryo|ˈta.rjɔ|adj|ostry|comp:taryo͞e ˈtar.jɔɛ|supl:taryot ˈtar.jɔt|en:sharp

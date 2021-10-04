@@ -107,29 +107,29 @@ wɔ.ʈ͡ʂu zi.mɛ.bi il gɛ.tu.mi.rɔs zi.mɛ.bi il gɛ.tu.mi.rɔs ɛ rɛt.tɔi
 Vek vek baán in lonte, lonte zihoseja...
 old old time in far    far   galaxy
 
-Virejyi   Worji
-star-POSS war-PL
+Virej-yi   Wor-ji
+star -POSS war-PL
 
 Nu͞er Bochada
-new   hope
+new  hope
 
-Baán chu maltornyi wora esi.
-time GEN home-POSS war  be.PRS
+Baán chu maltorn-yi   wora esi.
+time GEN home   -POSS war  be.PRS
 
-Jetuhano zeuyerotes, chu reki    a͞u   kopero busola, va  feliwit a       gir Zihosejyi   E͞igeride ati   razi.
-rebel    starship-PL GEN hit-PRS from  hidden base    PFV win-PST against bad galaxy-POSS empire    first time
+Jetuhano zeuyerot-es chu reki    a͞u   kopero busola  va  feliwi-t   a       gir Zihosej-yi   E͞igeride ati   razi
+rebel    starship-PL GEN hit.PRS from hidden base    PFV win   -PST against bad galaxy -POSS empire   first time
 
-Feban  je  diosa, jetuhano  vugineros jawiri    runailo issudos chu E͞igeridyi ultik    deíto, KARLAYI    VIREJA va  mayarmonit,
-during ART battle rebel-ADJ spy-PL    steal-PRS secret  plan-PL GEN empire-GEN ultimate weapon death-POSS star   PST manage-PST
+Feban  je  diosa  jetuhan-o vuginer-os jawiri    runailo issud-os chu E͞igerid-yi   ultik    deíto  KARLA-YI   VIREJA va  mayarmoni-t
+during ART battle rebel-ADJ spy    -PL steal.PRS secret  plan -PL GEN empire -POSS ultimate weapon death-POSS star   PST manage   -PST
 
-vitokaro    zeuyeno   peayo   elazi       rigeypa per sado  sekaya mejeri.
-armored-ADJ space-ADJ station possess-PRS power   to  whole planet destroy-PRS
+vitokar-o   zeuyen-o   peayo   chu elazi       rigeypa per sado  sekaya mejeri
+armored-ADJ space -ADJ station GEN possess.PRS power   to  whole planet destroy.PRS
 
-Fehaseto    chu E͞igeridyi  keyrito  tosaperji, Leya-kigeje͞a jiki      o       maltorn a        suzotu yi   il      zeuyerot, egi arśiti   chu
-pursued-ADJ GEN empire-POSS sinister officer-PL Leya princess run-PRS PTCL.to home    PTCL.at  board  POSS 3SG.GEN spaceship 3SG care-PRS GEN
+Fehaset-o   chu E͞igerid-yi   keyrito  tosaper-ji Leya-kigeje͞a  jiki    o  maltorn a  suzotu yi   il       zeuyerot  egi arśiti   chu
+pursued-ADJ GEN empire -POSS sinister officer-PL Leya princess run.PRS to home    on board  POSS 3SG.POSS spaceship 3SG care.PRS GEN
 
-jawiro    issudos wochu      zimebi   il       getumiros  e   retto͞i    zihosejyi   jarana  epi.
-steal-ADJ plan-PL PTCL.which save-PRS 3SG-POSS subject-PL and return-PRS galaxy-POSS freedom can-PRS
+jawir-o   issudo-s  wochu  zimebi   il       getumir-os e   retto͞i     zihosej-yi  jarana  epi
+steal-ADJ plan  -PL which  save.PRS 3SG.POSS subject-PL and return.PRS galaxy-POSS freedom can.PRS.AUX
 ```
 
 ## Structure of this repository
