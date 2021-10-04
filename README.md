@@ -86,20 +86,20 @@ zihosejyi jarana zipemi.
 
 /vi.rɛ.ʐʏ wɔr.ʐi/
 
-/nuɛr bɔ.t͡ʂa.da/
+/nuɛr bɔ.ʈ͡ʂa.da/
 
-/ba.ˈan t͡ʂu mal.tɔr.nʏ wɔ.ra ɛsi/
+/ba.ˈan ʈ͡ʂu mal.tɔr.nʏ wɔ.ra ɛsi/
 
-/ʐɛ.tu.xa.nɔ zɛ.u.jɛ.rɔ.tɛs t͡ʂu rɛ.ki au kɔ.pɛ.rɔ bu.sɔ.la va fɛ.li.wi a gir
+/ʐɛ.tu.xa.nɔ zɛ.u.jɛ.rɔ.tɛs ʈ͡ʂu rɛ.ki au kɔ.pɛ.rɔ bu.sɔ.la va fɛ.li.wi a gir
 zi.xɔ.sɛ.ʐʏ ɛi.gɛ.ri.dɛ a.ti ra.zi/
 
-/fɛ.ban ʐɛ di.ɔ.sa ʐɛ.tu.xa.nɔ vu.gi.nɛ.rɔs ʐa.wi.ri ru.na.i.lɔ is.su.dɔs t͡ʂu
+/fɛ.ban ʐɛ di.ɔ.sa ʐɛ.tu.xa.nɔ vu.gi.nɛ.rɔs ʐa.wi.ri ru.na.i.lɔ is.su.dɔs ʈ͡ʂu
 ɛi.gɛ.ri.dʏ ul.tik dɛ.ˈi.to, kar.laʏ vi.rɛ.ʐa va ma.jar.mɔ.ni vi.tɔ.ka.rɔ
 zɛ.u.jɛ.nɔ pɛ.a.jɔ ɛ.la.zi ri.gɛj.pa pɛr sa.dɔ sɛ.ka.ja mɛ.ʐɛ.ri/
 
-/fɛ.xa.sɛ.tɔ t͡ʂu ɛi.gɛ.ri.dʏ kɛj.ri.tɔ tɔ.sa.pɛr.ʐi lɛ.ja ki.gɛ.ʐea ʐi.ki o
-mal.tɔrn a su.zɔ.tu ʏ il zɛ.u.jɛ.rɔt ɛgi ar.ˈsi.ti t͡ʂu ʐa.wi.rɔ is.su.dɔs
-wɔ.t͡ʂu zi.mɛ.bi il gɛ.tu.mi.rɔs zi.mɛ.bi il gɛ.tu.mi.rɔs ɛ rɛt.tɔi zi.xɔ.sɛ.ʐʏ
+/fɛ.xa.sɛ.tɔ ʈ͡ʂu ɛi.gɛ.ri.dʏ kɛj.ri.tɔ tɔ.sa.pɛr.ʐi lɛ.ja ki.gɛ.ʐea ʐi.ki o
+mal.tɔrn a su.zɔ.tu ʏ il zɛ.u.jɛ.rɔt ɛgi ar.ˈsi.ti ʈ͡ʂu ʐa.wi.rɔ is.su.dɔs
+wɔ.ʈ͡ʂu zi.mɛ.bi il gɛ.tu.mi.rɔs zi.mɛ.bi il gɛ.tu.mi.rɔs ɛ rɛt.tɔi zi.xɔ.sɛ.ʐʏ
 ʐa.ra.na ɛpi/
 ```
 
