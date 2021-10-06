@@ -37,10 +37,18 @@ jobs:
           root_file: main.tex          
           working_directory: small-andro-polish-dictionary
 
+      - uses: xu-cheng/latex-action@v2
+        with:
+          root_file: main.tex          
+          working_directory: small-andro-english-dictionary
+
       - name: Generate final PDFs
         run: |
           cd $GITHUB_WORKSPACE/small-andro-polish-dictionary/          
-          cp main.pdf ../final/small-andro-polish-dictionary.pdf          
+          cp main.pdf ../final/small-andro-polish-dictionary.pdf
+
+          cd $GITHUB_WORKSPACE/small-andro-english-dictionary/
+          cp main.pdf ../final/small-andro-english-dictionary.pdf          
 
       - name: Generate MD tables and wordlists
         run: |
