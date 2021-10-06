@@ -1,4 +1,4 @@
-% !TEX program = xelatex
+% !TEX program = latexmk
 \documentclass[openany, twoside, b5paper]{book}
 
 \usepackage[b5paper]{geometry}
@@ -23,14 +23,16 @@
 
 \usepackage{libertine}
 
-\usepackage{titlesec}
-\newcommand{\sectionbreak}{\clearpage}
-
 \usepackage{multicol}
 \usepackage{dictionary}
 \usepackage{enumitem}
 \usepackage{setspace}
 \usepackage{booktabs}
+\usepackage{hyperref}
+
+\usepackage{leipzig}
+\usepackage{gb4e}\noautomath
+\usepackage{typgloss}
 
 %\setcounter{secnumdepth}{2}
 %\setcounter{tocdepth}{2}
@@ -74,8 +76,6 @@
 \mainmatter
 \chapter{Introduction}
 \input{introduction.tex}
-%\input{history.tex}
-%\input{description.tex}
 
 \chapter{Andro-English Dictionary}
 \input{ap.tex}

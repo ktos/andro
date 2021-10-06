@@ -2,6 +2,7 @@
 \ProvidesPackage{dictionary}
 
 \RequirePackage{xparse}
+\RequirePackage{textglos}
 \providecommand{\skipline}{\par\bigskip}
 
 \providecommand{\fullindent}{
@@ -28,12 +29,22 @@
 	\skipline
 }
 
+\providecommand{\glossex}[4]{
+	\begin{exe}
+		\ex
+		\textbf{#1}
+		\gll #2 \\
+			#3 \\
+		\glt #4
+	\end{exe}
+}
+
 \ProvideDocumentCommand{\dictword}{m o}{
   \skipline
 	\IfNoValueTF{#2}{
 		\noindent\textbf{{#1}}
 	}{
-  	\noindent\textbf{{#1}}\markboth{#1}{#1} [{#2}]
+  	\noindent\textbf{{#1}}\markboth{#1}{#1} \xm{#2}
 	}
 }
 
@@ -42,7 +53,7 @@
 	\IfNoValueTF{#2}{
 		\noindent\textbf{{#1}}
 	}{
-  	\noindent\textbf{{#1}} [{#2}]
+  	\noindent\textbf{{#1}} \xm{#2}
 	}
 }
 
