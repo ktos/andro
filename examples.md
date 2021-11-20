@@ -182,9 +182,37 @@ Traditional lullaby sang on the Greater Rem island.
 
 *Enitye ya... a dechu pimer chetni fyuche*
 
-`ɛnitjɛ ya a dɛt͡ʂu pimɛr t͡ʂɛtni fjut͡ʂɛ`
+`/ɛnitjɛ ya a dɛt͡ʂu pimɛr t͡ʂɛtni fjut͡ʂɛ/`
 
 ```
 enity-e  ya  a   dechu pimer chetni        fyuche
 rule -PL TOP one only  thing stand.against chaos
 ```
+
+## If you think you're free, there's no escape possible.
+
+*Miam ti rori ti jarano esi vimi lugita esi no*
+
+`/miam ti rɔ.ri ti ʐa.ra.nɔ ɛ.si vi.mi lu.gi.ta ɛ.si nɔ/`
+
+```
+miam    ti  rori      ti  jarano esi    vimi      lugita esi    no
+if.COND 2SG think.PRS 2SG free   be.PRS then.COND escape be.PRS NEG
+```
+
+"If you think you are free, then there is no escape."
+
+## The most frightening demon is the one who has the face of an angel.
+
+*Nikuno͞em kayachuke... esi je elazi enka yi orayachuke.*
+
+`/ni.ku.nɔɛm ka.ja.ʈ͡ʂu.kɛ ɛsi ʐɛ ɛ.la.zi ɛn.ka ʏ ɔ.ra.ja.ʈ͡ʂu.kɛ/`
+
+```
+nikun  -o   -em   kay  -achuke esi    je  elazi    enka yi   oray-achuke
+frighten-ADJ-SUPL night-angel  be.PRS DEM have.PRS face POSS god -angel
+```
+
+"The most frightening demon is the one who has the face of an angel."
+
+[Image](https://i.imgur.com/d0IR6Hb.png)
