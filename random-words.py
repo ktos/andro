@@ -3,6 +3,8 @@
 
 from random import choice, random
 
+alls = [line.rstrip() for line in open('./final/words-all.txt', encoding='utf-8')]
+
 consonants = [ 'b', 'ch', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'w', 'y', 'z' ]
 vowels = [ 'a', 'e', 'i', 'o', 'u' ]
 
@@ -34,4 +36,7 @@ for k in range(2):
         for j in range(3, 5 + k):
             word += choice(syllabes)
 
-        print(word)
+        if word not in alls:
+            print(word)
+        else:
+            continue

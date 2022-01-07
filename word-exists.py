@@ -4,7 +4,7 @@
 import sys
 
 # load all possible syllabes
-alls = [line.rstrip() for line in open('./words-all.txt', encoding='utf-8')]
+alls = [line.rstrip() for line in open('./final/words-all.txt', encoding='utf-8')]
 
 if len(sys.argv) > 1:
     if sys.argv[1] == '-':
