@@ -1,0 +1,82 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{dictionary}
+
+\RequirePackage{xparse}
+\RequirePackage{textglos}
+\providecommand{\skipline}{\par\bigskip}
+
+\providecommand{\fullindent}{
+	\hangindent=\parindent
+	\hangafter=1
+}
+
+\providecommand{\note}[1]{
+	\skipline
+	\fullindent
+	\textit{{#1}}
+}
+
+\providecommand{\examples}[2]{
+	\skipline
+	\noindent
+	\textit{{#1}} --- {#2}	
+}
+
+\providecommand{\example}[2]{
+	\skipline
+	\noindent
+	\textit{{#1}} --- {#2}
+	\skipline
+}
+
+\providecommand{\glossex}[4]{
+	\begin{exe}
+		\ex
+		\textbf{#1}
+		\gll #2 \\
+			#3 \\
+		\glt #4
+	\end{exe}
+}
+
+\ProvideDocumentCommand{\dictword}{m o}{
+  \skipline
+	\IfNoValueTF{#2}{
+		\noindent\textbf{{#1}}
+	}{
+  	\noindent\textbf{{#1}}\markboth{#1}{#1} \xm{#2}
+	}
+}
+
+\ProvideDocumentCommand{\dictwordb}{m o}{
+  \skipline
+	\IfNoValueTF{#2}{
+		\noindent\textbf{{#1}}
+	}{
+  	\noindent\textbf{{#1}} \xm{#2}
+	}
+}
+
+\ProvideDocumentCommand{\dictwordd}{m}{
+	\noindent
+	\textbf{{#1}}
+}
+
+\ProvideDocumentCommand{\dictred}{m}{
+	\noindent
+	patrz \textit{{#1}}
+}
+
+\ProvideDocumentCommand{\dictterm}{m o m}{
+	\noindent
+	\IfNoValueTF{#2}{
+		\emph{{#1}}.\enspace{#3}
+	}{
+		{#1}.\enspace\textit{(#2)} {#3}
+	}
+}
+
+\ProvideDocumentCommand{\dicttermd}{m}{
+	\noindent
+	{#1}	
+}
