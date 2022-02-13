@@ -1,79 +1,100 @@
-% !TEX program = arara
-% !TEX options = -v %DOC%
+% !TEX program = latexmk
 
-% arara: xelatex
-% arara: makeglossaries
-% arara: xelatex
+\documentclass[b5paper,justified,nobib,nofonts]{tufte-book}
 
-\documentclass[openany, twoside, b5paper]{memoir}
+% fix for tufte-book working with XeLaTeX
+\renewcommand\allcapsspacing[1]{{\addfontfeature{LetterSpace=15}#1}}
+\renewcommand\smallcapsspacing[1]{{\addfontfeature{LetterSpace=10}#1}}
 
-\usepackage[b5paper]{geometry}
-\brokenpenalty=1000
-\clubpenalty=1000
-\widowpenalty=1000
+% Book metadata
+\title{An Outline of the Grammar of Andro}
+\author{Koolder mal Erlehirni}
+\publisher{Royal And́royas Publishing House}
 
+% For nicely typeset tabular material
+\usepackage{booktabs}
+
+% For graphics / images
+\usepackage{graphicx}
+\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
+\graphicspath{{graphics/}}
+\usepackage{microtype}
 \usepackage{libertine}
 
-\usepackage{microtype} % Improves spacing
+% fix for small caps in glosses
+\renewcommand{\textsc}[1]{\textsmallcaps{#1}}
 
+\usepackage{fancyvrb}
+\fvset{fontsize=\normalsize}
 
-% Layout for title page, cf. titlepages package
-\newlength\drop
-\makeatletter
-\newcommand*{\titleS}{\begingroup% Scripts, T&H p 151
-\drop = 0.1\textheight
-\centering
-\vspace*{\drop}
-{\large Koolder mal Erlehirni}\\[2\baselineskip]
-{\Huge Andro Grammar Handbook}\\[\baselineskip]
-\vfill
-%{\large\itshape Benung.\ The Ayeri Language Resource}\\
-%\rule{0.5\textwidth}{0.4pt}\smallskip\\
-{Koolder mal Erlehirni\\ Lublin, Poland · 2021}\par
-\vspace*{\drop}
-\endgroup}
-\makeatother
+\newcommand{\hangp}[1]{\makebox[0pt][r]{(}#1\makebox[0pt][l]{)}}
+\newcommand{\hangstar}{\makebox[0pt][l]{*}}
+\usepackage{xspace}
 
-% Layout for running page titles
-\nouppercaseheads
-\copypagestyle{sfheaders}{headings}
-\makeevenhead{sfheaders}{\sffamily{\bfseries\thepage}\quad{\itshape\leftmark}}{}{}
-\makeoddhead{sfheaders}{}{}{\sffamily{\itshape\rightmark}\quad\bfseries\thepage}
-% \makeheadrule{headings}{\textwidth}{0.3pt}
-\pagestyle{sfheaders}
+% Prints an epigraph and speaker in sans serif, all-caps type.
+\newcommand{\openepigraph}[2]{%
+  %\sffamily\fontsize{14}{16}\selectfont
+  \begin{fullwidth}
+  \sffamily\large
+  \begin{doublespace}
+  \noindent\allcaps{#1}\\% epigraph
+  \noindent #2% author
+  \end{doublespace}
+  \end{fullwidth}
+}
 
-% Layout for Notes pages
-\copypagestyle{notes}{headings}
-\makeevenhead{notes}{}{\sffamily{\bfseries Notes}}{}
-\makeoddhead{notes}{}{\sffamily{\bfseries Notes}}{}
+\newcommand{\blankpage}{\newpage\hbox{}\thispagestyle{empty}\newpage}
 
-% Layout for chapter headers
-\chapterstyle{southall}
-\renewcommand*{\chaptitlefont}{\huge\sffamily\raggedright}
+\usepackage{units}
 
-% Sectioning depth
-\setcounter{secnumdepth}{2} % doesn't work for some reason
-\setsecnumdepth{subsection}
-\settocdepth{subsection}
-
-% Space requirements
-% \usepackage{needspace}
-
-% Calculation stuff
-% \usepackage{calc}
-
-% Load fonts for XeTeX, including support for Unicode etc.
-% Mathspec makes it possible to redefine *all* the fonts used for math stuff,
-% however, it contains a stupid bug in dependency checking, see
-% <http://tex.stackexchange.com/a/85700>.
-% \usepackage{mathspec}
-% \makeatletter
-% % undo the wrong changes made by mathspec
-% \let\RequirePackage\original@RequirePackage
-% \let\usepackage\RequirePackage
-
-\usepackage{xunicode}
-\usepackage{xltxtra}
+\newcommand{\measure}[3]{#1/#2$\times$\unit[#3]{pc}}
+\newcommand{\hlred}[1]{\textcolor{Maroon}{#1}}% prints in red
+\newcommand{\hangleft}[1]{\makebox[0pt][r]{#1}}
+\newcommand{\hairsp}{\hspace{1pt}}% hair space
+\newcommand{\hquad}{\hskip0.5em\relax}% half quad space
+\newcommand{\TODO}{\textcolor{red}{\bf TODO!}\xspace}
+\newcommand{\ie}{\textit{i.\hairsp{}e.}\xspace}
+\newcommand{\eg}{\textit{e.\hairsp{}g.}\xspace}
+\newcommand{\na}{\quad--}% used in tables for N/A cells
+\providecommand{\XeLaTeX}{X\lower.5ex\hbox{\kern-0.15em\reflectbox{E}}\kern-0.1em\LaTeX}
+\newcommand{\tXeLaTeX}{\XeLaTeX\index{XeLaTeX@\protect\XeLaTeX}}
+% \index{\texttt{\textbackslash xyz}@\hangleft{\texttt{\textbackslash}}\texttt{xyz}}
+\newcommand{\tuftebs}{\symbol{'134}}% a backslash in tt type in OT1/T1
+\newcommand{\doccmdnoindex}[2][]{\texttt{\tuftebs#2}}% command name -- adds backslash automatically (and doesn't add cmd to the index)
+\newcommand{\doccmddef}[2][]{%
+  \hlred{\texttt{\tuftebs#2}}\label{cmd:#2}%
+  \ifthenelse{\isempty{#1}}%
+    {% add the command to the index
+      \index{#2 command@\protect\hangleft{\texttt{\tuftebs}}\texttt{#2}}% command name
+    }%
+    {% add the command and package to the index
+      \index{#2 command@\protect\hangleft{\texttt{\tuftebs}}\texttt{#2} (\texttt{#1} package)}% command name
+      \index{#1 package@\texttt{#1} package}\index{packages!#1@\texttt{#1}}% package name
+    }%
+}% command name -- adds backslash automatically
+\newcommand{\doccmd}[2][]{%
+  \texttt{\tuftebs#2}%
+  \ifthenelse{\isempty{#1}}%
+    {% add the command to the index
+      \index{#2 command@\protect\hangleft{\texttt{\tuftebs}}\texttt{#2}}% command name
+    }%
+    {% add the command and package to the index
+      \index{#2 command@\protect\hangleft{\texttt{\tuftebs}}\texttt{#2} (\texttt{#1} package)}% command name
+      \index{#1 package@\texttt{#1} package}\index{packages!#1@\texttt{#1}}% package name
+    }%
+}% command name -- adds backslash automatically
+\newcommand{\docopt}[1]{\ensuremath{\langle}\textrm{\textit{#1}}\ensuremath{\rangle}}% optional command argument
+\newcommand{\docarg}[1]{\textrm{\textit{#1}}}% (required) command argument
+\newenvironment{docspec}{\begin{quotation}\ttfamily\parskip0pt\parindent0pt\ignorespaces}{\end{quotation}}% command specification environment
+\newcommand{\docenv}[1]{\texttt{#1}\index{#1 environment@\texttt{#1} environment}\index{environments!#1@\texttt{#1}}}% environment name
+\newcommand{\docenvdef}[1]{\hlred{\texttt{#1}}\label{env:#1}\index{#1 environment@\texttt{#1} environment}\index{environments!#1@\texttt{#1}}}% environment name
+\newcommand{\docpkg}[1]{\texttt{#1}\index{#1 package@\texttt{#1} package}\index{packages!#1@\texttt{#1}}}% package name
+\newcommand{\doccls}[1]{\texttt{#1}}% document class name
+\newcommand{\docclsopt}[1]{\texttt{#1}\index{#1 class option@\texttt{#1} class option}\index{class options!#1@\texttt{#1}}}% document class option name
+\newcommand{\docclsoptdef}[1]{\hlred{\texttt{#1}}\label{clsopt:#1}\index{#1 class option@\texttt{#1} class option}\index{class options!#1@\texttt{#1}}}% document class option name defined
+\newcommand{\docmsg}[2]{\bigskip\begin{fullwidth}\noindent\ttfamily#1\end{fullwidth}\medskip\par\noindent#2}
+\newcommand{\docfilehook}[2]{\texttt{#1}\index{file hooks!#2}\index{#1@\texttt{#1}}}
+\newcommand{\doccounter}[1]{\texttt{#1}\index{#1 counter@\texttt{#1} counter}}
 
 % Handle language and quotation marks
 \usepackage{polyglossia}
@@ -82,381 +103,124 @@
 	style=american,
 	english=american,
 	autopunct,
-]{csquotes} % Put quotations in \enquote{} or \textquote{}!
-\SetBlockEnvironment{quote}
-\renewcommand*{\mkccitation}[1]{ (#1)}
+]{csquotes}
 
-% Date and time
-% \usepackage[useregional]{datetime2}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{booktabs}
+\usepackage{hyperref}
 
-% Extended formatting of lists
-% \usepackage{enumitem}
-% \newlist{glossdefs}{itemize}{1}
-% \setlist[glossdefs]{nosep, leftmargin=4.5em, labelwidth=4em, align=left}
-% \setlist[itemize]{noitemsep}
-% \setlist[description]{font=\sffamily\bfseries}
-
-% Make multiple columns available in single-column document
-% \usepackage{multicol}
-
-% Relative font sizes
-% \usepackage{relsize}
-
-% Nicer footnotes
-\usepackage[bottom,hang,norule]{footmisc}
-\setlength{\footnotesep}{0.75\baselineskip}
-
-% Things for tables; needs to be loaded *before* hyperref if footnotes in
-% tables are supposed to work (bug in tabu where they still don't?)
-% \usepackage{longtable}
-% \usepackage{tabu}
-% \usepackage{booktabs}
-% \usepackage{bigstrut}
-% \usepackage{array}
-% \usepackage{adjustbox}
-% \usepackage{makecell}
-% \AtBeginEnvironment{tabu}{\smaller}
-% \usepackage{rotating}
-% \usepackage{multirow}
-
-% \tabulinesep = .5\itemsep
-
-% \newenvironment{morphlex}{%
-% 	\tabulinesep = 0pt%
-% }{%
-% \ignorespacesafterend%
-% }
-
-% Dealing with page-size tables in landscape format
-% http://tex.stackexchange.com/a/19021, and hat tip to Git user Zoqaeski:
-% \usepackage{pdflscape} % alternative to rotating; rotates pages on screen
-% \usepackage{afterpage} % put things after the page they're defined on
-
-% Appendices
-\usepackage{appendix}
-
-% Custom column types
-\newcolumntype{B}{>{\bfseries}X}
-\newcolumntype{I}{>{\itshape}X}
-\newcolumntype{H}{>{\bfseries\footnotesize}X}
-\newcolumntype{S}{>{\footnotesize}X}
-\newcolumntype{C}{>{\scshape}X}
-
-% Table header font
-% \newcommand{\tableheaderfont}{\rowfont{\upshape\bfseries}}
-% \newcommand{\tablesubheaderfont}{\rowfont{\upshape\bfseries\footnotesize}}
-
-% Clickable links in footnotes, TOC, etc.
-% \usepackage[
-% 	xetex,
-% 	pdfusetitle,
-% 	bookmarks,
-% 	linktoc=section,
-% 	colorlinks=false,
-% 	hidelinks,
-% ]{hyperref}
-
-% Write "section" instead of "subsection", "subsubsection" etc.
-\let\subsectionautorefname\sectionautorefname
-\let\subsubsectionautorefname\sectionautorefname
-
-% Formatting of URLs
-% \DeclareFieldFormat{url}{\href{#1}{\itshape #1}}
-% \def\UrlNoBreaks{\do\(\do\[\do\{\do\<\do\:}
-% \urlstyle{same}
-
-% Ability to include graphics and dealing with footnotes in descriptions
-\usepackage{graphicx}
-\usepackage[
-	font={small,sf},
-	labelfont={small,sf},
-	format=plain,
-	skip=.25\baselineskip
-]{caption}
-\graphicspath{ {../images/} }
-
-% Increase rubber between a float and text. Otherwise, we may get up to a
-% line's worth of whitespace between paragraphs when a float is at the top.
-% (https://tex.stackexchange.com/a/26522)
-% \setlength{\textfloatsep}{20pt plus 8pt minus 4pt}
-
-% Throughout the book, examples are wrapped in floats to dynamically position 
-% them. By default, LaTeX tries to put floats at the top of pages, disrupting 
-% the reading flow. For examples especially, thus, we want them to be placed 
-% 'here', if possible, or at the top of the next page (cf. 'memoir' package 
-% manual, p. 177f.)
-\setfloatlocations{figure}{htbp}
-
-% \usepackage{subcaption}
-% \usepackage{wrapfig}
-% \setlength{\columnsep}{2\baselineskip}
-
-% Formatting of table of glossing abbreviations inspired by the example from 
-% the leipzig package manual; here changed to use a user-defined list 
-% environment, 'glossdefs' (see above).
-\usepackage[acronym,nomain,nonumberlist,nopostdot]{glossaries}
-\usepackage{glossary-inline}%
-\setglossarysection{section}
-
-\newglossarystyle{mysuper}{%
-	\renewenvironment{theglossary}{%
-		\begin{multicols}{2}
-		\begin{glossdefs}%
-	}{%
-		\end{glossdefs}%
-		\end{multicols}%
-	}%
-	\renewcommand*{\glossaryheader}{}%
-	\renewcommand*{\glsgroupheading}[1]{}%
-	\renewcommand*{\glossaryentryfield}[5]{%
-		\item[\glsentryitem{##1}\glstarget{##1}{##2}]
-		% \makefirstuc{##3}\glspostdescription{}
-		##3\glspostdescription{}
-	}%
-	\renewcommand*{\glsgroupskip}{}%
-}%
-
-% Formatting of glosses
-% \usepackage{expex}
-% \pretocmd{\chapter}{\excnt=1}{}{}
-% \lingset{Everyex=\smaller\citereset,aboveglftskip=0pt}
-
-% Third-level enumeration for expex examples,
-% cf. http://tex.stackexchange.com/a/77941
-% \def\beginsubsub{%
-% \par
-% \begingroup
-% \advance\leftskip by 2em
-% \def\b##1{\par\leavevmode\llap{\hbox to 2em{##1\hfil}}\ignorespaces}}
-% \def\endsubsub{\par\endgroup}
-
-% Glosses in footnotes
-% \newcounter{fnexno}
-% \setcounter{fnexno}{1}
-% \definelingstyle{fnex}{
-% %	exno=\footnotesize\roman{fnexno}\stepcounter{fnexno},
-% 	exno=\roman{fnexno}\stepcounter{fnexno},
-% %	everyex=\footnotesize,
-% 	numoffset=\footnotemargin,
-% 	aboveexskip=2ex,
-% 	belowglpreambleskip=-1ex,
-% 	interpartskip=0.5ex,
-% 	aboveglftskip=-1ex,
-% 	belowexskip=0ex,
-% }
-
-% Calculate remaining space in line for ex and pex,
-% cf. https://tex.stackexchange.com/a/376534
-% \newlength{\remaining}
-% \newlength{\exoffset}
-% \newcommand{\remainpex}{%
-%    \setlength{\remaining}{\linewidth-\lingtextoffset-\linglabelwidth-
-%       \lingnumoffset-\linglabeloffset-\widthof{\exnoprint}}%
-%    \setlength{\exoffset}{\linewidth-\remaining}
-% }
-% \newcommand{\remainex}{%
-%    \setlength{\remaining}{\linewidth-\lingnumoffset-
-%       \lingtextoffset-\widthof{\exnoprint}}%
-%    \setlength{\exoffset}{\linewidth-\remaining}
-% }
-% \pretocmd{\pex}{\remainpex}{}{}
-% \pretocmd{\ex}{\remainex}{}{}
-
-
-\usepackage[glosses]{leipzig}
+\usepackage{leipzig}
 \usepackage{gb4e}\noautomath
 \usepackage{typgloss}
 \usepackage{dictionary}
 
+\makeglossaries
 \newleipzig{an}{an}{animated}
 \newleipzig{nan}{nan}{non-animated}
 \newleipzig{hort}{hort}{hortative}
 \newleipzig{exh}{exh}{exhortative}
 \newleipzig{chr}{chr}{cohortative}
 \newleipzig{opt}{opt}{optative}
-\newleipzig{frm}{frm}{formal}
-\newleipzig{nfrm}{nfrm}{non-formal}
+\newleipzig{for}{for}{formal}
 \newleipzig{ven}{ven}{venitive}
 \newleipzig{dim}{dim}{diminutive}
 \newleipzig{ord}{ord}{ordinal numeral}
-\renewleipzig{comp}{comp}{comparative}
 \newleipzig{supl}{supl}{superlative}
 \newleipzig{hon}{hon}{honorific}
 \newleipzig{emph}{emph}{emphasizer}
-\makeglossaries
 
-% Keyword index
-% \usepackage{imakeidx}
-% \indexsetup{
-% 	level=\chapter,
-% 	toclevel=chapter,
-% }
+\newcommand{\randro}[1]{{\textit{#1}}}
+\newcommand{\tandro}[2]{\textit{#1}\footnotemark\footnotetext{\textit{andr.} #2}}
+% \newcommand{\rand}[2]{\smash{{\Tagati #1}} \emph{#2}} % Ayeri orthography + *r*omanization
+% \newcommand{\tand}[2]{\emph{#1} `#2'} % Romanization + *t*ranslation
+% \newcommand{\xand}[3]{\zwsp\smash{\Tagati #1} \emph{#2} `#3'} % Ayeri orthography + romanization + translation
+
+% Generates the index
+% \usepackage{makeidx}
 % \makeindex
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\author{Koolder mal Erlehirni}
-\title{Andro Grammar Handbook}
-\newcommand*{\plogo}{\fbox{$\mathcal{AND}$}} % Generic dummy publisher logo
 
 \begin{document}
 
-%% HALF TITLE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+% Front matter
 \frontmatter
 
-\begin{titlingpage*}
-\begin{center}
-{\Huge Andro Grammar Handbook}
-\end{center}
-\end{titlingpage*}
+% there should be cover?
 
-%% TITLE PAGE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% blank page
+\blankpage
 
-\begin{titlingpage*}
-\titleS
-\clearpage
-\input{./chapters/colophon.tex}
-\end{titlingpage*}
+% citations
+\newpage\thispagestyle{empty}
+\input{epigraphs.tex}
 
-%% FRONT MATTER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% full title page
+\maketitle
 
-% \begin{KeepFromToc}
-% \tableofcontents
-% \end{KeepFromToc}
-%\clearpage
+% colophon
+\newpage
+\input{colophon.tex}
 
-%\listoffigures
-%\clearpage
+% table of contents
+\tableofcontents
 
-%\listoftables
+% dedication
+% \cleardoublepage
+% \input{dedication.tex}
 
-\chapter{List of Abbreviations}
-\begingroup\multicolsep=0pt
-\printglossary[style=mysuper, type=leipzig, title={Glossing abbreviations}]
-\endgroup
-\bigskip
+% introduction out of universe
+\cleardoublepage
+\chapter*{Preface}
+\input{chapters/preface.tex}
 
-% \section*{Grammaticality judgments}
-% \noindent \begin{tabular}[t]{@{} l l}
-% *		& ungrammatical or undocumented \\
-% \ques	& questionable \\
-% \excl	& running counter to expectation \\
-% \hash	& marked \\
-%\end{tabular}
-\cleartorecto
-
-\input{./chapters/preface.tex}
-\cleartorecto
-
-%% MAIN MATTER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+%%
+% Start the main matter (normal chapters)
 \mainmatter
 
-% Index: see ...
-% \index{accusative-and-infinitive|see{verbs}}
-% \index{adjunct|see{grammatical function}}
-% \index{AdvP|see{phrase types}}
-% \index{agent|see{case, semantic role}}
-% \index{AP|see{phrase types}}
-% \index{beneficiary|see{semantic role}}
-% \index{causative|see{case}}
-% \index{causer|see{semantic role}}
-% \index{comparative|see{comparison, verbs}}
-% \index{complement|see{grammatical function}}
-% \index{control|see{verbs}}
-% \index{dative|see{case}}
-% \index{depictive|see{adjectives}}
-% \index{DP|see{phrase types}}
-% \index{exceptional case-marking|see{verbs}}
-% \index{experiencer|see{semantic role}}
-% \index{focus|see{grammatical function}}
-% \index{future|see{tense}}
-% \index{genitive|see{case}}
-% \index{goal|see{semantic role}}
-% \index{habitual|see{aspect}}
-% \index{hortative|see{mood}}
-% \index{imperative|see{mood}}
-% \index{indicative|see{mood}}
-% \index{instrumental|see{case}}
-% \index{instrument|see{semantic role}}
-% \index{IP|see{phrase types}}
-% \index{irrealis|see{mood}}
-% \index{iterative|see{aspect}}
-% \index{location|see{semantic role}}
-% \index{locative|see{case}}
-% \index{names|see{nouns}}
-% \index{negative|see{mood}}
-% \index{NP|see{phrase types}}
-% \index{object|see{grammatical function}}
-% \index{oblique|see{grammatical function}}
-% \index{past|see{tense}}
-% \index{patient|see{case, semantic role}}
-% \index{plural|see{number}}
-% \index{possessor|see{semantic role}}
-% \index{postpositions|see{adpositions}}
-% \index{PP|see{phrase types}}
-% \index{predicative|see{adjectives, grammatical function}}
-% \index{prepositions|see{adpositions}}
-% \index{present|see{tense}}
-% \index{progressive|see{aspect}}
-% \index{raising|see{verbs}}
-% \index{recipient|see{semantic role}}
-% \index{resultative|see{adjectives}}
-% \index{secondary predication|see{adjectives}}
-% \index{singular|see{number}}
-% \index{source|see{semantic role}}
-% \index{subject|see{grammatical function}}
-% \index{S|see{phrase types}}
-% \index{theme|see{semantic role}}
-% \index{topic|see{grammatical function}}
-% \index{trigger@`trigger'|see{grammatical function}}
-% \index{VP|see{phrase types}}
+\chapter{Introduction}
+\label{ch:introduction}
+\input{chapters/introduction.tex}
 
-% Index: see also ...
-% \index{case!agent|seealso{semantic role}}
-% \index{case!patient|seealso{semantic role}}
-% \index{comparison|seealso{verbs}}
-% \index{mood!negative|seealso{negation}}
-% \index{negation|seealso{mood}}
-% \index{questions|seealso{pronouns}}
-% \index{semantic role!agent|seealso{case}}
-% \index{semantic role!patient|seealso{case}}
+\chapter{Background}
+\label{ch:background}
+\input{chapters/background.tex}
 
-\input{./chapters/introduction.tex}
-\cleartorecto
+\chapter{Phonetics and phonology}
+\label{ch:phonetics}
+\input{chapters/phonetics.tex}
 
-% \input{./chapters/phonology.tex}
-% \cleartorecto
+\chapter{Morphology}
+\label{ch:morphology}
+\input{chapters/morphology.tex}
 
-% \input{./chapters/gramcat.tex}
-% \cleartorecto
+\chapter{Syntax}
+\label{ch:syntax}
+\input{chapters/syntax.tex}
 
-% \input{./chapters/syntax.tex}
-% \cleartorecto
+\chapter{Derivational morphology}
+\label{ch:derivational}
+\input{chapters/derivational.tex}
 
-% \input{./chapters/morphology.tex}
-% \cleartorecto
-
-%% APPENDIX %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\appendix
-\cleartorecto
-
-% \input{./chapters/history.tex}
-% \cleartorecto
-
-% \input{./chapters/writing.tex}
-% \cleartorecto
-
-\input{./chapters/examples.tex}
-\cleartorecto
-
-%% BACK MATTER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+% back matter
 \backmatter
 
-\begingroup\multicolsep=0pt
-%\printindex
-\endgroup
+\chapter{Appendix A, Writing Systems}
+\label{ch:appendixa}
+\input{chapters/appendix-writing.tex}
+
+% \chapter{Appendix B, Examples}
+% \input{chapters/appendix-examples.tex}
+
+% \bibliography{sample-handout}
+% \bibliographystyle{plainnat}
+
+\listoffigures
+
+\listoftables
+
+\printglossary
+
+% \printindex
 
 \end{document}
