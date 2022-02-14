@@ -114,7 +114,7 @@ aśulgi|a.ˈsul.gi|v|pst:aśulgit a.ˈsul.git|asystować, wspomagać, pomagać (
 asweo|ˈas.wɛ.ɔ|adj|poprzedni|en:previous
 ati|ˈa.ti|adj|pierwszy, pierwsze|en:first
 atibaheno|ˈa.ti.ba.xɛ.nɔ|adj|najlepszy, pierwszorzędny, najwyższej klasy|en:the best, the best of class, first class, first row
-atji|ˈat.ʐi|v|pst:atjit ˈat.ʐit|sadzić rośliny|en:to plant
+atji|ˈat.ʐi|v|pst:atjit ˈat.ʐit|sadzić rośliny, uprawiać rośliny|en:to plant, to grow plants, to cultivate
 atya|ˈat.ja|n|fem|pl:atyaji ˈat.ja.ʐi|roślina|en:plant
 a͞u|ˈau|part|,,z'' lub ,,o''|en:,,from'' or ,,about''
 avek|ˈa.vɛk|adj|przestarzały|en:obsolete, outdated
@@ -437,6 +437,8 @@ flo|ˈflɔ|n|pl:flos ˈflɔs|kwiat|en:flower
 fo|ˈfɔ|part|dla (kogoś, czegoś), partykuła wyznaczająca celownik <sc>dat</sc>; <phrase>fo tyi lipet</phrase> -- dla twojego dobra|en:for, particle for <sc>dat</sc>, dativus
 fok|ˈfɔk|n|pl:fokos ˈfɔ.kɔs|nazwa drobnej waluty używanej w Cesarstwie, ,,grosz''|en:proper noun for a small coin -- ,,cent''
 for|ˈfɔr|n|pl:foros ˈfɔ.rɔs|nazwa waluty używanej w Cesarstwie, ,,złoty''|note:Etymologia tego słowa jest jasna -- pochodzi od <see>forn</see>, czyli faktycznie oznacza ,,złoty''. Symbolem waluty Cesarstwa używanym w transkrypcji jest <em>Ƒ</em>.|en:proper noun for a Empire's currency, <em>Ƒ</em>
+forfi|ˈfɔr.fi|v|pst:forfit ˈfɔr.fit|opłacać (z góry), opłacać (się), być opłacalnym|en:to pay in advance, to be profitable
+forfo|ˈfɔr.fɔ|adj|comp:forfe͞o ˈfɔr.fɛɔ|supl:forfem ˈfɔr.fɛm|opłacalny|en:profitable
 fori|ˈfɔ.ri|v|pst:forit ˈfɔ.rit|płacić, <phrase>fori fo</phrase> -- płacić za kogoś lub za coś, <phrase>fori o</phrase> -- płacić komuś|en:to pay
 forn|ˈfɔrn|n|złoto|en:gold
 fote͞o|ˈfɔ.tɛɔ|adj|comp:fote͞a ˈfɔ.tɛa|supl:fote͞am ˈfɔ.tɛam|śliczny|en:lovely
@@ -828,6 +830,7 @@ laoche|ˈla.ɔ.ʈ͡ʂɛ|n|pl:laoches ˈla.ɔ.ʈ͡ʂɛs|gratulacje|en:congratulat
 laochi|ˈla.ɔ.ʈ͡ʂi|v|pst:lachit ˈla.ʈ͡ʂit|gratulować|en:to congratulate
 larima|ˈla.ri.ma|n|pl:larimji ˈla.rim.ʐi|fem|droga|note:W dialekcie zachodnim używane jest również <see>tao͞a</see>.|en:road|ennote:In the West <see>tao͞a</see> is used sometimes.
 larka|ˈlar.ka|n|pl:larkeji ˈlar.kɛ.ʐi|fem|mewa|en:seagull
+lasno|ˈlas.nɔ|adj|mylący|en:misleading, confusing|src:btg Rekja anti
 layko|ˈlaj.kɔ|part|jako; <phrase>fari layko</phrase> -- pracować jako|en:as, <phrase>fari layko</phrase> -- to work as
 layneya|ˈlaj.nɛ.ja|n|pl:layniji ˈlaj.nit|fem|przyjemność|en:pleasure
 layni|ˈlaj.ni|v|pst:laynit ˈlaj.nit|sprawiać przyjemność|en:to give someone pleasure, to pleasure someone
@@ -1390,6 +1393,7 @@ tagerer|ˈta.gɛ.rɛr|n|pl:tagereros ˈta.gɛ.rɛ.rɔs|fem:tagerera ˈta.gɛ.rɛ
 tageri|ˈta.gɛ.ri|v|pst:tagerit ˈta.gɛ.rit|oszukiwać|en:to cheat
 taichi|ˈta.i.ʈ͡ʂi|v|pst:taichit ˈta.i.ʈ͡ʂit|trenować|en:to train
 takari|ˈta.ka.ri|v|pst:takarit ˈta.ka.rit|pojawiać się|en:to appear
+talin|ˈta.lin|n|pl:talinos ˈta.li.nɔs|strumień, spływ|en:stream, flux, flush|src:btg Na Xy Pakhtaq
 tamoki|ˈta.mɔ.ki|v|pst:tamok ˈta.mɔk|odwiedzać, wizytować|en:to visit
 tamoko|ˈta.mɔ.kɔ|n|odwiedziny, wizyta|en:visit
 tanoni|ˈta.nɔ.ni|v|pst:tanot ˈta.nɔt|zarabiać|en:to earn money
@@ -1528,12 +1532,15 @@ vapal|ˈva.pal|n|pl:vapalos ˈva.pa.lɔs|ojciec|en:father
 varda|ˈvar.da|n|fem|pl:vardaji ˈvar.da.ʐi|wzgórek, wzgórze, pagórek|en:hill
 varsi|ˈvar.si|v|pst:vajat ˈva.ʐat|wstawać, wstać, stać, stawać|en:to stand
 vati|ˈva.ti|v|pst:vat ˈvat|patrzeć|en:to lool
+vawan|ˈva.wan|n|pl:vawane ˈva.wa.nɛ|piractwo, korsarstwo, rozbój|en:piracy, privateering, robbery|src:btg Tabesj
+vawaner|ˈva.wa.nɛr|n|pl:vawaneros ˈva.wa.nɛ.rɔs|fem:vawanera ˈva.wa.nɛ.ra|pirat, kaper, korsarz|en:pirate, corsair
 vay|ˈvaj|part|partykuła wzmacniająca pytania ,,czy''|en:particle marking stronger questions
 vayara|ˈva.ja.ra|n|pl:vayarji ˈva.jar.ʐi|fem|podróż|en:voyage, trip, travel
 vayaren|ˈva.ja.rɛn|n|pl:vayarenjos ˈva.ja.rɛn.ʐɔs|fem:vayarena ˈva.ja.rɛ.na|podróżnik|en:voyager, traveller
 vayareni|ˈva.ja.rɛ.ni|v|podróżować|en:to travel
 vayaro|ˈva.ja.rɔ|adj|podróżujący|note:Bardziej popularna forma, ale w~dialekcie pustynnym pojawia się określenie <see>vyage</see>.|en:travelling|ennote:In the Desert Dialect <see>vyage</see> is used sometimes.
 vayi|ˈva.ji|part|czyjś|en:someone's
+vechi|ˈvɛ.ʈ͡ʂi|n|pl:vechi ˈvɛ.ʈ͡ʂi|pałeczki do jedzenia, sztućce|en:chopsticks, cutlery|src:btg Tabesj
 vechireder|ˈvɛ.ʈ͡ʂi.rɛ.dɛr|n|pl:vechiredeji ˈvɛ.ʈ͡ʂi.rɛ.dɛ.ʐi|fem:vechiredera ˈvɛ.ʈ͡ʂi.rɛ.dɛ.ra|głupiec, głupek|en:stupid person
 vechiredo|ˈvɛ.ʈ͡ʂi.rɛ.dɔ|n|głupota|en:stupideness
 vechiret|ˈvɛ.ʈ͡ʂi.rɛt|adj|supl:vechiredem ˈvɛ.ʈ͡ʂi.rɛ.dɛm|comp:vechirede ˈvɛ.ʈ͡ʂi.rɛ.dɛ|głupi, głupszy, najgłupszy|en:stupid
@@ -1666,6 +1673,7 @@ yavagusa|ˈja.va.gu.sa|n|fem|pl:yavaguji ˈja.va.gu.ʐi|jakość|en:quality|src:
 ye|ˈjɛ|part|tak, tja (nieformalne)|en:yes, ya (informal)
 yeécho|jɛ.ˈɛ.ʈ͡ʂɔ|part|oczywiście|en:of course!
 yeitto|ˈjɛ.it.tɔ|n|pl:yeitji ˈjɛ.it.ʐi|historia, historyjka|en:history, story
+yeka|ˈjɛ.ka|n|pl:yekas ˈjɛ.kas|fem|ryż|en:rice
 yeki|ˈjɛ.ki|v|szyć|en:to sew
 yelona|ˈjɛ.lɔ.na|n|pl:yelonaji ˈjɛ.lɔ.na.ʐi|fem|linia, kolejka (np. w sklepie)|en:line, queue
 yeloni|ˈjɛ.lɔ.ni|v|pst:yelonit ˈjɛ.lɔ.nit|stawać w kolejce|en:to queue, to enqueue
