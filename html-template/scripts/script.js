@@ -152,6 +152,10 @@ function selectWord(id) {
 
    main.querySelector(".translation").innerHTML = word.translation;
 
+   if (currentLang == 'pl') {
+      main.querySelector(".translation").innerHTML += "<br><br><small>" + words_en[id].translation + "</small>";
+   }
+
    if ('pl' in word) {
       main.querySelector(".pl").innerHTML = `<span class="sc" title="${scTitlesPL[currentLang]}">pl</span> ${word.pl} <span class="ipa">[${word.pl_speech}]</span>`;
    } else {

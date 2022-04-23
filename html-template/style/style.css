@@ -1,15 +1,9 @@
-@font-face {
-  font-family: "MainFont";
-  src: url("../res/LibertinusSans-Regular.otf");
-  font-weight: 400;
-}
-
 body {
   margin: 0;
 }
 
 h1, h2, h3, h4, p, label, li, input {
-  font-family: "MainFont";
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
@@ -128,7 +122,7 @@ header h1 {
   margin-left: 20px;
 }
 
-input[type=text] {
+input[type=search] {
   width: calc(100% - 30px);
   height: 100%;
   padding-left: 25px;
