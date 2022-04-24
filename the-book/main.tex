@@ -110,7 +110,11 @@
 \usepackage{setspace}
 \usepackage{booktabs}
 \usepackage{hyperref}
+\usepackage{lscape}
+\usepackage{xspace}
 
+% Linguistic things
+\usepackage{vowel}
 \usepackage{leipzig}
 \usepackage{gb4e}\noautomath
 \usepackage{typgloss}
@@ -135,6 +139,7 @@
 \newleipzig{emph}{emph}{emphasizer}
 
 \newcommand{\randro}[1]{{\textit{#1}}}
+\newcommand{\andro}{\emph{andro}\xspace}
 \newcommand{\tandro}[2]{\textit{#1}\footnotemark\footnotetext{\textit{andr.} #2}}
 % \newcommand{\rand}[2]{\smash{{\Tagati #1}} \emph{#2}} % Ayeri orthography + *r*omanization
 % \newcommand{\tand}[2]{\emph{#1} `#2'} % Romanization + *t*ranslation
@@ -181,38 +186,17 @@
 % Start the main matter (normal chapters)
 \mainmatter
 
-\chapter{Introduction}
-\label{ch:introduction}
 \input{chapters/introduction.tex}
-
-\chapter{Background}
-\label{ch:background}
 \input{chapters/background.tex}
-
-\chapter{Phonetics and phonology}
-\label{ch:phonetics}
 \input{chapters/phonetics.tex}
-
-\chapter{Morphology}
-\label{ch:morphology}
 \input{chapters/morphology.tex}
-
-\chapter{Syntax}
-\label{ch:syntax}
 \input{chapters/syntax.tex}
-
-\chapter{Derivational morphology}
-\label{ch:derivational}
 \input{chapters/derivational.tex}
 
 % back matter
 \backmatter
 
-\chapter{Appendix A, Writing Systems}
-\label{ch:appendixa}
 \input{chapters/appendix-writing.tex}
-
-% \chapter{Appendix B, Examples}
 % \input{chapters/appendix-examples.tex}
 
 % \bibliography{sample-handout}
