@@ -2,10 +2,11 @@
 # coding: utf-8
 
 import sys
-import dictionaryparser
+import andro.dictionary as dictionary
 
 # output
 output = []
+
 
 def format_description(desc):
     desc = desc.replace("<see>", "*")
@@ -31,6 +32,7 @@ def format_description(desc):
 
     return desc
 
+
 def print_output(str=""):
     """Prints to output"""
     output.append(str)
@@ -40,7 +42,7 @@ def generate_md_dictionary_entry(w, lang='pl'):
     """Generates Markdown dictionary entry based on an parsed descfile object"""
     output = []
 
-    desckey = 'description' if lang == 'pl' else 'english_description'    
+    desckey = 'description' if lang == 'pl' else 'english_description'
 
     if 'redirect' in w:
         return
@@ -55,7 +57,7 @@ def generate_md_dictionary_entry(w, lang='pl'):
         if fem == "FEM":
             fem = '!!'
 
-        s = f"{w['word']}|{pl}|{fem}|{format_description(w[desckey])}"    
+        s = f"{w['word']}|{pl}|{fem}|{format_description(w[desckey])}"
 
     elif w['type'] == 'v':
         pst = w['pst'] if 'pst' in w else ''
@@ -75,8 +77,9 @@ def generate_md_dictionary_entry(w, lang='pl'):
 
     print_output(s)
 
+
 # read and parse dictionary file
-words = dictionaryparser.read_dictionary('dictionary.csv')
+words = dictionary.read_dictionary('dictionary.csv')
 
 lang = 'en' if len(sys.argv) > 1 and sys.argv[1] == 'en' else 'pl'
 
@@ -148,7 +151,7 @@ elif lang == 'pl':
     print_output("Fraza|Tłum")
 print_output("--- | ---")
 
-words = dictionaryparser.read_dictionary('phraseology.csv', type='phraseology')
+words = dictionary.read_dictionary('phraseology.csv', type='phraseology')
 for i in filter(lambda x: x['type'] == 'phraseology', words):
     generate_md_dictionary_entry(i, lang)
 
@@ -160,7 +163,7 @@ elif lang == 'pl':
     print_output("Idiom|Tłum")
 print_output("--- | ---")
 
-words = dictionaryparser.read_dictionary('phraseology.csv', type='phraseology')
+words = dictionary.read_dictionary('phraseology.csv', type='phraseology')
 for i in filter(lambda x: x['type'] == 'idiom', words):
     generate_md_dictionary_entry(i, lang)
 
@@ -173,7 +176,7 @@ elif lang == 'pl':
 
 print_output("--- | --- | ---")
 
-words = dictionaryparser.read_dictionary('names.csv', type='names')
+words = dictionary.read_dictionary('names.csv', type='names')
 for i in filter(lambda x: x['type'] == 'name', words):
     generate_md_dictionary_entry(i, lang)
 

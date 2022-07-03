@@ -4,7 +4,8 @@ import json
 import os.path
 import shutil
 import sys
-import dictionaryparser
+import andro.dictionary
+
 
 def format_description(desc):
     desc = desc.replace("<see>", '<a class="see" href="#">')
@@ -29,6 +30,7 @@ def format_description(desc):
     desc = desc.replace("\-", "")
 
     return desc
+
 
 def copy_template():
     name = f"final/html/"
@@ -101,14 +103,15 @@ def main():
     langs = ['pl', 'en']
     words = {}
 
-    dictionary = dictionaryparser.read_dictionary('dictionary.csv')    
+    dictionary = andro.dictionary.read_dictionary('dictionary.csv')
     copy_template()
 
     for i in langs:
         words[i] = generate_words(dictionary, i)
 
         with open(f'final/html/scripts/words-{i}.js', 'w') as file:
-            file.write(f"const words_{i} = " + json.dumps(words[i], separators=(',', ':')) + ";")
+            file.write(
+                f"const words_{i} = " + json.dumps(words[i], separators=(',', ':')) + ";")
 
     print(f"Done! Open final/html/index.html")
 

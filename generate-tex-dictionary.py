@@ -2,7 +2,7 @@
 # coding: utf-8
 
 import unidecode
-import dictionaryparser
+import andro.dictionary as dictionary
 import sys
 
 # output
@@ -144,7 +144,7 @@ def generate_tex_dictionary_section_end(section):
 
 
 # read and parse dictionary file
-words = dictionaryparser.read_dictionary('dictionary.csv')
+words = dictionary.read_dictionary('dictionary.csv')
 
 # sort words without accents
 sorted_words = sorted(words, key=lambda x: x['noaccent_word'].lower())
@@ -184,7 +184,8 @@ elif lang == 'en':
                 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 
 for i in sections:
-    thissection = list(filter(lambda x: i.lower() == x['rev'][0], reverse_words_sorted))
+    thissection = list(filter(lambda x: i.lower() ==
+                       x['rev'][0], reverse_words_sorted))
 
     if len(thissection) > 0:
         generate_tex_dictionary_section_start(i)
