@@ -85,7 +85,12 @@ class AndroPhonemizer():
         return word + "[!]"
 
     def __prepare(self, text):
-        return text.replace(".", "").replace(",", "").lower().strip()
+        chars = [',', '.', ';', '?', '!']
+
+        for i in chars:
+            text = text.replace(i, '')
+
+        return text.lower().strip()
 
     def sentence(self, text: str, include_front_accent=False) -> str:
         """
