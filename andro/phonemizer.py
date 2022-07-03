@@ -70,29 +70,50 @@ class AndroPhonemizer():
             if compare_caseless(word, x['word']):
                 return x['speech']
 
+        # if everything failed, try transliteration
+        vowels = {'yi': 'ʏ', 'a': 'a', 'e': 'ɛ', 'o': 'ɔ', 'u': 'u'}
+        consonants = {'ch': 'ʈ͡ʂ', 'b': 'b', 'p': 'p', 't': 't', 'd': 'd', 'k': 'k', 'g': 'g', 'm': 'm', 'n': 'n',
+                      'f': 'f', 'v': 'v', 's': 's', 'z': 'z', 'j': 'ʐ', 'h': 'x', 'y': 'j', 'l': 'l', 'w': 'w', 'r': 'r'}
+
+        for i in vowels:
+            word = word.replace(i, vowels[i])
+
+        for i in consonants:
+            word = word.replace(i, consonants[i])
+
         # returns "[!]" as a marker something went wrong
-        return "[!]"
+        return word + "[!]"
 
     def __prepare(self, text):
         return text.replace(".", "").replace(",", "").lower().strip()
 
-    def sentence(self, text: str) -> str:
+    def sentence(self, text: str, include_front_accent=False) -> str:
         """
         Phonemizes whole sentence word by word and returns the whole text
         with / signs
         """
         text = self.__prepare(text)
         words = text.split(" ")
-        return "/" + " ".join(self.sentence_as_list(text)) + "/"
+        return "/" + " ".join(self.sentence_as_list(text, include_front_accent=include_front_accent)) + "/"
 
-    def sentence_as_list(self, text: str) -> List[str]:
+    def sentence_as_list(self, text: str, include_front_accent=False) -> List[str]:
         """
         Phonemizes whole sentence word by word and returns a list of IPA
         representations
         """
         text = self.__prepare(text)
         words = text.split(" ")
-        return [self.phonemize(x) for x in words]
+
+        if not include_front_accent:
+            return [self.__remove_initial_accent(self.phonemize(x)) for x in words]
+        else:
+            return [self.phonemize(x) for x in words]
+
+    def __remove_initial_accent(self, word: str) -> str:
+        if word.startswith('ˈ'):
+            return word[1:]
+        else:
+            return word
 
     def ipa_to_arpabet(self, text: str) -> str:
         """
