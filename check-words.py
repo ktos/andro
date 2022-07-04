@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-import andro.dictionary as dictionary
+import pyandro.dictionary as dictionary
 import sys
 
 # all syllabes

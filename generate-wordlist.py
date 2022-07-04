@@ -1,5 +1,5 @@
 import unidecode
-import andro.dictionary as dictionary
+import pyandro.dictionary as dictionary
 
 # read and parse dictionary file
 words = dictionary.read_dictionary('dictionary.csv')

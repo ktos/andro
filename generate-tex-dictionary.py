@@ -2,7 +2,7 @@
 # coding: utf-8
 
 import unidecode
-import andro.dictionary as dictionary
+import pyandro.dictionary as dictionary
 import sys
 
 # output

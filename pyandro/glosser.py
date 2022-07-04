@@ -1,7 +1,7 @@
 from typing import List
 import unidecode
 import unicodedata
-import andro.dictionary as dictionary
+import pyandro.dictionary as dictionary
 
 
 def compare_caseless(s1, s2):

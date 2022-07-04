@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-import andro.dictionary
-import andro.phonemizer
+import pyandro.dictionary
+import pyandro.phonemizer
 import sys
 
 if __name__ == "__main__":
-    p = andro.phonemizer.AndroPhonemizer()
+    p = pyandro.phonemizer.AndroPhonemizer()
     text = ""
 
     if len(sys.argv) == 1:

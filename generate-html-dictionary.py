@@ -4,7 +4,7 @@ import json
 import os.path
 import shutil
 import sys
-import andro.dictionary
+import pyandro.dictionary
 
 
 def format_description(desc):

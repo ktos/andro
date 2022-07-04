@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-import andro.dictionary
-import andro.glosser
+import pyandro.dictionary
+import pyandro.glosser
 import sys
 
 if __name__ == "__main__":
-    p = andro.glosser.AndroGlosser()
+    p = pyandro.glosser.AndroGlosser()
     text = ""
 
     if len(sys.argv) == 1:
