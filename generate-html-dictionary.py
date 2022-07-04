@@ -103,7 +103,7 @@ def main():
     langs = ['pl', 'en']
     words = {}
 
-    dictionary = andro.dictionary.read_dictionary('dictionary.csv')
+    dictionary = pyandro.dictionary.read_dictionary('dictionary.csv')
     copy_template()
 
     for i in langs:
