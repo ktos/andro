@@ -2,7 +2,14 @@ body {
   margin: 0;
 }
 
-h1, h2, h3, h4, p, label, li, input {
+h1,
+h2,
+h3,
+h4,
+p,
+label,
+li,
+input {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -42,7 +49,7 @@ a.see {
 #wrapper {
   display: grid;
   height: 100vh;
-  grid-template-areas: "search header" "list main" "footer footer";
+  grid-template-areas: "search header""list main""footer footer";
   grid-template-columns: 650px auto;
   grid-template-rows: 60px auto 50px;
   box-sizing: border-box;
@@ -194,8 +201,35 @@ footer {
 
 @media only screen and (max-width: 1300px) {
   #wrapper {
-    grid-template-areas: "header" "search" "list" "main";
+    grid-template-areas: "header""search""list""main";
     grid-template-columns: 100%;
     grid-template-rows: 60px 60px 50% 50px auto;
   }
+}
+
+@font-face {
+  font-family: 'zaha';
+  src: url('zaha-webfont.woff2') format('woff2'),
+    url('zaha-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'chiwo';
+  src: url('chiwo-naepo-webfont.woff2') format('woff2'),
+    url('chiwo-naepo.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.zaha {
+  font-family: 'zaha';
+  padding: 1em;
+  font-size: 220%;
+}
+
+.chiwo {
+  font-family: 'chiwo';
+  font-size: 270%;
 }

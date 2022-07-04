@@ -119,22 +119,7 @@ function goToReference() {
    return false;
 }
 
-function speak() {
-   let ipa = this.dataset.ipa;
-   ipa = ipa.replaceAll(".", "");
-   ipa = ipa.replace("ˈ", "");
-   ipa = ipa.replace("ɔ", "o");
-   ipa = ipa.replace("ɛ", "e");
-   ipa = ipa.replace("ʐ", "ż");
-   ipa = ipa.replace("t͡ʂ", "cz");
-   ipa = ipa.replace("x", "h");
-   ipa = ipa.replace("w", "ł");
-   ipa = ipa.replace("ʏ", "y");
 
-   var utter = new SpeechSynthesisUtterance(ipa);
-   utter.lang = "pl-PL";
-   window.speechSynthesis.speak(utter);
-}
 
 // load word definition by id
 function selectWord(id) {
@@ -147,6 +132,9 @@ function selectWord(id) {
    }
 
    main.querySelector(".word").innerHTML = word.word;
+   main.querySelector(".zaha").innerHTML = toZaha(word.word);
+   main.querySelector(".chiwo").innerHTML = toChiwo(word.word);
+
    main.querySelector(".type").innerHTML = word.type;
    main.querySelector(".ipa").innerHTML = `[${word.ipa}]`;
 
