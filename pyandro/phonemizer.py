@@ -34,6 +34,37 @@ class AndroPhonemizer():
         self.comp = (x['comp']
                      for x in filter(lambda x: 'comp' in x, self.dictio))
 
+    def romanization(self, word: str, remove_accents=False) -> str:
+        vowels = {'yi': 'ʏ', 'a': 'a', 'e': 'ɛ', 'o': 'ɔ', 'u': 'u'}
+        consonants = {'ch': 'ʈ͡ʂ', 'b': 'b', 'p': 'p', 't': 't', 'd': 'd', 'k': 'k', 'g': 'g', 'm': 'm', 'n': 'n',
+                      'f': 'f', 'v': 'v', 's': 's', 'z': 'z', 'j': 'ʐ', 'h': 'x', 'y': 'j', 'l': 'l', 'w': 'w', 'r': 'r'}
+
+        word = word.lower()
+
+        if remove_accents:
+            word = word.replace('ś', 's')
+            word = word.replace('é', 'ɛ')
+            word = word.replace('á', 'a')
+            word = word.replace('ó', 'ɔ')
+            word = word.replace('ḱ', 'k')
+            word = word.replace('ú', 'u')
+            word = word.replace('í', 'i')
+            word = word.replace('ń', 'n')
+            word = word.replace('ḿ', 'm')
+            word = word.replace('ý', 'y')
+            word = word.replace('j́', 'j')
+            word = word.replace('ĺ', 'l')
+            word = word.replace('\u035e', '')
+            word = word.replace('\u0301', '')
+
+        for i in vowels:
+            word = word.replace(i, vowels[i])
+
+        for i in consonants:
+            word = word.replace(i, consonants[i])
+
+        return word
+
     def phonemize(self, word: str) -> str:
         """
         Phonemizes a word -- changes a word into its IPA representation
@@ -70,16 +101,8 @@ class AndroPhonemizer():
             if compare_caseless(word, x['word']):
                 return x['speech']
 
-        # if everything failed, try transliteration
-        vowels = {'yi': 'ʏ', 'a': 'a', 'e': 'ɛ', 'o': 'ɔ', 'u': 'u'}
-        consonants = {'ch': 'ʈ͡ʂ', 'b': 'b', 'p': 'p', 't': 't', 'd': 'd', 'k': 'k', 'g': 'g', 'm': 'm', 'n': 'n',
-                      'f': 'f', 'v': 'v', 's': 's', 'z': 'z', 'j': 'ʐ', 'h': 'x', 'y': 'j', 'l': 'l', 'w': 'w', 'r': 'r'}
-
-        for i in vowels:
-            word = word.replace(i, vowels[i])
-
-        for i in consonants:
-            word = word.replace(i, consonants[i])
+        # if everything failed, try pure romanization
+        word = self.romanization(word)
 
         # returns "[!]" as a marker something went wrong
         return word + "[!]"

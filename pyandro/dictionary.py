@@ -1,8 +1,9 @@
 import unidecode
 
+
 def parse_descfile_word(worddesc):
     """Parses dictionary description file into objects"""
-    x = { 'description': '', 'english_description': '' }
+    x = {'description': '', 'english_description': ''}
 
     # try:
     x['word'] = worddesc[0]  # słowo
@@ -18,6 +19,8 @@ def parse_descfile_word(worddesc):
 
     x['english_notes'] = []
     x['english_examples'] = []
+
+    x['ignore_err'] = False
 
     for i in worddesc[3:]:
         if i.startswith("note:"):
@@ -74,16 +77,13 @@ def parse_descfile_word(worddesc):
             x['src'] = i[4:]
         elif i.startswith("morph:"):
             x['morph'] = i[6:]
+        elif i.startswith("!ignore_err"):
+            x['ignore_err'] = True
         else:
             x['description'] = i
 
-    if len(x['description']) == 0 and 'redirect' not in x and x['type'] != 'name':
-        print("WARNING: EMPTY DESCRIPTION in " + str(worddesc))
-
-    if len(x['english_description']) == 0 and 'redirect' not in x and x['type'] != 'name':
-        print("WARNING: EMPTY ENGLISH DESCRIPTION in " + str(worddesc))
-
     return x
+
 
 def parse_descfile_phraseology(worddesc):
     """Parses dictionary description file into objects, for phraseology"""
@@ -96,10 +96,11 @@ def parse_descfile_phraseology(worddesc):
 
     return x
 
-def read_dictionary(path, type = 'dictionary'):
+
+def read_dictionary(path, type='dictionary'):
     # reads dictionary descfile
     with open(path, 'r', encoding='utf-8') as f:
-        data = f.readlines()    
+        data = f.readlines()
 
     words = []
 
