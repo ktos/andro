@@ -77,6 +77,14 @@ def check_dictionary(strict=False):
             if strict:
                 exit(1)
 
+        # check for two-way derivational morphology
+        if 'morph' in x:
+            if len(x['morph'].split(' ')) != 2:
+                print(
+                    "WARNING: derivational morphology not written correctly in " + x['word'])
+                if strict:
+                    exit(1)
+
 
 if __name__ == "__main__":
     # strict mode: fail on first problem and return exitcode 1 so CI will know
