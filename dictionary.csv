@@ -21,7 +21,7 @@ ad́aki|a.ˈda.ki|v|pst:ad́ak a.ˈdak|zamykać|en:to close, to lock
 ad́ako|a.ˈda.kɔ|adj|zamknięty|en:closed, locked
 a͞edar|ˈaɛ.dar|n|półtora|en:one and a half
 aero|ˈa.ɛ.rɔ|adj|żeński, kobiecy|comp:aero͞e ˈa.ɛ.rɔɛ|supl:aero͞em ˈa.ɛ.rɔɛm|en:female, womanly
-agaryinva|ˈa.ga.rʏ.in.va|n|fem|pl:agaryiinvaji ˈa.ga.rʏ.in.va.ʐi|dokument tożsamości, dokument osobisty, dowód osobisty, paszport|en:identification document, id card, passport|morph:country-POSS-paper|!ignore_err
+agaryinva|ˈa.ga.rʏ.in.va|n|fem|pl:agaryiinvaji ˈa.ga.rʏ.in.va.ʐi|dokument tożsamości, dokument osobisty, dowód osobisty, paszport|en:identification document, id card, passport|morph:agar-y-inva country-POSS-paper|!ignore_err
 agea|ˈa.gɛ.a|n|pl:ageji ˈa.gɛ.ʐi|fem|sałata|en:lettuce
 ager|ˈa.gɛr|n|pl:agejos a.gɛ.ʐɔs|teren, terytorium, kraj|en:terrain, territory, country
 agerer|ˈa.gɛ.rɛr|n|pl:agereros ˈa.gɛ.rɛ.rɔs|fem:agerera ˈa.gɛ.rɛ.ra|obywatel|en:citizen
@@ -37,6 +37,7 @@ aḱajami|a.ˈka.ʐa.mi|v|pst:aḱajamat a.ˈka.ʐa.mat|przebaczać|en:to forgiv
 aḱame|a.ˈka.mɛ|n|pl:aḱameji a.ˈka.mɛ.ʐi|deszcz|en:rain
 aḱana|a.ˈka.na|n|pl:aḱanaji a.ˈka.na.ʐi|fem|zbiornik wodny, akwen, jezioro, staw|en:water body
 aḱapetode|a.ˈka.pɛ.tɔ.dɛ|n|pl:aḱapetodes a.ˈka.pɛ.tɔ.dɛs|butelka, butla, bukłak|en:bottle, wineskin
+akoti|ˈa.kɔ.ti|v|pst:akot ˈa.kɔt|topić|en:to drown
 aḱumar|a.ˈku.mar|n|pl:aḱumaros a.ˈku.ma.rɔs|rzeka|en:river
 alha|ˈal.xa|n|pl:alhaji ˈal.xa.ʐi|fem|wartość, cena|en:value, price
 alho|ˈal.xɔ|adj|wartościowy, cenny|comp:alho͞e ˈal.xɔɛ|supl:alho͞em ˈal.xɔɛm|en:valuable, precious, worthy
@@ -113,6 +114,7 @@ asati|ˈa.sa.ti|v|pst:asatit ˈa.sa.tit|więzić, ograniczać wolność, przytrz
 aśeysi|a.ˈsɛj.si|v|pst:aśet a.ˈsɛt|przesiadać|en:to change trains, to change seats
 aśiboti|a.ˈsi.bɔ.ti|v|pst:aśibot a.ˈsi.bɔt|przetłumaczyć|en:to translate|src:calque przetłumaczyć
 aso|ˈa.sɔ|adj|sam, pojedyńczy (osoba)|en:alone, single (person)|note:Ale nie ,,samotny'', <see>ziralo</see>.|ennote:But not ,,lonely'', see <see>ziralo</see>.
+asoinera|ˈa.sɔ.i.nɛ.ra|n|fem|pl:asoinerji ˈa.sɔ.i.nɛr.ʐi|samogłoska|en:vowel|morph:aso-iner-a alone-voice-F
 aspen|ˈas.pɛn|n|pl:aspenji as.pɛn.ʐi|moździerz|en:mortar
 aśtopi|a.ˈstɔ.pi|v|pst:aśtot a.ˈstɔt|przestawać, zatrzymywać się|en:to stop (oneself), to stop doing something
 aśulger|a.ˈsul.gɛr|n|fem:aśulgera a.ˈsul.gɛ.ra|asystent, asystentka|en:assistant
@@ -402,6 +404,7 @@ ewagi|ˈɛ.wa.gi|v|pst:ewagit ˈɛ.wa.git|zostawać, pozostawać, przebywać|en:
 ewogi|ˈɛ.wɔ.gi|v|pst:ewogit ˈɛ.wɔ.git|zostawiać|en:to leave, to let be|note:Patrz również <see>zohi</see>, jednak <em>ewogi</em> jest stosowane raczej, kiedy zostawiam coś intencjonalnie, aby ktoś z tego skorzystał.|ennote:See also <see>zohi</see>, but <em>ewogi</em> is used when I am leaving something intentionally for someone else to use.
 ey|ˈɛj|part|nieformalny zwrot określający odbiorcę -- ej, ty!|en:informal phrase -- ,,hey, you!''
 eygepa|ˈɛj.gɛ.pa|adj|cesarski|en:empire's
+ezejor|ˈɛ.zɛ.ʐɔr|n|pl:ezejori ˈɛ.zɛ.ʐɔ.ri|czasownik|en:verb|morph:eze-jor to.do-describe
 ezi|ˈɛ.zi|v|pst:ezet ɛ.zɛt|ściśle nieformalny czasownik domyślny -- oznacza ,,zrób to, co się z tym robi'', czynność jest rozpoznawana na podstawie kontekstu wypowiedzi|note:<em>Ezi</em> występuje praktycznie tylko w dialekcie pustynnym, a i tam bardzo rzadko.|en:very informal verb meaning ,,default action''
 faája|fa.ˈa.ʐa|n|pl:faájis fa.ˈa.ʐis|fem|ładunek|en:cargo
 fahojo|ˈfa.xɔ.ʐɔ|adj|supl:fahojem ˈfa.xɔ.ʐɛm|comp:fahoje ˈfa.xɔ.ʐɛ|głośny|en:loud
@@ -420,7 +423,7 @@ farapak|ˈfa.ra.pak|n|pl:farapakos fa.ra.pa.kɔs|kapusta|en:cabbage
 farer|ˈfa.rɛr|n|fem:farera ˈfa.rɛ.ra|pl:farerji ˈfa.rɛr.ʐi|pracownik, pracownica|en:worker, employee
 fari|ˈfa.ri|v|pst:faret ˈfa.rɛt|robić, pracować, działać|en:to work, to do something, to act
 faro|ˈfa.rɔ|adj|działający, pracujący, operacyjny|en:working, operating
-farokapata|ˈfa.rɔ.ka.pa.ta|n|fem|pl:farokapati ˈfa.rɔ.ka.pa.ti|robot, robot przemysłowy, automat|en:robot, industrial robot, machine, automaton|morph:work-ADJ-machine|note:W stosunku do robotów bardziej ,,ludzkich'' stosuje się raczej <see>kapatarer</see>.|ennote:In case of more ,,human'' robots, <see>kapatarer</see> is usually used.
+farokapata|ˈfa.rɔ.ka.pa.ta|n|fem|pl:farokapati ˈfa.rɔ.ka.pa.ti|robot, robot przemysłowy, automat|en:robot, industrial robot, machine, automaton|morph:far-o-kapata work-ADJ-machine|note:W stosunku do robotów bardziej ,,ludzkich'' stosuje się raczej <see>kapatarer</see>.|ennote:In case of more ,,human'' robots, <see>kapatarer</see> is usually used.
 farra|ˈfar.ra|n|fem|pl:farji ˈfar.ʐi|operacja, akcja|en:operation, action
 farta|ˈfar.ta|n|pl:farteji ˈfar.tɛ.ʐi|fem|praca (pejoratywnie), robota|en:work (pejorative)
 fassa|ˈfas.sa|n|pl:fassaji ˈfas.sa.ʐi|fem|gleba, ziemia|en:soil
@@ -432,6 +435,7 @@ fatika|ˈfa.ti.ka|n|fem|pl:fatiki ˈfa.ti.ki|bicie serca|en:heartbeat|src:btg St
 fayse|ˈfaj.sɛ|n|pl:fayseji ˈfaj.sɛ.ʐi|picie, napój, napitek|en:drink, something to drink
 faysi|ˈfaj.si|v|pst:faysit ˈfaj.sit|pić|en:to drink
 fayso|ˈfaj.sɔ|adj|pijany, napity, przepity|en:drunk, overdrunk, full with drinking
+feala|ˈfɛ.a.la|n|fem|pl:fealis ˈfɛ.a.lis|komnata, pomieszczenie, pokój|en:chamber, room
 feban|ˈfɛ.ban|part|podczas|en:during
 fehaset|ˈfɛ.xa.sɛt|n|pl:fehaseji ˈfɛ.xa.sɛ.ʐi|pościg|en:pursuit
 fehaseto|ˈfɛ.xa.sɛ.tɔ|adj|ścigany|en:pursuead
@@ -512,7 +516,7 @@ gramma|ˈgram.ma|n|pl:grammas ˈgram.mas|fem|łąka|en:meadow, grassland
 grano|ˈgra.nɔ|n|pl:granos ˈgra.nɔs|ziarno|en:grain
 gruchan|ˈgru.ʈ͡ʂan|n|pl:gruchos ˈgru.ʈ͡ʂɔs|fem:gruchana ˈgru.ʈ͡ʂa.na|dziadek, babcia|note:Bardziej formalne. Patrz również <see>chanche</see>.|en:grandfather, grandmother, very formal, see also <see>chanche</see>
 gruwe|ˈgru.wɛ|adj|supl:gruwe͞am ˈgru.wɛam|comp:gruwe͞a ˈgru.wɛa|duży, wielki, olbrzymi|note:W niektórych dialektach najwyższy stopień to <alt>gruwa</alt>.|en:big, very big, giant
-gruwebomuwe|ˈgru.wɛ.bɔ.mu.wɛ|n|pl:gruwebomuwes ˈgru.wɛ.bɔ.mu.wɛs|kuchnia|en:kitchen|morph:gruwebomuwe big-place
+gruwebomuwe|ˈgru.wɛ.bɔ.mu.wɛ|n|pl:gruwebomuwes ˈgru.wɛ.bɔ.mu.wɛs|kuchnia|en:kitchen|morph:gruwe-bomuwe big-place
 gufedo|ˈgu.fɛ.dɔ|adj|supl:gufede͞om ˈgu.fɛ.dɛɔm|comp:gufede͞o ˈgu.fɛ.dɛɔ|brzydki|en:ugly
 gunt|ˈguŋt|n|pl:guntji ˈguŋt.ʐi|śmiech|en:laughter|!ignore_err
 gurer|ˈgu.rɛr|n|fem:gurera gu.rɛ.ra|dorosły, dorosła|en:adult person
@@ -690,6 +694,7 @@ jila|ˈʐi.la|n|fem|pl:jili ˈʐi.li|energia, moc, czasami także: władza|en:en
 jisufi|ˈʐi.su.fi|v|pst:jisufit ˈʐi.su.fit|przekazywać; przekazywać wiadomość, pozdrowienia albo podarunki, pobierać plik|en:to forward (message), to forward greetings, to download a file
 jo|ˈʐɔ|part|Partykuła używana przy liczebnikach. Oznacza ,,oraz'' i jest używana czasami zamiast systemu pozycyjnego.|en:particle used in counting, means ,,and'', used in place of positional system
 joifi|ˈʐɔ.i.fi|v|pst:joifit ˈʐɔ.i.fit|kopać|en:to dig
+jori|ˈʐɔ.ri|v|pst:jorit ˈʐɔ.rit|opisywać, charakteryzować, przedstawiać|en:to describe, to depict
 jubado|ˈʐu.ba.dɔ|n|pl:jubadi ˈʐu.ba.di|ametyst, ale w ogólności również kamień szlachetny, klejnot|en:amethyst, but also in general gem, jewel|note:W starożytności ametysty były uważane za bardzo drogocenne.|ennote:In the past, amethysts were thought to be very valuable.
 jubeler|ˈʐu.bɛ.lɛr|n|pl:jubeleros ˈʐu.bɛ.lɛ.rɔs|jubiler|en:jeweler
 jubo|ˈʐu.bɔ|adj|fioletowy, ametystowy|en:violet|note:Pochodzi od <see>jubado</see>, ametyst.|ennote:Directly from <see>jubado</see>, amethyst.
@@ -730,7 +735,7 @@ kantar|ˈkan.tar|n|pl:kantaros ˈkan.ta.rɔs|fem:kantara ˈkan.ta.ra|śpiewak|en
 kanti|ˈkan.ti|v|pst:kant ˈkaŋt|śpiewać|en:to sing
 kapata|ˈka.pa.ta|n|pl:kapatji ˈka.pat.ʐi|fem|maszyna|en:machine
 kapatana|ˈka.pa.ta.na|n|pl:kapatanis ˈka.pa.ta.nis|fem|maszyna|note:Forma używana dawniej. Obecnie raczej <em>kapata</em>, w~niektórych słowach ewoluowało wręcz do członu <em>-kapa</em>, patrz <see>hu͞ekapa</see>.|en:machine|ennote:Obsolete form, evolved to <em>kapata</em> or even <em>-kapa</em> suffix, see <see>hu͞erjikapatana</see>.
-kapatarer|ˈka.pa.ta.rɛr|n|pl:kapatareros ˈka.pa.ta.rɛ.rɔs|fem:kapatarera ˈka.pa.ta.rɛ.ra|robot, android|en:robot, android|morph:machine-person|note:Dosłownie ,,maszyna-osoba'', patrz też <see>farokapata</see>.|ennote:Directly ,,machine-person'', see also <see>farokapata</see>.
+kapatarer|ˈka.pa.ta.rɛr|n|pl:kapatareros ˈka.pa.ta.rɛ.rɔs|fem:kapatarera ˈka.pa.ta.rɛ.ra|robot, android|en:robot, android|morph:kapata-rer machine-person|note:Dosłownie ,,maszyna-osoba'', patrz też <see>farokapata</see>.|ennote:Directly ,,machine-person'', see also <see>farokapata</see>.
 kape|ˈka.pɛ|n|pl:kapes ˈka.pɛs|rozum, intelekt, inteligencja|en:mind, reason, intellect, intelligence
 kapi|ˈka.pi|v|pst:kapit ˈka.pit|rozumieć|en:to understand
 kapo|ˈka.pɔ|adj|comp:kape͞o ˈka.pɛɔ|supl:kapem ˈka.pɛm|inteligentny, mądry|en:intelligent, wise
@@ -801,6 +806,7 @@ kipei|ˈki.pɛ.i|v|pst:kipet ˈki.pɛt|dawać przykład, być przykładem|en:to 
 kipen|ˈki.pɛn|n|pl:kipenos ˈki.pɛ.nɔs|wzór, przykład|en:pattern, model, example
 kipeni|ˈki.pɛ.ni|v|pst:kipenit ˈki.pɛ.nit|wzorować, brać przykład; <phrase>kipeni a</phrase> -- wzorować się na kimś, na czymś|en:to model on, to take example
 kiri|ˈki.ri|v|pst:kirit ˈki.rit|mienić się, błyszczeć|en:to sparkle, to glimmer|note:Patrz też <see>wesi</see>.|ennote:See also <see>wesi</see>.
+kirin|ˈki.rin|n|miedź|en:copper
 kiruki|ˈki.ru.ki|v|pst:kiruket ˈki.ru.kɛt|umieć|en:to can
 kivafra|ˈki.va.fra|n|fem|pl:kivafraji ˈki.va.fra.ʐi|instrument muzyczny|en:musical instrument
 klik|ˈklik|n|pl:kliki ˈkli.ki|odpowiednik minuty, ok. 45 sekund|en:Equivalent of a minute, about 45 seconds.
@@ -914,6 +920,7 @@ lont|ˈlɔŋt|n|pl:lontos ˈlɔn.tɔs|odległość|en:distance
 lonta|ˈlɔn.ta|n|fem|pl:lontaji ˈlɔn.ta.ʐi|smartfon (potocznie)|en:smartphone (informal)
 lonte|ˈlɔn.tɛ|adj|supl:lontem ˈlɔn.tɛm|comp:lote͞a ˈlɔ.tɛa|daleki, odległy, daleko|en:distant
 lontoyner|ˈlɔŋt.ɔj.nɛr|n|pl:lontoyneros ˈlɔn.tɔj.nɛ.rɔs|telefon|note:Dosłownie: odległość-głos.|en:telephone|ennote:Literally ,,distance--voice''.
+lontuicha|ˈlɔn.tu.i.ʈ͡ʂa|fem|pl:lontuiche ˈlɔn.tu.i.ʈ͡ʂɛ|telewizja|en:television|morph:lon-tuich-a distance-picture-F
 lot|ˈlɔt|n|życie|en:life
 loter|ˈlɔ.tɛr|n|fem:lotera ˈlɔ.tɛ.ra|pl:loteros ˈlɔ.tɛ.rɔs|mieszkaniec|en:citizen
 loti|ˈlɔ.ti|v|pst:lot ˈlɔt|żyć, mieszkać|en:to live, to reside
@@ -930,7 +937,7 @@ machagi|ˈma.ʈ͡ʂa.gi|v|pst:machaget ˈma.ʈ͡ʂa.gɛt|spać|en:to sleep
 machi|ˈma.ʈ͡ʂi|v|pst:machit ˈma.ʈ͡ʂit|pchać|en:to push
 maesli|ˈma.ɛs.li|v|pst:maeslit ˈma.ɛs.lit|życzyć sobie czegoś|en:to wish for something (by oneself)
 maesto|ˈma.ɛs.tɔ|n|pl:maestos ˈma.ɛs.tɔs|życzenie, życzenia|en:wish
-mahaja|ˈma.xa.ʐa|n|fem|pl:mahaji ˈma.xa.ʐi|lampa, latarnia, reflektor|en:lamp, lantern, reflector|morph:place?-shine
+mahaja|ˈma.xa.ʐa|n|fem|pl:mahaji ˈma.xa.ʐi|lampa, latarnia, reflektor|en:lamp, lantern, reflector|morph:ma-haja place?-shine
 mahetan|ˈma.xɛ.tan|n|pl:mahetanos ˈma.xɛ.ta.nɔs|pociąg (pojazd)|en:train (vehicle)
 mahi|ˈma.xi|v|pst:mahet ˈma.xɛt|ciągnąć|en:to pull
 mal|ˈmal|n|pl:mali ˈma.li|dom|en:home|note:Używane najczęściej w dialekcie Nennek.|ennote:Used mostly in Nennek dialect.
@@ -968,6 +975,7 @@ me͞aki|ˈmɛa.ki|v|pst:me͞akit ˈmɛa.kit|polerować, wygładzać, gładzić, 
 med|ˈmɛd|n|pl:medi ˈmɛ.di|miód|en:honey
 mede|ˈmɛ.dɛ|adj|środkowy, leżący pomiędzy|en:middle, in the middle, laying inbetween
 medi|ˈmɛ.di|n|pl:medis ˈmɛ.dis|środek|en:middle
+mef́eni|mɛ.ˈfɛ.ni|v|pst:mef́enit mɛ.ˈfɛ.nit|topić, stopić|en:to melt|morph:me-feni to.inside-swim
 megi|ˈmɛ.gi|v|pst:megit ˈmɛ.git|przygotowywać|en:prepare
 mego|ˈmɛ.gɔ|adj|gotowy, przygotowany|en:ready, prepared
 mejeri|ˈmɛ.ʐɛ.ri|v|pst:mejer ˈmɛ.ʐɛr|niszczyć; <phrase>okupao mejeri</phrase> -- pozbywać się problemu|en:to destroy, <phrase>okupao mejeri</phrase> -- to solve a problem
@@ -1015,7 +1023,9 @@ moĺi|mɔ.ˈli|part|nigdy|en:never
 moroza|ˈmɔ.rɔ.za|n|pl:moroji ˈmɔ.rɔ.ʐi|fem|piłka|en:ball
 mosno|ˈmɔs.nɔ|adj|supl:mosne͞am ˈmɔs.nɛam|comp:mosne ˈmɔs.nɛ|dziki|en:wild
 mośo|mɔ.ˈsɔ|part|nigdzie|en:nowhere
+moster|ˈmɔs.tɛr|n|pl:mosteros ˈmɔs.tɛ.rɔs|tworzywo sztuczne, plastik|en:plastic
 mosti|ˈmɔs.ti|v|pst:moset ˈmɔ.sɛt|tworzyć|en:to create
+mosto|ˈmɔs.tɔ|adj|stworzony, sztuczny, nienaturalny|en:created, artificial, unnatural, plastic
 mot́er|mɔ.ˈtɛr|part|nikt|en:nobody
 moýage|mɔ.ˈja.gɛ|part|donikąd|en:to nowhere
 moýasu|mɔ.ˈja.su|part|znikąd|en:from nowhere
@@ -1042,7 +1052,7 @@ nafrita|ˈna.fri.ta|n|fem|ognisko|en:campfire
 naja|ˈna.ʐa|n|pl:naji ˈna.ʐi|fem|odpowiednik godziny, ok. 75 minut|en:Equivalent to an hour, about 75 minutes
 nanal|ˈna.nal|n|pl:nanalos ˈna.na.lɔs|śmigło|en:propeller
 naraver|ˈna.ra.vɛr|n|pl:naravere ˈna.ra.vɛ.rɛ|fem:narava ˈna.ra.va|bohater|en:hero
-narika|ˈna.ri.ka|n|fem|pl:narikaji ˈna.ri.ka.ʐi|wiatrak, wentylator|en:fan, windmill|morph:machine?-blow?
+narika|ˈna.ri.ka|n|fem|pl:narikaji ˈna.ri.ka.ʐi|wiatrak, wentylator|en:fan, windmill|morph:na-rika machine?-blow?
 narli|ˈnar.li|v|pst:narlet ˈnar.lɛt|ściskać|en:to squeeze
 naroje|ˈna.rɔ.ʐɛ|n|pl:narojes ˈna.rɔ.ʐɛs|fem:naroja ˈna.rɔ.ʐa|ciało|en:body
 naruo|ˈna.ru.ɔ|n|pl:naruos ˈna.ru.ɔs|brzuch, odwłok|en:belly, abdomen
@@ -1159,6 +1169,8 @@ ossa|ˈɔs.sa|n|pl:osji ˈɔs.ʐi|fem|kość|en:bone
 ostro|ˈɔs.trɔ|n|pl:ostros ˈɔs.trɔs|drzwi|en:door
 ostrolo|ˈɔs.trɔ.lɔ|n|pl:ostrolos ˈɔs.trɔ.lɔs|furtka, drzwiczki|en:small door, wicket
 osupi|ˈɔ.su.pi|v|pst:osupet ˈɔ.su.pɛt|upadać, upaść, padać (deszcz), opadać (mgła), spadać|en:to fall down, to rain, to clear way (mist)
+ovijor|ˈɔ.vi.ʐɔr|n|pl:ovijori ˈɔ.vi.ʐɔ.ri|przymiotnik|en:adjective|morph:ovi-jor feature-describe
+ovira|ˈɔ.vi.ra|n|pl:oviraji ˈɔ.vi.ra.ʐi|fem|cecha, właściwość, aspekt|en:characteristic, feature, aspect
 owa|ˈɔ.wa|part|och!|en:aah!
 oyo|ˈɔ.jɔ|n|pl:ojios ˈɔ.ʐi.ɔs|oko|en:eye
 oyosenaja|ˈɔ.jɔ.sɛ.na.ʐa|n|pl:oyosenaji ˈɔ.jɔ.sɛ.na.ʐi|fem|okulary|en:eyeglasses
@@ -1173,6 +1185,7 @@ paluk|ˈpa.luk|adj|taki sam, identyczny|en:same, identical
 pama|ˈpa.ma|part|wtedy|en:at that time
 panpu͞i|ˈpan.pui|v|pst:panpuit ˈpan.pu.it|ogłupieć, zgłupieć|en:to lose mind, to became stupid|note:Często używane w przenośni.|ennote:Often used figuratively.|src:btg tetayan
 panpuyo|ˈpan.pu.jɔ|adj|idiotyczny, bardzo głupi|en:idiotic, totally stupid|src:btg tetayan
+pantalya|ˈpan.tal.ja|fem|pl:pantalji ˈpan.tal.ʐi|ekran|en:screen
 pante|ˈpan.tɛ|n|południe (kierunek), południe (określenie czasu), patrz również <see>istay</see>|note:Używany częściej w dialekcie południowym.|en:south, but also noon, see also <see>istay</see>|ennote:Used mainly in Southern Dialect.
 pante͞o|ˈpan.tɛɔ|adj|południowy|en:southern
 parlai|ˈpar.la.i|v|red:inra͞i
@@ -1188,6 +1201,7 @@ pebedar|ˈpɛ.bɛ.dar|n|pl:pebedaros ˈpɛ.bɛ.da.rɔs|warzywo|en:vegetable
 pebedarer|ˈpɛ.bɛ.da.rɛr|n|pl:pebedareros ˈpɛ.bɛ.da.rɛ.rɔs|fem:pebedarera ˈpɛ.bɛ.da.rɛ.ra|wegetarianin|en:vegetarian
 pebedarero|ˈpɛ.bɛ.da.rɛ.rɔ|adj|wegetariański|en:vegetarian
 pelak|ˈpɛ.lak|n|pl:pelakji ˈpɛ.lak.ʐi|plac|en:square
+pelak|ˈpɛ.lak|n|prostokąt|en:rectanble (mathematics)
 pelir|ˈpɛ.lir|n|pl:peliros ˈpɛ.li.rɔs|fem:pelira ˈpɛ.li.ra|pies|en:dog
 pena|ˈpɛ.na|n|fem|pl:penaji ˈpɛ.na.ʐi|moc, potęga, siła|en:power, strength, might
 pentor|ˈpɛn.tɔr|n|pl:pentore ˈpɛn.tɔ.rɛ|fortyfikacje, forteca, twierdza, bastion|en:fortification, fortress, stronghold, bastion|src:btg Ketoshaya
@@ -1207,6 +1221,7 @@ pesulo|ˈpɛ.su.lɔ|n|kolor różowy, róż (kosmetyk)|en:pink
 petode|ˈpɛ.tɔ.dɛ|n|pl:petodes ˈpɛ.tɔ.dɛs|pojemnik, pudełko|en:container, box
 pevi|ˈpɛ.vi|v|pst:pevit ˈpɛ.vit|karmić|en:to feed
 pezawe|ˈpɛ.za.wɛ|n|pl:pezawes ˈpɛ.za.wɛs|fem:pezawa ˈpɛ.za.wa|dosłownie: ,,gorszy człowiek'', pogardliwe określenie na inną osobę|note:Może być stosowany jako zaimek w stosunku do rozmówcy lub osoby trzeciej, także jako suffiks, bardzo niegrzeczny.|en:,,man worse than me'', very impolite|ennote:May be used as a pronoun or suffix in reference to second or third party. Very contemptous.
+pimejor|ˈpi.mɛ.ʐɔr|n|pl:pimejori ˈpi.mɛ.ʐɔ.ri|rzeczownik|en:noun|morph:pime-jor thing-describe
 pimer|ˈpi.mɛr|n|pl:pimeros ˈpi.mɛ.rɔs|rzecz|en:thing
 pinchi|ˈpin.ʈ͡ʂi|v|pst:pinchet ˈpin.ʈ͡ʂɛt|lśnić|en:to shine
 pipe|ˈpi.pɛ|n|pl:pipes ˈpi.pɛs|włos, włosy|en:hair
@@ -1303,6 +1318,7 @@ runail|ˈru.na.il|n|pl:runailiji ˈru.na.i.li.ʐi|sekret|en:secret
 runailo|ˈru.na.i.lɔ|adj|sekretny|en:secret
 ruó|ru.ˈɔ|adj|czarny|en:black|note:Prawdopodobnie pochodzi od słowa <see>rukila</see>, kosmetyk.|ennote:Probably from <see>rukila</see>, cosmetics.
 ruó|ru.ˈɔ|n|czerń|en:black
+ruófe͞a|ru.ˈɔ.fɛa|fem|pl:ruófelis ru.ˈɔ.fɛ.lis|kamera, aparat fotograficzny|en:camera, camcorder, video camera|morph:ruó-fe͞a black-room
 ruóke|ru.ɔ.kɛ|n|pl:ruókes ˈru.ɔ.kɛs|kruk|en:crow
 ruólaner|ru.ˈɔ.la.nɛr|n|czarnoksieżnik, zły czarodziej, czarownik|note:Patrz również: <see>nimu͞er</see>.|en:evil magician, evil wizard
 ruyanso|ˈru.jan.sɔ|adj|brutalny|en:brutal
@@ -1370,6 +1386,9 @@ sif́emo|si.ˈfɛ.mɔ|adj|zwisający|en:hanging out, drooping
 sifriti|ˈsi.fri.ti|v|gasić (światło), gasić (ogień), gasić (pożar)|en:to turn off the light, to extuinguish a fire
 siki|ˈsi.ki|v|pst:sik ˈsik|myć|en:to wash
 sikima|ˈsi.ki.ma|n|pl:sikimiji ˈsi.ki.mi.ʐi|fem|łazienka|en:bathroom
+silki|ˈsil.ki|v|srebrzyć się, mienić się, błyszczeć|en:to glitter
+silkin|ˈsil.kin|n|srebro|en:silver
+silko|ˈsil.kɔ|adj|srebrny|en:silver
 simahi|ˈsi.ma.xi|v|pst:simahet ˈsi.ma.xɛt|wyciągać|en:to pull out
 simosti|ˈsi.mɔs.ti|v|pst:simoset ˈsi.mɔ.sɛt|wytwarzać, utwarzać, wytworzyć, utworzyć, stwarzać, stworzyć|en:to create, to build
 sina|ˈsi.na|n|fem|pl:sinaji ˈsi.na.ʐi|wyjście|en:exit
@@ -1446,6 +1465,7 @@ suyit́uka|su.ʏ.ˈtu.ka|n|pl:suyit́ukaji su.ʏ.ˈtu.ka.ʐi|fem|bandera|note:Do
 suzoto|ˈsu.zɔ.tɔ|adj|pokładowy|en:onboard
 suzotu|ˈsu.zɔ.tu|n|pl:suzotus ˈsu.zɔ.tus|pokład, <phrase>a suzotu</phrase> -- na pokładzie|en:ship's board
 ta|ˈta|n|cztery, czwórka|en:four
+tachan|ˈta.ʈ͡ʂan|n|kwadrat|en:square (mathematics)
 taerno|ˈta.ɛr.nɔ|adj|zadowolony|en:glad, content
 tager|ˈta.gɛr|n|pl:tagerji ˈta.gɛr.ʐi|oszustwo|en:fraud
 tagerer|ˈta.gɛ.rɛr|n|pl:tagereros ˈta.gɛ.rɛ.rɔs|fem:tagerera ˈta.gɛ.rɛ.ra|oszust|en:fraud, impostor
@@ -1488,6 +1508,7 @@ tepare|ˈtɛ.pa.rɛ|n|pl:tepares ˈtɛ.pa.rɛs|ciepłota, temperatura|en:tempera
 terega|ˈtɛ.rɛ.ga|n|fem|pl:teregaji ˈtɛ.rɛ.ga.ʐi|granica, ograniczenie|en:border, frontier, boundary
 teregi|ˈtɛ.rɛ.gi|v|pst:teregit ˈtɛ.rɛ.git|ograniczać, limitować, stawiać granice|en:to limit, to set up boundaries
 tesiko|ˈtɛ.si.kɔ|adj|wspólny, razem|en:common, together
+tesinera|ˈtɛ.si.nɛ.ra|n|fem|pl:tesinerji ˈtɛ.si.nɛr.ʐi|spółgłoska|en:consonant|morph:tes-iner-a common-voice-F
 tesucha|ˈtɛ.su.ʈ͡ʂa|n|fem|współpraca|en:coooperation
 tesuchi|ˈtɛ.su.ʈ͡ʂi|v|pst:tesuchit ˈtɛ.su.ʈ͡ʂit|współpracować|en:to cooperate
 tetfiji|ˈtɛt.fi.ʐi|v|pst:tetfijit ˈtɛt.fi.ʐit|walić się|en:to collapse
@@ -1819,6 +1840,7 @@ zolepe|ˈzɔ.lɛ.pɛ|n|pl:zolepes ˈzɔ.lɛ.pɛs|olej|en:oil|src:pie solpos
 zolepo|ˈzɔ.lɛ.pɔ|adj|oleisty|en:oily
 zonki|ˈzɔn.ki|v|pst:zonkit ˈzɔn.kit|budzić, wstawać z łóżka|en:to wake up, to get up out of bed
 zor|ˈzɔr|part|albo, ,,exclusive or''|en:exclusive or
+zore|ˈzɔ.rɛ|n|pl:zores ˈzɔ.rɛs|podbródek, broda|en:chin, beard
 zoreche|ˈzɔ.rɛ.ʈ͡ʂɛ|adj|supl:zoreche͞am ˈzɔ.rɛ.ʈ͡ʂɛam|comp:zoreche͞a ˈzɔ.rɛ.ʈ͡ʂɛa|głodny|en:hungry
 zosu|ˈzɔ.su|part|bardzo|en:very
 zosuvi|ˈzɔ.su.vi|part|bardziej|en:even more
