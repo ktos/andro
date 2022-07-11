@@ -59,6 +59,7 @@ if (window.location.hash != '') {
    else if (currentLang == 'en')
       wordList = new List("wrapper", options, words_en);
 
+   listElement.children[0].remove();
    selectWord(0);
 } else {
    wordList = new List("wrapper", options, words_pl);
