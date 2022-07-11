@@ -45,6 +45,8 @@ const scTitlesPST = { pl: 'W formie czasu przeszłego', en: 'Past tense form' }
 const scTitlesCOMP = { pl: 'W stopniu wyższym', en: 'Comparative form' }
 const scTitlesSUPL = { pl: 'W stopniu najwyższym', en: 'Superlative form' }
 
+const redirect = { pl: "Patrz: ", en: "See: " }
+
 // current language and current wordList
 let currentLang = 'pl';
 let wordList;
@@ -138,7 +140,11 @@ function selectWord(id) {
    main.querySelector(".type").innerHTML = word.type;
    main.querySelector(".ipa").innerHTML = `[${word.ipa}]`;
 
-   main.querySelector(".translation").innerHTML = word.translation;
+   if (word.redirect === null) {
+      main.querySelector(".translation").innerHTML = word.translation;
+   } else {
+      main.querySelector(".translation").innerHTML = `${redirect[currentLang]} <a href="#" class="see">${word.redirect}</a>`;
+   }
 
    if (currentLang == 'pl') {
       main.querySelector(".translation").innerHTML += "<br><br><small>" + words_en[id].translation + "</small>";

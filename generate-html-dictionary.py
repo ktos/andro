@@ -63,7 +63,8 @@ def generate_words(rows, lang):
                 "type": row['type'],
                 "ipa": row['speech'],
                 "notes": [],
-                "examples": row['examples']
+                "examples": row['examples'],
+                "redirect": row['redirect'] if 'redirect' in row else None
             }
 
             for j in row['notes']:
