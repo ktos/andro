@@ -1,6 +1,5 @@
-function speak(ipa = null) {
-    if (ipa === null)
-        ipa = this.dataset.ipa;
+function speak() {
+    ipa = this.dataset.ipa;
 
     ipa = ipa.replaceAll(".", "");
     ipa = ipa.replaceAll("ˈ", "");
