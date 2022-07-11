@@ -227,8 +227,13 @@ ruby.chiwo {
   padding: 1em;
 }
 
-rt {
+rt,
+.zaha {
   font-family: 'zaha';
+}
+
+.zaha {
+  font-size: 220%;
 }
 
 .chiwo {
