@@ -132,8 +132,7 @@ function selectWord(id) {
    }
 
    main.querySelector(".word").innerHTML = word.word;
-   main.querySelector(".zaha").innerHTML = toZaha(word.word);
-   main.querySelector(".chiwo").innerHTML = toChiwo(word.word);
+   main.querySelector(".chiwo").innerHTML = toChiwo(word.word).trim() + ` <rt>${toZaha(word.word)}</rt>`;
 
    main.querySelector(".type").innerHTML = word.type;
    main.querySelector(".ipa").innerHTML = `[${word.ipa}]`;

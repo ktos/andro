@@ -223,10 +223,12 @@ footer {
   font-style: normal;
 }
 
-.zaha {
-  font-family: 'zaha';
+ruby.chiwo {
   padding: 1em;
-  font-size: 220%;
+}
+
+rt {
+  font-family: 'zaha';
 }
 
 .chiwo {
