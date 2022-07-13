@@ -1,20 +1,230 @@
 \chapter{Syntax}
 \label{ch:syntax}
 
+\andro is mostly head-initial, but sometimes head-final language, and such
+incoherence is mostly because of a complicated history of the language. In this
+chapter, different type of sentence structures will be presented, so you will be
+able to understand how different clauses are working in general.
+
 \section{Basic sentence structures}
 \label{sec:basic}
 
-Podstawowy szyk zdania to SVO (Jan kocha Marię), a~zdania podrzędnego to SOV
-(Jan Marię kocha), ale w~szyku pytającym to OSV (Marię Jan kocha). Stosowany
-jest szyk przymiotnik-rzeczownik, nigdy odwrotnie.
+The most basic structure is that in \andro, for declarative sentences, in most
+of cases SVO (Subject-Verb-Object) sentence order is maintained. Because of
+being nominative-accusative language, accusative is by default not marked in
+any special way.
 
-Czasami, w języku formalnym lub poetyckim, pojawia się czasownik na końcu zdania
-oznajmującego, tworząc szyk SOV lub nawet OSV, jest to jednak rzadkie
-i~zazwyczaj w mowie potocznej utrzymywany jest szyk SVO.
+\glossex{Mi pazi muchi.}{mi pazi much-i}{1SG like cat-PL}{``I like cats.''}
 
-\glossex{Beúsma egi va wesazit.}{beúsma egi va wesazi-t}{legend 3SG PFV become-PST}{,,On stał się legendą.''}
+\subsection{Modal verbs and nominalization}
 
-\glossex{Egi beúsma va wesazit.}{egi beúsma va wesazi-t}{3SG legend PFV become-PST}{,,On stał się legendą.''}
+There is a very short list of modal, auxilliary verbs, used to express
+likelihood, ability, permission, order and obligation, especially in the case of
+stating the fact. In any other case, nominalization is usually preferred. The
+modal verbs are:
+
+\begin{itemize}
+    \item \randro{epi} -- to may,
+    \item \randro{pazi} -- to like,
+    \item \randro{kiruki} -- to can,
+    \item \randro{vipini} -- to make someone do something.
+\end{itemize}
+
+\glossex{Mi kiruki feni.}{mi kiruki feni}{1SG can.AUX swim.PRS}{``I can swim.''}
+
+\glossex{Pazi fesgai.}{pazi fesgai}{like.AUX read.PRS}{``I like reading.''}
+
+Modal verbs are staying in the place of the regular verb, while moving it to the
+end of the sentence.
+
+\glossex{Mi epi chet seysi.}{mi epi chet seysi}{1SG be.able.AUX here.LOC sit.PRS}{``I can sit here.''}
+
+Conjugation, sentence order and operator markings are being used for the modal
+verb, while the verb marking the action stays uninflected.
+
+\glossex{Mi vi kiruket feni, abe va tayet.}{mi vi kiruke-t feni, abe va taye-t}{1SG IPFV can.AUX-PST swim.PRS but PFV forget-PST}{``I knew how to swim, but I forgot.''}
+
+\glossex{Chet seysi mi epi?}{chet seysi mi epi}{here.LOC sit.PRS 1SG be.able.AUX}{``May I sit here?''}
+
+\subsection{Nominalization and marking action}
+
+Nominalization, mentioned in the morphology context, is achieved using the
+\randro{na} particle, the nominalizer (\Nmlz{}). The nominalizer is changing the
+verb into the noun, and allows to use actions in the accusative. Nominalizer can
+be used in the suffix form, and usually is, but sometimes one may encounter the
+head-final form after the verb.
+
+\glossex{Egi dekit rekina.}{egi deki-t reki-na}{3SG decide-PST attack.V-NMLZ}{``He decided to attack.''}
+
+\glossex{Ze esi gusto eni na.}{ze esi gusto eni na}{FUT be happy go NMLZ}{``I will be happy going.'' \\ ``I will be happy to go.''}
+
+In case of modal verbs, nominalization must not be used.
+
+\subsection{Negations}
+
+Negation marker is a particle \randro{no}, which is \textbf{head-final} for
+verbs. There is quite a lot of texts in which negation marker is used
+head-initial, but this is very incorrect.
+
+\note{In some religious texts and formal contexts, \randro{no} particle may be found always at the end of the sentence.}
+
+\glossex{Mi ze karli no!}{mi ze karli no}{1SG FUT die NEG}{``I will not die!''}
+
+\glossex{Ti bugi no.}{ti bugi no}{2SG lie NEG}{``You do not lie.''}
+
+\glossex{Tori no dej́itos do!}{tori no dej́it-os do}{throw NEG weapon-PL IMP}{``Do not throw the weapon!''}
+
+\glossex{Egi karlet no il rige.}{egi karle-t no il rige}{3SG kill-PST NEG 3SG.POSS lord}{``He did not killed his lord.''}
+
+\subsection{Double negative}
+
+In case of some adverbs which are expressing negative context, you may wonder
+what about the double negative? In \andro both negative and double negative are
+correct, and they are both expressing just the negative.
+
+\glossex{Ze karli moĺi.}{ze karli moĺi}{FUT die never.ADV}{``I will never die!''}
+
+\glossex{Ze karli no moĺi.}{ze karli no moĺi}{FUT die NEG never.ADV}{``I will never die!''}
+
+\subsection{Questions}
+
+The basic sentence order for question is OSV (Object-Subject-Verb).
+
+\glossex{Muchi ti pazi?}{much-i ti pazi}{cat-PL 2SG like}{``Do you like cats?''}
+
+There is no question marker and very typical is that basic questions are being
+asked with an intonation -- typically, a rising one on the verb.
+
+\glossex{Il maŕie͞o egi koóli?}{il maŕie͞o egi koóli}{3SG.POSS spouse 3SG love}{``Does she love her husband?'' \\ ``Does he love his wife?'' \\ ``Does she love her spouse?''}
+
+\note{Both \emph{egi} and \emph{marié͞o} may be used for all genders.}
+
+\glossex{Il hinna egi esi?}{il hinna egi esi}{3SG.POSS girlfriend 3SG be.PRS}{``Is her his girlfriend?''}
+
+\glossex{Sotak epié karlet?}{sotak epié karle-t}{somebody 2SG.M.FRM kill-PST}{``Sir, have you killed someone?''}
+
+\glossex{Je rujaler epié ze va karla͞i?}{Je rujaler epié ze va karla͞i}{DEM man 2SG.M.FRM FUT PFV kill}{``Sir, will you kill this man?''}
+
+\glossex{Mi epié ze vi karla͞i?}{mi epié ze vi karla͞i}{1SG 2SG.M.FRM FUT IPFV kill}{``Sir, will you try to kill me?''}
+
+\glossex{Il alye epiá veyt hetay?}{il alye epiá vey-t hetay}{3SG.POSS friend 2SG.F.FRM see-PST today}{``Have you seen your friend today, madam?''}
+
+\glossex{Ti va fesgat?}{ti va fesga-t}{2SG PFV read-PST}{``Did you read it?''}
+
+In the case of the modal verb, the basic verb at the end of the sentence is
+still true.
+
+\glossex{Chet mi epi seysi?}{chet mi epi seysi}{here 1SG be.able sit}{``May I sit here?''}
+
+\glossex{Chet mi va epit seysi?}{chet mi va epi-t seysi}{here 1SG PFV be.able-PST sit}{``Was I able to sit here?''}
+
+The emphasis particle, \randro{vay} may be used to place an emphasis to a
+question:
+
+\glossex{Vay a tyi patal ti kipeni?}{vay a tyi patal ti kipeni}{really.EMPH on 2SG.POSS father.DIM 2SG model}{``Are you really imitating your dad?''}
+
+\subsection{Interrogatives}
+
+There is a set of interrogative particles, which are used in direct asking
+questions related to the posession, method, place or time.
+
+\begin{itemize}
+    \item \randro{chyi} -- whose,
+    \item \randro{ko͞e} -- how, in what way,
+    \item \randro{osor} -- why,
+    \item \randro{so} -- what,
+    \item \randro{somar} -- where,
+    \item \randro{soter} -- who,
+    \item \randro{voli} -- when,
+    \item \randro{wodo} -- what way,
+    \item \randro{yage} -- where to,
+    \item randro{yasu} -- where from.
+\end{itemize}
+
+\glossex{Yasu ti iéni?}{yasu ti i-éni}{from.where.Q 2SG VEN-go}{``Where do you came from?''}
+
+\glossex{Yasu ti iént?}{yasu ti i-én-t}{from.where.Q 2SG VEN-go-PST}{``Where did you came from?''}
+
+\glossex{Ko͞e tyi ager nomi?}{ko͞e tyi ager nomi}{how.Q 2SG.POSS country to.name}{``How is your country named?''}
+
+\glossex{Ko͞e ti seiti?}{ko͞e ti seiti}{how.Q 2SG feel}{``How do you feel?''}
+
+\glossex{So tyi vahuryiáysi o ti famei?}{so tyi vahuryiáysi fo ti famei}{what.Q 2SG.POSS tatoo DAT 2SG mean}{``What does your tatoo mean for you?''}
+
+\glossex{Wodo o Poleska mi ze cheri?}{wodo o Poleska mi ze cheri}{which.way.Q to Poland 1SG FUT cheri}{``Which way should I go to Poland?''}
+
+\subsection{Relative and subordinate clauses}
+
+The basic word order for a subordinate clause is SOV (Subject-Object-Verb).
+Subordinate clauses are clauses which are attached to the base clause with one
+of the particles:
+
+\begin{itemize}
+    \item \randro{voli} -- when, until,
+    \item \randro{imin} -- because,
+    \item \randro{abe} -- but,
+    \item \randro{abejar} -- however,
+    \item \randro{pama} -- at that time,
+    \item \randro{per} -- in order to.
+\end{itemize}
+
+Similarly, the subortinate clause can also be attached with the conjunction
+particle:
+
+\begin{itemize}
+    \item \randro{e} -- and,
+    \item \randro{yen} -- or,
+    \item \randro{leyfe} -- exclusive or,
+    \item \randro{zor} -- exclusive or.
+\end{itemize}
+
+\glossex{Mi eni o jan, per mi vibo vibi.}{eni o jan per mi vibo vibi}{1SG go to.LOC home in.order.to 1SG food eat}{``I am going home in order to eat food.''}
+
+\glossex{Cherlok Holmes va choint sosbet kayetor esi no, e egi o jan eni permet.}{cherlok holmes va choin-t sosbet kayetor esi no e o jan eni perme-t}{Sherlock Holmes PFV state-PST suspect murderer be NEG and to home go allow-PST}{``Sherlock Holmes stated that suspect is not a murderer and allowed him to go home.''}
+
+\glossex{Cherlok Holmes va choint sosbet kayetor esi no, abe egi va est - abe deíto va kopet lipe.}{cherlok holmes va choin-t sosbet kayetor esi no abe egi va est abe deíto va lope-t lipe}{Sherlock Holmes PFV state-PST suspect murderer be NEG but 3SG PFV be but weapon PFV hide-PST well}{``Sherlock Holmes stated that he was not a murderer -- but he was, but has hidden the weapon well.''}
+
+In subortinate clauses the verb may be omitted, if there is a possibility to get
+it from the overall context.
+
+\section{Case markers}
+\label{sec:cases}
+
+It is now our turn to introduce you to the most problematic part of \andro --
+the vast variety of particles, which are performing different grammatical
+functions. In this section the markers for the cases will be introduced, while
+later in this chapter you will see how to use different particles for various
+grammatical functions.
+
+\subsection{Accusative case}
+
+In the most cases accusative is not marked in any way and is directly known
+because of the word order of the sentence.
+
+\glossex{Mi veydi yasaji.}{mi veydi yasa-ji}{1SG see eel-PL}{``I see eels.''}
+
+However, you may encounter sometimes usage of the \randro{chu} particle.
+
+, sometimes
+there is a need to mark the noun as the object. This is used mostly in the case
+of additional emphasis and \randro{chu} particle is used. The \randro{chu}
+particle has, however, another function, and is a genitive \Gen{} marker.
+
+Genitive marker should be avoided, as it could be recognized from the overall
+sentence context --
+
+
+
+\subsection{Possesive case}
+
+Let's start with the possesive particle, \randro{yi}. As mentioned in the
+morphology section, \randro{yi} is marking the possesive and is working in
+``posesee yi posessor'' format, similarly to the English ``of'':
+
+\glossex
+
+
+
 
 Role gramatyczne zasadniczo wyznaczane są przez szyk zdania (\Nom{}--\Acc{}),
 jednakże do określania dodatkowych funkcji gramatycznych wykorzystuje się
@@ -24,14 +234,14 @@ dopełniacz (\emph{genitivus}, \Gen{}) -- aczkolwiek dopełniacz może być
 rozpoznany również z~kontekstu. Partykuły stosowane są przed częścią zdania do
 którego się odnoszą.
 
-\glossex{Mi pazi muchi.}{mi pazi much-i}{1SG like cat-PL}{,,Ja lubię koty.''}
+
 
 Czasami do podkreślenia jakiejś frazy lub w niektórych dialektach stosuje się do
 tego również partykułę \emph{chu}, jednak nie jest to zalecane w \emph{ardo
-  andro}, aby uniknąć konsternacji w sytuacji kiedy jest to dopełniacz
+    andro}, aby uniknąć konsternacji w sytuacji kiedy jest to dopełniacz
 (\Gen{}).
 
-\glossex{Mi veydi yasaji.}{mi veydi yasa-ji}{1SG see eel-PL}{,,Widzę węgorze.''}
+
 
 \glossex{Mi veydi chu yasaji.}{mi veydi chu yasa-ji}{1SG see ACC eel-PL}{,,Widzę węgorze.''}
 
@@ -47,155 +257,18 @@ stosowana może być partykuła \emph{da}.
 Natomiast partykuła \emph{in} może być stosowana jako miejscownik
 (\Loc{}), na przykład:
 
-\glossex{Mi esi in mibozor.}{,i esi in mibozor}{1SG be.PRS in.LOC school}{,,Jestem w szkole.'' \\ ,,Jestem teraz w szkole.''}
-
-Przymiotnik znajduje się zawsze przed rzeczownikiem, który określa, natomiast
-wyrażenie przysłówkowe -- po czasowniku, który określa.
-
-\glossex{Nontriso lanji fesgai gepo.}{no-ntris-o lan-ji fesgai waril}{NEG-interesting-ADJ book-PL read.PRS long.ADV}{,,Nudne książki czytam długo.''}
+\glossex{Mi esi in mibozor.}{mi esi in mibozor}{1SG be.PRS in.LOC school}{,,Jestem w szkole.'' \\ ,,Jestem teraz w szkole.''}
 
 
 
-\subsection{Modal verbs}
-
-Czasowniki modalne (\emph{epi} -- móc, \emph{pazi} -- lubić, \emph{kiruki} --
-umieć, \emph{vipini} -- zmuszać, musieć) powodują przeniesienie czasownika
-odpowiadającego na koniec zdania, zaburzając nieco jego szyk. Czasownik ten
-przyjmuje formę bezokolicznika, a~koniugacja i~miejsce operatorów będą dotyczyły
-tylko modalnego. W~podobny sposób wygląda to w~sytuacji niektórych idiomów
-czasownikowych.
-
-\glossex{Mi kiruki feni.}{mi kiruki feni}{1SG can swim}{,,Umiem pływać.''}
-
-\glossex{Mi vi kiruket feni, abe va tayet.}{mi vi kiruke-t feni, abe va taye-t}{1SG IPFV can-PST swim.PRS but PFV forget-PST}{,,Umiałem pływać, ale zapomniałem.''}
-
-Czasowniki modalne uruchamiają tryb czynności regularnej i~nie odnosi się to do
-tej konkretnej chwili, ale do stwierdzenia faktu (umiem czytać -- kiedyś się
-nauczyłem i~od tej pory umiem i~raczej nie zapomnę -- oczywiście, można przestać
-coś lubić albo móc, ale będzie to opisane odpowiednim aspektem w~przyszłości).
-
-\glossex{Mi epi chet seysi.}{mi epi chet seysi}{1SG be.able.PRS here.LOC sit.PRS}{,,Mogę tutaj usiąść.''}
-
-\glossex{Chet seysi mi epi?}{chet seysi mi epi}{here.LOC sit.PRS 1SG be.able.PRS}{,,Czy mogę tu usiąść?''}
-
-\glossex{Pazi fesgai.}{pazi fesgai}{like.PRS read.PRS}{,,Lubię czytać.''}
-
-\subsection{Negations}
-
-Przeczenia, negacja czynności realizowana jest z~wykorzystaniem partykuły
-\emph{no}, która znajduje się \textbf{po} czasowniku. Możesz spotkać teksty
-w~których partykuła \emph{no} znajduje się przed czasownikiem, ale są one zawsze
-oznaką niedouczenia autora.
-
-Kwestia podwójnego zaprzeczenia: w Andro poprawne są obydwie formy, tj. poprawne
-jest zarówno \emph{ze moĺi karli}, jak i \emph{ze moĺi no karli} (,,nigdy nie
-umrę'').
-
-\glossex{Ze karli moĺi.}{ze karli moĺi}{FUT die never.ADV}{,,Nigdy nie umrę!''}
-
-\glossex{Ze karli no moĺi.}{ze karli no moĺi}{FUT die NEG never.ADV}{,,Nigdy nie umrę!''}
-
-\note{W niektórych dialektach partykuła \emph{no} może pojawiać się zawsze na
-  końcu zdania.}
-
-\glossex{Ti bugi no.}{ti bugi no}{2SG lie NEG}{,,Ty nie leżysz.''}
-
-\glossex{Tori no dej́itos do!}{tori no dej́it-os do}{throw NEG weapon-PL IMP}{,,Nie rzucaj broni!''}
-
-\glossex{Egi karlet no il rige.}{egi karle-t no il rige}{3SG kill-PST NEG 3SG.POSS lord}{,,On nie zabił swojego władcy.''}
-
-Partykuła \emph{no} może również służyć do negacji rzeczownika, tworząc
-konstrukcję ,,zamiast czegoś'':
-
-\glossex{A femji inji no rujalaros femit}{a fem-ji inji no rujalar-os femi-t}{on branch-PL leave-PL instead.of people-PL hang-PST}{,,Ludzie wisieli na gałęziach zamiast liści.''}
-
-\subsection{Questions}
-
-Szyk pytający (OSV):
-
-\examples{Il maŕie͞o egi koóli?}{Czy on kocha swoją żonę?}
-
-\glossex{Il maŕie͞o egi koóli?}{il maŕie͞-o egi koóli}{3SG.POSS spouse-M 3SG love}{,,Czy on/ona kocha swojego męża?''}
-
-\note{\emph{egi} nie wskazuje na płeć, jednak \emph{marié͞o} jest w rodzaju męskim.}
-
-\glossex{Il hima egi esi?}{il hima egi esi}{3SG.POSS girlfriend 3SG be.PRS}{,,Czy ona to jego dziewczyna?''}
-
-\glossex{Sotak epié karlet?}{sotak epié karle-t}{somebody 2SG.FRM.M kill-PST}{,,Czy zabił Pan kogoś?''}
-
-\glossex{Je rujaler epié ze va karla͞i?}{Je rujaler epié ze va karla͞i}{DEM man 2SG.FRM.M FUT PFV kill}{,,Czy zabije Pan tego człowieka?''}
-
-\glossex{Mi epié ze vi karla͞i?}{mi epié ze vi karla͞i}{1SG 2SG.FRM.M FUT IPFV kill}{,,Czy spróbuje Pan mnie zabić?''}
-
-\glossex{Il alye Epiá veyt hetay?}{il alye epiá vey-t hetay}{3SG.POSS friend 2SG.FRM.F see-PST today}{,,Czy widziała Pani dzisiaj swojego przyjaciela?''}
-
-\glossex{Ti va fesgat?}{ti va fesga-t}{2SG PFV read-PST}{,,Przeczytałeś?''}
-
-Szyk pytający z~czasownikiem modalnym zachowuje konwencję czasownika
-niemodalnego na końcu zdania.
-
-\glossex{Chet mi epi seysi?}{chet mi epi seysi}{here 1SG be.able sit}{,,Czy mogę tutaj usiąść?''}
-
-\glossex{Chet mi va epit seysi?}{chet mi va epi-t seysi}{here 1SG PFV be.able-PST sit}{,,Czy mogłem tutaj siąść?''}
-
-Szyk pytający jest również uruchamiany automatycznie przez partykuły pytające --
-\emph{chyi} (czyj), \emph{ko͞e} (jak), \emph{osor} (dlaczego), \emph{so} (co),
-\emph{somar} (gdzie), \emph{soter} (kto), \emph{voli} (kiedy), \emph{wodo}
-(którędy), \emph{yage} (dokąd), \emph{yase} (skąd).
-
-\glossex{Yasu ti iéni?}{yasu ti i-éni}{from.where.Q 2SG VEN-go}{,,Skąd pochodzisz?''}
-
-\glossex{Yasu ti iént?}{yasu ti i-én-t}{from.where.Q 2SG VEN-go-PST}{,,Skąd przyszedłeś?''}
-
-\glossex{Ko͞e tyi ager nomi?}{ko͞e tyi ager nomi}{how.Q 2SG.POSS country to.name}{,,Jak nazywa się twój kraj?''}
-
-\glossex{Ko͞e ti seiti?}{ko͞e ti seiti}{how.Q 2SG feel}{,,Jak się czujesz?''}
-
-\glossex{So tyi vahuryiáysi o ti famei?}{so tyi vahuryiáysi o ti famei}{what.Q 2SG.POSS tatoo for 2SG mean}{,,Co znaczy dla ciebie twój tatuaż?''}
-
-\glossex{Wodo o Polska mi ze cheri?}{wodo o Polska mi ze cheri}{which.way.Q to Poland 1SG FUT cheri}{,,Którędy mam jechać do Polski?''}
-
-\subsection{Idioms}
-
-Idiomy, takie jak na przykład \emph{kipeni a} (wzorować się na) powodują
-przestawienie drugiego elementu (najczęściej partykuły) bliżej dopełnienia, np.:
-
-\glossex{Mi kipeni a myi patal.}{mi kipeni a myi patal}{1SG model on 1SG.POSS father.DIM}{,,Wzoruję się na moim tacie.''}
-
-\glossex{A tyi patal ti kipeni?}{a tyi patal ti kipeni}{on 2SG.POSS father.DIM 2SG model}{,,Wzorujesz się na swoim tacie?''}
-
-Do pytań w~stylu ,,czy'' można również stosować partykułę wzmacniającą
-\emph{vay}:
-
-\glossex{Vay a tyi patal ti kipeni?}{vay a tyi patal ti kipeni}{really.Q on 2SG.POSS father.DIM 2SG model}{,,Naprawdę wzorujesz się na swoim tacie?''}
-
-\subsection{Relative clauses}
-
-Zdania podrzędne tworzone są automatycznie przez partykuły takie jak \emph{ko͞e}
-(jak), \emph{voli} (kiedy), \emph{imin} (ponieważ), \emph{abe} (ale),
-\emph{chua} (która), \emph{pama} (wtedy), \emph{per} (żeby), a~także \emph{e}
-(i, oraz). Szyk zdania podrzędnego to SOV (Jan Marię kocha).
-
-\glossex{Mi eni o jan, per mi vibo vibi.}{eni o jan per mi vibo vibi}{1SG go to.LOC home so 1SG food eat}{,,Idę do domu aby zjeść jedzenie.''}
-
-\glossex{Cherlok Holmes va choint sosbet kayetor esi no, e egi o jan eni permet.}{cherlok holmes va choin-t sosbet kayetor esi no e o jan eni perme-t}{Sherlock Holmes PFV state-PST suspect murderer be NEG and to home go allow-PST}{,,Sherlock Holmes uznał, że podejrzany nie jest przestępcą i pozwolił mu iść do domu.''}
-
-\glossex{Cherlok Holmes va choint sosbet kayetor esi no, abe egi va est - abe deíto va kopet lipe.}{cherlok holmes va choin-t sosbet kayetor esi no abe egi va est abe deíto va lope-t lipe}{Sherlock Holmes PFV state-PST suspect murderer be NEG but 3SG PFV be but weapon PFV hide-PST well}{,,Sherlock Holmes uznał, że podejrzany nie jest przestępcą, jednak on był, tylko dobrze ukrył broń.''}
-
-Fakt, że ,,egi'' odnosi się do podejrzanego wynika z kontekstu zdania.
-
-Czasownik w~zdaniach podrzędnych może być pomijany, jeżeli wynika z~kontekstu.
-Czasownik \emph{esi} (być) może również być pomijany, stąd poprawne są zdania
-takie jak:
+\section{Copula and topic marker}
+\label{sec:copula}
 
 \glossex{Ari esi wofo, koy vipetode yi muche.}{ari esi wofo koy vipetode yi muche}{sky be.PRS color like bowl POSS cat}{,,Niebo ma kolor taki jak kocia miska.''}
 
 \glossex{Ari arso, koy vipetode yi muche.}{ari arso koy vipetode yi muche}{sky skyblue.ADJ like bowl POSS cat}{,,Niebo ma niebieski kolor, tak jak kocia miska.''}
 
 \glossex{Hetay ari stobo.}{hetay ari stobo}{today sky gray}{,,Niebo jest dzisiaj szare.''}
-
-\section{Copula and topic marker}
-\label{sec:copula}
 
 \section{Pronouns}
 \label{sec:pronouns}
@@ -218,6 +291,42 @@ wypowiedzi.
 \label{sec:phrases}
 
 \subsection{Adjective phrases}
+
+Przymiotnik znajduje się zawsze przed rzeczownikiem, który określa, natomiast
+wyrażenie przysłówkowe -- po czasowniku, który określa.
+
+\glossex{Nontriso lanji fesgai gepo.}{no-ntris-o lan-ji fesgai waril}{NEG-interesting-ADJ book-PL read.PRS long.ADV}{,,Nudne książki czytam długo.''}
+
+
+
+Pozycja przymiotnika w~zdaniu ma decydujące znaczenie w~określeniu do którego
+rzeczownika się odnosi.
+
+\glossex{Mi pazi karié himji.}{mi pazi karié him-ji}{1SG like beautiful woman-PL}{,,Lubię piękne kobiety.''}
+
+\glossex{Mi pazi karié himji e chid kahokapataji.}{mi pazi karié him-ji e chid kahokapata-ji.}{1SG like beautiful woman-PL and fast aeroplane-PL}{,,Lubię piękne kobiety i szybkie samoloty.''}
+
+\glossex{Waril vayarji esi lipe aloser che karié sipalima.}{Waril vayar-ji esi lipe aloser che karié sipalima}{long.ADJ travel-PL be.PRS good.ADJ source GEN beautiful story}{,,Długie podróże są dobrym źródłem dla pięknej opowieści.''}
+
+Przymiotniki mogą pełnić rolę przysłówka, odpowiadając na pytanie ,,jak'' i
+określając czasowniki, jednak w odróżnieniu od stosowania ich w roli określenia
+rzeczownika stosowane są \textbf{po} czasowniku w szyku.
+
+\glossex{Ko͞e ti seiti? Lipe.}{ko͞e ti seiti lipe}{how.Q 2SG feel good.ADV}{,,Jak się czujesz? Dobrze.''}
+
+Zamiast imiesłowów można też stosować partykułę \emph{chu} lub \emph{che},
+przyimek lub zaimek względny (\Rel{}):
+
+\glossex{Pakopo rujalar kant hetay ne͞a ji͞ari͞o in Lublin.}{pakop-o rujalar kan-t hetay ne͞a ji͞ari͞o in Lublin}{worry-ADJ man sing-PST today near.physically garden in.LOC Lublin}{,,Zmartwiony mężczyzna śpiewał dzisiaj niedaleko ogrodu w Lublinie.''}
+
+\glossex{Rujalar chu vi pakot kant hetay ne͞a ji͞ari͞o in Jechuf.}{rujalar chu vi pako-t kan-t hetay ne͞a ji͞ari͞o in Jechuf}{man REL IPFV worry-PST sing-PST today near.physically garden in Rzeszów}{,,Mężczyzna, który się martwił, śpiewał dzisiaj niedaleko ogrodu w Rzeszowie.''}
+
+\glossex{Muche chu altur vi fart.}{muche chu altur vi far-t}{cat REL noise IPFV make-PST}{,,Kot, który hałasował.''}
+
+\glossex{Altur faro muche.}{altur far-o muche}{noise make-ADJ cat}{,,Robiący hałas kot.''}
+
+\glossex{Alturo muche.}{altur-o muche}{noise-ADJ cat}{,,Hałasujący kot.''}
+
 \subsection{Adverbial phrases}
 \subsection{Regulars}
 
@@ -244,6 +353,13 @@ In addition, it is used in~situations of multiple possessive nesting, for
 For example, my father's mother's bowl \randro{vipetode yi myi arśityi natali͞a},
 although \randro{vipetode yi natali͞a yi myi arśit} is of course equally
 correct.
+
+\subsection{Negation marker for nouns}
+
+The negation particle \randro{no} may be used to negate a noun. This is used for
+a special construct ``instead of''.
+
+\glossex{A femji inji no rujalaros femit}{a fem-ji inji no rujalar-os femi-t}{on branch-PL leave-PL instead.of people-PL hang-PST}{``On the branches there were people hanging, instead of leaves.''}
 
 \section{Tense, aspect and voice markings}
 \label{sec:markers}
@@ -278,7 +394,7 @@ pomijać.
 \glossex{Ti ze va fesgai.}{ti ze va fesgai}{2SG FUT PFV read}{,,Przeczytasz.''}
 
 \glossex{Hetay mi ze va vibi rome.}{hetay mi ze va vibi rome\\
-  today 1SG FUT PFV eat meat}{,,Dzisiaj zjem mięso.''}
+    today 1SG FUT PFV eat meat}{,,Dzisiaj zjem mięso.''}
 
 \subsection{Aspects}
 
@@ -372,12 +488,27 @@ hortatywnego (\Hort{}).
 \glossex{Ti vage fesgai ja lana.}{ti vage fesgai ja lana}{2SG HORT read.PRS DEM book}{,,Powinieneś przeczytać tę książkę.''}
 
 \note{\emph{vage} nie oznacza automatycznie rozkazu, jednak jest stosowane jako
-  jego grzeczniejszy i bardziej formalny odpowiednik. W szczególności można się z
-  nim spotkać w szkole czy pracy, kiedy nauczyciel lub przełożony nakazują
-  wykonanie pewnej pracy.}
+    jego grzeczniejszy i bardziej formalny odpowiednik. W szczególności można się z
+    nim spotkać w szkole czy pracy, kiedy nauczyciel lub przełożony nakazują
+    wykonanie pewnej pracy.}
 
 \section{Demonstratives}
 \label{sec:demonstratives}
+
+\randro{je} and \randro{ja} are used when referring to any kind of animated
+being. However, when referring to humans, usage of third-person pronoun is
+required.
+
+\glossex{Ja egla esi chase.}{ja egla esi chase}{DEM.F 3SG.F COP short}{``The woman over here is short.'' / ``This woman is short.''}
+
+\glossex{Ja epiá amimer.}{ja egla amimer}{DEM.F 3SG.F.FRM famous}{``The lady over here is famous.'' / ``This lady is famous.''}
+
+Second type of demonstrative pronouns \randro{je} and \randro{ja} is for
+emphasis, and in this case they are mostly used along with a person's name or
+surname, usually when the person described is not in the same place.
+
+\glossex{Je Kasstor! Mi pazi no il nosacho dué!}{je kasstor mi pazi no il no-sacho due}{DEM.EMPH Kasstor 1SG like NEG 3SG.POSS NEG-true smile}{``That Kasstor! I don't like his false smile!''}
+
 
 \subsection{Partykuła \emph{ja}}
 
@@ -419,8 +550,30 @@ nie powinniśmy czegoś zrobić?''.
 
 \glossex{Enitya vimi fesgai alive ?}{enitya vimi fesgai alive}{instruction COND read before.ADV}{,,Nie powinieneś wcześniej przeczytać instrukcji?''}
 
-\section{Conjuctions}
+\section{Conjuctions, subordinal clauses and relative pronouns}
 \label{sec:conjunctions}
+
+\subsection{Relative pronouns}
+When building more complex sentences with subsentences, there may be a need to
+talk about the objects in the parent sentence. To refer to that, relative
+(\Rel{}) pronouns may be used. In \andro, most demonstrative pronouns may be
+used as relative pronouns, apart from \randro{je} and \randro{ja}, in case of
+which third person personal pronouns would be preferred (or sometimes ommited at
+all, see syntax examples).
+
+However, there is one generic relative pronoun which may be used for inanimate
+objects: \randro{cheí} -- \Rel{}.\Inan{}. Almost a homonym of \randro{chei}
+(\Tpl{}.\Inan{}), differentiated only by accent, \randro{cheí} is used only in a
+relative context.
+
+\subsection{Conjunction \randro{a}}
+
+Idiomy, takie jak na przykład \emph{kipeni a} (wzorować się na) powodują
+przestawienie drugiego elementu (najczęściej partykuły) bliżej dopełnienia, np.:
+
+\glossex{Mi kipeni a myi patal.}{mi kipeni a myi patal}{1SG model on 1SG.POSS father.DIM}{,,Wzoruję się na moim tacie.''}
+
+\glossex{A tyi patal ti kipeni?}{a tyi patal ti kipeni}{on 2SG.POSS father.DIM 2SG model}{,,Wzorujesz się na swoim tacie?''}
 
 \section{Comparatives}
 \label{sec:comparatives}
@@ -447,7 +600,7 @@ imieniem oraz nazwiskiem.
 
 Warto tutaj zwrócić uwagę, że imiona i~nazwiska w~Cesarstwie są rozdzielane
 partykułą \emph{mal}, oznaczającą ,,z rodziny'', np. \emph{Koolder mal
-  Erlehirni} to Koolder z rodziny Erlehirni. Czasami możliwe jest, że dzieci
+    Erlehirni} to Koolder z rodziny Erlehirni. Czasami możliwe jest, że dzieci
 dziedziczą nazwiska po obojgu rodziców, stąd występują nazwiska łączone
 łącznikiem, takie jak \emph{Alya mal Arkai-Valor}. Istnieją również także
 oznaczane za pomocą łącznika gałęzie rodów, które dziś stały się zwykłymi
@@ -455,9 +608,9 @@ nazwiskami, np. \emph{Nimu͞e mal Hetasi-Hi}, co oznacza ród Hetasi i jego gał
 Hi.
 
 \note{Gałęzie rodowe, i co za tym idzie, ich oznaczenia w nazwiskach pojawiały
-  się w~sytuacji, kiedy nazwisko rodowe przechodziło tylko na pierwsze dziecko,
-  natomiast kolejne dzieci uzyskiwały nazwiska z~określeniem gałęzi. Zwyczaj ten
-  zanikł prawie całkowicie około VII wieku po Zjednoczeniu.}
+    się w~sytuacji, kiedy nazwisko rodowe przechodziło tylko na pierwsze dziecko,
+    natomiast kolejne dzieci uzyskiwały nazwiska z~określeniem gałęzi. Zwyczaj ten
+    zanikł prawie całkowicie około VII wieku po Zjednoczeniu.}
 \skipline
 
 Używa się zaimków osobowych \emph{epié} i~\emph{epiá}, które odpowiadają mniej
@@ -472,13 +625,13 @@ używać słów takich jak \emph{falazer} (dowódca), \emph{kachister} (nauczyci
 \emph{meneder} (lekarz) i~innych.
 
 \note{\emph{epié} i~\emph{epiá} praktycznie nie są używane w Republice Nennek,
-  gdzie preferowane jest zwracanie się imieniem, zaimkiem ogólnym \emph{egi} lub
-  zależnymi od płci \emph{egli/egla} lub ewentualnie przyrostkiem \emph{-gam},
-  jeżeli naprawdę chce się podkreślić swoją niższą pozycję wobec rozmówcy.}
+    gdzie preferowane jest zwracanie się imieniem, zaimkiem ogólnym \emph{egi} lub
+    zależnymi od płci \emph{egli/egla} lub ewentualnie przyrostkiem \emph{-gam},
+    jeżeli naprawdę chce się podkreślić swoją niższą pozycję wobec rozmówcy.}
 
 \note{W momencie gdy dwoje rozmówców będzie traktować się nawzajem z identycznym
-  poziomem grzeczności, będą się do siebie zwracać nawzajem ukazując swoją niższą
-  pozycję, np. nawzajem tytułować siebie z przyrostkiem \emph{-epié}.}
+    poziomem grzeczności, będą się do siebie zwracać nawzajem ukazując swoją niższą
+    pozycję, np. nawzajem tytułować siebie z przyrostkiem \emph{-epié}.}
 \skipline
 
 Z drugiej strony, możliwe jest, że rozmówca będzie traktować drugą osobę jako
@@ -516,12 +669,12 @@ te określenia jako przyrostek funkcyjny (na wzór np.~\emph{Koolder-epié} --
 zamiast tego stosuje się \emph{arḱer/arḱera} dla podkreślenia formalności.
 
 \note{\emph{arḱer/arḱera} nie obowiązuje przy zwracaniu się do członków
-  rodziny cesarskiej oraz rodzin królów i książąt, do których należy zwracać
-  się zaimkiem \emph{rige/rigea} (,,władca'' / ,,władczyni'')) w mniej
-  formalnych sytuacjach i tytułem w bardziej formalnych.}
+    rodziny cesarskiej oraz rodzin królów i książąt, do których należy zwracać
+    się zaimkiem \emph{rige/rigea} (,,władca'' / ,,władczyni'')) w mniej
+    formalnych sytuacjach i tytułem w bardziej formalnych.}
 
 \note{W przypadku osoby pełniącej funkcję \emph{ajor} również stosuje się tytuł
-  jako zaimek w drugiej osobie.}
+    jako zaimek w drugiej osobie.}
 
 Określenie \emph{arḱer} stosowane było również do zwracania się do osób
 pełniących niektóre funkcje, np. burmistrza lub zarządcy miasta, często w formie
@@ -530,15 +683,15 @@ przyrostku funkcyjnego, obecnie jest to bardzo rzadkie.
 Lista tytułów szlacheckich:
 
 \begin{itemize}
-  \item \emph{kyige/kyige͞a} -- król/królowa,
-  \item \emph{kigeje/kigeje͞a} -- książę/księżna/księżniczka (tytuły Rodziny
-        Cesarskiej)
-  \item \emph{ajor/ajora} -- obecnie jest to funkcja administracyjna w
-        Cesarstwie, oznaczająca ,,gubernatora'', osobę zarządzającą regionem
-        administracyjnym,
-  \item \emph{lir/lira} -- hrabia/hrabina,
-  \item \emph{eber/ebera} -- baron/baronessa,
-  \item \emph{arḱer/arḱera} -- ogólna forma ,,lord'' (,,lady'').
+    \item \emph{kyige/kyige͞a} -- król/królowa,
+    \item \emph{kigeje/kigeje͞a} -- książę/księżna/księżniczka (tytuły Rodziny
+          Cesarskiej)
+    \item \emph{ajor/ajora} -- obecnie jest to funkcja administracyjna w
+          Cesarstwie, oznaczająca ,,gubernatora'', osobę zarządzającą regionem
+          administracyjnym,
+    \item \emph{lir/lira} -- hrabia/hrabina,
+    \item \emph{eber/ebera} -- baron/baronessa,
+    \item \emph{arḱer/arḱera} -- ogólna forma ,,lord'' (,,lady'').
 \end{itemize}
 
 \subsection{Honorary phrases}
@@ -553,7 +706,7 @@ wysoce formalnych zwrotach stosuje się przyrostek \emph{-epié} w stosunku do
 funkcji, np. \emph{diosever-epié} -- ,,pan sierżant'', ,,panie sierżancie''.
 
 \note{W odniesieniu do głów państw raczej powinno używać się formy \emph{arḱer},
-  np. w stosunku do królów, książąt, prezydentów czy Cesarzowej.}
+    np. w stosunku do królów, książąt, prezydentów czy Cesarzowej.}
 
 Istnieje jeden zwrot honorowy stosowany do dzisiaj, \emph{ardo arḱeji} --
 ,,wysocy panowie'', stosowany do grupy wysoko postawionych osób.
@@ -581,23 +734,34 @@ politycznej.
 Stąd aktualnie (w momencie pisania tej książki), mamy:
 
 \begin{itemize}
-  \item \textbf{Katia-eygera mal Arkai}\\ \xt{ˈka.ti.a ˈɛj.gɛ.ra ˈmal ˈar.ka.i},\\
-        Cesarzowa Katia mal Arkai,
-  \item \textbf{So'tak-eygeryikigeje mal Valor}\\ \xt{ˈsɔ|.tak ˈɛj.gɛ.rʏ.ki.gɛ.ʐɛ
-          ˈmal ˈva.lɔr},\\ Ksiażę Cesarzowej, So'tak mal Valor,
-  \item \textbf{Alya-icheryikigeje͞a mal Arkai-Valor}\\\xt{ˈal.ja i.ʈ͡ʂe.rʏ.ki.gɛ.ʐɛa ˈmal
-          ˈar.ka.i-va.lɔr},\\ Księżniczka Krwi, Alya mal Arkai-Valor,
-  \item \textbf{Niva-and́royasyikigeje͞a mal Arkai}\\\xt{ˈni.va an.ˈdrɔ.ja.sʏ.ki.gɛ.ʐɛa
-          mal ˈar.ka.i},\\ Księżniczka And́royas, Niva mal Arkai,
-  \item \textbf{Karra-and́royasyikigeje͞a mal Arkai}\\\xt{ˈkar.ra an.ˈdrɔ.ja.sʏ.ki.gɛ.ʐɛa
-          mal ˈar.ka.i},\\ Księżniczka And́royas, Karra mal Arkai,
-  \item \textbf{Jaida-and́royasyikigeje͞a mal Arkai}\\\xt{ˈʐa.i.da an.ˈdrɔ.ja.sʏ.ki.gɛ.ʐɛa
-          mal ˈar.ka.i},\\ Księżniczka And́royas, Jaida mal Arkai.
+    \item \textbf{Katia-eygera mal Arkai}\\ \xt{ˈka.ti.a ˈɛj.gɛ.ra ˈmal ˈar.ka.i},\\
+          Cesarzowa Katia mal Arkai,
+    \item \textbf{So'tak-eygeryikigeje mal Valor}\\ \xt{ˈsɔ|.tak ˈɛj.gɛ.rʏ.ki.gɛ.ʐɛ
+              ˈmal ˈva.lɔr},\\ Ksiażę Cesarzowej, So'tak mal Valor,
+    \item \textbf{Alya-icheryikigeje͞a mal Arkai-Valor}\\\xt{ˈal.ja i.ʈ͡ʂe.rʏ.ki.gɛ.ʐɛa ˈmal
+              ˈar.ka.i-va.lɔr},\\ Księżniczka Krwi, Alya mal Arkai-Valor,
+    \item \textbf{Niva-and́royasyikigeje͞a mal Arkai}\\\xt{ˈni.va an.ˈdrɔ.ja.sʏ.ki.gɛ.ʐɛa
+              mal ˈar.ka.i},\\ Księżniczka And́royas, Niva mal Arkai,
+    \item \textbf{Karra-and́royasyikigeje͞a mal Arkai}\\\xt{ˈkar.ra an.ˈdrɔ.ja.sʏ.ki.gɛ.ʐɛa
+              mal ˈar.ka.i},\\ Księżniczka And́royas, Karra mal Arkai,
+    \item \textbf{Jaida-and́royasyikigeje͞a mal Arkai}\\\xt{ˈʐa.i.da an.ˈdrɔ.ja.sʏ.ki.gɛ.ʐɛa
+              mal ˈar.ka.i},\\ Księżniczka And́royas, Jaida mal Arkai.
 \end{itemize}
 
 \note{Należy tutaj zwrócić uwagę na wymowę imienia Jej Wysokości, w~której
-  głoski /i/ oraz /a/ nie zlewają się w~/ia/, oraz na imię Jego Wysokości, w~
-  którym występuje pauza pomiędzy sylabami, oznaczana przez <'> w~transkrypcji.
-  Wynika to z~faktu, że Jego Wysokość pochodzi z~wyspy Rem, gdzie pojawiają
-  się takie, unikatowe, elementy języka, z~uwagi na wpływ języków krajów
-  ościennych.}
+    głoski /i/ oraz /a/ nie zlewają się w~/ia/, oraz na imię Jego Wysokości, w~
+    którym występuje pauza pomiędzy sylabami, oznaczana przez <'> w~transkrypcji.
+    Wynika to z~faktu, że Jego Wysokość pochodzi z~wyspy Rem, gdzie pojawiają
+    się takie, unikatowe, elementy języka, z~uwagi na wpływ języków krajów
+    ościennych.}
+
+\section{Exceptions}
+
+As we have mentioned in the beginning, the basic sentence order is SVO, however,
+in cases of a poetic or extremaly formal, religious language, this rule may be
+relaxed. In the Old Nennekan, SOV sentence order was preferred in such
+situations, and \andro is no different, sometimes also accepting OSV.
+
+\glossex{Beúsma egi va wesazit.}{beúsma egi va wesazi-t}{legend 3SG PFV become-PST}{``He has became a legend.''}
+
+\glossex{Egi beúsma va wesazit.}{egi beúsma va wesazi-t}{3SG legend PFV become-PST}{``Ha has became a legend.''}
