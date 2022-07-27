@@ -23,16 +23,18 @@ def check_syllabes(speech, org, strict=False):
     # romanization does not play nicely with ŋ, so let's workaround this
     s = s.replace('ŋ', 'n')
 
+    lprefix = "FAIL" if strict else "WARN"
+
     if h != s:
         print(
-            f"WARNING: speech {s} does not match romanization IPA {h} for {org}")
+            f"{lprefix}: speech {s} does not match romanization IPA {h} for {org}")
         if strict:
             exit(1)
 
     l = speech.strip().replace("ˈ", "")
     for i in l.split('.'):
         if i not in alls:
-            print(f"SYLLABLE WARN: {l} (because of {i}); WORD: {org}")
+            print(f"{lprefix}: syllable {l} (because of {i}); word: {org}")
             if strict:
                 exit(1)
 
@@ -62,18 +64,20 @@ def check_dictionary(strict=False):
     for i in filter(lambda x: 'supl_speech' in x, words):
         check_syllabes(i['supl_speech'], i['supl'], strict)
 
+    lprefix = "FAIL" if strict else "WARN"
+
     # check for empty descriptions
     for x in words:
         if x['ignore_err']:
             continue
 
         if len(x['description']) == 0 and 'redirect' not in x and x['type'] != 'name':
-            print("WARNING: EMPTY DESCRIPTION in " + x['word'])
+            print("{lprefix}: EMPTY DESCRIPTION in " + x['word'])
             if strict:
                 exit(1)
 
         if len(x['english_description']) == 0 and 'redirect' not in x and x['type'] != 'name':
-            print("WARNING: EMPTY ENGLISH DESCRIPTION in " + x['word'])
+            print("{lprefix}: EMPTY ENGLISH DESCRIPTION in " + x['word'])
             if strict:
                 exit(1)
 
@@ -81,9 +85,17 @@ def check_dictionary(strict=False):
         if 'morph' in x:
             if len(x['morph'].split(' ')) != 2:
                 print(
-                    "WARNING: derivational morphology not written correctly in " + x['word'])
+                    f"{lprefix}: derivational morphology not written correctly in {x['word']}")
                 if strict:
                     exit(1)
+
+    # check if last line is empty
+    with open("./dictionary.csv", 'r', encoding='utf-8') as f:
+        data = f.read()
+        if data[-1] != "\n":
+            print("{lprefix}: Last character is not a newline, sorting will fail!")
+            if strict:
+                exit(1)
 
 
 if __name__ == "__main__":
