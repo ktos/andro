@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+import unidecode
 import pyandro.dictionary as dictionary
 import pyandro.phonemizer as phonemizer
 import sys
@@ -94,6 +95,18 @@ def check_dictionary(strict=False):
         data = f.read()
         if data[-1] != "\n":
             print("{lprefix}: Last character is not a newline, sorting will fail!")
+            if strict:
+                exit(1)
+
+    # check if sorted
+    with open("./dictionary.csv", 'r', encoding='utf-8') as f:
+        data = f.readlines()
+        test_list = [unidecode.unidecode(x.split('|')[0]) for x in data]
+        result = all(test_list[i] <= test_list[i + 1]
+                     for i in range(len(test_list)-1))
+        if not result:
+            print(
+                f"{lprefix}: dictionary is not sorted!")
             if strict:
                 exit(1)
 
