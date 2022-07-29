@@ -46,7 +46,7 @@ alho|ˈal.xɔ|adj|wartościowy, cenny|comp:alho͞e ˈal.xɔɛ|supl:alho͞em ˈal
 ali|ˈa.li|part|ile|en:how much, how many
 alima|ˈa.li.ma|n|pl:alimji ˈa.lim.ʐi|fem|pierś|en:breast
 aliona|ˈa.li.ɔ.na|n|pl:alionji ˈa.li.ɔn.ʐi|fem|rada|en:advice
-alive|ˈa.li.vɛ|part|zanim, najpierw, przedtem|en:before
+alive|ˈa.li.vɛ|adj|wcześniejszy, zanim, najpierw, przedtem|en:before
 alo|ˈa.lɔ|adj|gorzki|en:bitter
 alosei|ˈa.lɔ.sɛ.i|v|pst:aloset ˈa.lɔ.sɛt|szyć|en:to sew
 aloser|ˈa.lɔ.sɛr|n|pl:aloseros ˈa.lɔ.sɛ.rɔs|źródło|en:source
@@ -144,7 +144,7 @@ ayro|ˈaj.rɔ|n|zieleń|en:green
 aysi|ˈaj.si|n|pl:aysiji ˈaj.si.ʐi|znamię, znak|en:sign, mark, especially birthmark
 aysi|ˈaj.si|v|pst:aysit ˈaj.sit|oznaczyć, naznaczyć|en:to mark, to sign
 azelano|ˈa.zɛ.la.nɔ|adj|prywatny|en:private|src:btg yeravahan
-azo|ˈa.zɔ|part|także|en:also
+azo|ˈa.zɔ|part|także|en:also, as well
 baaji|ˈba.a.ʐi|v|pst:baajet ˈba.a.ʐɛt|beczeć (owca)|note:Słowo to stanowi jeden z~nielicznych wyjątków, kiedy przy rozziewie <aa> akcent jest nadal na pierwszą sylabę.|en:to baa (sheep)|ennote:Very rare word, as there is hiatus but the accent is still on the first syllable.
 baán|ba.ˈan|n|pl:baániji ba.ˈa.ni.ʐi|czas; <phrase>vek baán</phrase> -- stare czasy, dawne dzieje, <phrase>vek vek baán</phrase> -- dawno, dawno, temu|en:time; <phrase>vek baán</phrase> -- old times, <phrase>vek vek baán</phrase> -- a long time ago
 bahen|ˈba.xɛn|n|pl:bahenos ˈba.xɛ.nɔs|rząd, wiersz (tabeli), klasa, rodzaj, typ|en:row, class, type
@@ -233,7 +233,6 @@ chana|ˈʈ͡ʂa.na|n|fem|pl:chanaji ˈʈ͡ʂa.na.ʐi|wzgląd, uwaga, przychylno�
 chanche|ˈʈ͡ʂan.ʈ͡ʂɛ|n|pl:chanches ˈʈ͡ʂan.ʈ͡ʂɛs|fem:chancha ˈʈ͡ʂan.ʈ͡ʂa|dziadek, babcia|note:Najczęściej używane jako zdrobnienie w~języku potocznym i~nieformalnym.|en:grandpa, grandma|ennote:Used in informal context.
 chane͞o|ˈʈ͡ʂa.nɛɔ|adj|względny|en:relative
 chane͞o|ˈʈ͡ʂa.nɛɔ|part|pod względem, odnosząc się do, a co do|en:in relation to, as for of
-chanet|ˈʈ͡ʂa.nɛt|part|zarówno, również|en:also
 chant|ˈʈ͡ʂaŋt|adj|równy|en:equal, even
 chantui|ˈʈ͡ʂan.tu.i|v|pst:chantut ˈʈ͡ʂan.tut|porównywać|en:to compare
 char|ˈʈ͡ʂar|n|pl:charji ˈʈ͡ʂar.ʐi|dar, podarunek, prezent|note:<see>oraichar</see> oznacza dosłownie dar bogów, błogosławieństwo, natomiast <see>kayćhar</see> oznacza dar nocy, przekleństwo.|en:gift|ennote:<see>oraichar</see>, ,,god's gift'' means blessing, while <see>kayćhar</see>, ,,night's gift'' is ,,curse''
@@ -331,7 +330,7 @@ diter|ˈdi.tɛr|part|tam|en:there
 divai|ˈdi.va.i|v|pst:divat ˈdi.vat|operować, używać czegoś, kierować czymś|en:to operate something, to use something
 divayer|ˈdi.va.jɛr|n|pl:divayeros ˈdi.va.jɛ.rɔs|fem:divayera ˈdi.va.jɛ.ra|operator, użytkownik, kierowca|en:operator, driver, user
 diýa|di.ˈja|n|pl:diíji di.ˈi.ʐi|fem|chmura|en:cloud
-diyu|ˈdi.ju|part|coś|en:something
+diyu|ˈdi.ju|n|coś|en:something
 do|ˈdɔ|part|partykuła -- operator trybu rozkazującego (<sc>imp</sc>), patrz też <see>hemi</see>|en:particle -- operator of imperative mood (<sc>imp</sc>)
 doba|ˈdɔ.ba|adj|potem, następnie, następny, kolejny raz|en:after, next after, next time again
 doevi|ˈdɔ.ɛ.vi|v|pst:do͞evit ˈdɔɛ.vit|skrzypieć|en:to creak, to squeak
@@ -412,7 +411,7 @@ eshu|ˈɛs.xu|n|pl:eshus ˈɛs.xus|drzwi|en:door|note:Regionalizm. Preferowana f
 esi|ˈɛ.si|v|pst:eset ˈɛ.sɛt|być; <phrase>esi gir on</phrase> -- być złym na coś, kogoś|en:to be; <phrase>esi gir on</phrase> -- to be annoyed because of something
 espero|ˈɛs.pɛ.rɔ|n|pl:esperos ˈɛs.pɛ.rɔs|miasto|en:city
 eswai|ˈɛs.wa.i|v|pst:eswat ˈɛs.wat|wrzeszczeć|en:to scream
-eveni|ˈɛ.vɛ.ni|part|każdy|en:every
+eveni|ˈɛ.vɛ.ni|adj|każdy|en:every
 evuo|ˈɛ.vu.ɔ|adj|comp:evue ˈɛ.vu.ɛ|supl:evuom ˈɛ.vu.ɔm|miękki|en:soft
 ewagi|ˈɛ.wa.gi|v|pst:ewagit ˈɛ.wa.git|zostawać, pozostawać, przebywać|en:to stay, to reside
 ewogi|ˈɛ.wɔ.gi|v|pst:ewogit ˈɛ.wɔ.git|zostawiać|en:to leave, to let be|note:Patrz również <see>zohi</see>, jednak <em>ewogi</em> jest stosowane raczej, kiedy zostawiam coś intencjonalnie, aby ktoś z tego skorzystał.|ennote:See also <see>zohi</see>, but <em>ewogi</em> is used when I am leaving something intentionally for someone else to use.
@@ -565,7 +564,7 @@ hemi|ˈxɛ.mi|part|partykuła -- operator trybu przypuszczająco-proszącego (ek
 hemi|ˈxɛ.mi|v|pst:hemet ˈxɛ.mɛt|prosić|en:to ask someone to do something
 heneta|ˈxɛ.nɛ.ta|n|pl:heneti ˈxɛ.nɛ.ti|fem|kaczka|en:duck
 henita|ˈxɛ.ni.ta|n|pl:henitas ˈxɛ.ni.tas|fem|stopa|en:foot
-hetay|ˈxɛ.taj|part|dzisiaj, dziś|en:today
+hetay|ˈxɛ.taj|n|dzisiaj, dziś, dzisiejszy dzień|en:today
 hifana|ˈxi.fa.na|n|fem|pl:hifani ˈxi.fa.ni|ideologia|en:ideology|src:btg bholtazir
 hifanai|ˈxi.fa.na.i|v|pst:hifanat ˈxi.fa.nat|inspirować|en:to inspire
 hifana͞o|ˈxi.fa.naɔ|adj|inspirujący|en:inspirating
@@ -635,7 +634,7 @@ inerai|ˈi.nɛ.ra.i|v|pst:inerat ˈi.nɛ.rat|brzmieć|en:to sound
 ineri|ˈi.nɛ.ri|v|pst:inerit ˈi.nɛ.rit|głosić, ogłosić|en:to voice, to proclaim
 ingeki|ˈin.gɛ.ki|v|pst:ingek ˈin.gɛk|czekać|en:to wait
 init|ˈi.nit|n|pl:inji ˈin.ʐi|liść|en:leaf
-inmeú|in.mɛ.ˈu|part|natychmiast|note:W niektórych dialektach używa się określenia <alt>immeú</alt> /im:.ɛ.ˈu/.|en:immediately
+inmeú|in.mɛ.ˈu|adj|natychmiast, natychmiastowy|note:W niektórych dialektach używa się określenia <alt>immeú</alt> /im:.ɛ.ˈu/.|en:immediately, immediate
 inra͞i|ˈin.rai|v|pst:inrat ˈin.rat|mówić, powiedzieć|note:Dawniej, przede wszystkim w~dialekcie zachodnim, używane było bardzo często słowo <see>parlai</see>.|en:to speak|ennote:Formerly, especially in the West, the world <see>parlai</see> was used.
 inrat|ˈin.rat|n|pl:inratji ˈin.rat.ʐi|mowa, język|en:speech, language
 inri|ˈin.ri|v|pst:inrit ˈin.rit|wołać|en:to call
@@ -859,10 +858,10 @@ koperi|ˈkɔ.pɛ.ri|v|pst:kopet ˈkɔ.pɛt|kryć, ukrywać|en:to hide
 kopero|ˈkɔ.pɛ.rɔ|adj|ukryty, ukryta|en:hidden
 korebi|ˈkɔ.rɛ.bi|v|pst:kret ˈkrɛt|ufać|en:to trust
 korno|ˈkɔr.nɔ|n|pl:kornos ˈkɔr.nɔs|róg, narożnik, dziób ptaka, wydłużone zakończenie przedmiotu, przednia część kadłuba statku|note:Ale nie róg zwierzęcy, patrz <see>isdat</see>.|en:corner, bird's beak, ship's bow
-kovi|ˈkɔ.vi|part|tuż, ledwo|en:almost
+kovi|ˈkɔ.vi|adj|tuż, ledwo|en:almost
 kower|ˈkɔ.wɛr|n|północ (kierunek)|en:north
 kowero|ˈkɔ.wɛ.rɔ|adj|północny|en:northern
-koy|ˈkɔj|part|jakoś, jakby, jakiś, jak, ,,coś jak coś'', tak jak, jak gdyby, w duchu|en:something like, more or less, just like, be like, in a spirit of
+koy|ˈkɔj|adj|jakoś, jakby, jakiś, jak, ,,coś jak coś'', tak jak, jak gdyby, w duchu|en:something like, more or less, just like, be like, in a spirit of
 kruka|ˈkru.ka|n|fem|pl:krukaji ˈkru.ka.ʐi|zagadka, łamigłówka|en:puzzle, riddle|src:btg tlattlaii
 kruki|ˈkru.ki|v|pst:krukit ˈkru.kit|zadawać zagadki, zadziwić, zakłopotać, wprawiać w zakłopotanie|en:to give puzzles, to puzzle, to intrigue, to perplex
 kruko|ˈkru.kɔ|adj|zaskakujący, zadziwiający, intrygujący|en:puzzling, intriguing, interesting
@@ -898,7 +897,7 @@ layni|ˈlaj.ni|v|pst:laynit ˈlaj.nit|sprawiać przyjemność|en:to give someone
 leehe|ˈlɛ.ɛ.xɛ|n|pl:leehet ˈlɛ.ɛ.xɛt|taniec|en:dance
 leehi|ˈlɛ.ɛ.xi|v|pst:leehit ˈlɛ.ɛ.xit|tańczyć|en:to dance
 legeni|ˈlɛ.gɛ.ni|v|pst:legent ˈlɛ.gɛŋt|gryźć|en:to bite|!ignore_err
-lehu|ˈlɛ.xu|part|wcale|en:not at all
+lehu|ˈlɛ.xu|adj|wcale|en:not at all
 lejekli|ˈlɛ.ʐɛk.li|v|pst:lejeklit ˈlɛ.ʐɛk.lit|kontynuować|en:to continue
 leknulgura|ˈlɛk.nul.gu.ra|n|pl:leknulgureji ˈlɛk.nul.gu.rɛ.ʐi|fem|restauracja|en:restaurant
 lekrok|ˈlɛk.rɔk|n|pl:lekrokji ˈlɛk.rɔk.ʐi|toaleta (miejsce)|en:toilet (place)
@@ -907,7 +906,7 @@ leojo|ˈlɛ.ɔ.ʐɔ|adj|comp:leoje͞o ˈlɛ.ɔ.ʐɛɔ|supl:leojem ˈlɛ.ɔ.ʐɛm
 lero|ˈlɛ.rɔ|adj|męski|comp:lero͞e ˈlɛ.rɔɛ|supl:lero͞em ˈlɛ.rɔɛm|en:male, manly
 lese|ˈlɛ.sɛ|n|pl:leseji lɛ.sɛ.ʐi|fem:lesa lɛ.sa|owca, jagnię, baran|en:sheep, lamb, ram
 leseyirome|ˈlɛ.sɛ.ʏ.rɔ.mɛ|n|pl:leseyiromes lɛ.sɛ.ʏ.rɔ.mɛs|jagnięcina|en:lamb (meat)
-levi|ˈlɛ.vi|part|z lewej, lewa strona|en:left side, at the left
+levi|ˈlɛ.vi|adj|z lewej, lewa strona, lewy|en:left side, at the left
 leviseto|ˈlɛ.vi.sɛ.tɔ|adj|utracony|en:lost, lost in the past
 levisi|ˈlɛ.vi.si|v|pst:leviset ˈlɛ.vi.sɛt|tracić, odejmować|en:to lose, to substract
 levo|ˈlɛ.vɔ|adj|supl:levo͞em ˈlɛ.vɔɛm|comp:levo͞e ˈlɛ.vɔɛ|lewy|en:left
@@ -975,7 +974,7 @@ mamurte|ˈma.mur.tɛ|n|pl:mamurtos ˈma.mur.tɔs|port morski lub śródlądowy|e
 mani|ˈma.ni|v|pst:mant ˈmaŋt|gubić|en:to lose, to mislay|!ignore_err
 mano|ˈma.nɔ|adj|zgubiony, zagubiony, zaginiony|en:lost
 mantreja|ˈman.trɛ.ʐa|n|pl:mantreji ˈman.trɛ.ʐi|fem|lista|en:list
-mapar|ˈma.par|part|żaden|en:neither
+mapar|ˈma.par|adj|żaden|en:neither
 mar|ˈmar|n|mąż (nieformalnie)|en:husband (informal)
 maŕida|ma.ˈri.da|n|pl:maŕidi ma.ˈri.di|fem|ziemia (jako obszar posiadany), miejsce, ląd|en:land, place, owned terrain
 maŕido|ma.ˈri.dɔ|adj|brązowy, ciemnobrązowy|en:brown, dark brown|note:Patrz również <see>fasso</see>.|ennote:See also <see>fasso</see>.
@@ -1040,20 +1039,20 @@ missi|ˈmis.si|v|kontaktować się|en:to contact, to send message
 mite|ˈmi.tɛ|n|pl:mites ˈmi.tɛs|fem:mita ˈmi.ta|tyłek|en:butt
 miter|ˈmi.tɛr|n|pl:miteri ˈmi.tɛ.ri|tył|en:back
 mito|ˈmi.tɔ|adj|tylny|en:back
-mo|ˈmɔ|part|nic, nikt|en:nobody
-moḱey|mɔ.ˈkɛj|part|nijak|en:nohow
-moḱoy|mɔ.ˈkɔj|part|jakikolwiek|en:anyone, anything
-moĺi|mɔ.ˈli|part|nigdy|en:never
+mo|ˈmɔ|n|nic|en:nothing
+moḱey|mɔ.ˈkɛj|adj|nijak|en:nohow
+moḱoy|mɔ.ˈkɔj|adj|jakikolwiek|en:anyone, anything
+moĺi|mɔ.ˈli|adj|nigdy|en:never
 moroza|ˈmɔ.rɔ.za|n|pl:moroji ˈmɔ.rɔ.ʐi|fem|piłka|en:ball
 mosno|ˈmɔs.nɔ|adj|supl:mosne͞am ˈmɔs.nɛam|comp:mosne ˈmɔs.nɛ|dziki|en:wild
-mośo|mɔ.ˈsɔ|part|nigdzie|en:nowhere
+mośo|mɔ.ˈsɔ|adj|nigdzie|en:nowhere
 moster|ˈmɔs.tɛr|n|pl:mosteros ˈmɔs.tɛ.rɔs|tworzywo sztuczne, plastik|en:plastic
 mosti|ˈmɔs.ti|v|pst:moset ˈmɔ.sɛt|tworzyć|en:to create
 mosto|ˈmɔs.tɔ|adj|stworzony, sztuczny, nienaturalny|en:created, artificial, unnatural, plastic
-mot́er|mɔ.ˈtɛr|part|nikt|en:nobody
-moýage|mɔ.ˈja.gɛ|part|donikąd|en:to nowhere
-moýasu|mɔ.ˈja.su|part|znikąd|en:from nowhere
-moyi|ˈmɔ.ʏ|part|niczyj|en:ownerless
+mot́er|mɔ.ˈtɛr|n|nikt|en:nobody
+moýage|mɔ.ˈja.gɛ|n|donikąd|en:to nowhere
+moýasu|mɔ.ˈja.su|n|znikąd|en:from nowhere
+moyi|ˈmɔ.ʏ|adj|niczyj|en:ownerless
 muche|ˈmu.ʈ͡ʂɛ|n|pl:mucho ˈmu.ʈ͡ʂɔ|fem:mucha ˈmu.ʈ͡ʂa|kot, kotka|en:cat
 muchi|ˈmu.ʈ͡ʂi|n|pl:muchyo ˈmu.ʈ͡ʂjɔ|fem:muchya ˈmu.ʈ͡ʂja|kotek, kociaczek|note:Zawołanie <phrase>mućhi, mućhi</phrase> oznacza mniej więcej ,,kici, kici''.|en:small cat, kitten|ennote:<phrase>mućhi, mućhi</phrase> -- ,,here, kitty, kitty''.
 mudi|ˈmu.di|v|pst:mudit ˈmu.dit|podawać (jedzenie), podawać komuś coś|en:to serve food, to give someone something
@@ -1063,7 +1062,7 @@ munerer|ˈmu.nɛ.rɛr|n|pl:muneros ˈmu.nɛ.rɔs|fem:munerera ˈmu.nɛ.rɛ.ra|ur
 musa|ˈmu.sa|n|pl:musi ˈmu.si|mysz|en:mouse
 myi|ˈmʏ|pro|mój, mnie (<sc>1sg.poss</sc>) lub (<sc>1sg.acc</sc>)|en:my, mine (<sc>1sg.poss</sc>), sometimes (<sc>1sg.poss</sc>)|note:Zaimki <em>myi</em> oraz <em>tyi</em> zazwyczaj zapisywane są w~postaci ideogramu, czasami nawet w~tekście zapisanym alfabetem fonetycznym.|note:Może być stosowany jako przyrostek do imienia lub rzeczownika, określając zdrobnienie, np. <phrase>muchi-myi</phrase> -- ,,mój koteczek''.|ennote:These pronouns may be used in a form of suffix, marking cuteness and also level of possession, e.g. <phrase>myi mućhi</phrase> -- ,,my small, cute, kitten''.
 na|ˈna|n|pięć, piątka|en:five
-naári|na.ˈa.ri|part|wkrótce, niedługo|en:soon, shortly
+naári|na.ˈa.ri|adj|wkrótce, niedługo, przyszły|en:soon, shortly, next
 naba|ˈna.ba|n|fem|obóz|en:camp
 naber|ˈna.bɛr|n|fem:nabera ˈna.bɛ.ra|pl:naberos ˈna.bɛ.rɔs|obozowicz, obozowiczka|en:camper
 nabi|ˈna.bi|v|pst:nabit ˈna.bit|obozować|en:to camp
@@ -1168,7 +1167,7 @@ oban|ˈɔ.ban|part|na czas|en:for the time of
 obi|ˈɔ.bi|v|pst:obit ˈɔ.bit|zaczynać|en:to start, to begin
 obo|ˈɔ.bɔ|n|pl:obos ˈɔ.bɔs|początek|en:beginning
 ofari|ˈɔ.fa.ri|v|pst:ofarit ˈɔ.fa.rit|zaczynać (coś robić)|en:to start doing something
-okoyban|ˈɔ.kɔj.ban|part|na jakiś czas|en:for the some time
+okoyban|ˈɔ.kɔj.ban|adj|tymczasowy, na jakiś czas|en:temporary, for the some time
 okupao|ˈɔ.ku.pa.ɔ|n|pl:okupaos ˈɔ.ku.pa.ɔs|problem|en:problem, issue
 okwat|ˈɔk.wat|n|pl:okwatos ɔk.wa.tɔs fem:okwata ɔk.wa.ta|wieprz, świnia|en:boar, pig
 okwatyirome|ˈɔk.wa.tʏ.rɔ.mɛ|n|pl:okwatyiromes ɔk.wa.tʏ.rɔ.mɛs|wieprzowina|en:pork
@@ -1177,12 +1176,12 @@ oli|ˈɔ.li|v|pst:olit ˈɔ.lit|nosić ubranie|en:to wear (clothes)
 omelgi|ˈɔ.mɛl.gi|v|pst:omelgit ˈɔ.mɛl.git|doić|en:to milk
 on|ˈɔn|part|na (czymś), na temat, o (kimś), o (czymś), na (coś)|en:on something, about topic, about someone
 one|ˈɔ.nɛ|part|z (czymś)|en:with (something)
-onvojibo|ˈɔn.vɔ.ʐi.bɔ|part|z naprzeciw, naprzeciwko|en:opposite
+onvojibo|ˈɔn.vɔ.ʐi.bɔ|adj|przeciwny, z naprzeciw, naprzeciwko|en:opposite
 opeka|ˈɔ.pɛ.ka|n|pl:opekaji ˈɔ.pɛ.ka.ʐi|fem|wyspa|en:island
 oraićhar|ɔ.ra.i.ˈʈ͡ʂar|n|dar bogów, błogosławieństwo|en:gods' gift, blessing|!ignore_err
 orati|ˈɔ.ra.ti|v|pst:oratit ˈɔ.ra.tit|orać|en:to plow
 orayhan|ˈɔ.raj.xan|n|pl:orayhanos ˈɔ.raj.xa.nɔs|dosłownie: ,,miejsce boga'', ołtarz, tabernakulum|en:literally ,,place of god'', altar|morph:ora-y-han god-POSS-home
-ore|ˈɔ.rɛ|part|teraz, w tej chwili, właśnie, czasami także: wreszcie|en:now, right now, just now, sometimes also: finally
+ore|ˈɔ.rɛ|adj|aktualny, teraźniejszy, teraz, w tej chwili, właśnie, czasami także: wreszcie|en:current, actual, now, right now, just now, sometimes also: finally
 oreno|ˈɔ.rɛ.nɔ|adj|pomarańczowy|en:orange|note:Prawdopodobnie ze staronenneckiego <em>orpin</em>, złoto, patrz też <see>forn</see> -- można zauważyć podobieństwa do ziemskiego <em>aurum</em>.|ennote:Probably from Old-Nennekan <em>orpin</em>, gold.
 oreno|ˈɔ.rɛ.nɔ|n|kolor pomarańczowy|en:orange
 ori|ˈɔ.ri|n|pl:ora͞i ˈɔ.rai|fem:oriá ɔ.ri.ˈa|bóg, bogini|en:god, goddess
@@ -1305,18 +1304,18 @@ rav́ati|ra.ˈva.ti|v|pst:rav́at ra.ˈvat|rozglądać się|en:to look around
 ray|ˈraj|n|pl:raji ˈra.ʐi|fem|piorun, błyskawica|en:lightning
 razi|ˈra.zi|part|określa wielokrotność, używane w~połączeniu z~liczebnikiem, na przykład <phrase>ka razi</phrase> -- dwukrotnie|en:particle marking multipleness, used in connection to a number, e.g. <phrase>ka razi</phrase> -- two times.
 re͞a|ˈrɛa|n|fem|pl:re͞as rɛas|pierścień, okrąg, krąg|en:ring, circle
-recha|ˈrɛ.ʈ͡ʂa|part|wszyscy, wszystko, wszystkie|en:everything, everyone, everybody
+recha|ˈrɛ.ʈ͡ʂa|n|wszyscy, wszystko, wszystkie|en:everything, everyone, everybody
 rechakwa|ˈrɛ.ʈ͡ʂak.wa|n|pl:rechakwaji ˈrɛ.ʈ͡ʂak.wa.ʐi|fem|ocean|en:ocean
 rechaḿaresen|rɛ.ʈ͡ʂa.ˈma.rɛ.sɛn|n|Wszechświat|en:Universe
-rede|ˈrɛ.dɛ|part|ponownie, znów|en:again
-redo͞a|ˈrɛ.dɔa|part|kilka, niewielu, niewiele, kilku|en:a few
+rede|ˈrɛ.dɛ|adj|ponownie, znów|en:again
+redo͞a|ˈrɛ.dɔa|adj|kilka, niewielu, niewiele, kilku|en:a few
 refi|ˈrɛ.fi|adj|być przeznaczonym|en:to be destined
 regu|ˈrɛ.gu|adj|supl:regu͞em ˈrɛ.guɛm|comp:regu͞e ˈrɛ.guɛ|ciemny|en:dark
 regu͞o|ˈrɛ.guɔ|n|pl:reguos ˈrɛ.gu.ɔs|ciemność|en:darkness
 reki|ˈrɛ.ki|v|pst:rek ˈrɛk|uderzyć, uderzać, atakować, bić|en:to hit, to attack, to beat
 relita|ˈrɛ.li.ta|adj|ciągły, nieprzerwany, zawsze|en:continous, non-interrupting, always|note:Często wykorzystywany jako przysłówek ,,zawsze''.|ennote:Used commonly in a form of adverb ,,always''.
 rer|ˈrɛr|n|fem:rera rɛ.ra|osoba|en:person|note:Używane dość rzadko w formie żeńskiej.|ennote:Used very rarely in feminine form.
-reso|ˈrɛ.sɔ|part|wszędzie|en:everywhere
+reso|ˈrɛ.sɔ|adj|wszędzie|en:everywhere
 ret|ˈrɛt|n|pl:retos ˈrɛ.tɔs|sieć|en:net
 retal|ˈrɛ.tal|n|pl:retalji ˈrɛ.tal.ʐi|dach|en:roof
 reter|ˈrɛt.ɛr|n|pl:reteros ˈrɛ.tɛ.rɔs|powrót|en:return
@@ -1333,10 +1332,10 @@ riper|ˈri.pɛr|n|pl:ripiji ˈri.pi.ʐi|fem|rozpruwacz|en:ripper
 ripi|ˈri.pi|v|pst:ripet ˈri.pɛt|pruć, rozpruwać|en:to ripe
 ripijer|ˈri.pi.ʐɛr|n|pl:ripijeros ˈri.pi.ʐɛ.rɔs|granat|en:grenade
 rissi|ˈris.si|v|pst:risset ˈris.sɛt|kopać|en:to dig
-rivi|ˈri.vi|part|z prawej, prawa strona|en:right, right side, at the right side
+rivi|ˈri.vi|adj|prawy, z prawej, prawa strona|en:right, right side, at the right side
 rivisi|ˈri.vi.si|v|pst:rivisit ˈri.vi.sit|wzbogacać się, zyskiwać, dodawać|en:to get rich
 rizo|ˈri.zɔ|adj|supl:rizo͞em ˈri.zɔɛm|comp:rizo͞e ˈri.zɔɛ|dokładny, staranny|en:accurate, neat, exact
-rizu͞o|ˈri.zuɔ|part|dokładnie tak, w~rzeczy samej|en:yes, exactly; indeed
+rizu͞o|ˈri.zuɔ|adj|dokładnie taki, dokładnie tak, w~rzeczy samej|en:yes, exactly; indeed
 ro͞al|ˈrɔal|adj|supl:ro͞alem ˈrɔa.lɛm|comp:ro͞ale ˈrɔa.lɛ|bogaty|en:rich
 ro͞alta|ˈrɔal.ta|n|fem|pl:ro͞altaji ˈrɔal.ta.ʐi|bogactwo, bogactwa, fortuna, skarb, majątek|en:wealth, richness, riches, fortune
 rome|ˈrɔ.mɛ|n|pl:romes ˈrɔ.mɛs|mięso|en:meat
@@ -1462,8 +1461,8 @@ soel|ˈsɔ.ɛl|n|pl:soelji sɔ.ɛl.ʐi|fem:soela sɔ.ɛ.la|wół, krowa, byk|en:
 soelyirome|ˈsɔ.ɛ.lʏ.rɔ.mɛ|n|pl:soelyiromes sɔ.ɛ.lʏ.rɔ.mɛs|wołowina|en:beef
 soki|ˈsɔ.ki|part|więc, zatem|en:so
 sokisito|ˈsɔ.ki.si.tɔ|part|dlatego, więc dlatego|en:therefore, so
-somak|ˈsɔ.mak|part|gdzieś|en:somewhere
-somar|ˈsɔ.mar|part|gdzie|en:where
+somak|ˈsɔ.mak|n|gdzieś|en:somewhere
+somar|ˈsɔ.mar|n|gdzie|en:where
 soneta|ˈsɔ.nɛ.ta|n|fem|pl:sonetaji ˈsɔ.nɛ.ta.ʐi|wdzięczność, wyrazy wdzięczności|en:gratitude
 soneti|ˈsɔ.nɛ.ti|v|pst:sonet ˈsɔ.nɛt|wyrażać wdzięczność|en:to express gratitude|src:btg Middlenish
 sora|ˈsɔ.ra|n|fem|siostra|en:sister
@@ -1472,7 +1471,7 @@ sormi|ˈsɔr.mi|v|pst:sormit ˈsɔr.mit|wschodzić (o ciałach niebieskich)|en:t
 sormo|ˈsɔr.mɔ|n|pl:sormiji ˈsɔr.mi.ʐi|wschód (kierunek), wschód słońca|en:sunrise, east
 sormo|ˈsɔr.mɔ|adj|wschodni, leżący na wschodzie|en:eastern
 sosbet|ˈsɔs.bɛt|n|pl:sosbetos ˈsɔs.bɛ.tɔs|fem:sosbeta ˈsɔs.bɛ.ta|podejrzany|en:suspect
-sotak|ˈsɔ.tak|part|ktoś|en:someone
+sotak|ˈsɔ.tak|n|ktoś|en:someone
 soter|ˈsɔ.tɛr|part|kto|en:who
 stane|ˈsta.nɛ|n|pl:stanes ˈsta.nɛs|odpoczynek|en:rest
 stani|ˈsta.ni|v|pst:stanit ˈsta.nit|odpoczywać|en:to rest
@@ -1653,7 +1652,7 @@ vahuryiáysi|va.xu.rʏ.ˈaj.si|n|pl:vahuryiaysiji ˈva.xur.ʏ.aj.si.ʐi|tatuaż
 vaja|ˈva.ʐa|part|czy|en:particle used in questions like ,,Is it true that?''
 vajar|ˈva.ʐar|part|a może, czy może jednak|en:but maybe
 vajati|ˈva.ʐa.ti|v|pst:vajat ˈva.ʐat|narzekać; <phrase>vajati on</phrase> -- narzekać na|en:to complain, <phrase>vajati on</phrase> -- to complain on something
-vajikoy|ˈva.ʐi.kɔj|part|czyjkolwiek|en:anyone's
+vajikoy|ˈva.ʐi.kɔj|adj|czyjkolwiek|en:anyone's
 vaḱana|va.ˈka.na|n|pl:vaḱanas va.ˈka.nas|fem|krajobraz, pejzaż, widok, sceneria|en:landscape, countryside, scenery
 vakil|ˈva.kil|n|pl:vakili ˈva.ki.li|futro, sierść|en:animal fur, animal hair|src:btg lemaive
 vakili|ˈva.ki.li|v|pst:vakilit ˈva.ki.lit|zdejmować futro, oskórować|en:to skin
@@ -1673,7 +1672,7 @@ vayara|ˈva.ja.ra|n|pl:vayarji ˈva.jar.ʐi|fem|podróż|en:voyage, trip, travel
 vayaren|ˈva.ja.rɛn|n|pl:vayarenjos ˈva.ja.rɛn.ʐɔs|fem:vayarena ˈva.ja.rɛ.na|podróżnik|en:voyager, traveller
 vayareni|ˈva.ja.rɛ.ni|v|podróżować|en:to travel
 vayaro|ˈva.ja.rɔ|adj|podróżujący|note:Bardziej popularna forma, ale w~dialekcie pustynnym pojawia się określenie <see>vyage</see>.|en:travelling|ennote:In the Desert Dialect <see>vyage</see> is used sometimes.
-vayi|ˈva.ji|part|czyjś|en:someone's|!ignore_err
+vayi|ˈva.ji|adj|czyjś|en:someone's|!ignore_err
 vechi|ˈvɛ.ʈ͡ʂi|n|pl:vechi ˈvɛ.ʈ͡ʂi|pałeczki do jedzenia, sztućce|en:chopsticks, cutlery|src:btg Tabesj
 vechireder|ˈvɛ.ʈ͡ʂi.rɛ.dɛr|n|pl:vechiredeji ˈvɛ.ʈ͡ʂi.rɛ.dɛ.ʐi|fem:vechiredera ˈvɛ.ʈ͡ʂi.rɛ.dɛ.ra|głupiec, głupek|en:stupid person
 vechiredo|ˈvɛ.ʈ͡ʂi.rɛ.dɔ|n|głupota|en:stupideness
@@ -1728,7 +1727,7 @@ vireja|ˈvi.rɛ.ʐa|n|pl:vireji ˈvi.rɛ.ʐi|gwiazda|en:star
 virer|ˈvi.rɛr|n|pl:viros ˈvi.rɔs|fem:virera ˈvi.rɛ.ra|maluszek, niemowlę, noworodek|en:baby, newborn|note:Tradycyjnie w niektórych regionach używa się zdania <phrase>kiiway in sekaya, virer(a)</phrase> - ,,witaj na świecie, maleńki'' kiedy po raz pierwszy bierze się na ręce nowonarodzone dziecko.|ennote:In some regions there is a tradition of saying <phrase>kiiway in sekaya, virer(a)</phrase> - ,,welcome to the world, tiny boy (girl)'' where you are holding newborn for a first time.
 virfara|ˈvir.fa.ra|n|fem|pl:virfarji ˈvir.far.ʐi|sztuczka, trik|en:trick
 virfarer|ˈvir.fa.rɛr|n|fem:virfarera ˈvir.fa.rɛ.ra|pl:virfareros ˈvir.fa.rɛ.rɔs|sztukmistrz, kuglarz, artysta cyrkowy|en:juggler, magician
-viri|ˈvi.ri|part|trochę|en:a bit
+viri|ˈvi.ri|adj|fragmentaryczny, fragmentarycznie, trochę|en:a bit
 virta|ˈvir.ta|n|pl:virtas ˈvir.tas|atom, cząstka elementarna|en:atom, elementary particle|morph:vir-ta tiny-part
 virto|ˈvir.tɔ|adj|atomowy, jądrowy, nuklearny|en:atomic, nuclear
 viti|ˈvi.ti|v|pst:vitit ˈvi.tit|rwać, przerywać|en:interrupt, tear
@@ -1747,7 +1746,7 @@ vokcholer|ˈvɔk.ʈ͡ʂɔ.lɛr|n|fem:vokcholera ˈvɔk.ʈ͡ʂɔ.lɛ.ra|student, 
 vokchu|ˈvɔk.ʈ͡ʂu|n|studia, badania|en:studies, studies on something|note:<phrase>vokchu lonroki chu ...</phrase> -- prowadzić badania nad|ennote:<phrase>vokchu lonroki chu ...</phrase> -- to study (scientifically) something
 voli|ˈvɔ.li|part|kiedy; <phrase>o voli</phrase> -- do kiedy|en:when, <phrase>o voli</phrase> -- until when
 volu|ˈvɔ.lu|part|kiedyś|en:somewhen
-volumo|ˈvɔ.lu.mɔ|part|kiedykolwiek|en:anywhen
+volumo|ˈvɔ.lu.mɔ|adj|kiedykolwiek|en:anywhen
 votepo|ˈvɔ.tɛ.pɔ|adj|supl:votepo͞em ˈvɔ.tɛ.pɔɛm|comp:votepo͞e ˈvɔ.tɛ.pɔɛ|gorący|en:hot
 votuvek|ˈvɔ.tu.vɛk|n|pl:votuvekos ˈvɔ.tu.vɛ.kɔs|uroczystość, celebracja|en:celebrations, feast
 votuveko|ˈvɔ.tu.vɛ.kɔ|adj|uroczysty|en:festive, ceremonial
@@ -1856,7 +1855,7 @@ ze|ˈzɛ|part|partykuła -- operator czasu przyszłego (<sc>fut</sc>)|en:particl
 ze͞ijaki|ˈzɛi.ʐa.ki|adj|wrażliwy, podatny na zranienie|en:sensitive, vulnerable
 zeima|ˈzɛi.ma|n|pl:zeimaji ˈzɛi.ma.ʐi|fem|zespół (muzyczny), zespół (drużyna)|en:band, team|src:pie seima
 zeku͞a|ˈzɛ.kua|n|pl:zekuji ˈzɛ.ku.ʐi|fem|jezioro|en:lake
-zetay|ˈzɛ.taj|part|jutro|en:tomorrow
+zetay|ˈzɛ.taj|adj|jutro, jutrzejrzy|en:tomorrow
 zeuna|ˈzɛ.u.na|n|pl:zeunji ˈzɛ.un.ʐi|fem|kosmos|en:space, cosmos
 zeuver|ˈzɛ.u.vɛr|n|pl:zeuveros ˈzɛ.u.vɛ.rɔs|fem:zeuvera ˈzɛ.u.vɛ.ra|żołnierz sił kosmicznych|en:soldier of the space forces
 zeuye|ˈzɛ.u.jɛ|adj|supl:zeuye͞am ˈzɛ.u.jɛam|comp:zeuye͞a ˈzɛ.u.jɛa|gruby|en:fat
