@@ -48,7 +48,7 @@ function gloss_word(word) {
 
     for (x of words_en) {
         if (compare_caseless(word, x['word']))
-            if ('redirect' in x)
+            if ('redirect' in x && x['redirect'] !== null)
                 results.push('[REDIRECT!]')
             else
                 results.push(description_to_gloss(
