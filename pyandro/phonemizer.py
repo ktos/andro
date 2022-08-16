@@ -54,6 +54,7 @@ class AndroPhonemizer():
             word = word.replace('ý', 'y')
             word = word.replace('j́', 'j')
             word = word.replace('ĺ', 'l')
+            word = word.replace('ćh', 'ʈ͡ʂ')
             word = word.replace('\u035e', '')
             word = word.replace('\u0301', '')
 

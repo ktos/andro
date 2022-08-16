@@ -15,7 +15,7 @@ abe|ˈa.bɛ|part|ale|en:but
 abe|ˈa.bɛ|n|pl:abeji ˈa.bɛ.ʐi|wyjątek|en:exception
 abegam|ˈa.bɛ.gam|part|jednak, jednakże (formalne)|en:however, but (formal)
 abejar|ˈa.bɛ.ʐar|part|jednak, jednakże|en:however, but
-achuke|ˈa.ʈ͡ʂu.kɛ|n|pl:achukos ˈa.ʈ͡ʂu.kɔs|fem:achuka ˈa.ʈ͡ʂu.ka|mityczna istota, ,,posłaniec'', luźny odpowiednik anioła|note:Stosowany współcześnie jako ogólne określenie dobrych i złych duchów, demonów i aniołów i innych istot tego typu.|en:mythical creature, ,,the Messenger'', angel|ennote:Currently used for generic term for all mythological and fantasy creatures.
+achuke|ˈa.ʈ͡ʂu.kɛ|n|pl:achukos ˈa.ʈ͡ʂu.kɔs|fem:achuka ˈa.ʈ͡ʂu.ka|mityczna istota, ,,posłaniec'', luźny odpowiednik anioła; także pomniejsze bóstwo zamieszkujące lasy, góry lub jeziora, kami|note:Stosowany współcześnie jako ogólne określenie dobrych i złych duchów, demonów i aniołów i innych istot tego typu.|en:mythical creature, ,,the Messenger'', angel, also lesser gods living in lakes, forests or mountains, kami|ennote:Currently used for generic term for all mythological and fantasy creatures.
 ad́ak|a.ˈdak|n|pl:ad́akos a.ˈda.kɔs|zamek, zamknięcie|en:lock
 ad́aki|a.ˈda.ki|v|pst:ad́ak a.ˈdak|zamykać|en:to close, to lock
 ad́ako|a.ˈda.kɔ|adj|zamknięty|en:closed, locked
@@ -738,7 +738,7 @@ kachisi|ˈka.ʈ͡ʂi.si|v|pst:kachisit ˈka.ʈ͡ʂi.sit|uczyć|note:Specjaliści
 kachister|ˈka.ʈ͡ʂi.stɛr|n|pl:kachistos ˈka.ʈ͡ʂi.stɔs|fem:kachistera ˈka.ʈ͡ʂi.stɛ.ra|nauczyciel|en:teacher
 kaéti|ka.ˈɛ.ti|v|pst:kaét ka.ˈɛt|słuchać, słyszeć|en:to listen, to hear|note:Forma przeszła jest używana bardzo rzadko, raczej wykorzystywane jest <see>iḱaeti</see> w znaczeniu "usłyszeć".|ennote:Past form is used very rarely, usually <see>iḱaeti</see> is used as "heard".
 kahi|ˈka.xi|v|pst:kahit ˈka.xit|latać|en:to fly
-kahobeykar|ˈka.xɔ.bɛj.kar|n|red:trakon
+kahobeykar|ˈka.xɔ.bɛj.kar|n|smok|en:dragon|morph:kah-o-beykar fly-ADJ-snake
 kahokapata|ˈka.xɔ.ka.pa.ta|n|pl:kahokapataji ˈka.xɔ.ka.pa.ta.ʐi|fem|samolot|en:aeroplane
 kahomamurte|ˈka.xɔ.ma.mur.tɛ|n|pl:kahomamurtos ˈka.xɔ.ma.mur.tɔs|lotnisko, port lotniczy|en:airport
 kahoreter|ˈka.xɔ.rɛ.tɛr|n|pl:kahoreteros ˈka.xɔ.rɛ.tɛ.rɔs|fem:kahoretera ˈka.xɔ.rɛ.tɛ.ra|kapitan-pilot, dowódca statku powietrznego|en:captain of the air force, captain-pilot, commander of the airship
@@ -790,12 +790,14 @@ kavaler|ˈka.va.lɛr|n|pl:kavaleros ˈka.va.lɛ.rɔs|fem:kavalera ˈka.va.lɛ.ra
 kavali|ˈka.va.li|v|pst:kavalit ˈka.va.lit|zakładać (miasto), zakładać (firmę), osadzać|en:to found a city, to found a company, to settle
 kavi|ˈka.vi|v|pst:kavit ˈka.vit|sadzić|en:to plant
 kay|ˈkaj|n|pl:kajis ˈka.ʐis|fem|noc|en:night
-kayćhar|kaj.ˈʈ͡ʂar|n|pl:kayćharji kaj.ˈʈ͡ʂar.ʐi|klątwa|note:Dosłownie: Dar Nocy.|en:curse|ennote:Literally: ,,night's gift''
+kayćhar|kaj.ˈʈ͡ʂar|n|pl:kayćharji kaj.ˈʈ͡ʂar.ʐi|klątwa|note:Dosłownie: Dar Nocy. Nie posiada pejoratywnego znaczenia ,,klątwy''.|en:curse|ennote:Literally: ,,night's gift''. Doesn't have that pejorative meaning.|morph:kay-char night-gift
+kayćhuke|kaj.ˈʈ͡ʂu.kɛ|n|pl:kayćhukos kaj.ˈʈ͡ʂu.kɔs|fem:kayćhuka kaj.ˈʈ͡ʂu.ka|demon, demonica, nocny duch|note:Nie jest to określenie pejoratywne, raczej używane w stosunku do duchów aktywnych bardziej w nocy. Patrz <see>achuke</see> i <see>kayroćhuke</see>.|en:demon, night ghost|ennote:And́royas culture does not equate night with evil, so this word is mostly for mythical beings more active at night. See also <see>achuke</see> and <see>kayroćhuke</see>.|morph:kay-chuke night-angel
 kayer|ˈka.jɛr|adj|supl:kayerem ˈka.jɛ.rɛm|comp:kayere ˈka.jɛ.rɛ|zły, gorszy|en:bad, worse, the worst
 kayeto|ˈka.jɛ.tɔ|n|pl:kayetos ˈka.jɛ.tɔs|grzech, zły uczynek|en:sin
 kayetor|ˈka.jɛ.tɔr|n|pl:kayetoros ˈka.jɛ.tɔ.rɔs|fem:kayetora ˈka.jɛ.tɔ.ra|przestępca, grzesznik, winowajca, złoczyńca|en:criminal, evildoer, sinner
 kayri|ˈkaj.ri|n|zło|en:evil
 kayrito|ˈkaj.ri.tɔ|adj|złowrogi, złowieszczy, złowróżebny|en:evil
+kayroćhuke|kaj.rɔ.ʈ͡ʂu.kɛ|n|pl:kayroćhukos kaj.rɔ.ˈʈ͡ʂu.kɔs|fem:kayroćhuka kaj.rɔ.ˈʈ͡ʂu.ka|demon, zły duch|note:Używane w kontekście duchów aktywnie złych w stosunku do ludzi.|ennote:Used for ghosts and beings activally evil toward the humans.|en:demon, evil ghost
 kayśala|kaj.ˈsa.la|n|fem|pl:kayśale kaj.ˈsa.lɛ|piżama, ubranie nocne, ubranie do spania|en:pajamas, night dress
 ke͞amkey|ˈkɛam.kɛj|n|pl:ke͞amkeji ˈkɛam.kɛ.ʐi|narkotyk, lek, środek leczniczy|en:drug, mixture
 kean|ˈkɛ.an|n|pl:keani ˈkɛ.a.ni|korzeń|en:root
@@ -1365,7 +1367,8 @@ rujaler|ˈru.ʐa.lɛr|n|pl:rujalɛros ˈru.ʐa.lɛ.rɔs|fem:rujalara ˈru.ʐa.la
 ruje|ˈru.ʐɛ|n|pl:rujos ˈru.ʐɔs|fem:ruja ˈru.ʐa|nieformalnie: człowiek, facet, kobieta, zwłaszcza w formie wołacza (<sc>voc</sc>)|en:informal: man, guy, girl, especially used in vocative (<sc>voc</sc>) form
 rukila|ˈru.ki.la|n|pl:rukilaji ˈru.ki.la.ʐi|fem|kosmetyk|en:cosmetics
 rukolaner|ˈru.kɔ.la.nɛr|n|pl:rukolaneros ˈru.kɔ.la.nɛ.rɔs|czarnoksiężnik|en:wizard|note:Używane raczej w pejoratywnym sensie, męski odpowiednik <see>nimu͞era</see>.|ennote:Used mostly in pejorative sense, masculine alternative to <see>nimu͞era</see>.
-rumar|ˈru.mar|n|pl:rumaros ˈru.ma.rɔs|fem:rumara ˈru.ma.ra|demon|en:demon
+rumar|ˈru.mar|n|pl:rumaros ˈru.ma.rɔs|fem:rumara ˈru.ma.ra|potwór, demon, zły duch, mara nocna|ennote:Used in cases of ghosts left the unḿarid to haunt living.|en:demon|note:Używany w kontekście istot, które zbiegły z unḿarid, aby aktywnie straszyć żyjących.
+rumi|ˈru.mi|v|pst:rumit ˈru.mit|nawiedzać, straszyć, męczyć, torturować|en:to haunt, to scare, to torture
 runail|ˈru.na.il|n|pl:runailiji ˈru.na.i.li.ʐi|sekret|en:secret
 runailo|ˈru.na.i.lɔ|adj|sekretny|en:secret
 ruó|ru.ˈɔ|adj|czarny|en:black|note:Prawdopodobnie pochodzi od słowa <see>rukila</see>, kosmetyk.|ennote:Probably from <see>rukila</see>, cosmetics.
@@ -1501,6 +1504,7 @@ stobe|ˈstɔ.bɛ|n|pl:stobes ˈstɔ.bɛs|popiół|en:ash
 stobo|ˈstɔ.bɔ|adj|szary, siwy|en:gray|note:Od <see>stobo</see>, popiół.|ennote:From <see>stobo</see>, ash.
 stobo|ˈstɔ.bɔ|n|szarość|en:gray
 stopi|ˈstɔ.pi|v|pst:stopet ˈstɔ.pɛt|zatrzymywać (kogoś)|en:to stop (somebody)
+su͞ari|sua.ri|v|pst:su͞arit ˈsua.rit|łowić, odławiać, polować, chwytać|en:to fish, to catch, to hunt
 suasi|ˈsu.a.si|v|pst:suat ˈsu.at|ssać|en:to suck
 sucha|ˈsu.ʈ͡ʂa|n|pl:suchiji ˈsu.ʈ͡ʂi.ʐi|fem|praca|en:work
 suchi|ˈsu.ʈ͡ʂi|v|pst:suchit ˈsu.ʈ͡ʂit|włączać|en:to turn on

@@ -73,12 +73,12 @@ def check_dictionary(strict=False):
             continue
 
         if len(x['description']) == 0 and 'redirect' not in x and x['type'] != 'name':
-            print("{lprefix}: EMPTY DESCRIPTION in " + x['word'])
+            print(f"{lprefix}: EMPTY DESCRIPTION in " + x['word'])
             if strict:
                 exit(1)
 
         if len(x['english_description']) == 0 and 'redirect' not in x and x['type'] != 'name':
-            print("{lprefix}: EMPTY ENGLISH DESCRIPTION in " + x['word'])
+            print(f"{lprefix}: EMPTY ENGLISH DESCRIPTION in " + x['word'])
             if strict:
                 exit(1)
 
