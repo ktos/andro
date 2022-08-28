@@ -2,6 +2,7 @@ from typing import List
 import unidecode
 import unicodedata
 import pyandro.dictionary as dictionary
+import os
 
 
 def compare_caseless(s1, s2):
@@ -17,9 +18,13 @@ def compare_caseless(s1, s2):
 
 class AndroGlosser():
     def __init__(self):
-        self.dictio = dictionary.read_dictionary('dictionary.csv')
-        self.names = dictionary.read_dictionary(
-            'names.csv', type='names')
+        dict_path = os.path.normpath(os.path.join(
+            os.path.realpath(__file__), '../../dictionary.csv'))
+        names_path = os.path.normpath(os.path.join(
+            os.path.realpath(__file__), '../../names.csv'))
+
+        self.dictio = dictionary.read_dictionary(dict_path)
+        self.names = dictionary.read_dictionary(names_path, type='names')
 
         # read and parse dictionary file
         self.basic = (x['word'] for x in filter(lambda x: x['type']

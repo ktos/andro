@@ -2,6 +2,7 @@ from typing import List
 import unidecode
 import unicodedata
 import pyandro.dictionary as dictionary
+import os
 
 
 def compare_caseless(s1, s2):
@@ -16,10 +17,15 @@ def compare_caseless(s1, s2):
 
 
 class AndroPhonemizer():
-    def __init__(self, dictionary_path="dictionary.csv", names_path="names.csv"):
+    def __init__(self, dictionary_path=None, names_path=None):
+        if dictionary_path is None:
+            dictionary_path = os.path.normpath(os.path.join(
+                os.path.realpath(__file__), '../../dictionary.csv'))
+            names_path = os.path.normpath(os.path.join(
+                os.path.realpath(__file__), '../../names.csv'))
+
         self.dictio = dictionary.read_dictionary(dictionary_path)
-        self.names = dictionary.read_dictionary(
-            names_path, type='names')
+        self.names = dictionary.read_dictionary(names_path, type='names')
 
         # read and parse dictionary file
         self.basic = (x['word'] for x in filter(lambda x: x['type']
