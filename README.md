@@ -7,7 +7,7 @@ writing since forever and probably will write for a bit even longer.
 This repository is a documentation of a language, its concepts, dictionary and
 more.
 
-Interactive HTML dictionary is available at <https://andro.ktos.dev>.
+Interactive HTML dictionary is available at <https://androlang.netlify.app/#en>
 
 ## Disclaimer
 
@@ -137,8 +137,10 @@ steal-ADJ plan  -PL which  save.PRS 3SG.POSS subject-PL and return.PRS galaxy-PO
 The repository is based on the file `dictionary.csv`, which is **not a real CSV
 file** - it is actually variable-column-number, pipe-separated text file
 covering all words currently existing in Andro. Using that file you can generate
-everything, most importantly - the book "Small Andro-Polish Dictionary" ("The
-Book"), a fictional dictionary created by a scientist *Koolder mal Erlehirni*.
+everything, most importantly - the book "Small Andro-Polish Dictionary", 
+a fictional dictionary created by a scientist *Koolder mal Erlehirni*, as well 
+as The Book -- "Andro Language Reference Guide", where all of the language is
+presented.
 
 * `generate-tex-dictionary.py` will parse `dictionary.csv` and create `ap.tex`
   and `pa.tex` and the `small-andro-polish-dictionary` folder, which are being
@@ -150,14 +152,14 @@ Book"), a fictional dictionary created by a scientist *Koolder mal Erlehirni*.
   with tables for nouns, verbs, adjectives and so on,
 * `generate-html-dictionary.py` parses dictionary file and creates `final/html/`
   folder with interactive Andro-Polish and Andro-English dictionaries as a HTML
-  page with search and more -- see <https://andro.ktos.dev>,
+  page with search and more -- see <https://androlang.netlify.app/#en>,
 * `random-words.py` will generate some words according to the language
   phonotactic rules,
 * `check-words.py` will check if all words in `dictionary.csv` are correctly
   built against phonotactic rules.
 
-When `ap.tex` and `pa.tex` are ready, you may compile `main.tex` using XeLaTeX
-to get final version of The Book in PDF.
+When `ap.tex` and `pa.tex` are ready, you may compile `main.tex` inside 
+"the-book" and "small-andro-english-dictionary" folders.
 
 ### Structure of dictionary.csv
 
