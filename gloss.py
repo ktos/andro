@@ -8,7 +8,7 @@ import pyandro.glosser
 
 
 def main():
-    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')  # type: ignore
 
     parser = argparse.ArgumentParser(
         description='Gloss a word or sentence.')

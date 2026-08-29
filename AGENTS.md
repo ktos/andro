@@ -21,7 +21,7 @@ phraseology.csv         # phrases and idioms (~47 lines)
 syllabes.txt            # list of valid syllables, used by check-words.py
 pyandro/                # the real Python package
   dictionary.py         # parser for the pseudo-CSV data files
-  phonemizer.py         # IPA romanization (AndroPhonemizer)
+  phonemizer.py         # IPA phonemization (AndroPhonemizer)
   glosser.py            # word/sentence glossing (AndroGlosser)
 html-template/          # static web-dictionary template (index.html, phoglo.html, style/, scripts/)
 final/                  # ALL generated output lands here (PDFs, tables-*.md, words-*.txt, html/)
@@ -34,7 +34,7 @@ Root-level scripts (all run from the repo root, all use relative paths):
 
 | Script                                   | Purpose                                                                                                                                                                                                           |
 | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `check-words.py`                         | Validate syllables/romanization/descriptions in the data files; modes below                                                                                                                                       |
+| `check-words.py`                         | Validate syllables/phonemization/descriptions in the data files; modes below                                                                                                                                      |
 | `generate-tex-dictionary.py [en]`        | Generate `ap.tex` + `pa.tex` (forward/reverse entries) into the Polish or English dictionary dir                                                                                                                  |
 | `generate-md.py [en]`                    | Generate `final/tables-pl.md` or `final/tables-en.md`                                                                                                                                                             |
 | `generate-wordlist.py`                   | Generate `final/words-basic.txt` and `final/words-all.txt` (no args)                                                                                                                                              |
@@ -46,7 +46,6 @@ Root-level scripts (all run from the repo root, all use relative paths):
 | `search.py [phrase] [-l {en,pl}]`        | Substring-search words (incl. inflected forms, accent-insensitive) and English (`--lang en`, default) or Polish descriptions; prints each match as `word: description[: Note: ...]` on one line (stdin if no arg) |
 | `ipa.py [word]`                          | IPA romanization via `AndroPhonemizer`; front accent only for single words (stdin if no arg)                                                                                                                      |
 | `arbabet.py [word]`                      | ARPAbet output (stdin if no arg)                                                                                                                                                                                  |
-| `and_phonemizer.py`                      | Coqui TTS (`🐸TTS`) phonemizer wrapper — see gotchas; not runnable with the declared deps                                                                                                                          |
 
 ## The Data Format (pseudo-CSV)
 
@@ -173,14 +172,13 @@ These are enforced by `check-words.py strict` (the CI gate) and must hold for an
 ## Gotchas
 
 1. **Misplaced prefixes fail silently.** Type-gated prefixes (`pl:`/`fem:` need `n`, `pst:` needs `v`, `comp:`/`supl:` need `adj`) on the wrong type are dropped without error. If an inflection "disappears", check the word's type first.
-2. **`check-words.py:24–25`:** romanization mishandles `ŋ` — it is replaced with `n` for comparison purposes only (a known workaround, not a bug fix).
+2. **`check-words.py:24–25`:** phonemization mishandles `ŋ` — it is replaced with `n` for comparison purposes only (a known workaround, not a bug fix).
 3. **`[!]` markers are meaningful:** the phonemizer appends `[!]` to heuristic/unverified IPA output; the glosser returns `word + "[!]"` for unknown words and base-gloss + `-POSS` for unknown words ending in `-yi` (possessive suffix).
 4. **Glosser output conventions:** redirect → `[REDIRECT!]`; multiple matches joined by `/`; gloss suffixes `.PRS`/`-PST` for `to …` verbs, `-ADJ`, `-PL`, `-F`, `-SUP`, `-COMP`; `<sc>…</sc>` in a description is extracted and uppercased.
 5. **TeX section-letter quirks** (`generate-tex-dictionary.py`): forward Andro sections skip Q and X and use standalone `CH` (lines 153–154); reverse Polish sections add Ć, Ł, Ó, Ś, Ż, Ź (lines 180–181). Don't "normalize" these.
 6. **CWD assumption:** every root script assumes CWD = repo root (relative paths). The exception is `pyandro/glosser.py`, which resolves `dictionary.csv`/`names.csv` relative to its own file location and works from any CWD.
-7. **`and_phonemizer.py` is not runnable with declared deps.** It imports Coqui TTS (`TTS.tts.utils.text.phonemizers.base`), which is in neither `requirements.txt` nor CI. Treat it as an optional external integration, not a repo script.
-8. **Ordering dependency:** `random-words.py` and `word-exists.py` read `./final/words-all.txt`, so they must run after `generate-wordlist.py`.
-9. **Minor bugs in check-words.py** (cosmetic, don't "fix" casually): line 97's missing-newline warning is missing its f-string prefix and prints the literal `{lprefix}`; `single <IPA>` mode passes the literal label `"stdin"` as the word for the romanization half of the check.
-10. **Wordlist filtering:** `words-basic.txt` contains basic forms only and excludes types `name`, `phraseology`, `proper`; `words-all.txt` includes basic + pl/pst/fem(excl `FEM`)/supl/comp across ALL words including names, sorted by `unidecode(x).replace('[?]', '')`.
-11. **HTML word JSON:** each entry gets a 0-based `id` (same order in both languages), and for every present inflection the generator adds both the value and a `{j}_speech` field (`pl_speech`, `fem_speech`, …). The template's `index.html:51–52` loads exactly `scripts/words-en.js` and `scripts/words-pl.js`.
-12. **README is authoritative but incomplete:** it documents the data format (lines 135–216) but misses the `morph:`, `!ignore_err`, and `red:` prefixes — all real and enforced/parsed in code.
+7. **Ordering dependency:** `random-words.py` and `word-exists.py` read `./final/words-all.txt`, so they must run after `generate-wordlist.py`.
+8. **Minor bugs in check-words.py** (cosmetic, don't "fix" casually): line 97's missing-newline warning is missing its f-string prefix and prints the literal `{lprefix}`; `single <IPA>` mode passes the literal label `"stdin"` as the word for the romanization half of the check.
+9. **Wordlist filtering:** `words-basic.txt` contains basic forms only and excludes types `name`, `phraseology`, `proper`; `words-all.txt` includes basic + pl/pst/fem(excl `FEM`)/supl/comp across ALL words including names, sorted by `unidecode(x).replace('[?]', '')`.
+10. **HTML word JSON:** each entry gets a 0-based `id` (same order in both languages), and for every present inflection the generator adds both the value and a `{j}_speech` field (`pl_speech`, `fem_speech`, …). The template's `index.html:51–52` loads exactly `scripts/words-en.js` and `scripts/words-pl.js`.
+11. **README is authoritative but incomplete:** it documents the data format (lines 135–216) but misses the `morph:`, `!ignore_err`, and `red:` prefixes — all real and enforced/parsed in code.
