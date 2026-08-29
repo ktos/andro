@@ -43,7 +43,7 @@ Root-level scripts (all run from the repo root, all use relative paths):
 | `word-exists.py <file> \| - \| p <word>` | Flag words not present in `final/words-all.txt` |
 | `random-words.py` | Generate random candidate words not yet in the wordlist (no args) |
 | `gloss.py [sentence]` | Gloss a sentence via `AndroGlosser` (stdin if no arg) |
-| `search.py [phrase] [-l {en,pl}]` | Substring-search English (`--lang en`, default) or Polish descriptions; prints each match as `word: description[: Note: ...]` on one line (stdin if no arg) |
+| `search.py [phrase] [-l {en,pl}]` | Substring-search words (incl. inflected forms, accent-insensitive) and English (`--lang en`, default) or Polish descriptions; prints each match as `word: description[: Note: ...]` on one line (stdin if no arg) |
 | `ipa.py [word]` | IPA romanization via `AndroPhonemizer`; front accent only for single words (stdin if no arg) |
 | `arbabet.py [word]` | ARPAbet output (stdin if no arg) |
 | `and_phonemizer.py` | Coqui TTS (`🐸TTS`) phonemizer wrapper — see gotchas; not runnable with the declared deps |
