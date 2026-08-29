@@ -10,8 +10,8 @@ import pyandro.dictionary
 LEADING_WORDS = {'the', 'a', 'an', 'to'}
 
 
-def normalize(text):
-    """Normalizes an English description part for matching."""
+def normalize(text, lang):
+    """Normalizes a description part for matching."""
     text = text.lower()
     for tag in ('<sc>', '</sc>', '<phrase>', '</phrase>', '<see>', '</see>'):
         text = text.replace(tag, '')
@@ -19,24 +19,26 @@ def normalize(text):
     text = re.sub(r'\s+', ' ', text).strip()
     text = text.strip('.,;:!?')
 
-    words = text.split(' ')
-    if len(words) > 1 and words[0] in LEADING_WORDS:
-        text = ' '.join(words[1:])
+    if lang == 'en':
+        words = text.split(' ')
+        if len(words) > 1 and words[0] in LEADING_WORDS:
+            text = ' '.join(words[1:])
 
     return text
 
 
-def build_index(entries):
-    """Builds a map from normalized English description parts to Andro words."""
+def build_index(entries, lang):
+    """Builds a map from normalized description parts to Andro words."""
+    field = 'english_description' if lang == 'en' else 'description'
     index = {}
 
     for x in entries:
-        en = x.get('english_description', '')
-        if not en:
+        desc = x.get(field, '')
+        if not desc:
             continue
 
-        for part in en.split(','):
-            key = normalize(part)
+        for part in re.split(r'[,;]', desc):
+            key = normalize(part, lang)
             if not key:
                 continue
             index.setdefault(key, []).append(x['word'])
@@ -48,10 +50,12 @@ def main():
     sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 
     parser = argparse.ArgumentParser(
-        description='Translate a single English word to Andro '
+        description='Translate a single word from English or Polish to Andro '
                     'using the dictionary data.')
     parser.add_argument('word', nargs='?', default=None,
-                        help='English word to translate (reads stdin if omitted)')
+                        help='word to translate (reads stdin if omitted)')
+    parser.add_argument('-l', '--lang', choices=['en', 'pl'], default='en',
+                        help='source language of the word (default: en)')
     args = parser.parse_args()
 
     word = args.word
@@ -63,9 +67,9 @@ def main():
 
     entries = pyandro.dictionary.read_dictionary('dictionary.csv')
     entries += pyandro.dictionary.read_dictionary('names.csv', type='names')
-    index = build_index(entries)
+    index = build_index(entries, args.lang)
 
-    results = index.get(normalize(word), [])
+    results = index.get(normalize(word, args.lang), [])
 
     seen = set()
     for r in results:
