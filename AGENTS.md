@@ -32,21 +32,21 @@ small-andro-english-dictionary/  # LaTeX: English dictionary
 
 Root-level scripts (all run from the repo root, all use relative paths):
 
-| Script | Purpose |
-|---|---|
-| `check-words.py` | Validate syllables/romanization/descriptions in the data files; modes below |
-| `generate-tex-dictionary.py [en]` | Generate `ap.tex` + `pa.tex` (forward/reverse entries) into the Polish or English dictionary dir |
-| `generate-md.py [en]` | Generate `final/tables-pl.md` or `final/tables-en.md` |
-| `generate-wordlist.py` | Generate `final/words-basic.txt` and `final/words-all.txt` (no args) |
-| `generate-html-dictionary.py` | Copy `html-template/` → `final/html/` and write `final/html/scripts/words-{pl,en}.js` (no args, always both languages) |
-| `sort-csv.py [file]` | Sort a data file in place by unidecoded first field (default `dictionary.csv`) |
-| `word-exists.py <file> \| - \| p <word>` | Flag words not present in `final/words-all.txt` |
-| `random-words.py` | Generate random candidate words not yet in the wordlist (no args) |
-| `gloss.py [sentence]` | Gloss a sentence via `AndroGlosser` (stdin if no arg) |
-| `search.py [phrase] [-l {en,pl}]` | Substring-search words (incl. inflected forms, accent-insensitive) and English (`--lang en`, default) or Polish descriptions; prints each match as `word: description[: Note: ...]` on one line (stdin if no arg) |
-| `ipa.py [word]` | IPA romanization via `AndroPhonemizer`; front accent only for single words (stdin if no arg) |
-| `arbabet.py [word]` | ARPAbet output (stdin if no arg) |
-| `and_phonemizer.py` | Coqui TTS (`🐸TTS`) phonemizer wrapper — see gotchas; not runnable with the declared deps |
+| Script                                   | Purpose                                                                                                                                                                                                           |
+| ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `check-words.py`                         | Validate syllables/romanization/descriptions in the data files; modes below                                                                                                                                       |
+| `generate-tex-dictionary.py [en]`        | Generate `ap.tex` + `pa.tex` (forward/reverse entries) into the Polish or English dictionary dir                                                                                                                  |
+| `generate-md.py [en]`                    | Generate `final/tables-pl.md` or `final/tables-en.md`                                                                                                                                                             |
+| `generate-wordlist.py`                   | Generate `final/words-basic.txt` and `final/words-all.txt` (no args)                                                                                                                                              |
+| `generate-html-dictionary.py`            | Copy `html-template/` → `final/html/` and write `final/html/scripts/words-{pl,en}.js` (no args, always both languages)                                                                                            |
+| `sort-csv.py [file]`                     | Sort a data file in place by unidecoded first field (default `dictionary.csv`)                                                                                                                                    |
+| `word-exists.py <file> \| - \| p <word>` | Flag words not present in `final/words-all.txt`                                                                                                                                                                   |
+| `random-words.py`                        | Generate random candidate words not yet in the wordlist (no args)                                                                                                                                                 |
+| `gloss.py [sentence]`                    | Gloss a sentence via `AndroGlosser` (stdin if no arg)                                                                                                                                                             |
+| `search.py [phrase] [-l {en,pl}]`        | Substring-search words (incl. inflected forms, accent-insensitive) and English (`--lang en`, default) or Polish descriptions; prints each match as `word: description[: Note: ...]` on one line (stdin if no arg) |
+| `ipa.py [word]`                          | IPA romanization via `AndroPhonemizer`; front accent only for single words (stdin if no arg)                                                                                                                      |
+| `arbabet.py [word]`                      | ARPAbet output (stdin if no arg)                                                                                                                                                                                  |
+| `and_phonemizer.py`                      | Coqui TTS (`🐸TTS`) phonemizer wrapper — see gotchas; not runnable with the declared deps                                                                                                                          |
 
 ## The Data Format (pseudo-CSV)
 
@@ -58,24 +58,24 @@ word|IPA-speech|type|prefixed-fields...
 
 Parsing lives in `pyandro/dictionary.py` (`read_dictionary(path, type)`). Fields after the third are interpreted by prefix:
 
-| Prefix | Meaning / applies to |
-|---|---|
-| `pl:` | plural form (n only) |
-| `pst:` | past tense (v only) |
-| `fem:` | feminine form (n only) |
-| `fem` (bare token, no colon) | feminine-only placeholder; stored as the literal string `"FEM"`, skipped by syllable checks, rendered `!!` in Markdown |
-| `comp:` | comparative (adj only) |
-| `supl:` | superlative (adj only) |
-| `red:` | redirect target. **Not documented in README.** Glosser emits `[REDIRECT!]`; entry is skipped entirely in MD output and exempt from the empty-description check |
-| `note:` | note text, appended to notes |
-| `morph:` | morphology annotation. **Must split into exactly 2 space-separated tokens** (enforced by `check-words.py`). Appended to notes in HTML output |
-| `example:` | example sentence (PL) |
-| `en:` | English description/translation |
-| `ennote:` | English note |
-| `enexample:` | English example |
-| `src:` | source reference |
-| `!ignore_err` | exempts the entry from all checks. **Not documented in README** |
-| (no prefix) | free text → description; if multiple, the last one wins |
+| Prefix                       | Meaning / applies to                                                                                                                                           |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `pl:`                        | plural form (n only)                                                                                                                                           |
+| `pst:`                       | past tense (v only)                                                                                                                                            |
+| `fem:`                       | feminine form (n only)                                                                                                                                         |
+| `fem` (bare token, no colon) | feminine-only placeholder; stored as the literal string `"FEM"`, skipped by syllable checks, rendered `!!` in Markdown                                         |
+| `comp:`                      | comparative (adj only)                                                                                                                                         |
+| `supl:`                      | superlative (adj only)                                                                                                                                         |
+| `red:`                       | redirect target. **Not documented in README.** Glosser emits `[REDIRECT!]`; entry is skipped entirely in MD output and exempt from the empty-description check |
+| `note:`                      | note text, appended to notes                                                                                                                                   |
+| `morph:`                     | morphology annotation. **Must split into exactly 2 space-separated tokens** (enforced by `check-words.py`). Appended to notes in HTML output                   |
+| `example:`                   | example sentence (PL)                                                                                                                                          |
+| `en:`                        | English description/translation                                                                                                                                |
+| `ennote:`                    | English note                                                                                                                                                   |
+| `enexample:`                 | English example                                                                                                                                                |
+| `src:`                       | source reference                                                                                                                                               |
+| `!ignore_err`                | exempts the entry from all checks. **Not documented in README**                                                                                                |
+| (no prefix)                  | free text → description; if multiple, the last one wins                                                                                                        |
 
 **Type-gating is silent**: a type-gated prefix on the wrong word type (e.g. `pl:` on an adjective) is silently ignored — no error is raised. Word types observed in the data: `n adj v part name phraseology idiom pro proper`.
 
@@ -140,7 +140,7 @@ Two workflows in `.github/workflows/`:
 **`generate-pdf.yml`** — runs only when `**/*.tex` or `dictionary.csv` changes (built-in `paths:` trigger filter; the tex generator reads only `dictionary.csv`). Sequence:
 
 1. Checkout
-2. Python 3.10 setup + `pip install -r requirements.txt`
+2. Python 3.12 setup + `pip install -r requirements.txt`
 3. `python check-words.py strict` ← **the validation gate; nothing builds if this fails**
 4. `generate-tex-dictionary.py` and `… en` (writes ap.tex/pa.tex into both dictionary dirs)
 5. Compile all three LaTeX projects via `xu-cheng/latex-action@v3` (root_file `main.tex`)
@@ -152,7 +152,7 @@ Two workflows in `.github/workflows/`:
 
 **`generate-md-html.yml`** — runs on every push/PR to master (no path filter):
 
-1. Checkout, Python 3.10 setup + deps
+1. Checkout, Python 3.12 setup + deps
 2. `python check-words.py strict` (validation gate)
 3. `generate-md.py`, `… en`, `generate-wordlist.py`
 4. `generate-html-dictionary.py`
