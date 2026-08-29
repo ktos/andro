@@ -1,10 +1,16 @@
-name: Generate Everything
+name: Generate PDFs
 
 on:
   push:
     branches: [master]
+    paths:
+      - '**/*.tex'
+      - 'dictionary.csv'
   pull_request:
     branches: [master]
+    paths:
+      - '**/*.tex'
+      - 'dictionary.csv'
 
 jobs:
   build-pdf:
@@ -34,22 +40,22 @@ jobs:
 
       - uses: xu-cheng/latex-action@v3
         with:
-          root_file: main.tex          
+          root_file: main.tex
           working_directory: small-andro-polish-dictionary
 
       - uses: xu-cheng/latex-action@v3
         with:
-          root_file: main.tex          
+          root_file: main.tex
           working_directory: small-andro-english-dictionary
 
       - uses: xu-cheng/latex-action@v3
         with:
-          root_file: main.tex          
+          root_file: main.tex
           working_directory: the-book
 
       - name: Generate final PDFs
         run: |
-          cd $GITHUB_WORKSPACE/small-andro-polish-dictionary/          
+          cd $GITHUB_WORKSPACE/small-andro-polish-dictionary/
           cp main.pdf ../final/small-andro-polish-dictionary.pdf
 
           cd $GITHUB_WORKSPACE/small-andro-english-dictionary/
@@ -58,21 +64,8 @@ jobs:
           cd $GITHUB_WORKSPACE/the-book/
           cp main.pdf ../final/andro-language-reference-guide.pdf
 
-      - name: Generate MD tables and wordlists
-        run: |
-          cd $GITHUB_WORKSPACE/
-          python generate-md.py
-          python generate-md.py en
-          python generate-wordlist.py
-
-      - name: Generate HTML page
-        run: |
-          cd $GITHUB_WORKSPACE/
-          python generate-html-dictionary.py
-
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: artifact
-          path: final/
-
+          name: pdfs
+          path: final/*.pdf

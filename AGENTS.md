@@ -135,7 +135,9 @@ So a full local build requires a TeX installation with XeLaTeX and makeglossarie
 
 ## CI Pipeline
 
-`.github/workflows/generate-everything.yml` — the canonical end-to-end sequence:
+Two workflows in `.github/workflows/`:
+
+**`generate-pdf.yml`** — runs only when `**/*.tex` or `dictionary.csv` changes (built-in `paths:` trigger filter; the tex generator reads only `dictionary.csv`). Sequence:
 
 1. Checkout
 2. Python 3.10 setup + `pip install -r requirements.txt`
@@ -146,9 +148,15 @@ So a full local build requires a TeX installation with XeLaTeX and makeglossarie
    - `final/small-andro-polish-dictionary.pdf`
    - `final/small-andro-english-dictionary.pdf`
    - `final/andro-language-reference-guide.pdf`
-7. `generate-md.py`, `… en`, `generate-wordlist.py`
-8. `generate-html-dictionary.py`
-9. Upload the whole `final/` directory as an artifact
+7. Upload `final/*.pdf` as artifact `pdfs`
+
+**`generate-md-html.yml`** — runs on every push/PR to master (no path filter):
+
+1. Checkout, Python 3.10 setup + deps
+2. `python check-words.py strict` (validation gate)
+3. `generate-md.py`, `… en`, `generate-wordlist.py`
+4. `generate-html-dictionary.py`
+5. Upload `final/tables-*.md`, `final/words-*.txt`, `final/html` as artifact `md-html`
 
 Only the two small dictionaries `\input{ap.tex}` / `\input{pa.tex}` (Polish at `main.tex:107,110`, English at `main.tex:99,102`). **`the-book` does not include them** — regenerating ap/pa.tex has no effect on the grammar book.
 
