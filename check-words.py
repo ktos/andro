@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+import argparse
 import unidecode
 import pyandro.dictionary as dictionary
 import pyandro.phonemizer as phonemizer
-import sys
 
 # all syllabes
 alls = [line.rstrip() for line in open('./syllabes.txt', encoding='utf-8')]
@@ -112,14 +112,26 @@ def check_dictionary(strict=False):
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(
+        description="Check Andro dictionary data for syllable, romanization "
+                    "and formatting problems.")
+    subparsers = parser.add_subparsers(dest='mode')
+
     # strict mode: fail on first problem and return exitcode 1 so CI will know
     # about it
-    strict = True if len(sys.argv) == 2 and sys.argv[1] == "strict" else False
+    subparsers.add_parser(
+        'strict', help="fail on the first problem and exit with code 1")
 
-    # single mode: check the syllabes given as the second argument
-    single = True if len(sys.argv) == 3 and sys.argv[1] == "single" else False
+    # single mode: check the syllabes given as the argument
+    single_parser = subparsers.add_parser(
+        'single', help="check a single dot-separated IPA speech string")
+    single_parser.add_argument('speech', help="dot-separated IPA speech string")
 
-    if not single:
-        check_dictionary(strict)
+    args = parser.parse_args()
+
+    if args.mode == 'strict':
+        check_dictionary(strict=True)
+    elif args.mode == 'single':
+        check_syllabes(args.speech, "stdin")
     else:
-        check_syllabes(sys.argv[2], "stdin")
+        check_dictionary(strict=False)

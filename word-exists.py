@@ -1,19 +1,40 @@
-#!'usr'bin'env python
+#!/usr/bin/env python
 # coding: utf-8
 
+import argparse
 import sys
 
-# load all possible syllabes
-alls = [line.rstrip() for line in open('./final/words-all.txt', encoding='utf-8')]
 
-if len(sys.argv) > 1:
-    if sys.argv[1] == '-':
+def main():
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+
+    parser = argparse.ArgumentParser(
+        description="Check whether words exist in final/words-all.txt and "
+                    "print those that do not.")
+    parser.add_argument('source', nargs='?', default=None,
+                        help="file to check, or '-' for stdin")
+    parser.add_argument('word', nargs='?', default=None,
+                        help="single word to check (only with source 'p')")
+    args = parser.parse_args()
+
+    if args.source is None:
+        parser.error(
+            "no input provided (pass a filename, '-', or 'p <word>')")
+    if args.source == 'p' and args.word is None:
+        parser.error("source 'p' requires a word")
+    if args.word is not None and args.source != 'p':
+        parser.error("'word' can only be used with source 'p'")
+
+    with open('./final/words-all.txt', encoding='utf-8') as f:
+        alls = [line.rstrip() for line in f]
+
+    if args.source == '-':
         content = sys.stdin.readlines()
-    elif sys.argv[1] == 'p':
-        content = [sys.argv[2]]
+    elif args.source == 'p':
+        content = [args.word]
     else:
-        with open(sys.argv[1], encoding='utf-8') as f:
-            content = f.readlines()       
+        with open(args.source, encoding='utf-8') as f:
+            content = f.readlines()
 
     for line in content:
         l = line.lower().split(' ')
@@ -22,5 +43,7 @@ if len(sys.argv) > 1:
 
             if x not in alls:
                 print(f"BAD: {x}")
-else:
-    print(f"Usage: {sys.argv[0]} <filename> | -")
+
+
+if __name__ == "__main__":
+    main()

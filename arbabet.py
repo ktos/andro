@@ -1,18 +1,32 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-import pyandro.dictionary
-import pyandro.phonemizer
+import argparse
 import sys
 
-if __name__ == "__main__":
-    p = pyandro.phonemizer.AndroPhonemizer()
+import pyandro.phonemizer
 
-    if len(sys.argv) == 1:
-        text = sys.stdin.readline()
-        print(p.sentence_arpabet(text))
-    elif len(sys.argv) == 2:
-        text = sys.argv[1]
-        print(p.sentence_arpabet(text))
-    else:
-        print(f"Usage: {sys.argv[0]} [word]")
+
+def main():
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+
+    parser = argparse.ArgumentParser(
+        description='Phonemize a word or sentence to ARPAbet.')
+    parser.add_argument('word', nargs='?', default=None,
+                        help='word or sentence to phonemize (reads stdin if omitted)')
+    args = parser.parse_args()
+
+    text = args.word
+    if text is None or text.strip() == '-':
+        line = sys.stdin.readline()
+        if not line.strip():
+            parser.error(
+                'no input provided (pass a word or pipe it via stdin)')
+        text = line.strip()
+
+    p = pyandro.phonemizer.AndroPhonemizer()
+    print(p.sentence_arpabet(text))
+
+
+if __name__ == "__main__":
+    main()

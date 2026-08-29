@@ -1,20 +1,32 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-import pyandro.dictionary
-import pyandro.glosser
+import argparse
 import sys
 
-if __name__ == "__main__":
+import pyandro.glosser
+
+
+def main():
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+
+    parser = argparse.ArgumentParser(
+        description='Gloss a word or sentence.')
+    parser.add_argument('sentence', nargs='?', default=None,
+                        help='word or sentence to gloss (reads stdin if omitted)')
+    args = parser.parse_args()
+
+    text = args.sentence
+    if text is None or text.strip() == '-':
+        line = sys.stdin.readline()
+        if not line.strip():
+            parser.error(
+                'no input provided (pass a sentence or pipe it via stdin)')
+        text = line.strip()
+
     p = pyandro.glosser.AndroGlosser()
-    text = ""
-
-    if len(sys.argv) == 1:
-        text = sys.stdin.readline()
-    elif len(sys.argv) == 2:
-        text = sys.argv[1]
-    else:
-        print(f"Usage: {sys.argv[0]} [sentence]")
-        sys.exit(1)
-
     print(p.sentence(text))
+
+
+if __name__ == "__main__":
+    main()
