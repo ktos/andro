@@ -61,19 +61,19 @@ def generate_md_dictionary_entry(w, lang='pl'):
 
     elif w['type'] == 'v':
         pst = w['pst'] if 'pst' in w else ''
-        s = f"{i['word']}|{pst}|{format_description(i[desckey])}"
+        s = f"{w['word']}|{pst}|{format_description(w[desckey])}"
 
     elif w['type'] == 'adj':
         comp = w['comp'] if 'comp' in w else '-'
         supl = w['supl'] if 'supl' in w else '-'
 
-        s = f"{i['word']}|{comp}|{supl}|{format_description(i[desckey])}"
+        s = f"{w['word']}|{comp}|{supl}|{format_description(w[desckey])}"
 
     elif w['type'] == 'name':
-        s = f"{i['word']}|{i['speech']}|{format_description(i[desckey])}"
+        s = f"{w['word']}|{w['speech']}|{format_description(w[desckey])}"
 
     else:
-        s = f"{i['word']}|{format_description(i[desckey])}"
+        s = f"{w['word']}|{format_description(w[desckey])}"
 
     print_output(s)
 
