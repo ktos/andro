@@ -38,22 +38,25 @@ jobs:
           python generate-tex-dictionary.py
           python generate-tex-dictionary.py en
 
-      - uses: xu-cheng/latex-action@v3
+      - name: Generate andro-polish dictionary PDF
+        uses: xu-cheng/latex-action@v3
         with:
           root_file: main.tex
           working_directory: small-andro-polish-dictionary
 
-      - uses: xu-cheng/latex-action@v3
+      - name: Generate andro-english dictionary PDF
+        uses: xu-cheng/latex-action@v3
         with:
           root_file: main.tex
           working_directory: small-andro-english-dictionary
 
-      - uses: xu-cheng/latex-action@v3
+      - name: Generate reference grammar PDF
+        uses: xu-cheng/latex-action@v3
         with:
           root_file: main.tex
           working_directory: the-book
 
-      - name: Generate final PDFs
+      - name: Copy final PDFs
         run: |
           cd $GITHUB_WORKSPACE/small-andro-polish-dictionary/
           cp main.pdf ../final/small-andro-polish-dictionary.pdf
